@@ -1,1 +1,1 @@
-# DSCI-532_2025_24_tentative
+# DSCI-532_2025_24_police_killings
