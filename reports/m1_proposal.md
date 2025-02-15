@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Group 24: Police Killings Dashboard Proposal
 
 ## Motivation and Purpose
