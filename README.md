@@ -10,7 +10,7 @@ The goal is to raise awareness, inform policy changes, and support social justic
 
 ## Dataset Attribution
 
-This project uses the data from the story [Where Police Have Killed Americans In 2015](http://fivethirtyeight.com/features/where-police-have-killed-americans-in-2015), available in the [fivethirtyeight GitHub repository](https://github.com/fivethirtyeight/data/tree/master/police-killings).
+This project uses data from the [Guardian's database on police killings from 2015-2016](http://www.theguardian.com/thecounted).
 
 ## Contributing
 

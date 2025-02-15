@@ -15,3 +15,4 @@ dependencies:
     - pip=24.0
     - pip:
         - dash-vega-components==0.0.1
+        - geopy==2.4.1
