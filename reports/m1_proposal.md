@@ -45,7 +45,7 @@ By leveraging this dataset, we aim to identify demographic trends, highlight reg
 
 ## App Sketch and Description
 
-![App Sketch](../img/sketch2.jpg)
+![App Sketch](../img/sketch.png)
 
 The app consists of 4 plots that show the relationship between different
 variables and the counts of police killings. From the four plots, one
