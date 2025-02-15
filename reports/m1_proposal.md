@@ -52,7 +52,7 @@ New Feature description:
 
 ## App Sketch and Description
 
-![App Sketch](../img/sketch.png)
+![App Sketch](../img/sketch2.jpg)
 
 The app consists of 4 plots that show the relationship between different
 variables and the counts of police killings. From the four plots, one
