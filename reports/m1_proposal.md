@@ -4,7 +4,7 @@ editor_options:
     wrap: 72
 ---
 
-# Tentative - Dashboard proposal
+# Group 24: Police Killings Dashboard Proposal
 
 ## Motivation and Purpose
 
@@ -42,16 +42,20 @@ plot shows a heat map over the map of the United States to display the
 severity of police killings across all states; one horizontal bar plot
 that displays the top 10 states that have the most police killings; one
 stacked bar plot that shows the distribution of victims over
-race/ethnicity and gender; one density plot that shows the distributions
-of victims over a changeable feature for each gender class. The
-changeable feature can be selected by the user in the drop-down menu
-next to the density plot, with options from the victim's level (i.e.
-age) to the regional level (i.e. personal income, the ratio of house
-income to county income, education level, and unemployment rate).
+race/ethnicity and gender; one density plot that shows a time-series
+distribution of police killings.
 
-Aside from the drop-down menu for the density plot, the user can also
-interact with all the plots by choosing multiple filters in time (on a
-monthly basis), gender class (i.e. Male and Female), and race/ethnicity
-(i.e. White, Black, and Hispanic). By toggling the filters, users can
-visualize the distributions with certain conditions that are of
-interest.
+On the left hand side of the dashboard, users can interact with all the
+plots by toggling multiple filters. The filters include the following:
+
+-   Gender classes (i.e. Male, Female, and Non-conforming)
+
+-   Race/ethnicity (i.e. White, Black, Hispanic/Latino, Asian/Pacific
+    Islander, Native American, Arab-American, and Other)
+
+-   Age groups (i.e. under 19, 20-39, 40-59, 60+)
+
+-   Year (either 2015 or 2016)
+
+By toggling the filters, users can visualize the distributions with
+different combinations of configurations.
