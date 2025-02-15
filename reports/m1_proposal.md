@@ -42,6 +42,26 @@ Data Processing and Engineering:
 By leveraging this dataset, we aim to identify demographic trends, highlight regions most affected by police violence, and uncover patterns in the circumstances of fatal encounters.
 
 ## Research Questions
+1. Geographical Concentration of Incidents:
+Original Question: Which state and city have the most police killings?
+Expanded Version: Among all documented cases of police killings, which state has the highest frequency of such incidents, and within that state (or nationwide), which city reports the most cases? Furthermore, what local factors or conditions might explain this geographic concentration? Consider elements such as local law enforcement policies, demographic patterns, socio-economic challenges, and the nature of community-police interactions.
+
+2. Temporal Patterns in Police Killings:
+Original Question: What month and week have the most police killings? What is the reason behind it?
+Expanded Version: Analyzing the data over time, during which month of the year and which specific week (or day of the week) do police killings reach their peak? What potential factors could explain these temporal trends? Investigate possibilities such as seasonal influences, local events or protests, shifts in law enforcement strategies during certain periods, or other social and political dynamics that might contribute to the rise in incidents during these times.
+
+3. Racial Disparities in Police Killings:
+Original Question: What race has been killed the most? What is the reason behind it?
+Expanded Version: When examining the data by race, which racial group is most frequently affected by police killings? What historical, socio-political, and systemic factors might be driving this disparity? Explore potential causes such as institutional bias, economic inequality, historical discrimination, neighborhood demographics, and broader systemic injustices that could contribute to the overrepresentation of this group in police violence statistics.
+Each expanded question not only seeks to identify specific data points (e.g., which state, city, month, week, or race) but also encourages a deeper investigation into the contextual factors and underlying causes that may explain these patterns. This approach fosters a more comprehensive analysis and understanding of the complex nature of police killings."
+
+4. Socio-Economic Factors and Police Killings
+Original Question: Are police killings more common in low-income areas?
+Expanded Version: Is there a correlation between socio-economic conditions (e.g., poverty rates, unemployment, education levels) and the frequency of police killings in specific neighborhoods or regions? How do systemic inequalities, such as lack of access to quality education, healthcare, and housing, contribute to the prevalence of police violence in these areas? Explore the role of community resources, economic opportunities, and historical disinvestment in shaping the relationship between law enforcement and marginalized communities.
+
+5. Community-Police Relations
+Original Question: How do community-police relations impact police killings?
+Expanded Version: What is the relationship between community trust in law enforcement and the frequency of police killings? How do historical tensions, cultural differences, and systemic biases affect interactions between police and the communities they serve? Investigate the effectiveness of community policing initiatives, cultural competency training, and efforts to build trust and collaboration between law enforcement and local residents. Additionally, explore how community-led solutions and restorative justice practices could reduce police violence.
 
 ## App Sketch and Description
 
