@@ -30,23 +30,22 @@ measures.
 
 ## Description of the Data
 
-Description of dataset:  
+We will be analyzing a dataset containing 2,239 records with 11 variables, documenting police killings in the US from 2015-2016. This dataset is credited to The Guardian ([source](http://www.theguardian.com/thecounted)). Our goal is to explore the demographics of individuals affected by police violence and understand patterns in incidents.  
 
-- 2239 rows, 11 columns (i.e. age, gender, raceethnicity, month, day, year, streetaddress, city, state, classification, armed)
-- Police killings in the US from 2015-2016
-- Dataset credit to the Guardian (http://www.theguardian.com/thecounted)
-- Linkage: Use the variables to find demographic groups (e.g. race/ethnicity, gender, regions) that are most targeted by police violence.
-- Engineering:
-  - Geocoding address into longitude and latitude using geopy to help us visualize the heat map across the US.
-  - Engineer age into different age groups (i.e. under 19, 20-39, 40-59, 60+)
-  - Combine month, day, year into one datetime object for time-series plot
+The dataset includes the following characteristics:  
 
-New Feature description:  
+- Victim demographics (e.g., `age`, `gender`, `raceethnicity`)  
+- Incident date and time (`month`, `day`, `year`)  
+- Geographic location of the incident (`state`, `city`, `streetaddress`, `latitude`, `longitude`)  
+- Fatality circumstances (`classification`, `armed`)  
 
-- Deceased’s identity: age, gender, raceethnicity
-- Time of the police killings: month, day, year
-- Geographic locations: state, city, streetaddress, latitude, longitude
-- Deceased’s fatality situation: classification, armed
+Data Processing and Engineering:  
+
+- Geocoding: Convert street addresses into `latitude` and `longitude` using 'geopy' to enable heatmap visualizations.  
+- Age Grouping: Categorize victims into age groups (`under 19`, `20-39`, `40-59`, `60+`) for better analysis.  
+- Datetime Formatting: Combine `month`, `day`, and `year` into a single 'datetime' object for time-series analysis.  
+
+By leveraging this dataset, we aim to identify demographic trends, highlight regions most affected by police violence, and uncover patterns in the circumstances of fatal encounters.
 
 ## Research Questions
 
