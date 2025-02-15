@@ -30,6 +30,24 @@ measures.
 
 ## Description of the Data
 
+Description of dataset:  
+
+- 2239 rows, 11 columns (i.e. age, gender, raceethnicity, month, day, year, streetaddress, city, state, classification, armed)
+- Police killings in the US from 2015-2016
+- Dataset credit to the Guardian (http://www.theguardian.com/thecounted)
+- Linkage: Use the variables to find demographic groups (e.g. race/ethnicity, gender, regions) that are most targeted by police violence.
+- Engineering:
+  - Geocoding address into longitude and latitude using geopy to help us visualize the heat map across the US.
+  - Engineer age into different age groups (i.e. under 19, 20-39, 40-59, 60+)
+  - Combine month, day, year into one datetime object for time-series plot
+
+New Feature description:  
+
+- Deceased’s identity: age, gender, raceethnicity
+- Time of the police killings: month, day, year
+- Geographic locations: state, city, streetaddress, latitude, longitude
+- Deceased’s fatality situation: classification, armed
+
 ## Research Questions
 
 ## App Sketch and Description
