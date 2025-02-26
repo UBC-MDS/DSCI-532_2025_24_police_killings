@@ -40,10 +40,10 @@ Contributors include Tingting Chen, Shawn Xiao Hu, Adrian Leung, and Rong Wan, a
 ## What do we need?
 
 We welcome contributions in various areas, including:
-• Data Science & Engineering: Improving the quality of data aggregation and analysis.
-• Web Development: Enhancing dashboard usability and scalability.
-• Policy Research: Providing context for better interpretation of results.
-• Community Outreach: Engaging with organizations and stakeholders.
+*  Data Science & Engineering: Improving the quality of data aggregation and analysis.
+*  Web Development: Enhancing dashboard usability and scalability.
+*  Policy Research: Providing context for better interpretation of results.
+*  Community Outreach: Engaging with organizations and stakeholders.
 If you have experience in any of these areas (or others we haven't considered yet!), we'd love your input! 
  
 ## Get involved
@@ -56,13 +56,14 @@ Use this dashboard to explore police killings data, analyze trends, and support 
 For Developers & Contributors
 Read our Contributing Guide to get started!
 
-Step 1: Clone the repository
+*  Step 1: Clone the repository
 git clone https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings.git
 cd your-repo-folder
-Step 2: Run the app locally
+*  Step 2: Run the app locally
 python app.py
-Step 3: Start contributing!
+*  Step 3: Start contributing!
 • Report issues or suggest enhancements in GitHub Issues: [Issues][https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings/issues]
+
 • Share feedback on documentation and dataset usage: 
 [Contributing][CONTRIBUTING.md].
 
