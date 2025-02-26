@@ -49,22 +49,25 @@ If you have experience in any of these areas (or others we haven't considered ye
 ## Get involved
 
 For Users: Government Officials, Policymakers & the Public
- Live Demo: [Data-Driven Dashboard of Police Killings][https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings]
+ Live Demo: https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings
  
 Demo GIF: 
 Use this dashboard to explore police killings data, analyze trends, and support informed decision-making.
 For Developers & Contributors
 Read our Contributing Guide to get started!
 
-*  Step 1: Clone the repository
+Step 1: Clone the repository
 git clone https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings.git
-cd your-repo-folder
-*  Step 2: Run the app locally
-python app.py
-*  Step 3: Start contributing!
-• Report issues or suggest enhancements in GitHub Issues: [Issues][https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings/issues]
 
-• Share feedback on documentation and dataset usage: 
+cd your-repo-folder
+
+Step 2: Run the app locally
+python app.py
+
+Step 3: Start contributing!
+* Report issues or suggest enhancements in GitHub Issues: https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings/issues
+
+* Share feedback on documentation and dataset usage: 
 [Contributing][CONTRIBUTING.md].
 
 ## Find out more
