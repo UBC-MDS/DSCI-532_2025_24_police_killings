@@ -120,7 +120,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 21.0,20-39,Male,Hispanic/Latino,February,13,2015,2015-02-13,Kansas City,Kansas,39.1134562,-94.626497,Gunshot,Firearm
 23.0,20-39,Male,White,February,13,2015,2015-02-13,San Bernadino,California,38.02854873142405,-121.96198508727097,Gunshot,Vehicle
 27.0,20-39,Male,White,February,13,2015,2015-02-13,Huntingdon,Tennessee,36.0006178,-88.4281063,Gunshot,Firearm
-35.0,20-39,Male,White,February,13,2015,2015-02-13,Reading,Pennsylvania,40.32888871428572,-75.90792471428571,Gunshot,Unknown
+35.0,20-39,Male,White,February,13,2015,2015-02-13,Reading,Pennsylvania,40.32888871428572,-75.90792471428571,Gunshot,Other
 51.0,40-59,Male,White,February,14,2015,2015-02-14,Laredo,Texas,27.55374819374288,-99.47536330893084,Gunshot,Firearm
 24.0,20-39,Male,White,February,15,2015,2015-02-15,Provo,Utah,40.240433391121236,-111.67880253108186,Gunshot,Non-lethal firearm
 25.0,20-39,Male,Black,February,15,2015,2015-02-15,Miami Gardens,Florida,25.950345,-80.20738885714286,Gunshot,Other
@@ -211,7 +211,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 36.0,20-39,Male,White,March,13,2015,2015-03-13,Fontana,California,34.077495,-117.429789,Gunshot,Knife
 41.0,40-59,Male,Hispanic/Latino,March,13,2015,2015-03-13,Napa,California,38.30576335936461,-122.27459265982792,Gunshot,Firearm
 53.0,40-59,Male,White,March,13,2015,2015-03-13,Follansbee,West Virginia,40.323339,-80.595086,Gunshot,Knife
-59.0,40-59,Male,White,March,13,2015,2015-03-13,Kansas City,Missouri,38.947306,-94.486774,Gunshot,Unknown
+59.0,40-59,Male,White,March,13,2015,2015-03-13,Kansas City,Missouri,38.947306,-94.486774,Gunshot,Other
 26.0,20-39,Male,White,March,14,2015,2015-03-14,Kenosha,Wisconsin,42.5846773,-87.8212263,Gunshot,No
 29.0,20-39,Male,Hispanic/Latino,March,14,2015,2015-03-14,San Antonio,Texas,29.51311603949205,-98.53549723855829,Gunshot,Firearm
 36.0,20-39,Male,White,March,15,2015,2015-03-15,Ruth,Mississippi,31.3815627,-90.316482,Gunshot,Other
@@ -439,7 +439,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 39.0,20-39,Male,White,May,27,2015,2015-05-27,Middletown,New Jersey,40.44418968684987,-74.11312086680351,Gunshot,Knife
 34.0,20-39,Male,White,May,27,2015,2015-05-27,Kansas City,Kansas,39.136418,-94.642044,Taser,No
 24.0,20-39,Male,White,May,27,2015,2015-05-27,Edmond,Oklahoma,35.632939,-97.457665,Gunshot,Non-lethal firearm
-24.0,20-39,Male,White,May,26,2015,2015-05-26,Bossier City,Louisiana,32.515887,-93.7336536,Gunshot,Unknown
+24.0,20-39,Male,White,May,26,2015,2015-05-26,Bossier City,Louisiana,32.515887,-93.7336536,Gunshot,Other
 33.0,20-39,Male,White,May,27,2015,2015-05-27,Alpine,California,38.5893934,-119.8345013,Gunshot,Other
 57.0,40-59,Male,White,May,27,2015,2015-05-27,Eatonton,Georgia,33.3267128,-83.388485,Gunshot,Knife
 32.0,20-39,Male,Black,May,28,2015,2015-05-28,Northglenn,Colorado,39.8945,-104.976892,Gunshot,Firearm
@@ -448,8 +448,8 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 40.0,40-59,Male,Black,May,28,2015,2015-05-28,Carrollton,Georgia,33.590355,-85.048911,Gunshot,Firearm
 18.0,Under 19,Male,White,May,28,2015,2015-05-28,Trenton,Michigan,42.14081,-83.216028,Gunshot,Other
 36.0,20-39,Male,Black,May,29,2015,2015-05-29,Lyndhurst,New Jersey,40.8126301,-74.1249488,Gunshot,Knife
-35.0,20-39,Male,White,May,29,2015,2015-05-29,Mounds,Oklahoma,35.876484,-96.0611074,Gunshot,Unknown
-55.0,40-59,Male,White,May,29,2015,2015-05-29,Grants Pass,Oregon,42.4393707,-123.3272489,Gunshot,Unknown
+35.0,20-39,Male,White,May,29,2015,2015-05-29,Mounds,Oklahoma,35.876484,-96.0611074,Gunshot,Other
+55.0,40-59,Male,White,May,29,2015,2015-05-29,Grants Pass,Oregon,42.4393707,-123.3272489,Gunshot,Other
 18.0,Under 19,Male,White,May,30,2015,2015-05-30,Cottonwood,Arizona,34.739489,-112.009793,Gunshot,No
 39.0,20-39,Male,Hispanic/Latino,May,30,2015,2015-05-30,Nashville,Tennessee,36.125298033918575,-86.70914482545089,Gunshot,Non-lethal firearm
 50.0,40-59,Male,Black,May,31,2015,2015-05-31,Rochester,New York,43.157285,-77.615214,Taser,No
@@ -465,7 +465,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 33.0,20-39,Male,White,April,21,2015,2015-04-21,Mt Vernon,Ohio,40.4015297,-82.43149169353704,Death in custody,No
 24.0,20-39,Male,Black,June,3,2015,2015-06-03,Chester,Pennsylvania,39.834512,-75.400444,Struck by vehicle,Firearm
 46.0,40-59,Male,Hispanic/Latino,June,3,2015,2015-06-03,Delano,California,35.78722494736842,-119.221361,Gunshot,Firearm
-36.0,20-39,Male,Hispanic/Latino,June,3,2015,2015-06-03,Los Lunas,New Mexico,34.8142093,-106.7613067,Gunshot,Unknown
+36.0,20-39,Male,Hispanic/Latino,June,3,2015,2015-06-03,Los Lunas,New Mexico,34.8142093,-106.7613067,Gunshot,Other
 33.0,20-39,Male,Black,June,4,2015,2015-06-04,Philadelphia,Pennsylvania,40.05662705,-75.08840978712811,Gunshot,Firearm
 50.0,40-59,Male,Hispanic/Latino,June,5,2015,2015-06-05,Santa Maria,California,34.97048694595788,-120.4326411722543,Gunshot,Firearm
 23.0,20-39,Male,White,June,5,2015,2015-06-05,San Francisco,California,37.7792588,-122.4193286,Struck by vehicle,No
@@ -484,7 +484,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 51.0,40-59,Male,Hispanic/Latino,June,8,2015,2015-06-08,New York,New York,40.861187747474744,-73.90893005050505,Taser,Other
 30.0,20-39,Male,White,June,9,2015,2015-06-09,Findlay,Ohio,41.037053655172414,-83.66185200000001,Gunshot,No
 69.0,Above 60,Male,White,June,8,2015,2015-06-08,Sun City,Arizona,33.631125499999996,-112.25754839870666,Gunshot,Firearm
-26.0,20-39,Male,Black,April,14,2015,2015-04-14,Dallas,Texas,32.663387,-96.821194,Gunshot,Unknown
+26.0,20-39,Male,Black,April,14,2015,2015-04-14,Dallas,Texas,32.663387,-96.821194,Gunshot,Other
 28.0,20-39,Male,White,June,9,2015,2015-06-09,Des Moines,Iowa,41.5868654,-93.6249494,Gunshot,No
 45.0,40-59,Male,White,June,9,2015,2015-06-09,Tomball,Texas,30.0971621,-95.6160549,Gunshot,Firearm
 22.0,20-39,Male,Black,June,9,2015,2015-06-09,Cincinnati,Ohio,39.16369,-84.5438,Gunshot,Firearm
@@ -499,7 +499,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 50.0,40-59,Male,White,June,12,2015,2015-06-12,Mt Olive,West Virginia,38.2378833,-81.2334436,Death in custody,No
 35.0,20-39,Male,Black,June,13,2015,2015-06-13,Louisville,Kentucky,38.2542376,-85.759407,Gunshot,Other
 46.0,40-59,Male,White,June,13,2015,2015-06-13,Fort Wayne,Indiana,41.097631,-85.156091,Gunshot,Firearm
-24.0,20-39,Female,White,June,13,2015,2015-06-13,North Augusta,South Carolina,33.530058,-81.975204,Gunshot,Unknown
+24.0,20-39,Female,White,June,13,2015,2015-06-13,North Augusta,South Carolina,33.530058,-81.975204,Gunshot,Other
 28.0,20-39,Male,Hispanic/Latino,June,14,2015,2015-06-14,Stockton,California,37.9577016,-121.290779,Gunshot,Vehicle
 15.0,Under 19,Male,White,June,14,2015,2015-06-14,Cocoa,Florida,28.355751863622526,-80.73774624168587,Gunshot,Firearm
 22.0,20-39,Male,Black,June,15,2015,2015-06-15,South Lake Tahoe,California,38.950477,-119.953076,Gunshot,No
@@ -542,7 +542,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 25.0,20-39,Male,White,April,8,2015,2015-04-08,Coupeville,Washington,48.21715567721753,-122.686022,Death in custody,No
 32.0,20-39,Male,White,July,1,2015,2015-07-01,Wolf Creek,Oregon,42.6955158,-123.3952995,Gunshot,Firearm
 40.0,40-59,Male,White,July,2,2015,2015-07-02,Miami Beach,Florida,25.7929198,-80.1353006,Gunshot,Firearm
-23.0,20-39,Male,Black,July,2,2015,2015-07-02,Jacksonville,Florida,30.30295627488226,-81.6292896312119,Gunshot,Unknown
+23.0,20-39,Male,Black,July,2,2015,2015-07-02,Jacksonville,Florida,30.30295627488226,-81.6292896312119,Gunshot,Other
 59.0,40-59,Male,Other,July,2,2015,2015-07-02,Meadow Bridge,West Virginia,37.8590061,-80.8542568,Gunshot,Other
 60.0,Above 60,Male,Asian/Pacific Islander,July,2,2015,2015-07-02,San Diego,California,32.99104962372123,-117.16326946953755,Gunshot,Knife
 23.0,20-39,Male,Black,July,4,2015,2015-07-04,Newport News,Virginia,36.9775016,-76.42977,Gunshot,Firearm
@@ -589,17 +589,17 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 31.0,20-39,Male,White,July,11,2015,2015-07-11,Olivehurst,California,39.091678,-121.557221,Gunshot,Firearm
 35.0,20-39,Male,Native American,July,12,2015,2015-07-12,Denver,Colorado,39.70049086459379,-105.0461669358064,Gunshot,Knife
 36.0,20-39,Male,Black,July,12,2015,2015-07-12,Plantation,Florida,26.109753524687022,-80.20152696867231,Gunshot,No
-20.0,20-39,Male,Black,July,10,2015,2015-07-10,Covington,Georgia,33.5966005,-83.8598742,Gunshot,Unknown
+20.0,20-39,Male,Black,July,10,2015,2015-07-10,Covington,Georgia,33.5966005,-83.8598742,Gunshot,Other
 24.0,20-39,Male,White,July,12,2015,2015-07-12,River Forest,Illinois,41.88684179167363,-87.8146822521254,Gunshot,Firearm
 77.0,Above 60,Male,White,July,13,2015,2015-07-13,Columbus,Ohio,39.942675065802696,-83.09236092709158,Struck by vehicle,No
-27.0,20-39,Male,White,July,12,2015,2015-07-12,Casper,Wyoming,42.83371497237973,-106.35450528523346,Gunshot,Unknown
+27.0,20-39,Male,White,July,12,2015,2015-07-12,Casper,Wyoming,42.83371497237973,-106.35450528523346,Gunshot,Other
 23.0,20-39,Male,White,July,13,2015,2015-07-13,Dunsmuir,California,41.208209,-122.271953,Gunshot,Firearm
 30.0,20-39,Male,White,July,6,2015,2015-07-06,Ogden,Utah,41.2230048,-111.9738429,Taser,No
 23.0,20-39,Male,Hispanic/Latino,July,13,2015,2015-07-13,Lynn,Massachusetts,42.47238645,-70.94384409999999,Gunshot,Vehicle
 20.0,20-39,Male,Black,July,14,2015,2015-07-14,Mascotte,Florida,28.5783313,-81.8867452,Gunshot,Firearm
 55.0,40-59,Male,White,July,13,2015,2015-07-13,Hendersonville,North Carolina,35.315802250000004,-82.45593783295023,Death in custody,No
 76.0,Above 60,Male,White,July,14,2015,2015-07-14,Southington,Ohio,41.315777751988804,-80.98347451909198,Gunshot,Firearm
-43.0,40-59,Male,White,July,15,2015,2015-07-15,Marion,Michigan,44.1024819116522,-85.1324891445872,Gunshot,Unknown
+43.0,40-59,Male,White,July,15,2015,2015-07-15,Marion,Michigan,44.1024819116522,-85.1324891445872,Gunshot,Other
 25.0,20-39,Male,Black,July,16,2015,2015-07-16,Moreno Valley,California,33.939033,-117.226229,Gunshot,Knife
 41.0,40-59,Male,White,July,13,2015,2015-07-13,Los Angeles,California,34.00016333333333,-118.47029433333334,Gunshot,Other
 30.0,20-39,Male,White,July,16,2015,2015-07-16,Kansas City,Kansas,39.1134562,-94.626497,Gunshot,Firearm
@@ -612,7 +612,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 22.0,20-39,Male,White,July,18,2015,2015-07-18,Fort Collins,Colorado,40.56720497848836,-105.0990456768028,Gunshot,Knife
 46.0,40-59,Male,White,July,18,2015,2015-07-18,Phoenix,Arizona,33.4484367,-112.074141,Gunshot,Firearm
 19.0,Under 19,Male,Black,July,17,2015,2015-07-17,Memphis,Tennessee,35.0501787233168,-89.87341306863232,Gunshot,No
-24.0,20-39,Male,Hispanic/Latino,July,17,2015,2015-07-17,Brownsville,Texas,25.8952077,-97.47767725,Gunshot,Unknown
+24.0,20-39,Male,Hispanic/Latino,July,17,2015,2015-07-17,Brownsville,Texas,25.8952077,-97.47767725,Gunshot,Other
 26.0,20-39,Male,Hispanic/Latino,July,18,2015,2015-07-18,Farmersville,California,36.29734345,-119.21537608618934,Gunshot,No
 43.0,40-59,Male,Black,July,19,2015,2015-07-19,Cincinnati,Ohio,39.1014537,-84.5124602,Gunshot,No
 50.0,40-59,Male,White,July,17,2015,2015-07-17,Needles,California,34.85239838536809,-114.62593811788648,Gunshot,Firearm
@@ -637,7 +637,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 32.0,20-39,Male,White,July,23,2015,2015-07-23,Myrtle Beach,South Carolina,33.6956461,-78.8900409,Gunshot,Firearm
 44.0,40-59,Female,White,July,23,2015,2015-07-23,Meadow Vista,California,39.0016485,-121.03567537915235,Gunshot,Firearm
 44.0,40-59,Male,White,July,24,2015,2015-07-24,Studio City,California,34.14340211950732,-118.39802558730273,Gunshot,Firearm
-60.0,Above 60,Male,White,July,25,2015,2015-07-25,New Orleans,Louisiana,29.9759983,-90.0782127,Gunshot,Unknown
+60.0,Above 60,Male,White,July,25,2015,2015-07-25,New Orleans,Louisiana,29.9759983,-90.0782127,Gunshot,Other
 33.0,20-39,Male,White,July,24,2015,2015-07-24,Pinnacle,North Carolina,36.328809049291806,-80.43195591422689,Gunshot,Knife
 50.0,40-59,Male,White,July,25,2015,2015-07-25,Brinson,Georgia,30.91737034026851,-84.73398182747434,Gunshot,Firearm
 36.0,20-39,Male,Black,July,25,2015,2015-07-25,Las Vegas,Nevada,36.15874513804354,-115.15187940005939,Gunshot,Non-lethal firearm
@@ -701,7 +701,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 30.0,20-39,Female,Black,August,12,2015,2015-08-12,Los Angeles,California,34.0536909,-118.242766,Gunshot,Knife
 27.0,20-39,Male,Hispanic/Latino,August,12,2015,2015-08-12,Hemet,California,33.7475203,-116.9719684,Gunshot,Firearm
 24.0,20-39,Male,White,August,11,2015,2015-08-11,Odessa,Texas,31.8821867,-102.3844873,Gunshot,Firearm
-49.0,40-59,Male,White,August,12,2015,2015-08-12,Hobbs,New Mexico,32.77392958663189,-103.13162149780617,Gunshot,Unknown
+49.0,40-59,Male,White,August,12,2015,2015-08-12,Hobbs,New Mexico,32.77392958663189,-103.13162149780617,Gunshot,Other
 27.0,20-39,Male,Black,August,12,2015,2015-08-12,Toledo,Ohio,41.632222945035274,-83.51342621071818,Gunshot,Firearm
 38.0,20-39,Male,Black,August,14,2015,2015-08-14,New York,New York,40.63051875,-74.16078357455608,Gunshot,Firearm
 26.0,20-39,Male,Hispanic/Latino,August,14,2015,2015-08-14,Boerne,Texas,29.78963312422405,-98.72201178886985,Gunshot,Firearm
@@ -720,11 +720,11 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 18.0,Under 19,Male,Black,August,19,2015,2015-08-19,St Louis,Missouri,38.65796922881683,-90.25652586930802,Gunshot,Disputed
 29.0,20-39,Male,White,August,19,2015,2015-08-19,Hunters,Washington,48.1172016,-118.2020358,Gunshot,Firearm
 24.0,20-39,Male,Black,August,19,2015,2015-08-19,Bloomfield Township,Michigan,43.9209881,-82.82466445915676,Gunshot,Firearm
-23.0,20-39,Male,Hispanic/Latino,August,16,2015,2015-08-16,Susanville,California,40.4009568,-120.51615692522452,Gunshot,Unknown
+23.0,20-39,Male,Hispanic/Latino,August,16,2015,2015-08-16,Susanville,California,40.4009568,-120.51615692522452,Gunshot,Other
 44.0,40-59,Male,White,August,19,2015,2015-08-19,Waynesville,North Carolina,35.4887476,-82.9888725,Gunshot,Firearm
 50.0,40-59,Male,White,August,20,2015,2015-08-20,Tuscaloosa,Alabama,33.20657,-87.492975,Gunshot,No
 17.0,Under 19,Male,Hispanic/Latino,August,20,2015,2015-08-20,Ontario,California,34.065846,-117.64843,Gunshot,Firearm
-57.0,40-59,Male,White,August,21,2015,2015-08-21,Grapeview,Washington,47.332314,-122.82878461961946,Gunshot,Unknown
+57.0,40-59,Male,White,August,21,2015,2015-08-21,Grapeview,Washington,47.332314,-122.82878461961946,Gunshot,Other
 38.0,20-39,Male,White,August,21,2015,2015-08-21,Wake Forest,North Carolina,36.008067,-78.510905,Gunshot,Knife
 30.0,20-39,Male,White,August,21,2015,2015-08-21,North East,Maryland,39.5992989,-75.9424217,Gunshot,No
 31.0,20-39,Male,White,August,22,2015,2015-08-22,Cohasset,Minnesota,47.262848,-93.626851,Gunshot,Firearm
@@ -732,7 +732,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 39.0,20-39,Male,Black,August,22,2015,2015-08-22,Troy,New York,42.7284117,-73.6917878,Gunshot,Firearm
 29.0,20-39,Male,White,August,22,2015,2015-08-22,Bakersfield,California,35.419754538151416,-119.17009340437541,Gunshot,Other
 26.0,20-39,Male,White,August,22,2015,2015-08-22,Wichita,Kansas,37.67255620562939,-97.41323085869728,Gunshot,Vehicle
-36.0,20-39,Male,White,August,23,2015,2015-08-23,Arab,Alabama,34.3181497,-86.4958219,Gunshot,Unknown
+36.0,20-39,Male,White,August,23,2015,2015-08-23,Arab,Alabama,34.3181497,-86.4958219,Gunshot,Other
 21.0,20-39,Male,White,August,23,2015,2015-08-23,Brick,New Jersey,40.0992965,-74.13823547748895,Gunshot,Non-lethal firearm
 53.0,40-59,Male,White,August,23,2015,2015-08-23,Archdale,North Carolina,35.895793049999995,-79.9279246,Gunshot,Firearm
 36.0,20-39,Male,White,August,23,2015,2015-08-23,Jacksonville,Florida,30.332212405793584,-81.81293138642651,Gunshot,Firearm
@@ -764,7 +764,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 23.0,20-39,Male,White,August,28,2015,2015-08-28,Longview,Texas,32.525501199999994,-94.78282557515422,Gunshot,Firearm
 48.0,40-59,Male,Black,August,31,2015,2015-08-31,Cincinnati,Ohio,39.112861375,-84.51474508333332,Taser,No
 33.0,20-39,Male,Black,September,1,2015,2015-09-01,Bluefield,West Virginia,37.26928387755102,-81.22231118367347,Gunshot,Firearm
-18.0,Under 19,Male,Black,September,1,2015,2015-09-01,Newark,New Jersey,40.735657,-74.1723667,Struck by vehicle,Unknown
+18.0,Under 19,Male,Black,September,1,2015,2015-09-01,Newark,New Jersey,40.735657,-74.1723667,Struck by vehicle,Other
 18.0,Under 19,Male,White,August,31,2015,2015-08-31,Hamilton,Georgia,32.7579107,-84.8749311,Taser,No
 47.0,40-59,Male,White,September,1,2015,2015-09-01,Artesia,New Mexico,32.82734096712182,-104.41928142906117,Gunshot,Firearm
 76.0,Above 60,Male,White,September,1,2015,2015-09-01,Twinsburg,Ohio,41.33830363866988,-81.4430905971226,Gunshot,Firearm
@@ -796,11 +796,11 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 32.0,20-39,Male,White,September,10,2015,2015-09-10,Lodi,California,38.1342805,-121.2736022,Gunshot,Firearm
 34.0,20-39,Male,Hispanic/Latino,September,10,2015,2015-09-10,Fontana,California,34.0922947,-117.43433,Gunshot,Knife
 41.0,40-59,Male,Hispanic/Latino,September,10,2015,2015-09-10,Downey,California,33.955401016222865,-118.11285985265653,Gunshot,Firearm
-31.0,20-39,Male,Other,September,11,2015,2015-09-11,Chester,Pennsylvania,39.9829308,-75.7652424,Gunshot,Unknown
+31.0,20-39,Male,Other,September,11,2015,2015-09-11,Chester,Pennsylvania,39.9829308,-75.7652424,Gunshot,Other
 37.0,20-39,Female,Hispanic/Latino,March,2,2015,2015-03-02,Golden,Colorado,39.73107975,-105.20119096788454,Death in custody,No
 31.0,20-39,Male,Asian/Pacific Islander,September,10,2015,2015-09-10,Potsdam,New York,44.6680591,-74.9919015,Gunshot,Knife
 24.0,20-39,Male,Hispanic/Latino,July,20,2015,2015-07-20,Chicago,Illinois,41.822768,-87.699705,Death in custody,No
-23.0,20-39,Male,White,September,12,2015,2015-09-12,Sylacauga,Alabama,33.1731716,-86.2516406,Gunshot,Unknown
+23.0,20-39,Male,White,September,12,2015,2015-09-12,Sylacauga,Alabama,33.1731716,-86.2516406,Gunshot,Other
 39.0,20-39,Male,White,September,13,2015,2015-09-13,Wellman,Iowa,41.4650649,-91.8378537,Gunshot,Firearm
 45.0,40-59,Male,White,September,12,2015,2015-09-12,Knoxville,Tennessee,35.963495918649556,-84.09145613894448,Gunshot,Firearm
 67.0,Above 60,Male,Black,September,13,2015,2015-09-13,Pond Creek,Oklahoma,36.669197,-97.8011661,Gunshot,Firearm
@@ -811,7 +811,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 21.0,20-39,Male,Black,September,15,2015,2015-09-15,Chalmette,Louisiana,29.9427892,-89.9629372,Gunshot,Other
 44.0,40-59,Male,White,September,11,2015,2015-09-11,Broomfield,Colorado,39.9403995,-105.05208,Gunshot,Firearm
 32.0,20-39,Male,Hispanic/Latino,September,15,2015,2015-09-15,Los Angeles,California,34.0536909,-118.242766,Gunshot,Firearm
-51.0,40-59,Male,Hispanic/Latino,September,15,2015,2015-09-15,Miami,Florida,25.72705845,-80.45363973428411,Gunshot,Unknown
+51.0,40-59,Male,Hispanic/Latino,September,15,2015,2015-09-15,Miami,Florida,25.72705845,-80.45363973428411,Gunshot,Other
 19.0,Under 19,Male,Native American,September,8,2015,2015-09-08,Fairbanks,Alaska,64.837845,-147.716675,Gunshot,Firearm
 27.0,20-39,Male,Black,September,16,2015,2015-09-16,Alexandria,Louisiana,31.267987,-92.444552,Gunshot,Firearm
 50.0,40-59,Male,White,September,17,2015,2015-09-17,Beaverton,Michigan,43.882247,-84.484732,Gunshot,Firearm
@@ -819,7 +819,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 39.0,20-39,Male,Hispanic/Latino,September,16,2015,2015-09-16,Los Angeles,California,34.132261,-118.266543,Gunshot,Firearm
 61.0,Above 60,Male,White,September,17,2015,2015-09-17,Brodhead,Kentucky,37.4042496,-84.4138259,Gunshot,Firearm
 59.0,40-59,Male,Asian/Pacific Islander,September,9,2015,2015-09-09,El Monte,California,34.07821938287069,-118.02917622733264,Gunshot,Knife
-46.0,40-59,Male,White,September,18,2015,2015-09-18,Cumberland Furnace,Tennessee,36.2686661,-87.3597314,Gunshot,Unknown
+46.0,40-59,Male,White,September,18,2015,2015-09-18,Cumberland Furnace,Tennessee,36.2686661,-87.3597314,Gunshot,Other
 32.0,20-39,Male,White,September,18,2015,2015-09-18,San Bernardino,California,34.149932808197256,-117.32235527147208,Gunshot,No
 57.0,40-59,Male,White,September,18,2015,2015-09-18,Washington County,Alabama,31.512084424663275,-87.99787170629233,Gunshot,Firearm
 46.0,40-59,Male,White,September,19,2015,2015-09-19,Slidell,Louisiana,30.2751945,-89.7811745,Gunshot,Firearm
@@ -832,7 +832,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 25.0,20-39,Male,Hispanic/Latino,July,22,2015,2015-07-22,Monroe,Wisconsin,42.60028490032445,-89.6465976441553,Gunshot,Firearm
 27.0,20-39,Male,White,September,21,2015,2015-09-21,Sand City,California,36.6209786,-121.8436714,Gunshot,Firearm
 23.0,20-39,Female,White,September,21,2015,2015-09-21,Sand City,California,36.6209786,-121.8436714,Gunshot,Firearm
-21.0,20-39,Male,White,September,21,2015,2015-09-21,Paris,Texas,33.67370810925837,-95.52062527548553,Gunshot,Unknown
+21.0,20-39,Male,White,September,21,2015,2015-09-21,Paris,Texas,33.67370810925837,-95.52062527548553,Gunshot,Other
 24.0,20-39,Male,White,September,21,2015,2015-09-21,Barberville,Florida,29.1872023,-81.420901,Gunshot,Firearm
 24.0,20-39,Male,Hispanic/Latino,September,21,2015,2015-09-21,Auburndale,Florida,28.07365232629123,-81.82837036238115,Gunshot,No
 26.0,20-39,Male,White,September,22,2015,2015-09-22,North Las Vegas,Nevada,36.230946,-115.139755,Gunshot,Firearm
@@ -869,7 +869,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 17.0,Under 19,Female,White,September,26,2015,2015-09-26,Carrollton,Georgia,33.622904020128644,-85.0997432191369,Struck by vehicle,No
 16.0,Under 19,Female,White,September,26,2015,2015-09-26,Carrollton,Georgia,33.622904020128644,-85.0997432191369,Struck by vehicle,No
 27.0,20-39,Male,White,October,4,2015,2015-10-04,Muscle Shoals,Alabama,34.75948282184143,-87.67273834968056,Gunshot,Firearm
-29.0,20-39,Male,White,October,2,2015,2015-10-02,Amarillo,Texas,35.20729,-101.8371192,Gunshot,Unknown
+29.0,20-39,Male,White,October,2,2015,2015-10-02,Amarillo,Texas,35.20729,-101.8371192,Gunshot,Other
 51.0,40-59,Male,White,October,5,2015,2015-10-05,Hurst,Texas,32.8234621,-97.1705678,Gunshot,Firearm
 50.0,40-59,Male,White,October,5,2015,2015-10-05,Woodbridge Township,New Jersey,40.57305077090994,-74.26825078431463,Gunshot,Firearm
 39.0,20-39,Male,White,October,6,2015,2015-10-06,Monterey,California,36.2231079,-121.387742,Gunshot,Firearm
@@ -882,10 +882,10 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 23.0,20-39,Male,Black,October,11,2015,2015-10-11,Taylors,South Carolina,34.91378685,-82.29272213730897,Gunshot,Firearm
 49.0,40-59,Male,White,October,10,2015,2015-10-10,Beverly,Massachusetts,42.56367187221741,-70.88899553258453,Gunshot,Vehicle
 34.0,20-39,Male,Hispanic/Latino,October,11,2015,2015-10-11,San Bernardino,California,34.8253019,-116.0833144,Gunshot,No
-35.0,20-39,Male,Other,October,10,2015,2015-10-10,Lisle,Illinois,41.8049,-88.093605,Gunshot,Unknown
-38.0,20-39,Male,White,October,10,2015,2015-10-10,Pinon Hills,California,34.40090853990823,-117.60348566202491,Gunshot,Unknown
+35.0,20-39,Male,Other,October,10,2015,2015-10-10,Lisle,Illinois,41.8049,-88.093605,Gunshot,Other
+38.0,20-39,Male,White,October,10,2015,2015-10-10,Pinon Hills,California,34.40090853990823,-117.60348566202491,Gunshot,Other
 43.0,40-59,Male,Hispanic/Latino,October,11,2015,2015-10-11,Odessa,Texas,31.867431,-102.441987,Gunshot,Knife
-40.0,40-59,Male,Black,October,12,2015,2015-10-12,Lawton,Oklahoma,34.6086854,-98.3903305,Gunshot,Unknown
+40.0,40-59,Male,Black,October,12,2015,2015-10-12,Lawton,Oklahoma,34.6086854,-98.3903305,Gunshot,Other
 31.0,20-39,Male,White,October,12,2015,2015-10-12,Brookhaven,Mississippi,31.591119852112538,-90.44991360344726,Gunshot,Firearm
 27.0,20-39,Male,White,October,14,2015,2015-10-14,Cartersville,Georgia,34.19528941038734,-84.76445763686598,Gunshot,Firearm
 15.0,Under 19,Male,Hispanic/Latino,October,15,2015,2015-10-15,Homestead,Florida,25.4718946,-80.4759905,Gunshot,Firearm
@@ -907,7 +907,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 18.0,Under 19,Male,Black,October,17,2015,2015-10-17,Midlothian,Virginia,37.49901725,-77.5366179012688,Gunshot,No
 31.0,20-39,Male,Black,October,18,2015,2015-10-18,Palm Beach Gardens,Florida,26.8233946,-80.1386547,Gunshot,Firearm
 30.0,20-39,Male,Black,October,17,2015,2015-10-17,Chula Vista,California,32.622121,-116.999402,Gunshot,No
-28.0,20-39,Male,White,October,18,2015,2015-10-18,Fresno,California,36.8587739916297,-119.77374717377091,Gunshot,Unknown
+28.0,20-39,Male,White,October,18,2015,2015-10-18,Fresno,California,36.8587739916297,-119.77374717377091,Gunshot,Other
 27.0,20-39,Male,Hispanic/Latino,October,15,2015,2015-10-15,West Hollywood,California,34.0923014,-118.3692894,Struck by vehicle,No
 46.0,40-59,Female,White,October,14,2015,2015-10-14,Naples,Florida,26.13778039424659,-81.78234688053293,Gunshot,Firearm
 54.0,40-59,Male,Black,October,19,2015,2015-10-19,Los Angeles,California,33.934675,-118.281007,Gunshot,Vehicle
@@ -921,16 +921,16 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 47.0,40-59,Male,White,October,21,2015,2015-10-21,Kentwood,Michigan,42.8694731,-85.6447492,Gunshot,Firearm
 38.0,20-39,Male,Black,October,22,2015,2015-10-22,Shreveport,Louisiana,32.51740985,-93.74438200103472,Gunshot,Knife
 36.0,20-39,Male,Black,October,22,2015,2015-10-22,Carmichael,California,38.62709845,-121.32224222755409,Gunshot,Firearm
-53.0,40-59,Male,White,October,23,2015,2015-10-23,Pine Top,Kentucky,37.2726002,-82.8823826,Gunshot,Unknown
+53.0,40-59,Male,White,October,23,2015,2015-10-23,Pine Top,Kentucky,37.2726002,-82.8823826,Gunshot,Other
 34.0,20-39,Male,Black,October,24,2015,2015-10-24,Cape Coral,Florida,26.738150269873834,-81.9437774775273,Gunshot,Firearm
 34.0,20-39,Male,Hispanic/Latino,October,24,2015,2015-10-24,Riverside,California,33.9824949,-117.374238,Gunshot,Firearm
 47.0,40-59,Male,White,October,24,2015,2015-10-24,Salem,Wisconsin,42.54521836906085,-88.09654418830029,Gunshot,Firearm
-49.0,40-59,Male,White,October,24,2015,2015-10-24,Sterling,Alaska,60.537427717509615,-150.76458303729711,Gunshot,Unknown
-30.0,20-39,Male,Black,October,24,2015,2015-10-24,Cathedral City,California,33.808739,-116.472759,Gunshot,Unknown
+49.0,40-59,Male,White,October,24,2015,2015-10-24,Sterling,Alaska,60.537427717509615,-150.76458303729711,Gunshot,Other
+30.0,20-39,Male,Black,October,24,2015,2015-10-24,Cathedral City,California,33.808739,-116.472759,Gunshot,Other
 36.0,20-39,Male,White,October,24,2015,2015-10-24,Talking Rock,Georgia,34.5248245,-84.49149402593659,Gunshot,Firearm
 28.0,20-39,Male,White,October,24,2015,2015-10-24,Zanesville,Ohio,39.896681,-82.047312,Gunshot,Firearm
 18.0,Under 19,Male,Asian/Pacific Islander,October,26,2015,2015-10-26,Tampa,Florida,27.9477595,-82.458444,Gunshot,No
-45.0,40-59,Male,Black,October,26,2015,2015-10-26,Frederick,Maryland,39.406567800000005,-77.38797654882434,Gunshot,Unknown
+45.0,40-59,Male,Black,October,26,2015,2015-10-26,Frederick,Maryland,39.406567800000005,-77.38797654882434,Gunshot,Other
 21.0,20-39,Female,Black,October,26,2015,2015-10-26,Washington,District of Columbia,38.9828418,-77.0267417,Gunshot,Firearm
 24.0,20-39,Male,Hispanic/Latino,October,26,2015,2015-10-26,Philadelphia,Pennsylvania,39.9527237,-75.1635262,Taser,No
 25.0,20-39,Male,Black,October,27,2015,2015-10-27,Savannah,Georgia,32.0790074,-81.0921335,Gunshot,Firearm
@@ -948,16 +948,16 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 25.0,20-39,Male,Black,October,30,2015,2015-10-30,Houston,Texas,29.876735120956837,-95.4127618576308,Gunshot,Firearm
 36.0,20-39,Male,White,October,28,2015,2015-10-28,Salem,Oregon,44.9391565,-123.033121,Gunshot,Firearm
 30.0,20-39,Male,White,October,30,2015,2015-10-30,Fort Gibson,Oklahoma,35.7975463,-95.2503409,Gunshot,Knife
-52.0,40-59,Male,White,October,29,2015,2015-10-29,Old Town,Florida,29.6013454,-82.9817927,Gunshot,Unknown
+52.0,40-59,Male,White,October,29,2015,2015-10-29,Old Town,Florida,29.6013454,-82.9817927,Gunshot,Other
 33.0,20-39,Male,White,October,31,2015,2015-10-31,Colorado Springs,Colorado,38.839890583475295,-104.76980569603916,Gunshot,Firearm
 56.0,40-59,Male,Black,October,31,2015,2015-10-31,Opelika,Alabama,32.612275,-85.362872,Gunshot,Firearm
-49.0,40-59,Male,White,November,1,2015,2015-11-01,Hutchinson,Minnesota,44.891007,-94.375705,Gunshot,Unknown
+49.0,40-59,Male,White,November,1,2015,2015-11-01,Hutchinson,Minnesota,44.891007,-94.375705,Gunshot,Other
 20.0,20-39,Male,White,November,1,2015,2015-11-01,Eureka,California,40.7906871,-124.1673746,Gunshot,Firearm
 62.0,Above 60,Male,White,November,1,2015,2015-11-01,Council,Idaho,44.72655933598346,-116.43923267148287,Gunshot,Firearm
 62.0,Above 60,Male,Black,November,2,2015,2015-11-02,Washington,District of Columbia,38.855245,-76.968969,Gunshot,Firearm
 30.0,20-39,Male,White,November,4,2015,2015-11-04,Springfield,Missouri,37.239822,-93.25672,Gunshot,Firearm
 57.0,40-59,Male,Black,November,4,2015,2015-11-04,Houston,Texas,29.7589382,-95.3676974,Gunshot,Firearm
-18.0,Under 19,Male,Arab-American,November,4,2015,2015-11-04,Merced,California,37.3605357,-120.4321216,Gunshot,Unknown
+18.0,Under 19,Male,Arab-American,November,4,2015,2015-11-04,Merced,California,37.3605357,-120.4321216,Gunshot,Other
 47.0,40-59,Male,White,November,4,2015,2015-11-04,San Diego,California,32.7174202,-117.162772,Gunshot,No
 30.0,20-39,Male,White,November,5,2015,2015-11-05,Lakeshire,Missouri,38.537907814457135,-90.34049712113986,Gunshot,Other
 36.0,20-39,Female,White,November,5,2015,2015-11-05,Goose Creek,South Carolina,32.9961038,-80.0387292,Gunshot,Firearm
@@ -967,13 +967,13 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 51.0,40-59,Male,White,November,6,2015,2015-11-06,Portland,Oregon,45.5300829,-122.69556331389677,Gunshot,Firearm
 55.0,40-59,Male,White,November,6,2015,2015-11-06,Las Vegas,Nevada,36.1672559,-115.148516,Gunshot,Vehicle
 68.0,Above 60,Male,White,November,6,2015,2015-11-06,Deltona,Florida,28.882078,-81.211643,Gunshot,No
-27.0,20-39,Male,Black,November,1,2015,2015-11-01,Washington,District of Columbia,38.8950368,-77.0365427,Death in custody,Unknown
+27.0,20-39,Male,Black,November,1,2015,2015-11-01,Washington,District of Columbia,38.8950368,-77.0365427,Death in custody,Other
 28.0,20-39,Male,White,November,2,2015,2015-11-02,Klamath Falls,Oregon,42.2371430205691,-121.80823871564769,Struck by vehicle,No
 57.0,40-59,Female,White,October,23,2015,2015-10-23,Uniontown,Pennsylvania,39.900937,-79.725931,Struck by vehicle,No
 25.0,20-39,Male,Hispanic/Latino,November,9,2015,2015-11-09,Laredo,Texas,27.5075005,-99.5069922,Gunshot,Firearm
 20.0,20-39,Male,Black,November,9,2015,2015-11-09,Spartanburg,South Carolina,34.95569937180849,-81.96906728696807,Gunshot,Vehicle
-48.0,40-59,Male,White,November,6,2015,2015-11-06,Wadesboro,North Carolina,34.98094177356194,-80.0419310999442,Gunshot,Unknown
-34.0,20-39,Male,Hispanic/Latino,November,9,2015,2015-11-09,Los Angeles,California,34.0536909,-118.242766,Gunshot,Unknown
+48.0,40-59,Male,White,November,6,2015,2015-11-06,Wadesboro,North Carolina,34.98094177356194,-80.0419310999442,Gunshot,Other
+34.0,20-39,Male,Hispanic/Latino,November,9,2015,2015-11-09,Los Angeles,California,34.0536909,-118.242766,Gunshot,Other
 26.0,20-39,Male,White,November,9,2015,2015-11-09,Orlando,West Virginia,38.8712074,-80.5937044,Gunshot,Firearm
 31.0,20-39,Male,Hispanic/Latino,November,11,2015,2015-11-11,Albuquerque,New Mexico,35.0841034,-106.650985,Gunshot,Vehicle
 36.0,20-39,Male,White,November,10,2015,2015-11-10,Brighton,Colorado,39.983721,-104.8110775,Gunshot,Firearm
@@ -989,7 +989,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 42.0,40-59,Male,Hispanic/Latino,November,12,2015,2015-11-12,Sunnyvale,California,37.384171,-122.054146,Gunshot,Knife
 25.0,20-39,Male,White,November,13,2015,2015-11-13,Eden,Georgia,32.1711783,-81.3887793,Gunshot,Firearm
 52.0,40-59,Male,White,November,13,2015,2015-11-13,Trenton,Tennessee,35.9808073,-88.9416829,Gunshot,Non-lethal firearm
-25.0,20-39,Male,Hispanic/Latino,November,13,2015,2015-11-13,Jurupa Valley,California,33.9798472,-117.4515754,Gunshot,Unknown
+25.0,20-39,Male,Hispanic/Latino,November,13,2015,2015-11-13,Jurupa Valley,California,33.9798472,-117.4515754,Gunshot,Other
 31.0,20-39,Male,Hispanic/Latino,November,14,2015,2015-11-14,Riverside,California,34.006161500000005,-117.3997418665803,Gunshot,Other
 33.0,20-39,Male,White,November,15,2015,2015-11-15,Spring Lake,North Carolina,35.1679396,-78.9728056,Gunshot,Other
 39.0,20-39,Male,Black,November,15,2015,2015-11-15,Oakland,California,37.8044557,-122.271356,Gunshot,Non-lethal firearm
@@ -1025,7 +1025,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 24.0,20-39,Male,Black,November,24,2015,2015-11-24,Camden,New Jersey,39.90321660454905,-75.09744139595504,Gunshot,Firearm
 ,,Male,Other,January,30,2015,2015-01-30,Austin,Texas,30.189706912612863,-97.77039809034444,Death in custody,No
 37.0,20-39,Female,White,November,25,2015,2015-11-25,Ozark,Missouri,37.02174828571428,-93.2045372244898,Gunshot,Firearm
-52.0,40-59,Male,White,November,25,2015,2015-11-25,Eagar,Arizona,34.116246000000004,-109.29285666666667,Gunshot,Unknown
+52.0,40-59,Male,White,November,25,2015,2015-11-25,Eagar,Arizona,34.116246000000004,-109.29285666666667,Gunshot,Other
 58.0,40-59,Male,White,November,27,2015,2015-11-27,Lampe,Missouri,36.5636755,-93.437964,Gunshot,Firearm
 50.0,40-59,Male,White,November,28,2015,2015-11-28,Seagoville,Texas,32.64224219240925,-96.54582546525106,Gunshot,Other
 23.0,20-39,Male,Hispanic/Latino,November,29,2015,2015-11-29,Bakersfield,California,35.375378081632654,-119.02136165306122,Gunshot,Firearm
@@ -1116,7 +1116,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 55.0,40-59,Female,Black,December,26,2015,2015-12-26,Chicago,Illinois,41.892387,-87.743599,Gunshot,No
 19.0,Under 19,Male,Black,December,26,2015,2015-12-26,Chicago,Illinois,41.892387,-87.743599,Gunshot,Other
 41.0,40-59,Male,White,December,26,2015,2015-12-26,Phoenix,Arizona,33.59685985,-112.14323320701561,Gunshot,Other
-36.0,20-39,Male,White,December,27,2015,2015-12-27,Lucedale,Mississippi,30.9248878,-88.5879421,Gunshot,Unknown
+36.0,20-39,Male,White,December,27,2015,2015-12-27,Lucedale,Mississippi,30.9248878,-88.5879421,Gunshot,Other
 34.0,20-39,Male,White,December,27,2015,2015-12-27,Tempe,Arizona,33.381675,-111.920644,Gunshot,Knife
 28.0,20-39,Male,White,December,28,2015,2015-12-28,Suffolk,Virginia,36.726862749999995,-76.59634978999179,Gunshot,Non-lethal firearm
 24.0,20-39,Male,Black,October,30,2015,2015-10-30,Houston,Texas,29.876735120956837,-95.4127618576308,Gunshot,Firearm
@@ -1124,11 +1124,11 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 50.0,40-59,Female,Other,December,29,2015,2015-12-29,Santa Nella Village,California,37.0977209,-121.016866,Gunshot,Knife
 64.0,Above 60,Male,Other,December,3,2015,2015-12-03,Seattle,Washington,47.6038321,-122.330062,Death in custody,No
 44.0,40-59,Male,White,December,21,2015,2015-12-21,Jacksonville,Florida,30.3262109,-81.6511085,Taser,No
-33.0,20-39,Male,Asian/Pacific Islander,December,29,2015,2015-12-29,Rosemead,California,34.0676169,-118.0879763,Gunshot,Unknown
+33.0,20-39,Male,Asian/Pacific Islander,December,29,2015,2015-12-29,Rosemead,California,34.0676169,-118.0879763,Gunshot,Other
 55.0,40-59,Male,Hispanic/Latino,December,30,2015,2015-12-30,Fresno,California,36.7394421,-119.78483,Gunshot,Knife
 74.0,Above 60,Male,Hispanic/Latino,November,17,2015,2015-11-17,Greeley,Colorado,40.4233142,-104.7091322,Struck by vehicle,No
 23.0,20-39,Male,Black,December,31,2015,2015-12-31,Las Vegas,Nevada,36.1672559,-115.148516,Gunshot,No
-39.0,20-39,Male,White,December,30,2015,2015-12-30,Rawlins,Wyoming,41.7985177,-107.21629811323047,Gunshot,Unknown
+39.0,20-39,Male,White,December,30,2015,2015-12-30,Rawlins,Wyoming,41.7985177,-107.21629811323047,Gunshot,Other
 25.0,20-39,Male,Black,July,10,2015,2015-07-10,Chicago,Illinois,41.701826,-87.607896,Gunshot,Firearm
 38.0,20-39,Male,Hispanic/Latino,December,26,2015,2015-12-26,Homedale,Idaho,43.61967016492964,-116.93164100071057,Gunshot,Firearm
 21.0,20-39,Male,Black,December,4,2015,2015-12-04,Pittsburgh,Pennsylvania,40.43101452188174,-80.00705525923385,Gunshot,Firearm
@@ -1136,7 +1136,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 59.0,40-59,Male,White,July,14,2015,2015-07-14,Bakersfield,California,35.3738712,-119.019463,Struck by vehicle,No
 63.0,Above 60,Male,White,November,10,2015,2015-11-10,Colorado Springs,Colorado,38.909032343696126,-104.87868475672981,Gunshot,Non-lethal firearm
 28.0,20-39,Male,White,November,16,2015,2015-11-16,Centerville,Texas,31.2578221,-95.9785301,Gunshot,Vehicle
-31.0,20-39,Male,Hispanic/Latino,November,30,2015,2015-11-30,Wink,Texas,31.7534049,-103.15583,Gunshot,Unknown
+31.0,20-39,Male,Hispanic/Latino,November,30,2015,2015-11-30,Wink,Texas,31.7534049,-103.15583,Gunshot,Other
 46.0,40-59,Male,Black,December,6,2015,2015-12-06,Richmond Heights,Ohio,41.552829,-81.510121,Gunshot,Firearm
 74.0,Above 60,Male,Black,September,29,2015,2015-09-29,Washington,District of Columbia,38.9287492,-77.01476928297282,Death in custody,No
 62.0,Above 60,Male,White,March,6,2015,2015-03-06,Austin,Texas,30.396524,-97.695791,Taser,No
@@ -1238,7 +1238,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 30.0,20-39,Male,White,February,2,2016,2016-02-02,Rancho Cordova,California,38.5955284,-121.29334824876052,Gunshot,Knife
 34.0,20-39,Male,Native American,February,2,2016,2016-02-02,Carbondale,Pennsylvania,41.580333490547545,-75.49596186642562,Gunshot,No
 33.0,20-39,Male,White,February,2,2016,2016-02-02,Elmendorf,Texas,29.2560731,-98.3327903,Struck by vehicle,No
-22.0,20-39,Male,Native American,February,3,2016,2016-02-03,Rosebud,South Dakota,43.238645500000004,-100.82904209803831,Gunshot,Unknown
+22.0,20-39,Male,Native American,February,3,2016,2016-02-03,Rosebud,South Dakota,43.238645500000004,-100.82904209803831,Gunshot,Other
 31.0,20-39,Male,White,February,3,2016,2016-02-03,Ocala,Florida,29.1871986,-82.1400923,Gunshot,Firearm
 49.0,40-59,Male,Black,February,3,2016,2016-02-03,Athens,Alabama,34.8041483,-86.97892732198645,Death in custody,No
 36.0,20-39,Male,Black,February,4,2016,2016-02-04,San Antonio,Texas,29.4246002,-98.4951405,Gunshot,No
@@ -1284,7 +1284,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 26.0,20-39,Male,Arab-American,February,14,2016,2016-02-14,Los Angeles,California,34.196313,-118.457356,Gunshot,Knife
 24.0,20-39,Male,Hispanic/Latino,February,14,2016,2016-02-14,East Los Angeles,California,34.0239015,-118.172015,Gunshot,Firearm
 50.0,40-59,Male,White,February,14,2016,2016-02-14,Bradenton,Florida,27.4989278,-82.5748194,Gunshot,Knife
-39.0,20-39,Male,White,February,15,2016,2016-02-15,Yorba Linda,California,33.87261495,-117.73929989999999,Gunshot,Unknown
+39.0,20-39,Male,White,February,15,2016,2016-02-15,Yorba Linda,California,33.87261495,-117.73929989999999,Gunshot,Other
 52.0,40-59,Male,Hispanic/Latino,February,15,2016,2016-02-15,Jal,New Mexico,32.112125,-103.1934615,Gunshot,Firearm
 38.0,20-39,Male,Hispanic/Latino,February,15,2016,2016-02-15,Donna,Texas,26.169483,-98.056736,Taser,No
 33.0,20-39,Female,White,February,15,2016,2016-02-15,Canton,Texas,32.5386046,-95.86181199728397,Struck by vehicle,No
@@ -1292,9 +1292,9 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 48.0,40-59,Male,White,February,16,2016,2016-02-16,Republic,Missouri,37.1193808,-93.4803765,Gunshot,Vehicle
 30.0,20-39,Male,White,February,16,2016,2016-02-16,Mena,Arkansas,34.57991622769786,-94.24836422305283,Gunshot,Firearm
 37.0,20-39,Male,Black,February,17,2016,2016-02-17,Cheviot,Ohio,39.155371,-84.605346,Gunshot,Non-lethal firearm
-25.0,20-39,Male,White,February,18,2016,2016-02-18,Commerce,Georgia,34.19885159739003,-83.44941314261409,Gunshot,Unknown
-35.0,20-39,Male,Hispanic/Latino,February,18,2016,2016-02-18,Santa Ana,California,33.747958,-117.854093,Gunshot,Unknown
-30.0,20-39,Male,Hispanic/Latino,February,18,2016,2016-02-18,Santa Ana,California,33.747958,-117.854093,Gunshot,Unknown
+25.0,20-39,Male,White,February,18,2016,2016-02-18,Commerce,Georgia,34.19885159739003,-83.44941314261409,Gunshot,Other
+35.0,20-39,Male,Hispanic/Latino,February,18,2016,2016-02-18,Santa Ana,California,33.747958,-117.854093,Gunshot,Other
+30.0,20-39,Male,Hispanic/Latino,February,18,2016,2016-02-18,Santa Ana,California,33.747958,-117.854093,Gunshot,Other
 32.0,20-39,Male,Hispanic/Latino,February,18,2016,2016-02-18,Reno,Texas,32.943988,-97.577788,Gunshot,Firearm
 24.0,20-39,Male,White,February,18,2016,2016-02-18,Westminster,Colorado,39.8366528,-105.0372046,Struck by vehicle,No
 35.0,20-39,Male,White,February,19,2016,2016-02-19,Ogden,Utah,41.266546516904334,-111.96259384980559,Gunshot,Knife
@@ -1304,7 +1304,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 23.0,20-39,Male,Hispanic/Latino,February,20,2016,2016-02-20,Albuquerque,New Mexico,35.078105,-106.719048,Gunshot,Firearm
 30.0,20-39,Male,Hispanic/Latino,February,20,2016,2016-02-20,Anaheim,California,33.808287,-117.952205,Gunshot,Firearm
 31.0,20-39,Female,Black,February,21,2016,2016-02-21,Inglewood,California,33.9562003,-118.353132,Gunshot,Firearm
-32.0,20-39,Male,Black,February,21,2016,2016-02-21,Inglewood,California,33.9562003,-118.353132,Gunshot,Unknown
+32.0,20-39,Male,Black,February,21,2016,2016-02-21,Inglewood,California,33.9562003,-118.353132,Gunshot,Other
 47.0,40-59,Male,Black,February,21,2016,2016-02-21,Seattle,Washington,47.6906563,-122.30561294788404,Gunshot,Firearm
 36.0,20-39,Female,Native American,February,21,2016,2016-02-21,Phoenix,Arizona,33.4951684,-112.109005,Gunshot,Firearm
 38.0,20-39,Female,Native American,February,22,2016,2016-02-22,Houston,Alaska,61.584898389018115,-149.75726691262417,Gunshot,Firearm
@@ -1343,12 +1343,12 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 30.0,20-39,Male,White,March,4,2016,2016-03-04,East Bernstadt,Kentucky,37.187774647731175,-84.12675117877225,Gunshot,No
 34.0,20-39,Male,White,March,5,2016,2016-03-05,Cheektowaga,New York,42.93575585,-78.7165339588901,Gunshot,Firearm
 22.0,20-39,Male,White,March,5,2016,2016-03-05,Beaumont,Texas,30.070118104545454,-94.14319118181818,Gunshot,Firearm
-66.0,Above 60,Male,White,March,4,2016,2016-03-04,Mt Ida,Arkansas,34.5544099,-93.6327926,Gunshot,Unknown
+66.0,Above 60,Male,White,March,4,2016,2016-03-04,Mt Ida,Arkansas,34.5544099,-93.6327926,Gunshot,Other
 41.0,40-59,Male,Hispanic/Latino,March,6,2016,2016-03-06,South Gate,California,33.9463456,-118.200981,Gunshot,Firearm
 42.0,40-59,Male,White,March,6,2016,2016-03-06,Bismarck,North Dakota,46.808327,-100.783739,Gunshot,No
 51.0,40-59,Male,White,March,6,2016,2016-03-06,Azle,Texas,32.864019,-97.513568,Gunshot,Firearm
 49.0,40-59,Male,White,March,7,2016,2016-03-07,Rochester,New York,43.237586,-77.6228391,Gunshot,Firearm
-45.0,40-59,Male,White,March,7,2016,2016-03-07,Topeka,Kansas,39.0554697,-95.6824859,Gunshot,Unknown
+45.0,40-59,Male,White,March,7,2016,2016-03-07,Topeka,Kansas,39.0554697,-95.6824859,Gunshot,Other
 45.0,40-59,Male,White,March,7,2016,2016-03-07,San Jose,California,37.3361663,-121.890591,Gunshot,Knife
 42.0,40-59,Male,White,March,7,2016,2016-03-07,Joliet,Montana,45.48292192435676,-108.97269171161928,Gunshot,Firearm
 41.0,40-59,Male,Hispanic/Latino,March,7,2016,2016-03-07,Carlsbad,New Mexico,32.4257456,-104.237612,Gunshot,No
@@ -1358,7 +1358,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 22.0,20-39,Male,Black,March,10,2016,2016-03-10,Reno,Nevada,39.606107140089364,-119.85410640458693,Gunshot,Non-lethal firearm
 37.0,20-39,Male,White,March,10,2016,2016-03-10,Biloxi,Mississippi,30.42042807112667,-88.9746630078777,Gunshot,Non-lethal firearm
 21.0,20-39,Male,Hispanic/Latino,March,10,2016,2016-03-10,Long Beach,California,33.7690164,-118.191604,Gunshot,Firearm
-23.0,20-39,Male,Hispanic/Latino,March,10,2016,2016-03-10,Pueblo,Colorado,37.969658383838386,-104.78672550505051,Gunshot,Unknown
+23.0,20-39,Male,Hispanic/Latino,March,10,2016,2016-03-10,Pueblo,Colorado,37.969658383838386,-104.78672550505051,Gunshot,Other
 25.0,20-39,Male,Black,March,11,2016,2016-03-11,Norfolk,Virginia,36.8493695,-76.2899539,Gunshot,Firearm
 51.0,40-59,Male,White,March,11,2016,2016-03-11,Rosalia,Kansas,37.8152985,-96.6197416,Gunshot,Firearm
 23.0,20-39,Male,Hispanic/Latino,March,11,2016,2016-03-11,Newark,California,37.5399937,-122.02768574999999,Gunshot,Firearm
@@ -1371,7 +1371,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 49.0,40-59,Male,White,March,12,2016,2016-03-12,Birch Run,Michigan,43.250859,-83.794131,Struck by vehicle,Firearm
 30.0,20-39,Male,White,March,13,2016,2016-03-13,Lenoir City,Tennessee,35.7972998,-84.2560299,Gunshot,No
 26.0,20-39,Male,White,March,13,2016,2016-03-13,Piedmont,Alabama,33.93591527411061,-85.60907397442222,Gunshot,Firearm
-45.0,40-59,Male,White,March,13,2016,2016-03-13,Glendale,California,34.146202,-118.247109,Gunshot,Unknown
+45.0,40-59,Male,White,March,13,2016,2016-03-13,Glendale,California,34.146202,-118.247109,Gunshot,Other
 38.0,20-39,Female,White,March,13,2016,2016-03-13,Vancouver,Washington,45.6813371,-122.57457251990115,Gunshot,Knife
 16.0,Under 19,Male,Hispanic/Latino,March,13,2016,2016-03-13,Addison,Texas,32.96011925,-96.83000292849707,Gunshot,No
 28.0,20-39,Male,Black,March,13,2016,2016-03-13,Landover,Maryland,38.918145499999994,-76.87437447729616,Gunshot,Firearm
@@ -1380,15 +1380,15 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 43.0,40-59,Male,White,March,15,2016,2016-03-15,Fort Worth,Texas,32.753177,-97.3327459,Gunshot,Firearm
 38.0,20-39,Male,White,March,15,2016,2016-03-15,Evansville,Indiana,37.993908,-87.5090659,Gunshot,Knife
 23.0,20-39,Male,Hispanic/Latino,March,16,2016,2016-03-16,Los Angeles,California,34.0536909,-118.242766,Gunshot,No
-25.0,20-39,Male,Hispanic/Latino,March,16,2016,2016-03-16,Apple Valley,California,34.507169475573065,-117.22133733662982,Gunshot,Unknown
+25.0,20-39,Male,Hispanic/Latino,March,16,2016,2016-03-16,Apple Valley,California,34.507169475573065,-117.22133733662982,Gunshot,Other
 33.0,20-39,Male,Hispanic/Latino,March,16,2016,2016-03-16,San Antonio,Texas,29.36287,-98.489257,Gunshot,Firearm
 40.0,40-59,Male,White,March,16,2016,2016-03-16,Rockingham,North Carolina,36.3926798,-79.744144,Gunshot,Firearm
-22.0,20-39,Male,White,March,16,2016,2016-03-16,Davie,Florida,26.04058585955201,-80.35385874733976,Gunshot,Unknown
+22.0,20-39,Male,White,March,16,2016,2016-03-16,Davie,Florida,26.04058585955201,-80.35385874733976,Gunshot,Other
 55.0,40-59,Male,Hispanic/Latino,March,16,2016,2016-03-16,New York,New York,40.8079655,-73.9225639,Death in custody,No
 38.0,20-39,Male,Asian/Pacific Islander,March,17,2016,2016-03-17,Burnsville,Minnesota,44.774695300000005,-93.3170847254818,Gunshot,Knife
 53.0,40-59,Male,Asian/Pacific Islander,March,17,2016,2016-03-17,Tampa,Florida,27.9477595,-82.458444,Gunshot,Firearm
-29.0,20-39,Male,Black,March,17,2016,2016-03-17,Houston,Texas,29.921499381088825,-95.41186389684813,Gunshot,Unknown
-30.0,20-39,Male,Black,March,17,2016,2016-03-17,Houston,Texas,29.921499381088825,-95.41186389684813,Gunshot,Unknown
+29.0,20-39,Male,Black,March,17,2016,2016-03-17,Houston,Texas,29.921499381088825,-95.41186389684813,Gunshot,Other
+30.0,20-39,Male,Black,March,17,2016,2016-03-17,Houston,Texas,29.921499381088825,-95.41186389684813,Gunshot,Other
 49.0,40-59,Male,White,March,18,2016,2016-03-18,Byron,California,37.87953433280853,-121.64578246264877,Gunshot,Firearm
 25.0,20-39,Female,Black,March,19,2016,2016-03-19,Norfolk,Virginia,36.92669,-76.191089,Gunshot,Non-lethal firearm
 21.0,20-39,Male,Black,March,19,2016,2016-03-19,Park Forest,Illinois,41.476458,-87.686337,Gunshot,Firearm
@@ -1439,7 +1439,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 69.0,Above 60,Male,White,April,3,2016,2016-04-03,Eau Claire,Wisconsin,44.82378079934617,-91.5458341391289,Gunshot,Other
 25.0,20-39,Male,White,April,3,2016,2016-04-03,Austin,Texas,30.2700955,-97.75113395312499,Gunshot,Firearm
 36.0,20-39,Female,White,April,3,2016,2016-04-03,Notasulga,Alabama,32.5606908,-85.6724538,Gunshot,Knife
-48.0,40-59,Male,White,April,3,2016,2016-04-03,Raceland,Louisiana,29.7274331,-90.598976,Gunshot,Unknown
+48.0,40-59,Male,White,April,3,2016,2016-04-03,Raceland,Louisiana,29.7274331,-90.598976,Gunshot,Other
 50.0,40-59,Male,Hispanic/Latino,April,4,2016,2016-04-04,Minneapolis,Minnesota,44.962145,-93.244132,Gunshot,Knife
 41.0,40-59,Male,Black,April,4,2016,2016-04-04,Anadarko,Oklahoma,35.073817,-98.245494,Death in custody,No
 44.0,40-59,Male,Black,April,5,2016,2016-04-05,Indianapolis,Indiana,39.7815997,-86.1162338,Gunshot,No
@@ -1449,7 +1449,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 39.0,20-39,Male,White,April,6,2016,2016-04-06,Bradenton,Florida,27.475654900000002,-82.53959969579046,Taser,No
 40.0,40-59,Female,Black,April,6,2016,2016-04-06,Gallatin,Tennessee,36.37011658363426,-86.43598308688422,Gunshot,Other
 45.0,40-59,Male,Hispanic/Latino,April,7,2016,2016-04-07,San Francisco,California,37.747768783593784,-122.41489663653273,Gunshot,Knife
-44.0,40-59,Male,Native American,April,7,2016,2016-04-07,Omaha,Nebraska,41.2587459,-95.9383758,Gunshot,Unknown
+44.0,40-59,Male,Native American,April,7,2016,2016-04-07,Omaha,Nebraska,41.2587459,-95.9383758,Gunshot,Other
 41.0,40-59,Male,White,April,7,2016,2016-04-07,Gould,Arkansas,33.985221,-91.5612058,Gunshot,No
 40.0,40-59,Male,Black,April,8,2016,2016-04-08,Sacramento,California,38.481441,-121.440347,Gunshot,Knife
 43.0,40-59,Male,Black,April,8,2016,2016-04-08,Kentwood,Michigan,42.8694731,-85.6447492,Gunshot,Knife
@@ -1466,7 +1466,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 40.0,40-59,Male,White,April,12,2016,2016-04-12,Denver,Colorado,39.7392364,-104.984862,Gunshot,No
 20.0,20-39,Male,White,April,12,2016,2016-04-12,Noma,Florida,30.99139550570978,-85.61561509333701,Gunshot,Vehicle
 38.0,20-39,Male,Hispanic/Latino,April,12,2016,2016-04-12,Benton,Illinois,39.96112758766521,-89.5580240239223,Gunshot,Firearm
-35.0,20-39,Male,Black,April,13,2016,2016-04-13,Stockton,California,38.02225856731185,-121.29108534382587,Gunshot,Unknown
+35.0,20-39,Male,Black,April,13,2016,2016-04-13,Stockton,California,38.02225856731185,-121.29108534382587,Gunshot,Other
 52.0,40-59,Male,White,April,13,2016,2016-04-13,Llano,Texas,30.6663312,-98.6970374,Gunshot,Firearm
 26.0,20-39,Male,White,April,13,2016,2016-04-13,Sparta,Tennessee,35.9258921,-85.4641342,Gunshot,Firearm
 54.0,40-59,Male,White,April,14,2016,2016-04-14,McPherson,Kansas,38.3659015,-97.6575171,Gunshot,No
@@ -1528,7 +1528,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 18.0,Under 19,Male,Black,May,4,2016,2016-05-04,Temecula,California,33.477594,-117.090262,Gunshot,Knife
 26.0,20-39,Female,Black,May,5,2016,2016-05-05,Orlando,Florida,28.552932452391847,-81.4053534500079,Gunshot,Firearm
 38.0,20-39,Male,Black,May,5,2016,2016-05-05,Milwaukee,Wisconsin,43.0386475,-87.9090751,Gunshot,Firearm
-36.0,20-39,Male,White,May,5,2016,2016-05-05,Gretna,Louisiana,29.922412904571413,-90.04259787479249,Gunshot,Unknown
+36.0,20-39,Male,White,May,5,2016,2016-05-05,Gretna,Louisiana,29.922412904571413,-90.04259787479249,Gunshot,Other
 23.0,20-39,Male,Black,May,6,2016,2016-05-06,Weirton,West Virginia,40.410209291231,-80.53735772096992,Gunshot,Firearm
 37.0,20-39,Male,Black,May,7,2016,2016-05-07,St Petersburg,Florida,27.7700475,-82.6359078,Gunshot,Firearm
 29.0,20-39,Male,White,May,7,2016,2016-05-07,Lake Stevens,Washington,48.00625633710973,-122.06474646967416,Gunshot,Firearm
@@ -1550,7 +1550,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 28.0,20-39,Male,Hispanic/Latino,May,13,2016,2016-05-13,Los Angeles,California,34.0536909,-118.242766,Gunshot,Firearm
 27.0,20-39,Female,Hispanic/Latino,May,13,2016,2016-05-13,Mascotte,Florida,28.5783313,-81.8867452,Struck by vehicle,No
 46.0,40-59,Female,White,May,13,2016,2016-05-13,Mascotte,Florida,28.5783313,-81.8867452,Struck by vehicle,No
-34.0,20-39,Male,White,May,14,2016,2016-05-14,Stockbridge,Georgia,33.5442781,-84.2338093,Gunshot,Unknown
+34.0,20-39,Male,White,May,14,2016,2016-05-14,Stockbridge,Georgia,33.5442781,-84.2338093,Gunshot,Other
 43.0,40-59,Male,Native American,May,14,2016,2016-05-14,Phoenix,Arizona,33.46586894736842,-112.13945889473685,Gunshot,Firearm
 59.0,40-59,Male,White,May,14,2016,2016-05-14,Osteen,Florida,28.8461019,-81.1625612,Gunshot,Firearm
 19.0,Under 19,Male,White,May,14,2016,2016-05-14,Jacksonville,Florida,30.33940981495443,-81.67784782311858,Gunshot,Knife
@@ -1579,12 +1579,12 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 22.0,20-39,Male,Black,May,22,2016,2016-05-22,Jacksonville,Florida,30.346283436342045,-81.6345790054926,Gunshot,No
 26.0,20-39,Male,Native American,May,23,2016,2016-05-23,Flagstaff,Arizona,35.1927569,-111.65855555,Gunshot,Firearm
 22.0,20-39,Male,White,May,24,2016,2016-05-24,Gresham,Oregon,45.4978623,-122.4329883,Gunshot,Knife
-57.0,40-59,Male,White,May,24,2016,2016-05-24,Peculiar,Missouri,38.72946656383727,-94.46120756368401,Gunshot,Unknown
+57.0,40-59,Male,White,May,24,2016,2016-05-24,Peculiar,Missouri,38.72946656383727,-94.46120756368401,Gunshot,Other
 31.0,20-39,Male,Hispanic/Latino,May,24,2016,2016-05-24,Albuquerque,New Mexico,35.066851868499434,-106.50896261991694,Gunshot,Firearm
 43.0,40-59,Male,White,May,25,2016,2016-05-25,Oklahoma City,Oklahoma,35.4729886,-97.5170536,Gunshot,Knife
 24.0,20-39,Male,Black,May,25,2016,2016-05-25,Miami Gardens,Florida,25.9420377,-80.2456045,Gunshot,No
 29.0,20-39,Male,White,May,26,2016,2016-05-26,St Paul,Minnesota,44.962975666666665,-93.011753,Gunshot,Firearm
-25.0,20-39,Male,Hispanic/Latino,May,26,2016,2016-05-26,Socorro,New Mexico,34.05109485,-106.88731605000001,Gunshot,Unknown
+25.0,20-39,Male,Hispanic/Latino,May,26,2016,2016-05-26,Socorro,New Mexico,34.05109485,-106.88731605000001,Gunshot,Other
 43.0,40-59,Male,White,May,26,2016,2016-05-26,Lansing,Illinois,41.5895048,-87.5581069,Gunshot,Firearm
 21.0,20-39,Male,Black,May,26,2016,2016-05-26,East St Louis,Illinois,38.6268666,-90.159707,Gunshot,No
 19.0,Under 19,Male,Hispanic/Latino,May,26,2016,2016-05-26,Solvang,California,34.58793144248789,-120.14770102166507,Gunshot,Firearm
@@ -1592,7 +1592,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 48.0,40-59,Female,White,May,26,2016,2016-05-26,Sneads,Florida,30.708479863860354,-84.91699752476322,Gunshot,Knife
 59.0,40-59,Male,White,May,27,2016,2016-05-27,Indianapolis,Indiana,39.727387,-86.160196,Gunshot,Firearm
 58.0,40-59,Male,White,May,28,2016,2016-05-28,Albuquerque,New Mexico,35.12845161556964,-106.60100819629562,Gunshot,Firearm
-50.0,40-59,Male,Black,May,28,2016,2016-05-28,Eastaboga,Alabama,33.6059367,-86.0213587,Gunshot,Unknown
+50.0,40-59,Male,Black,May,28,2016,2016-05-28,Eastaboga,Alabama,33.6059367,-86.0213587,Gunshot,Other
 41.0,40-59,Male,Hispanic/Latino,May,28,2016,2016-05-28,San Antonio,Texas,29.4246002,-98.4951405,Death in custody,No
 64.0,Above 60,Male,Black,May,28,2016,2016-05-28,Tulsa,Oklahoma,36.14824455102041,-95.8510883877551,Death in custody,No
 38.0,20-39,Male,White,May,29,2016,2016-05-29,Stoneville,North Carolina,36.4665269,-79.9069847,Gunshot,Other
@@ -1612,7 +1612,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 34.0,20-39,Male,Native American,June,3,2016,2016-06-03,Parker,Arizona,34.1498408,-114.28896,Gunshot,Knife
 33.0,20-39,Male,White,June,3,2016,2016-06-03,Palmer,Alaska,61.5995703,-149.11109,Gunshot,Knife
 28.0,20-39,Male,Native American,June,3,2016,2016-06-03,Pine Ridge,South Dakota,43.06566886066397,-102.56958770818898,Gunshot,Knife
-31.0,20-39,Male,Other,June,4,2016,2016-06-04,Montague,California,41.728267,-122.527392,Gunshot,Unknown
+31.0,20-39,Male,Other,June,4,2016,2016-06-04,Montague,California,41.728267,-122.527392,Gunshot,Other
 31.0,20-39,Male,White,June,4,2016,2016-06-04,Muncie,Indiana,40.17330634343434,-85.40073783838383,Gunshot,Knife
 35.0,20-39,Male,Black,June,4,2016,2016-06-04,Eufaula,Alabama,31.884925333755,-85.1492145772255,Gunshot,Firearm
 31.0,20-39,Male,White,June,5,2016,2016-06-05,Cape Coral,Florida,26.625965523717845,-81.99138035094253,Gunshot,Other
@@ -1646,7 +1646,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 54.0,40-59,Male,Arab-American,June,14,2016,2016-06-14,Amarillo,Texas,35.17008325,-101.86288224490178,Gunshot,Firearm
 43.0,40-59,Male,White,June,14,2016,2016-06-14,Ridgefield,Washington,45.8167616,-122.7433775,Gunshot,No
 47.0,40-59,Male,White,June,14,2016,2016-06-14,Odessa,Missouri,39.009320364235634,-93.98226794671596,Gunshot,Firearm
-22.0,20-39,Male,Hispanic/Latino,June,14,2016,2016-06-14,Chula Vista,California,32.661935,-116.971273,Gunshot,Unknown
+22.0,20-39,Male,Hispanic/Latino,June,14,2016,2016-06-14,Chula Vista,California,32.661935,-116.971273,Gunshot,Other
 43.0,40-59,Male,White,June,15,2016,2016-06-15,Tulsa,Oklahoma,36.1563122,-95.9927516,Gunshot,Vehicle
 38.0,20-39,Male,White,June,15,2016,2016-06-15,Pembine,Wisconsin,45.639974886514004,-87.97958530349115,Gunshot,Firearm
 21.0,20-39,Male,Hispanic/Latino,June,16,2016,2016-06-16,Albuquerque,New Mexico,35.0841034,-106.650985,Gunshot,Firearm
@@ -1654,7 +1654,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 30.0,20-39,Male,Hispanic/Latino,June,16,2016,2016-06-16,Arvada,Colorado,39.8005505,-105.0811573,Gunshot,Vehicle
 59.0,40-59,Male,White,June,16,2016,2016-06-16,Montpelier,Ohio,41.5844951,-84.6055076,Gunshot,Firearm
 34.0,20-39,Male,White,June,18,2016,2016-06-18,Huntsville,Alabama,34.79491265,-86.6703778,Gunshot,Non-lethal firearm
-17.0,Under 19,Male,White,June,18,2016,2016-06-18,Carmichael,California,38.62709845,-121.32224222755409,Gunshot,Unknown
+17.0,Under 19,Male,White,June,18,2016,2016-06-18,Carmichael,California,38.62709845,-121.32224222755409,Gunshot,Other
 37.0,20-39,Male,Black,June,18,2016,2016-06-18,Tupelo,Mississippi,34.244717,-88.719781,Gunshot,No
 25.0,20-39,Male,Black,June,19,2016,2016-06-19,Bronx,New York,40.825047181807506,-73.82409174114314,Gunshot,Firearm
 30.0,20-39,Male,White,June,19,2016,2016-06-19,Fort Walton Beach,Florida,30.4057552,-86.618842,Gunshot,Firearm
@@ -1711,9 +1711,9 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 50.0,40-59,Male,White,July,2,2016,2016-07-02,Bristol,Tennessee,36.55730577551021,-82.21078748979592,Gunshot,Firearm
 35.0,20-39,Male,Black,July,2,2016,2016-07-02,Asheville,North Carolina,35.58093834490234,-82.61835272342775,Gunshot,Firearm
 32.0,20-39,Male,Hispanic/Latino,July,2,2016,2016-07-02,Anaheim,California,33.828496,-117.976091,Death in custody,No
-,,Male,Black,July,2,2016,2016-07-02,Canton,Mississippi,32.60384,-90.0671286,Death in custody,Unknown
+,,Male,Black,July,2,2016,2016-07-02,Canton,Mississippi,32.60384,-90.0671286,Death in custody,Other
 40.0,40-59,Male,White,July,3,2016,2016-07-03,New Iberia,Louisiana,30.022925750081953,-91.81877088922415,Gunshot,Knife
-24.0,20-39,Male,Hispanic/Latino,July,3,2016,2016-07-03,Reno,Nevada,39.5261206,-119.8126581,Gunshot,Unknown
+24.0,20-39,Male,Hispanic/Latino,July,3,2016,2016-07-03,Reno,Nevada,39.5261206,-119.8126581,Gunshot,Other
 19.0,Under 19,Male,Hispanic/Latino,July,3,2016,2016-07-03,Fullerton,California,33.870673,-117.97351,Gunshot,No
 18.0,Under 19,Male,Hispanic/Latino,July,4,2016,2016-07-04,San Jose,California,37.36781450578877,-121.8070169082872,Gunshot,Firearm
 37.0,20-39,Male,Black,July,4,2016,2016-07-04,Brooklyn,New York,40.6755661,-73.9029897,Gunshot,No
@@ -1721,8 +1721,8 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 21.0,20-39,Male,Black,July,4,2016,2016-07-04,Washington,District of Columbia,38.90877,-76.93146504594182,Gunshot,Firearm
 34.0,20-39,Male,White,July,4,2016,2016-07-04,North Charleston,South Carolina,32.95637666268835,-80.05660918992702,Gunshot,Firearm
 37.0,20-39,Male,Black,July,5,2016,2016-07-05,Baton Rouge,Louisiana,30.467930978044347,-91.1396472188455,Gunshot,Disputed
-49.0,40-59,Male,White,July,5,2016,2016-07-05,Temecula,California,33.50985309483001,-117.14075263930636,Gunshot,Unknown
-29.0,20-39,Male,White,July,5,2016,2016-07-05,Salem,Oregon,44.9254537,-123.0185765793826,Gunshot,Unknown
+49.0,40-59,Male,White,July,5,2016,2016-07-05,Temecula,California,33.50985309483001,-117.14075263930636,Gunshot,Other
+29.0,20-39,Male,White,July,5,2016,2016-07-05,Salem,Oregon,44.9254537,-123.0185765793826,Gunshot,Other
 24.0,20-39,Female,Hispanic/Latino,July,5,2016,2016-07-05,Yuma,Arizona,32.712943,-114.667544,Gunshot,Knife
 32.0,20-39,Male,Black,July,6,2016,2016-07-06,Falcon Heights,Minnesota,44.9898128,-93.1762507,Gunshot,Disputed
 65.0,Above 60,Male,White,July,6,2016,2016-07-06,Rush Springs,Oklahoma,34.7825721,-97.9569845,Gunshot,Firearm
@@ -1735,7 +1735,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 30.0,20-39,Male,White,July,8,2016,2016-07-08,Tucson,Arizona,32.2228765,-110.974847,Gunshot,Knife
 38.0,20-39,Male,Black,July,9,2016,2016-07-09,Houston,Texas,29.677006090909828,-95.35592179875142,Gunshot,Firearm
 40.0,40-59,Male,Black,July,9,2016,2016-07-09,Broken Bow,Oklahoma,34.0298629,-94.7389659,Gunshot,Firearm
-20.0,20-39,Male,Black,July,9,2016,2016-07-09,Lakeshire,Missouri,38.538664,-90.3351164,Gunshot,Unknown
+20.0,20-39,Male,Black,July,9,2016,2016-07-09,Lakeshire,Missouri,38.538664,-90.3351164,Gunshot,Other
 51.0,40-59,Male,Black,July,11,2016,2016-07-11,Sacramento,California,38.6220221074362,-121.4322280383994,Gunshot,Knife
 39.0,20-39,Male,Black,July,11,2016,2016-07-11,Brooklyn,New York,40.62343712580662,-74.01724503432303,Gunshot,Firearm
 41.0,40-59,Male,Black,July,11,2016,2016-07-11,East St Louis,Illinois,38.6268666,-90.159707,Gunshot,Firearm
@@ -1758,7 +1758,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 50.0,40-59,Male,White,July,17,2016,2016-07-17,Port Vincent,Louisiana,30.3344544,-90.8447491,Taser,Other
 56.0,40-59,Male,White,July,18,2016,2016-07-18,Tulsa,Oklahoma,36.099875,-96.018535,Gunshot,Other
 31.0,20-39,Male,Hispanic/Latino,July,20,2016,2016-07-20,Santa Maria,California,34.9531295,-120.435857,Gunshot,Knife
-39.0,20-39,Male,White,July,20,2016,2016-07-20,Waterbury,Connecticut,41.5700434,-73.0638234,Gunshot,Unknown
+39.0,20-39,Male,White,July,20,2016,2016-07-20,Waterbury,Connecticut,41.5700434,-73.0638234,Gunshot,Other
 36.0,20-39,Male,White,July,21,2016,2016-07-21,Keaau,Hawaii,19.6225209,-155.039043,Gunshot,Firearm
 50.0,40-59,Male,Black,July,21,2016,2016-07-21,Chicago,Illinois,41.8755616,-87.6244212,Gunshot,Firearm
 50.0,40-59,Male,White,July,21,2016,2016-07-21,Buckhannon,West Virginia,38.99313931537302,-80.19459356830293,Gunshot,Firearm
@@ -1786,7 +1786,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 41.0,40-59,Male,Hispanic/Latino,July,28,2016,2016-07-28,Sparks,Nevada,39.5404679,-119.7487235,Gunshot,Firearm
 27.0,20-39,Male,Black,July,28,2016,2016-07-28,Compton,California,33.908982,-118.239249,Gunshot,No
 36.0,20-39,Male,Hispanic/Latino,July,28,2016,2016-07-28,Los Angeles,California,34.052798,-118.193168,Gunshot,Firearm
-47.0,40-59,Male,Black,July,28,2016,2016-07-28,La Quinta,California,33.700285526291886,-116.2688254524229,Gunshot,Unknown
+47.0,40-59,Male,Black,July,28,2016,2016-07-28,La Quinta,California,33.700285526291886,-116.2688254524229,Gunshot,Other
 40.0,40-59,Female,White,July,29,2016,2016-07-29,Homewood,Alabama,33.4684679,-86.8302734,Gunshot,Firearm
 59.0,40-59,Male,White,July,29,2016,2016-07-29,Pleasant Hill,North Carolina,36.253706,-80.89436302071172,Gunshot,Firearm
 24.0,20-39,Female,Black,July,29,2016,2016-07-29,Philadelphia,Pennsylvania,40.02425305,-75.16152520361345,Death in custody,No
@@ -1826,21 +1826,21 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 61.0,Above 60,Male,Black,August,9,2016,2016-08-09,Fairfield,California,38.247105,-122.040424,Death in custody,No
 59.0,40-59,Male,White,August,11,2016,2016-08-11,Tukwila,Washington,47.465886543913,-122.26139343354792,Gunshot,Firearm
 39.0,20-39,Male,White,August,11,2016,2016-08-11,Harlan,Kentucky,36.8411336,-83.22678,Gunshot,No
-33.0,20-39,Male,Hispanic/Latino,August,11,2016,2016-08-11,Vista,California,33.19636858692196,-117.25832045857221,Gunshot,Unknown
+33.0,20-39,Male,Hispanic/Latino,August,11,2016,2016-08-11,Vista,California,33.19636858692196,-117.25832045857221,Gunshot,Other
 54.0,40-59,Male,White,August,11,2016,2016-08-11,Plaquemine,Louisiana,30.263395202138714,-91.27270919462745,Gunshot,Firearm
-22.0,20-39,Male,Hispanic/Latino,August,12,2016,2016-08-12,Mesa,Arizona,33.4151005,-111.831455,Gunshot,Unknown
+22.0,20-39,Male,Hispanic/Latino,August,12,2016,2016-08-12,Mesa,Arizona,33.4151005,-111.831455,Gunshot,Other
 49.0,40-59,Male,Native American,August,12,2016,2016-08-12,Tahlequah,Oklahoma,35.913374,-94.964446,Gunshot,Other
 33.0,20-39,Female,White,August,12,2016,2016-08-12,Kissimmee,Florida,28.2918995,-81.4075838,Gunshot,No
 38.0,20-39,Male,Hispanic/Latino,August,13,2016,2016-08-13,Phoenix,Arizona,33.4484367,-112.074141,Gunshot,Knife
 23.0,20-39,Male,Black,August,13,2016,2016-08-13,Milwaukee,Wisconsin,43.0386475,-87.9090751,Gunshot,Firearm
 53.0,40-59,Male,White,August,13,2016,2016-08-13,Lakewood,Colorado,39.7085736,-105.0846694,Gunshot,Firearm
 18.0,Under 19,Male,Black,August,13,2016,2016-08-13,Monticello,Arkansas,33.63405561163864,-91.79090481230482,Taser,No
-36.0,20-39,Male,White,August,13,2016,2016-08-13,Hayward,California,37.635752,-122.077286,Gunshot,Unknown
+36.0,20-39,Male,White,August,13,2016,2016-08-13,Hayward,California,37.635752,-122.077286,Gunshot,Other
 29.0,20-39,Male,Hispanic/Latino,August,15,2016,2016-08-15,Annandale,Virginia,38.8342152,-77.1865842,Gunshot,Other
 42.0,40-59,Male,White,August,15,2016,2016-08-15,Counce,Tennessee,35.0423075,-88.2733741,Gunshot,Firearm
 36.0,20-39,Male,White,August,16,2016,2016-08-16,Rome,Ohio,38.665002650000005,-83.37869754321507,Gunshot,Firearm
 32.0,20-39,Male,White,August,16,2016,2016-08-16,Lenoir,North Carolina,35.92854235,-81.53017379767847,Gunshot,Firearm
-18.0,Under 19,Male,Black,August,16,2016,2016-08-16,Los Angeles,California,33.94552311564938,-118.30067139853439,Gunshot,Unknown
+18.0,Under 19,Male,Black,August,16,2016,2016-08-16,Los Angeles,California,33.94552311564938,-118.30067139853439,Gunshot,Other
 30.0,20-39,Male,Black,August,16,2016,2016-08-16,Stockton,California,37.9577016,-121.290779,Gunshot,Firearm
 53.0,40-59,Male,White,August,16,2016,2016-08-16,Apache Junction,Arizona,33.429636,-111.547787,Gunshot,Non-lethal firearm
 55.0,40-59,Male,White,August,16,2016,2016-08-16,Augusta,West Virginia,39.29982045258838,-78.65278564088015,Gunshot,No
@@ -1856,7 +1856,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 22.0,20-39,Male,Hispanic/Latino,August,19,2016,2016-08-19,Phoenix,Arizona,33.4484367,-112.074141,Gunshot,No
 40.0,40-59,Male,Hispanic/Latino,August,19,2016,2016-08-19,Los Angeles,California,34.0536909,-118.242766,Gunshot,Other
 31.0,20-39,Male,White,August,19,2016,2016-08-19,New London,Wisconsin,44.3927581,-88.7398255,Gunshot,Non-lethal firearm
-29.0,20-39,Male,White,August,19,2016,2016-08-19,Reno,Nevada,39.5261206,-119.8126581,Gunshot,Unknown
+29.0,20-39,Male,White,August,19,2016,2016-08-19,Reno,Nevada,39.5261206,-119.8126581,Gunshot,Other
 29.0,20-39,Male,White,August,19,2016,2016-08-19,Ruidoso,New Mexico,33.29618389648241,-105.68549902343742,Gunshot,Firearm
 54.0,40-59,Male,White,August,19,2016,2016-08-19,Chattanooga,Tennessee,35.0457219,-85.3094883,Gunshot,Other
 25.0,20-39,Male,Black,August,21,2016,2016-08-21,Dinwiddie,Virginia,37.056398,-77.562971,Gunshot,Firearm
@@ -1866,10 +1866,10 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 36.0,20-39,Male,Hispanic/Latino,August,24,2016,2016-08-24,Dallas,Texas,32.749477040404045,-96.87925866666667,Gunshot,Firearm
 43.0,40-59,Male,White,August,24,2016,2016-08-24,Orlando,Florida,28.5421109,-81.3790304,Gunshot,Firearm
 53.0,40-59,Male,White,August,24,2016,2016-08-24,Shelbyville,Tennessee,35.48945990984928,-86.43154865770646,Gunshot,Firearm
-49.0,40-59,Male,White,August,24,2016,2016-08-24,Myra,Texas,33.62482690572658,-97.3182957040566,Gunshot,Unknown
+49.0,40-59,Male,White,August,24,2016,2016-08-24,Myra,Texas,33.62482690572658,-97.3182957040566,Gunshot,Other
 63.0,Above 60,Male,White,August,25,2016,2016-08-25,Fort Collins,Colorado,40.59885045,-105.07605289234735,Gunshot,Knife
-31.0,20-39,Male,Black,August,25,2016,2016-08-25,Compton,California,33.894927,-118.226624,Gunshot,Unknown
-32.0,20-39,Male,Hispanic/Latino,August,25,2016,2016-08-25,Compton,California,33.89244432854427,-118.19536249869849,Gunshot,Unknown
+31.0,20-39,Male,Black,August,25,2016,2016-08-25,Compton,California,33.894927,-118.226624,Gunshot,Other
+32.0,20-39,Male,Hispanic/Latino,August,25,2016,2016-08-25,Compton,California,33.89244432854427,-118.19536249869849,Gunshot,Other
 63.0,Above 60,Male,White,August,25,2016,2016-08-25,Redmond,Oregon,44.2840364967031,-121.16925786858721,Struck by vehicle,Firearm
 41.0,40-59,Male,White,August,26,2016,2016-08-26,Las Vegas,Nevada,36.14528579882302,-115.1007737741887,Gunshot,Firearm
 25.0,20-39,Male,Hispanic/Latino,August,27,2016,2016-08-27,Phoenix,Arizona,33.480647,-112.182605,Gunshot,Non-lethal firearm
@@ -1882,7 +1882,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 35.0,20-39,Female,White,August,29,2016,2016-08-29,Kingman,Arizona,35.19450229931237,-114.03467975271764,Gunshot,Firearm
 36.0,20-39,Male,White,August,30,2016,2016-08-30,Graham,Washington,47.038219,-122.27233101915816,Gunshot,Other
 22.0,20-39,Male,Black,August,30,2016,2016-08-30,Tampa,Florida,27.9477595,-82.458444,Gunshot,No
-59.0,40-59,Male,White,August,30,2016,2016-08-30,Harker Heights,Texas,31.07085145,-97.66970549999999,Gunshot,Unknown
+59.0,40-59,Male,White,August,30,2016,2016-08-30,Harker Heights,Texas,31.07085145,-97.66970549999999,Gunshot,Other
 28.0,20-39,Male,Native American,August,30,2016,2016-08-30,Fairbanks,Alaska,64.837845,-147.716675,Gunshot,Firearm
 36.0,20-39,Male,White,August,30,2016,2016-08-30,Weatherford,Texas,32.7294039,-97.8216733,Gunshot,Knife
 21.0,20-39,Male,White,August,31,2016,2016-08-31,Denver,Colorado,39.663646,-105.018135,Gunshot,No
@@ -1903,8 +1903,8 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 39.0,20-39,Male,Hispanic/Latino,September,4,2016,2016-09-04,Long Beach,California,33.787113222222224,-118.15447651851852,Gunshot,Knife
 35.0,20-39,Male,Hispanic/Latino,September,5,2016,2016-09-05,Austin,Texas,30.4004865,-97.66128666789025,Gunshot,Firearm
 36.0,20-39,Male,Black,September,5,2016,2016-09-05,Ennis,Texas,32.3430665,-96.6320157,Gunshot,Vehicle
-31.0,20-39,Male,Hispanic/Latino,September,6,2016,2016-09-06,Tempe,Arizona,33.4255117,-111.940016,Gunshot,Unknown
-25.0,20-39,Male,White,September,6,2016,2016-09-06,Omaha,Nebraska,41.2587459,-95.9383758,Gunshot,Unknown
+31.0,20-39,Male,Hispanic/Latino,September,6,2016,2016-09-06,Tempe,Arizona,33.4255117,-111.940016,Gunshot,Other
+25.0,20-39,Male,White,September,6,2016,2016-09-06,Omaha,Nebraska,41.2587459,-95.9383758,Gunshot,Other
 65.0,Above 60,Male,White,September,6,2016,2016-09-06,Spencer,West Virginia,38.8021446,-81.3509777,Gunshot,Firearm
 70.0,Above 60,Male,White,September,6,2016,2016-09-06,Gray,Tennessee,36.4198258,-82.4765352,Gunshot,Firearm
 25.0,20-39,Male,White,September,6,2016,2016-09-06,Phoenix,Arizona,33.481441000000004,-112.04015033914989,Gunshot,Knife
@@ -1915,14 +1915,14 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 58.0,40-59,Male,White,September,7,2016,2016-09-07,Oldsmar,Florida,28.046417563090397,-82.68853165470377,Taser,No
 38.0,20-39,Male,Hispanic/Latino,September,8,2016,2016-09-08,Delhi,California,37.42229,-120.78071,Gunshot,Firearm
 32.0,20-39,Male,Hispanic/Latino,September,8,2016,2016-09-08,West Memphis,Arkansas,35.16014595,-90.15867477152156,Gunshot,Firearm
-64.0,Above 60,Male,White,September,9,2016,2016-09-09,Auburn,Washington,47.315536,-122.209459,Gunshot,Unknown
+64.0,Above 60,Male,White,September,9,2016,2016-09-09,Auburn,Washington,47.315536,-122.209459,Gunshot,Other
 56.0,40-59,Male,Black,September,9,2016,2016-09-09,Pompano Beach,Florida,26.244891093753047,-80.12749162487525,Gunshot,Disputed
 69.0,Above 60,Male,White,September,10,2016,2016-09-10,Montcalm,West Virginia,37.34627185644988,-81.25090448249281,Gunshot,Non-lethal firearm
 37.0,20-39,Male,White,September,10,2016,2016-09-10,Longmont,Colorado,40.1672117,-105.101928,Gunshot,Firearm
 31.0,20-39,Male,Black,September,11,2016,2016-09-11,Washington,District of Columbia,38.8950368,-77.0365427,Gunshot,No
 25.0,20-39,Male,Black,September,12,2016,2016-09-12,Cedar Rapids,Iowa,41.99395692007442,-91.71304416583705,Gunshot,Knife
 86.0,Above 60,Male,White,September,12,2016,2016-09-12,Saratoga,California,37.288659362242754,-122.00989377433639,Gunshot,Firearm
-25.0,20-39,Male,Hispanic/Latino,September,12,2016,2016-09-12,Colton,California,34.0717028021324,-117.31244610850409,Gunshot,Unknown
+25.0,20-39,Male,Hispanic/Latino,September,12,2016,2016-09-12,Colton,California,34.0717028021324,-117.31244610850409,Gunshot,Other
 38.0,20-39,Male,White,September,13,2016,2016-09-13,San Gabriel,California,34.1236341,-118.072601,Death in custody,No
 13.0,Under 19,Male,Black,September,14,2016,2016-09-14,Columbus,Ohio,39.96446528571429,-82.97450895238096,Gunshot,Non-lethal firearm
 34.0,20-39,Male,White,September,15,2016,2016-09-15,Austin,Texas,30.228055127731963,-97.83294767023705,Gunshot,Firearm
@@ -1942,7 +1942,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 30.0,20-39,Male,White,September,19,2016,2016-09-19,Logan,Utah,41.7313063,-111.834914,Gunshot,Other
 46.0,40-59,Female,White,September,19,2016,2016-09-19,Spring,Texas,30.0795707,-95.4187924,Gunshot,Firearm
 22.0,20-39,Male,White,September,20,2016,2016-09-20,Port St Lucie,Florida,27.20678094718567,-80.39140272606684,Gunshot,Firearm
-35.0,20-39,Male,White,September,20,2016,2016-09-20,Decaturville,Tennessee,35.582858478573336,-88.13297314816252,Gunshot,Unknown
+35.0,20-39,Male,White,September,20,2016,2016-09-20,Decaturville,Tennessee,35.582858478573336,-88.13297314816252,Gunshot,Other
 23.0,20-39,Male,White,September,20,2016,2016-09-20,Mashantucket,Connecticut,41.4718455,-71.9597687,Gunshot,Firearm
 43.0,40-59,Male,Black,September,20,2016,2016-09-20,Charlotte,North Carolina,35.295887,-80.726863,Gunshot,Disputed
 43.0,40-59,Male,White,September,20,2016,2016-09-20,Nashville,Tennessee,36.1622767,-86.7742984,Gunshot,Firearm
@@ -1950,7 +1950,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 56.0,40-59,Male,White,September,20,2016,2016-09-20,Hawkins,Texas,32.5884735,-95.2041135,Gunshot,Firearm
 23.0,20-39,Male,White,September,21,2016,2016-09-21,Louisville,Nebraska,40.9977765,-96.1622352,Gunshot,No
 41.0,40-59,Male,White,September,23,2016,2016-09-23,Fair Oaks,California,38.642897000000005,-121.24624532104002,Gunshot,No
-33.0,20-39,Male,Black,September,23,2016,2016-09-23,Pikesville,Maryland,39.37916608833561,-76.7233630939035,Gunshot,Unknown
+33.0,20-39,Male,Black,September,23,2016,2016-09-23,Pikesville,Maryland,39.37916608833561,-76.7233630939035,Gunshot,Other
 30.0,20-39,Male,Hispanic/Latino,September,23,2016,2016-09-23,San Antonio,Texas,29.4246002,-98.4951405,Gunshot,Firearm
 25.0,20-39,Male,White,September,25,2016,2016-09-25,Claremont,New Hampshire,43.38560629811702,-72.35609293639598,Gunshot,Firearm
 32.0,20-39,Male,White,September,26,2016,2016-09-26,Little Rock,Arkansas,34.71762909773406,-92.35398170949841,Gunshot,Firearm
@@ -1963,11 +1963,11 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 28.0,20-39,Male,Hispanic/Latino,September,28,2016,2016-09-28,Valdosta,Georgia,30.870881,-83.265736,Gunshot,Knife
 53.0,40-59,Male,White,September,29,2016,2016-09-29,Kingman,Arizona,35.212432,-114.039941,Gunshot,Firearm
 20.0,20-39,Male,Black,September,30,2016,2016-09-30,Columbus,Ohio,39.950408742945484,-82.84648569276172,Gunshot,Firearm
-18.0,Under 19,Male,Black,September,30,2016,2016-09-30,Newark,New Jersey,40.76702096428571,-74.18385007142858,Gunshot,Unknown
-18.0,Under 19,Male,Black,September,30,2016,2016-09-30,Newark,New Jersey,40.76702096428571,-74.18385007142858,Gunshot,Unknown
+18.0,Under 19,Male,Black,September,30,2016,2016-09-30,Newark,New Jersey,40.76702096428571,-74.18385007142858,Gunshot,Other
+18.0,Under 19,Male,Black,September,30,2016,2016-09-30,Newark,New Jersey,40.76702096428571,-74.18385007142858,Gunshot,Other
 37.0,20-39,Male,White,September,30,2016,2016-09-30,Belleville,Michigan,42.2311035,-83.44637636448499,Gunshot,Firearm
 32.0,20-39,Male,Black,September,30,2016,2016-09-30,Campobello,South Carolina,35.1158728,-82.149935,Gunshot,Firearm
-38.0,20-39,Male,White,September,30,2016,2016-09-30,Groveton,Texas,31.056871956524105,-95.12773094956908,Gunshot,Unknown
+38.0,20-39,Male,White,September,30,2016,2016-09-30,Groveton,Texas,31.056871956524105,-95.12773094956908,Gunshot,Other
 35.0,20-39,Male,Black,September,30,2016,2016-09-30,Pasadena,California,34.157748,-118.146757,Death in custody,Knife
 3.0,Under 19,Female,White,September,30,2016,2016-09-30,Kiln,Mississippi,30.4090829,-89.4350519,Other,No
 28.0,20-39,Male,White,October,1,2016,2016-10-01,Hometown,West Virginia,38.53503400996852,-81.85960610735548,Gunshot,Firearm
@@ -1975,7 +1975,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 36.0,20-39,Male,Black,October,2,2016,2016-10-02,Markham,Illinois,41.59325305,-87.66527555028976,Gunshot,Firearm
 16.0,Under 19,Male,Hispanic/Latino,October,2,2016,2016-10-02,Los Angeles,California,34.0536909,-118.242766,Gunshot,Non-lethal firearm
 84.0,Above 60,Female,White,October,2,2016,2016-10-02,Rector,Arkansas,36.259028099999995,-90.2922061,Struck by vehicle,No
-63.0,Above 60,Male,Hispanic/Latino,October,2,2016,2016-10-02,Bakersfield,California,35.327065,-119.022464,Death in custody,Unknown
+63.0,Above 60,Male,Hispanic/Latino,October,2,2016,2016-10-02,Bakersfield,California,35.327065,-119.022464,Death in custody,Other
 57.0,40-59,Male,White,October,3,2016,2016-10-03,Lynn,Massachusetts,42.4599453,-70.93460981376145,Gunshot,Firearm
 49.0,40-59,Male,White,October,3,2016,2016-10-03,Ventnor City,New Jersey,39.349122,-74.486202,Gunshot,Firearm
 31.0,20-39,Male,Hispanic/Latino,October,4,2016,2016-10-04,Riverview,Florida,27.8553303,-82.3396439,Gunshot,Other
@@ -1991,9 +1991,9 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 28.0,20-39,Male,Black,October,7,2016,2016-10-07,Alexandria,Louisiana,31.3119463,-92.4453558,Gunshot,Firearm
 49.0,40-59,Male,White,October,7,2016,2016-10-07,Benton,Arkansas,34.582351,-92.569571,Gunshot,Non-lethal firearm
 37.0,20-39,Male,Black,December,7,2016,2016-12-07,Houston,Texas,29.935680814032466,-95.39847772908716,Gunshot,Firearm
-37.0,20-39,Male,White,December,7,2016,2016-12-07,Dallas,Texas,32.779942,-96.798401,Gunshot,Unknown
+37.0,20-39,Male,White,December,7,2016,2016-12-07,Dallas,Texas,32.779942,-96.798401,Gunshot,Other
 31.0,20-39,Male,Black,December,7,2016,2016-12-07,Fayetteville,North Carolina,35.088638,-78.987135,Gunshot,Knife
-21.0,20-39,Male,Black,October,7,2016,2016-10-07,Sebring,Florida,27.487727,-81.43828,Gunshot,Unknown
+21.0,20-39,Male,Black,October,7,2016,2016-10-07,Sebring,Florida,27.487727,-81.43828,Gunshot,Other
 53.0,40-59,Female,White,October,8,2016,2016-10-08,Modesto,California,37.665402,-120.967544,Gunshot,Knife
 39.0,20-39,Male,White,October,8,2016,2016-10-08,Wetumka,Oklahoma,35.2367056,-96.2397302,Gunshot,Vehicle
 21.0,20-39,Male,Hispanic/Latino,October,8,2016,2016-10-08,Federal Way,Washington,47.34343155158614,-122.2950579085411,Gunshot,Knife
@@ -2001,7 +2001,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 41.0,40-59,Male,Black,October,9,2016,2016-10-09,Syracuse,New York,43.045179,-76.132259,Gunshot,Firearm
 26.0,20-39,Male,White,October,10,2016,2016-10-10,Westlake,Ohio,41.4553232,-81.9179174,Gunshot,Non-lethal firearm
 19.0,Under 19,Male,Native American,October,10,2016,2016-10-10,Midland,Texas,32.00123329793184,-102.06227789601378,Gunshot,Firearm
-27.0,20-39,Male,Hispanic/Latino,October,10,2016,2016-10-10,Irvine,California,33.6856969,-117.825981,Gunshot,Unknown
+27.0,20-39,Male,Hispanic/Latino,October,10,2016,2016-10-10,Irvine,California,33.6856969,-117.825981,Gunshot,Other
 56.0,40-59,Male,Native American,October,10,2016,2016-10-10,Lumberton,North Carolina,34.620161105989546,-79.00939799988213,Gunshot,Firearm
 40.0,40-59,Male,White,October,10,2016,2016-10-10,Phoenix,Arizona,33.4484367,-112.074141,Gunshot,Firearm
 44.0,40-59,Male,Asian/Pacific Islander,October,11,2016,2016-10-11,Seattle,Washington,47.6038321,-122.330062,Gunshot,Knife
@@ -2016,7 +2016,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 24.0,20-39,Male,Hispanic/Latino,October,14,2016,2016-10-14,Dallas,Texas,32.71136633509192,-96.81672461547605,Gunshot,Firearm
 26.0,20-39,Male,White,October,14,2016,2016-10-14,San Francisco,California,37.73480825,-122.47884788777597,Gunshot,Firearm
 38.0,20-39,Male,White,October,15,2016,2016-10-15,Phenix City,Alabama,32.48119370159523,-85.0795314778702,Gunshot,Firearm
-30.0,20-39,Male,Hispanic/Latino,October,15,2016,2016-10-15,Sparks,Nevada,39.54404,-119.724083,Death in custody,Unknown
+30.0,20-39,Male,Hispanic/Latino,October,15,2016,2016-10-15,Sparks,Nevada,39.54404,-119.724083,Death in custody,Other
 32.0,20-39,Male,White,October,16,2016,2016-10-16,Santa Cruz,California,36.954035,-122.046165,Gunshot,Other
 26.0,20-39,Female,White,October,16,2016,2016-10-16,Austin,Texas,30.1983615,-97.78921861076799,Gunshot,Non-lethal firearm
 39.0,20-39,Male,White,October,16,2016,2016-10-16,Holiday,Florida,28.20765809811214,-82.72721180000794,Gunshot,Knife
@@ -2027,7 +2027,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 66.0,Above 60,Female,Black,October,18,2016,2016-10-18,Bronx,New York,40.81925576335734,-73.85438900901688,Gunshot,Other
 34.0,20-39,Male,White,October,18,2016,2016-10-18,Paris,Kentucky,38.19708,-84.265719,Gunshot,Firearm
 24.0,20-39,Male,Hispanic/Latino,October,19,2016,2016-10-19,Dallas,Texas,32.740791,-96.876926,Gunshot,Firearm
-38.0,20-39,Male,White,October,19,2016,2016-10-19,Willoughby,Ohio,41.6253191,-81.42831912026597,Gunshot,Unknown
+38.0,20-39,Male,White,October,19,2016,2016-10-19,Willoughby,Ohio,41.6253191,-81.42831912026597,Gunshot,Other
 28.0,20-39,Male,Hispanic/Latino,October,19,2016,2016-10-19,Henderson,Nevada,36.0625144881866,-115.02864396633468,Gunshot,No
 29.0,20-39,Male,White,October,20,2016,2016-10-20,Jacksonville,Florida,30.46746469908317,-81.58284098207461,Gunshot,Firearm
 58.0,40-59,Male,White,October,21,2016,2016-10-21,Tulsa,Oklahoma,36.1563122,-95.9927516,Gunshot,Knife
@@ -2058,8 +2058,8 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 38.0,20-39,Male,Native American,October,30,2016,2016-10-30,Hammon,Oklahoma,35.6323509,-99.3812342,Gunshot,Firearm
 55.0,40-59,Male,Hispanic/Latino,October,31,2016,2016-10-31,Chatsworth,California,34.24056502020202,-118.56968427272727,Gunshot,Knife
 39.0,20-39,Female,Black,October,31,2016,2016-10-31,Torrance,California,33.8371392,-118.3413606,Gunshot,Vehicle
-46.0,40-59,Male,White,October,31,2016,2016-10-31,Fresno,California,36.76635833573799,-119.7269407585539,Gunshot,Unknown
-31.0,20-39,Female,White,October,31,2016,2016-10-31,Brookville,Ohio,39.84548065,-84.42540349775446,Gunshot,Unknown
+46.0,40-59,Male,White,October,31,2016,2016-10-31,Fresno,California,36.76635833573799,-119.7269407585539,Gunshot,Other
+31.0,20-39,Female,White,October,31,2016,2016-10-31,Brookville,Ohio,39.84548065,-84.42540349775446,Gunshot,Other
 76.0,Above 60,Male,White,November,1,2016,2016-11-01,Carson City,Nevada,39.16063263507553,-119.76106384857803,Gunshot,Firearm
 21.0,20-39,Male,Black,November,1,2016,2016-11-01,Stockton,California,38.005352,-121.35906,Gunshot,Firearm
 39.0,20-39,Male,White,November,1,2016,2016-11-01,Enid,Oklahoma,36.397712,-97.896407,Death in custody,No
@@ -2072,16 +2072,16 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 35.0,20-39,Male,Other,November,4,2016,2016-11-04,Bronx,New York,40.82776095312657,-73.86541051642143,Gunshot,Firearm
 26.0,20-39,Male,Hispanic/Latino,November,4,2016,2016-11-04,Palm Springs,California,33.8182263321468,-116.54668348163499,Gunshot,No
 59.0,40-59,Male,White,November,4,2016,2016-11-04,Beaver,Washington,48.05609288627668,-124.35105552824734,Gunshot,Firearm
-34.0,20-39,Male,White,November,5,2016,2016-11-05,Gladewater,Texas,32.542244,-94.95608809999999,Gunshot,Unknown
+34.0,20-39,Male,White,November,5,2016,2016-11-05,Gladewater,Texas,32.542244,-94.95608809999999,Gunshot,Other
 36.0,20-39,Male,White,November,5,2016,2016-11-05,Okemah,Oklahoma,35.4325854,-96.3050064,Gunshot,Vehicle
 25.0,20-39,Male,Black,November,5,2016,2016-11-05,Chicago,Illinois,41.70076486286054,-87.69997586295662,Gunshot,Firearm
 49.0,40-59,Male,White,November,5,2016,2016-11-05,St Petersburg,Florida,27.79755093056798,-82.7238432115995,Gunshot,Knife
 56.0,40-59,Male,White,November,5,2016,2016-11-05,Clendenin,West Virginia,38.4887089,-81.3481745,Gunshot,Firearm
-43.0,40-59,Male,White,November,6,2016,2016-11-06,Morgantown,Kentucky,37.2256023,-86.6835998,Gunshot,Unknown
-17.0,Under 19,Male,White,November,6,2016,2016-11-06,Phenix City,Alabama,32.4709761,-85.0007653,Gunshot,Unknown
+43.0,40-59,Male,White,November,6,2016,2016-11-06,Morgantown,Kentucky,37.2256023,-86.6835998,Gunshot,Other
+17.0,Under 19,Male,White,November,6,2016,2016-11-06,Phenix City,Alabama,32.4709761,-85.0007653,Gunshot,Other
 31.0,20-39,Male,White,November,6,2016,2016-11-06,Leesburg,New Jersey,39.2534699972261,-74.98084084089004,Gunshot,Other
 43.0,40-59,Male,White,November,6,2016,2016-11-06,Beech Island,South Carolina,33.4273614,-81.8909473,Gunshot,Firearm
-33.0,20-39,Male,Hispanic/Latino,November,6,2016,2016-11-06,Santa Ana,California,33.7494951,-117.873221,Gunshot,Unknown
+33.0,20-39,Male,Hispanic/Latino,November,6,2016,2016-11-06,Santa Ana,California,33.7494951,-117.873221,Gunshot,Other
 32.0,20-39,Male,White,November,6,2016,2016-11-06,Hensley,West Virginia,37.4740011,-81.6998327,Gunshot,Other
 31.0,20-39,Male,Black,November,7,2016,2016-11-07,Philadelphia,Pennsylvania,39.999040300000004,-75.14496156957561,Gunshot,Firearm
 ,,Male,White,November,8,2016,2016-11-08,Buckeye,Kansas,39.046664,-97.166963,Gunshot,No
@@ -2092,9 +2092,9 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 36.0,20-39,Male,White,November,9,2016,2016-11-09,Lakeside,Arizona,34.15912907428185,-109.97996940865993,Gunshot,Firearm
 41.0,40-59,Male,Hispanic/Latino,November,10,2016,2016-11-10,San Angelo,Texas,31.462187,-100.442872,Gunshot,Firearm
 53.0,40-59,Male,White,November,10,2016,2016-11-10,Lakeland,Florida,28.0394654,-81.9498042,Gunshot,Firearm
-24.0,20-39,Male,White,November,11,2016,2016-11-11,Grand Junction,Colorado,39.0672568,-108.56448,Gunshot,Unknown
-,,Male,Black,November,11,2016,2016-11-11,East Point,Georgia,33.64719208140976,-84.4882583025746,Gunshot,Unknown
-47.0,40-59,Male,White,November,11,2016,2016-11-11,Montrose County,Colorado,38.4375391,-108.2403855,Gunshot,Unknown
+24.0,20-39,Male,White,November,11,2016,2016-11-11,Grand Junction,Colorado,39.0672568,-108.56448,Gunshot,Other
+,,Male,Black,November,11,2016,2016-11-11,East Point,Georgia,33.64719208140976,-84.4882583025746,Gunshot,Other
+47.0,40-59,Male,White,November,11,2016,2016-11-11,Montrose County,Colorado,38.4375391,-108.2403855,Gunshot,Other
 30.0,20-39,Female,White,November,11,2016,2016-11-11,Fuquay Varina,North Carolina,35.609242,-78.769837,Gunshot,No
 33.0,20-39,Male,Hispanic/Latino,November,11,2016,2016-11-11,Boise,Idaho,43.6166163,-116.200886,Gunshot,Firearm
 40.0,40-59,Male,White,November,12,2016,2016-11-12,Anchorage,Alaska,61.2163129,-149.894852,Gunshot,Firearm
@@ -2120,7 +2120,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 56.0,40-59,Male,Other,November,19,2016,2016-11-19,Chickasha,Oklahoma,35.025422,-97.957298,Gunshot,Firearm
 15.0,Under 19,Male,Asian/Pacific Islander,November,19,2016,2016-11-19,Watsonville,California,36.9092773,-121.7529071,Gunshot,Knife
 21.0,20-39,Male,Black,November,19,2016,2016-11-19,Brooklyn,New York,40.66731915,-73.90591820248227,Gunshot,Other
-29.0,20-39,Male,Hispanic/Latino,November,19,2016,2016-11-19,Anaheim,California,33.851678,-117.906601,Gunshot,Unknown
+29.0,20-39,Male,Hispanic/Latino,November,19,2016,2016-11-19,Anaheim,California,33.851678,-117.906601,Gunshot,Other
 25.0,20-39,Male,Hispanic/Latino,November,20,2016,2016-11-20,San Antonio,Texas,29.509712,-98.59714,Gunshot,Firearm
 18.0,Under 19,Male,White,November,20,2016,2016-11-20,Kansas City,Missouri,39.100105,-94.5781416,Gunshot,Firearm
 19.0,Under 19,Male,Black,November,21,2016,2016-11-21,St Louis,Missouri,38.6280278,-90.1910154,Gunshot,Firearm
@@ -2129,7 +2129,7 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 35.0,20-39,Female,White,November,21,2016,2016-11-21,Hoquiam,Washington,46.977392,-123.894566,Death in custody,No
 36.0,20-39,Male,Black,November,22,2016,2016-11-22,Baytown,Texas,29.72299139504593,-94.9719055595056,Gunshot,Firearm
 45.0,40-59,Male,Hispanic/Latino,November,22,2016,2016-11-22,La Mirada,California,33.908479428571425,-117.97764757142856,Gunshot,Firearm
-34.0,20-39,Male,Black,November,22,2016,2016-11-22,Durham,North Carolina,35.996653,-78.9018053,Gunshot,Unknown
+34.0,20-39,Male,Black,November,22,2016,2016-11-22,Durham,North Carolina,35.996653,-78.9018053,Gunshot,Other
 23.0,20-39,Male,Black,November,22,2016,2016-11-22,Newark,New Jersey,40.735657,-74.1723667,Gunshot,Firearm
 17.0,Under 19,Male,Other,November,22,2016,2016-11-22,Shenandoah,Texas,30.177153,-95.458267,Gunshot,Firearm
 69.0,Above 60,Male,White,September,22,2016,2016-09-22,Anchorage,Alaska,61.10977007214067,-149.72584954604756,Gunshot,Firearm
@@ -2138,39 +2138,39 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 19.0,Under 19,Male,Black,November,23,2016,2016-11-23,Chicago,Illinois,41.775686449999995,-87.6657206343659,Gunshot,No
 45.0,40-59,Male,Other,November,24,2016,2016-11-24,Jackson,Tennessee,35.63679938511548,-88.83420667959804,Gunshot,Knife
 37.0,20-39,Male,Black,November,25,2016,2016-11-25,Chicago,Illinois,41.8755616,-87.6244212,Gunshot,Firearm
-26.0,20-39,Male,Hispanic/Latino,November,25,2016,2016-11-25,Tucson,Arizona,32.21386893842604,-110.97355263851121,Gunshot,Unknown
+26.0,20-39,Male,Hispanic/Latino,November,25,2016,2016-11-25,Tucson,Arizona,32.21386893842604,-110.97355263851121,Gunshot,Other
 23.0,20-39,Male,Black,November,25,2016,2016-11-25,Hattiesburg,Mississippi,31.277411494967126,-89.28229436294686,Gunshot,Firearm
-20.0,20-39,Male,Hispanic/Latino,November,26,2016,2016-11-26,Surprise,Arizona,33.629247,-112.3681428,Gunshot,Unknown
+20.0,20-39,Male,Hispanic/Latino,November,26,2016,2016-11-26,Surprise,Arizona,33.629247,-112.3681428,Gunshot,Other
 59.0,40-59,Male,White,November,27,2016,2016-11-27,Naples,Maine,43.94594133323912,-70.56803722910851,Gunshot,Firearm
 48.0,40-59,Male,Black,November,27,2016,2016-11-27,Baton Rouge,Louisiana,30.40599644824734,-91.09974612996244,Gunshot,Firearm
 48.0,40-59,Male,White,November,27,2016,2016-11-27,Olathe,Kansas,38.8838856,-94.81887,Gunshot,Other
 33.0,20-39,Male,Black,November,27,2016,2016-11-27,Chicago,Illinois,41.88198,-87.738137,Gunshot,Firearm
 18.0,Under 19,Male,Black,November,28,2016,2016-11-28,Columbus,Ohio,39.99964523942511,-83.00981728477173,Gunshot,Knife
-23.0,20-39,Male,Hispanic/Latino,November,28,2016,2016-11-28,Los Angeles,California,34.0536909,-118.242766,Gunshot,Unknown
+23.0,20-39,Male,Hispanic/Latino,November,28,2016,2016-11-28,Los Angeles,California,34.0536909,-118.242766,Gunshot,Other
 41.0,40-59,Male,Black,November,28,2016,2016-11-28,Hickory,North Carolina,35.742791,-81.306752,Gunshot,Disputed
 35.0,20-39,Male,Black,November,28,2016,2016-11-28,Cahokia,Illinois,38.5560561,-90.16633865034328,Gunshot,Vehicle
-41.0,40-59,Male,White,November,29,2016,2016-11-29,Lynn,Massachusetts,42.4567009,-70.95470713148745,Gunshot,Unknown
-31.0,20-39,Male,White,November,29,2016,2016-11-29,Iva,South Carolina,34.3064967,-82.663743,Gunshot,Unknown
+41.0,40-59,Male,White,November,29,2016,2016-11-29,Lynn,Massachusetts,42.4567009,-70.95470713148745,Gunshot,Other
+31.0,20-39,Male,White,November,29,2016,2016-11-29,Iva,South Carolina,34.3064967,-82.663743,Gunshot,Other
 29.0,20-39,Male,White,November,29,2016,2016-11-29,Avon,Indiana,39.780177257606084,-86.39762660956855,Gunshot,Knife
 55.0,40-59,Male,White,November,29,2016,2016-11-29,Friendswood,Texas,29.52252489390413,-95.19287987795781,Gunshot,Other
 25.0,20-39,Male,Black,November,30,2016,2016-11-30,Kansas City,Missouri,39.100105,-94.5781416,Gunshot,Firearm
 41.0,40-59,Male,Hispanic/Latino,November,30,2016,2016-11-30,Elk Grove,California,38.4087993,-121.3716178,Death in custody,No
-38.0,20-39,Male,Black,December,1,2016,2016-12-01,Tacoma,Washington,47.2455013,-122.438329,Gunshot,Unknown
+38.0,20-39,Male,Black,December,1,2016,2016-12-01,Tacoma,Washington,47.2455013,-122.438329,Gunshot,Other
 27.0,20-39,Male,Hispanic/Latino,December,1,2016,2016-12-01,Tucson,Arizona,32.165575455003946,-110.94347637513819,Gunshot,Firearm
 83.0,Above 60,Male,White,December,1,2016,2016-12-01,Dover,Arkansas,35.364918684216775,-93.07801777950692,Gunshot,Firearm
 22.0,20-39,Male,White,December,2,2016,2016-12-02,Simpsonville,Kentucky,38.2221465486582,-85.35001975097643,Gunshot,Other
 33.0,20-39,Male,White,December,2,2016,2016-12-02,Tuscumbia,Alabama,34.66288377287574,-87.69588196011202,Gunshot,Firearm
-36.0,20-39,Male,White,December,2,2016,2016-12-02,Las Cruces,New Mexico,32.28773665,-106.74067249738641,Gunshot,Unknown
+36.0,20-39,Male,White,December,2,2016,2016-12-02,Las Cruces,New Mexico,32.28773665,-106.74067249738641,Gunshot,Other
 58.0,40-59,Male,White,December,2,2016,2016-12-02,Benton,Arkansas,34.576504150000005,-92.57655185618506,Gunshot,Firearm
 38.0,20-39,Male,Hispanic/Latino,December,3,2016,2016-12-03,Metairie,Louisiana,30.00185465,-90.1767012249077,Gunshot,Firearm
-29.0,20-39,Male,Black,December,4,2016,2016-12-04,Elkhart,Indiana,41.668136,-85.959488,Gunshot,Unknown
+29.0,20-39,Male,Black,December,4,2016,2016-12-04,Elkhart,Indiana,41.668136,-85.959488,Gunshot,Other
 26.0,20-39,Male,Arab-American,December,4,2016,2016-12-04,Hudson,Ohio,41.24556131323857,-81.43245924505541,Gunshot,No
 47.0,40-59,Male,White,December,6,2016,2016-12-06,Orange City,Florida,28.9477566,-81.3059188,Gunshot,Firearm
 52.0,40-59,Male,White,December,6,2016,2016-12-06,Portland,Oregon,45.5202471,-122.674194,Gunshot,Firearm
 55.0,40-59,Male,White,December,6,2016,2016-12-06,Hutchinson,Kansas,38.09304237260335,-97.90967733365788,Gunshot,Firearm
 49.0,40-59,Male,White,December,6,2016,2016-12-06,Fruitland Park,Florida,28.8613765,-81.9064705,Gunshot,Other
 42.0,40-59,Male,White,October,7,2016,2016-10-07,Killen,Alabama,34.8628637,-87.5375253,Gunshot,Firearm
-36.0,20-39,Male,White,December,7,2016,2016-12-07,Sioux City,Iowa,42.4966815,-96.4058782,Gunshot,Unknown
+36.0,20-39,Male,White,December,7,2016,2016-12-07,Sioux City,Iowa,42.4966815,-96.4058782,Gunshot,Other
 20.0,20-39,Male,White,December,7,2016,2016-12-07,Avella,Pennsylvania,40.2750705,-80.4606226,Gunshot,Knife
 ,,Male,White,December,8,2016,2016-12-08,Allen,Texas,33.1015189,-96.62334975235191,Gunshot,Firearm
 35.0,20-39,Male,White,December,9,2016,2016-12-09,Easton,Pennsylvania,40.6916081,-75.2099866,Gunshot,Firearm
@@ -2192,13 +2192,13 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 61.0,Above 60,Male,White,December,15,2016,2016-12-15,Hacienda Heights,California,33.978841,-117.975921,Gunshot,Firearm
 39.0,20-39,Male,Black,December,15,2016,2016-12-15,Badin,North Carolina,35.4059744,-80.1167203,Taser,No
 36.0,20-39,Male,White,December,16,2016,2016-12-16,Dallas,Oregon,44.9317221,-123.30678467038689,Gunshot,Firearm
-44.0,40-59,Male,Native American,December,17,2016,2016-12-17,Everett,Washington,47.965631,-122.213715,Gunshot,Unknown
+44.0,40-59,Male,Native American,December,17,2016,2016-12-17,Everett,Washington,47.965631,-122.213715,Gunshot,Other
 48.0,40-59,Male,White,December,17,2016,2016-12-17,Arlington,Tennessee,35.2964487,-89.6617313,Gunshot,Knife
 33.0,20-39,Male,Hispanic/Latino,December,17,2016,2016-12-17,East Los Angeles,California,34.020863,-118.162703,Gunshot,Firearm
 72.0,Above 60,Male,White,December,18,2016,2016-12-18,Tulsa,Oklahoma,36.146529,-96.042863,Gunshot,Firearm
 37.0,20-39,Male,White,December,18,2016,2016-12-18,Ridgefield,Washington,45.83017251794591,-122.71831217413188,Gunshot,Firearm
 20.0,20-39,Male,Black,December,18,2016,2016-12-18,Los Angeles,California,34.0536909,-118.242766,Gunshot,Firearm
-52.0,40-59,Male,White,December,19,2016,2016-12-19,Granite Falls,North Carolina,35.81163629042766,-81.4262637380675,Gunshot,Unknown
+52.0,40-59,Male,White,December,19,2016,2016-12-19,Granite Falls,North Carolina,35.81163629042766,-81.4262637380675,Gunshot,Other
 ,,Male,Other,December,19,2016,2016-12-19,Brawley,California,32.983204,-115.534859,Gunshot,Knife
 46.0,40-59,Male,Other,December,20,2016,2016-12-20,Pharr,Texas,26.208652,-98.179223,Gunshot,Knife
 31.0,20-39,Male,Other,December,20,2016,2016-12-20,Hemet,California,33.7475203,-116.9719684,Gunshot,Firearm
@@ -2210,11 +2210,11 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 27.0,20-39,Male,White,December,21,2016,2016-12-21,Saraland,Alabama,30.820742,-88.0705556,Gunshot,Firearm
 24.0,20-39,Male,Black,December,21,2016,2016-12-21,Coalinga,California,36.14475,-120.371262,Gunshot,Firearm
 30.0,20-39,Male,Hispanic/Latino,December,21,2016,2016-12-21,Stockton,California,37.974658125000005,-121.265276375,Gunshot,Knife
-38.0,20-39,Male,Hispanic/Latino,December,21,2016,2016-12-21,Reno,Nevada,39.527904,-119.825301,Gunshot,Unknown
+38.0,20-39,Male,Hispanic/Latino,December,21,2016,2016-12-21,Reno,Nevada,39.527904,-119.825301,Gunshot,Other
 19.0,Under 19,Male,Black,December,22,2016,2016-12-22,Capitol Heights,Maryland,38.8675408,-76.93700820396114,Gunshot,Firearm
 55.0,40-59,Male,Other,December,22,2016,2016-12-22,Palm Harbor,Florida,28.0648346896239,-82.76975688229102,Gunshot,Other
 30.0,20-39,Male,Hispanic/Latino,December,23,2016,2016-12-23,El Monte,California,34.0751571,-118.036849,Gunshot,No
-31.0,20-39,Male,White,December,23,2016,2016-12-23,Bend,Oregon,44.0581728,-121.3153096,Gunshot,Unknown
+31.0,20-39,Male,White,December,23,2016,2016-12-23,Bend,Oregon,44.0581728,-121.3153096,Gunshot,Other
 ,,Male,Other,December,24,2016,2016-12-24,Gadsden,Alabama,34.0217148948443,-86.0181055417789,Gunshot,Firearm
 53.0,40-59,Female,White,December,24,2016,2016-12-24,Lake Wales,Florida,27.9014133,-81.5859099,Gunshot,Knife
 48.0,40-59,Male,Asian/Pacific Islander,December,24,2016,2016-12-24,Pico Rivera,California,34.018235,-118.064191,Gunshot,Other
@@ -2229,12 +2229,12 @@ age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,longi
 36.0,20-39,Male,White,December,27,2016,2016-12-27,Campbellton,Texas,28.7451128,-98.3012581,Gunshot,Firearm
 34.0,20-39,Male,White,December,27,2016,2016-12-27,La Grange,Kentucky,38.4075527,-85.3788246,Gunshot,Other
 19.0,Under 19,Male,Native American,December,27,2016,2016-12-27,Kyle,South Dakota,43.427426,-102.17228008849168,Gunshot,Firearm
-28.0,20-39,Male,White,December,28,2016,2016-12-28,Spring Hill,Tennessee,35.709897,-86.917244,Gunshot,Unknown
+28.0,20-39,Male,White,December,28,2016,2016-12-28,Spring Hill,Tennessee,35.709897,-86.917244,Gunshot,Other
 34.0,20-39,Male,White,December,28,2016,2016-12-28,Land O Lakes,Florida,28.232873198419423,-82.4589154076407,Taser,No
 52.0,40-59,Male,Black,December,29,2016,2016-12-29,Chestertown,Maryland,39.2089986,-76.0666126,Gunshot,Firearm
 31.0,20-39,Male,White,December,30,2016,2016-12-30,Phoenix,Arizona,33.55293685,-112.0578311,Gunshot,Knife
 21.0,20-39,Male,Black,December,30,2016,2016-12-30,Miami,Florida,25.60491825,-80.35604236955206,Gunshot,Disputed
 46.0,40-59,Male,White,December,31,2016,2016-12-31,Loxahatchee Groves,Florida,26.708724156312627,-80.25155768537074,Gunshot,Knife
-32.0,20-39,Male,White,December,31,2016,2016-12-31,Hesston,Pennsylvania,40.4209078,-78.1100066,Gunshot,Unknown
+32.0,20-39,Male,White,December,31,2016,2016-12-31,Hesston,Pennsylvania,40.4209078,-78.1100066,Gunshot,Other
 34.0,20-39,Male,White,December,31,2016,2016-12-31,Pensacola,Florida,30.421309,-87.2169149,Gunshot,Firearm
 33.0,20-39,Male,White,December,31,2016,2016-12-31,Mankato,Minnesota,44.176611449999996,-93.94744239353045,Gunshot,No
