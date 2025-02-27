@@ -8,6 +8,9 @@ from dash.exceptions import PreventUpdate
 # Initiatlize the app
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
+# Add this line for deployment compatibility
+server = app.server
+
 data = pd.read_csv('data/proc/clean_data.csv')
 
 # Layout
