@@ -255,4 +255,4 @@ def sync_armed_checklists(armed_selected, all_selected):
 
 # Run the app/dashboard
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
