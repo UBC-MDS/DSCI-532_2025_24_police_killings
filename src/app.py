@@ -118,7 +118,7 @@ def create_chart(year, race, age, armed, top_state):
         data_filtered = data_filtered[data_filtered['armed'].isin(armed)]
         data_filtered['armed'] = pd.Categorical(
             data_filtered['armed'],
-            categories=age,
+            categories=armed,
             ordered=True
             )
         
