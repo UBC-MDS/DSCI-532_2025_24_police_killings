@@ -1,6 +1,7 @@
 # Core dependencies
 numpy==2.0.0  
 pandas==2.2.3
+altair==5.3
 
 # Dash-related packages
 dash==2.18
