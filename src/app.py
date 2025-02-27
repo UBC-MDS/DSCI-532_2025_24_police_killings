@@ -8,6 +8,9 @@ from dash.exceptions import PreventUpdate
 # Initiatlize the app
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
+# Add this line for deployment compatibility
+server = app.server
+
 data = pd.read_csv('data/proc/clean_data.csv')
 
 # Layout
@@ -252,4 +255,4 @@ def sync_armed_checklists(armed_selected, all_selected):
 
 # Run the app/dashboard
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)

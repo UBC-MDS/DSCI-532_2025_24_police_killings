@@ -1,0 +1,23 @@
+# Core dependencies
+numpy==2.0.0  
+pandas==2.2.3
+
+# Dash-related packages
+dash==2.18
+dash-bootstrap-components==1.7
+dash-vega-components==0.0.1
+plotly==6.0
+
+# Data handling utilities
+tabulate==0.9  # Needed for df.to_markdown()
+lxml==5.3  # Needed for pd.read_html()
+
+# Geospatial processing
+geopy==2.4.1
+
+# Machine learning/statistics dependencies
+blis==1.0.1
+thinc==8.3.2
+
+# Deployment & Server
+gunicorn==21.2  # Required for Render deployment
