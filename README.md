@@ -49,7 +49,7 @@ If you have experience in any of these areas (or others we haven't considered ye
 ## Get involved
 
 For Users: 
-Government Officials, Policymakers & the Public Live Demo: https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings
+Government Officials, Policymakers & the Public Live Demo: https://dsci-532-2025-24-police-killings-pr-34.onrender.com/
  
 Demo GIF: 
 ![Demo of Dashboard](img/demo.gif)
