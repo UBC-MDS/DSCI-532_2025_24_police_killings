@@ -8,6 +8,9 @@ from dash.exceptions import PreventUpdate
 # Initiatlize the app
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
+# Add this line for deployment compatibility
+server = app.server
+
 data = pd.read_csv('data/proc/clean_data.csv')
 
 # Layout
@@ -81,8 +84,33 @@ app.layout = dbc.Container([
                 ]),
             ]),
         ], md=10),
-    ])
-])
+    ]),
+
+    html.Hr(),  # Horizontal line before the footer
+    dbc.Row(
+        dbc.Col(
+            html.Div([
+                html.P(
+                    "The Data-Driven Dashboard of Police Killings project visualizes police killings data across the United States, "
+                    "providing insights into trends by race, age, location, and armed status."
+                ),
+                html.P(
+                    "Contributors include Adrian Leung, Rong Wan, Tingting Chen, and Shawn Xiao Hu, "
+                    "as part of the UBC DSCI 532 Capstone project."
+                ),
+                html.P([
+                    "GitHub Repository: ",
+                    html.A(
+                        "Police Killings Dashboard Repo",
+                        href="https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings",
+                        target="_blank"
+                    )
+                ]),
+                html.P(f"Last updated: {pd.Timestamp.today().strftime('%B %d, %Y')}"),
+            ], style={'textAlign': 'center', 'fontSize': '14px', 'marginTop': '20px'})
+        )
+    )
+], fluid=True)
 
 # Server side callbacks/reactivity
 @callback(
@@ -252,4 +280,4 @@ def sync_armed_checklists(armed_selected, all_selected):
 
 # Run the app/dashboard
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
