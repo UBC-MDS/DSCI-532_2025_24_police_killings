@@ -66,7 +66,7 @@ Step 2: Install dependencies:
 * pip install -r requirements.txt
 
 Step 3: Run the app locally
-* python src.app.py
+* python src/app.py
 
 Step 4: Start contributing!
 * Report issues or suggest enhancements in GitHub Issues: https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings/issues
