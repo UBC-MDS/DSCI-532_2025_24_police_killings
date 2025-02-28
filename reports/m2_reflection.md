@@ -1,31 +1,48 @@
 Milestone 2 Reflection
 
-1. Horizontal Stacked Bar Chart:
+- We have essentially completed all types of charts and functionalities from the sketch.
 
-Implementation: We replaced the vertical stacked bar chart with a horizontal one to improve readability and accessibility. The vertical orientation was challenging to interpret due to the large number of categories, and the horizontal layout resolved this issue.
+- Here are the improvements we have made differently than in our sketch:  
+
+1. Horizontal Stacked Bar Chart:  
+
+Implementation: We replaced the vertical stacked bar chart with a horizontal one to improve readability and accessibility. The vertical orientation was challenging to interpret due to the large number of categories, and the horizontal layout resolved this issue.  
 
 Deviation from Proposal: The gender filter was removed after our data analysis revealed that the vast majority of victims were male, as gender-based analysis is less informative for our dashboard's purpose.  
 
-2. Scatter Plot on Map:
+2. Scatter Plot on Map:  
 
-Implementation: Instead of a heatmap, we used a scatter plot on a map to visualize the geographic distribution of police killings. This approach provides a clearer and more intuitive representation of data density and location-specific trends.
+Implementation: Instead of a heatmap, we used a scatter plot on a map to visualize the geographic distribution of police killings. This approach provides a clearer and more intuitive representation of data density and location-specific trends.  
 
 Deviation from Proposal: The heatmap was replaced because scatter plots on maps are more effective for spatial data interpretation and allow users to pinpoint specific incidents more easily.  
 
-3. Enhanced Filtering Options:
+3. Enhanced Filtering Options:  
 
-Implementation: We added filters for year, age and armed status (e.g. vehicle, gun, knife). Additionally, we introduced a filter for the time series plot to allow users to focus on specific time periods.  
+Implementation: We added filters for year, age and armed status (e.g. vehicle, firearm, knife). Additionally, we introduced a filter for the time series plot to allow users to focus on specific year and month.  
 
 Deviation from Proposal: These filters were not initially planned but were added to improve interactivity and user control over the data, making the dashboard more dynamic and user-friendly.  
 
-4. Top 10 State by police killings Plot:
+4. Top n States by Police Killings Plot:  
 
-Implementation: We included a filter to compare police killings across different states, enabling users to select specific states for comparison.  
+Implementation: We included a filter to compare police killings across different states, enabling users to select specific states for comparison. Additionally, the number of top states can be determined by the user by entering an integer.  
 
 Deviation from Proposal: This feature was enhanced to provide more flexibility in analyzing state-level data, allowing users to explore trends and patterns across regions.  
 
 5. Time Series Plot:  
 
-Implementation: The time series plot now compares police killings across states instead of genders, as originally proposed.  
+Implementation: The time series plot now compares police killings across states instead of genders, as originally proposed. And we relocated the time series chart to the right side of the interface.   
 
-Deviation from Proposal: This change was made because state-level comparisons were deemed more relevant for understanding trends over time, given the limited variability in gender data.
+Deviation from Proposal: This change was made because state-level comparisons were deemed more relevant for understanding trends over time, given the limited variability in gender data. And Layout adjustment will improve the overall layout balance and ensure a more intuitive flow of information for users.  
+
+6. Additional enhancement:  
+
+  - Implemented a tab-based interface to allow users to seamlessly switch between two visualizations:
+    - A geographical map displaying the distribution of police killings.  
+    - A race distribution chart highlighting demographic breakdowns of police killings.   
+  This feature will enhance user interactivity and provide a clearer comparative analysis of the data.  
+
+  - Added interaction between the top states bar plot and the time series plot where users can select a bar from the bar plot and view its corresponding time-series in the time-series plot.  
+
+- Advantage, limitations, good potential future improvements:  
+
+Currently, our dashboard effectively provides clear and interactive visualizations of police killings, allowing users to explore trends based on demographic, geographic, and time-based factors. However, there are some limitations, such as performance issues with large datasets and a need for more contextual insights. Future improvements could include predictive analytics, real-time data updates, and enhanced filtering options for a more comprehensive analysis.
