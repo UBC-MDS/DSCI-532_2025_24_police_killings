@@ -6,58 +6,85 @@ import pandas as pd
 from dash.exceptions import PreventUpdate
 
 # Initiatlize the app
-app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], title='Police Killings')
 
 # Add this line for deployment compatibility
 server = app.server
 
 data = pd.read_csv('data/proc/clean_data.csv')
 
+# Components
+title = html.H1(
+    'Police Killings DashBoard',
+    style={
+        'color': 'white',
+        'text-align': 'left',
+        'font-size': '48px',
+    }
+)
+
+sidebar = dbc.Col([
+    html.H3('Global Controls'),
+    html.H5('Year'),
+    dcc.RadioItems(
+        id='year',
+        options=[2015, 2016, '2015 & 2016'], 
+        value='2015 & 2016'
+        ),
+    html.Br(),
+
+    html.H5('Race/Ethnicity'),
+    dcc.Checklist(["All"], ["All"], id="all-checklist-1", inline=True),
+    dcc.Checklist(
+        id='race-checklist', 
+        options=['White', 'Black', 'Hispanic/Latino', 
+                    'Asian/Pacific Islander', 'Native American', 
+                    'Arab-American', 'Other'],
+        ), 
+    
+    html.Br(),
+    html.H5('Age Group'),
+    dcc.Checklist(["All"], ["All"], id="all-checklist-2", inline=True),
+    dcc.Checklist(
+        id='age-checklist', 
+        options=['Under 19', '20-39', '40-59', 'Above 60', 'Unknown'],
+        ),
+
+    html.Br(),
+    html.H5('Is the victim armed?'),
+    dcc.Checklist(["All"], ["All"], id="all-checklist-3", inline=True),
+    dcc.Checklist(
+        id='armed-checklist', 
+        options=['Unarmed', 'Firearm', 'Non-lethal firearm', 'Knife', 'Vehicle', 'Disputed', 'Other']
+        ),
+    ],
+    md=2,
+    style={
+        'background-color': '#D5A9AF',
+        'padding': 15,  # Padding top,left,right,botoom
+        'padding-bottom': 0,  # Remove bottom padding for footer,
+        'height': '105vh',  # vh = "viewport height" = 105% of the window height
+        'display': 'flex',  # Allow children to be aligned to bottom
+        'flex-direction': 'column',  # Allow for children to be aligned to bottom
+        }
+    )
+
 # Layout
 app.layout = dbc.Container([
     dbc.Row([
         dbc.Col([
-            html.H1('Police Killings DashBoard'),
-            html.Br(),
+            title
         ]),
-    ]),
+    ], 
+    style={
+        'backgroundColor': '#D15B51',
+        'padding-top': '2vh',  # Center vertically, while keeping objects constant when expanding
+        'padding-bottom': '2vh',  # Center vertically, while keeping objects constant when expanding
+        'min-height': '10vh',  # min-height to allow expansion
+        }
+    ),
     dbc.Row([
-        dbc.Col([
-            html.H3('Global Controls'),
-            html.H5('Year'),
-            dcc.RadioItems(
-                id='year',
-                options=[2015, 2016, '2015 & 2016'], 
-                value='2015 & 2016'
-                ),
-            html.Br(),
-
-            html.H5('Race/Ethnicity'),
-            dcc.Checklist(["All"], ["All"], id="all-checklist-1", inline=True),
-            dcc.Checklist(
-                id='race-checklist', 
-                options=['White', 'Black', 'Hispanic/Latino', 
-                         'Asian/Pacific Islander', 'Native American', 
-                         'Arab-American', 'Other'],
-                ), 
-            
-            html.Br(),
-            html.H5('Age Group'),
-            dcc.Checklist(["All"], ["All"], id="all-checklist-2", inline=True),
-            dcc.Checklist(
-                id='age-checklist', 
-                options=['Under 19', '20-39', '40-59', 'Above 60', 'Unknown'],
-                ),
-
-            html.Br(),
-            html.H5('Is the victim armed?'),
-            dcc.Checklist(["All"], ["All"], id="all-checklist-3", inline=True),
-            dcc.Checklist(
-                id='armed-checklist', 
-                options=['No', 'Firearm', 'Non-lethal firearm', 'Knife', 'Vehicle', 'Disputed', 'Other']
-                ),
-        ]),
-
+        sidebar,
         dbc.Col([
             dbc.Tabs([
                 dbc.Tab([
@@ -71,16 +98,22 @@ app.layout = dbc.Container([
             html.Br(),
             dbc.Row([
                 dbc.Col([
-                    html.Div([
-                        html.H5('Type the number of top states'),
-                        dcc.Input(id='top_state', placeholder='Integer between 0 and 51', debounce=True, min=0, max=51),
-                        html.P(id='err', style={'color': 'red'}),
-                        html.P(id='output_area')
-                    ], style={'textAlign': 'center'}),
-                    dbc.Row([
-                        dbc.Col([dvc.Vega(id='top10_bar', spec={})]),
-                        dbc.Col([dvc.Vega(id='time_series', spec={})]),
-                    ]),
+                    dbc.Row(
+                        dbc.Col([
+                            html.Div([
+                                html.H5('Enter the number of top states below:'),
+                                dcc.Input(id='top_state', placeholder='Integer between 0 and 51', debounce=False, min=0, max=51),
+                                html.P(id='err', style={'color': 'red'}),
+                                html.P(id='output_area')
+                            ], style={
+                                'background-color': '#E4AA90',
+                                'padding': 9,
+                                }
+                            )
+                        ], md=10)
+                    ), 
+                    html.Br(),
+                    dvc.Vega(id='top10_time', spec={})
                 ]),
             ]),
         ], md=10),
@@ -116,8 +149,7 @@ app.layout = dbc.Container([
 @callback(
     Output('map', 'spec'),
     Output('race_bar', 'spec'),
-    Output('top10_bar', 'spec'),
-    Output('time_series', 'spec'),
+    Output('top10_time', 'spec'),
     Input('year', 'value'),
     Input('race-checklist', 'value'),
     Input('age-checklist', 'value'), 
@@ -157,10 +189,10 @@ def create_chart(year, race, age, armed, top_state):
         type='albersUsa'
     ).properties(
         title = 'Police Killings Across the United States',
-        width=800,
+        width=950,
         height=500
     )
-    heatmap = alt.Chart(data_filtered).mark_circle(opacity=0.6, size=35).encode(
+    heatmap = alt.Chart(data_filtered).mark_circle(opacity=0.5, size=45).encode(
         longitude='longitude:Q',
         latitude='latitude:Q',
         color=alt.Color('raceethnicity', scale=alt.Scale(scheme='category10')),
@@ -182,38 +214,39 @@ def create_chart(year, race, age, armed, top_state):
     if top_state is None:
         top_state = '0'
     elif (not top_state.isdigit()) or (int(top_state) > 51):
-        return map, bar, no_update, no_update
+        return map, bar, no_update
 
-    top10 = alt.Chart(data_filtered).transform_aggregate(
-            count='count()', 
-            groupby=['state']
-        ).transform_window(
-            rank='rank()',
-            sort=[alt.SortField('count', order='descending')]
-        ).transform_filter(
-            alt.datum.rank <= int(top_state)
-        ).mark_bar().encode(
-            x=alt.X('count:Q', title='Police Killing Count'),
-            y=alt.Y('state', sort='-x', title='States'),
-            tooltip = 'count:Q'
-        ).properties(
-            title=f'Top {top_state} States by Police Killings',
-            width=250
-        ).to_dict()
-    
     states = data_filtered['state'].value_counts()[:int(top_state)].index.to_list()
     data_filtered = data_filtered[data_filtered['state'].isin(states)]
+
+    select_state = alt.selection_point(
+        fields=['state'])
+    top10 = alt.Chart(data_filtered).mark_bar().encode(
+            x=alt.X('count()', title='Police Killing Count'),
+            y=alt.Y('state', sort='-x', title='States'),
+            tooltip = 'count()',
+            opacity=alt.condition(select_state, alt.value(1), alt.value(0.2))
+        ).properties(
+            title=f'Top {top_state} States by Police Killings',
+            width=300
+        ).add_params(select_state)
+
     time = alt.Chart(data_filtered).mark_line().encode(
             x=alt.X('yearmonth(date):O', title='Month of Year'),
             y=alt.Y('count()', title='Number of Killings'),
             color='state',
-            tooltip=['yearmonth(date):O', 'count()', 'state']
+            tooltip=['yearmonth(date):O', 'count()', 'state'],
+            opacity=alt.condition(
+                select_state, alt.value(0.8), alt.value(0.1)
+            )
         ).properties(
             title = 'Police Killings Victims by Months', 
-            height=400, 
-            width=440
-        ).interactive().to_dict()
-    return map, bar, top10, time
+            height=500, 
+            width=500
+        )
+    top10_time = (top10 | time).to_dict()
+
+    return map, bar, top10_time
 
 @callback(
     Output('output_area', 'children'),
@@ -226,7 +259,7 @@ def update_output(input_value):
         return no_update, f'{input_value} is not an integer between 0 and 51. No updates are made until correction.'
     elif (int(input_value) > 51):
         return no_update, f'{input_value} is not an integer between 0 and 51. No updates are made until correction.'
-    return f'Showing {input_value} states for these two plots.', ''
+    return f'Showing top {input_value} states. Click on the bars in the barplot to view the police killings over time for the corresponding state.', ''
 
 @callback(
     Output("race-checklist", "value"),
@@ -270,7 +303,7 @@ def sync_age_checklists(age_selected, all_selected):
 )
 def sync_armed_checklists(armed_selected, all_selected):
     ctx = callback_context
-    armed_options = ['No', 'Firearm', 'Non-lethal firearm', 'Knife', 'Vehicle', 'Disputed', 'Other']
+    armed_options = ['Unarmed', 'Firearm', 'Non-lethal firearm', 'Knife', 'Vehicle', 'Disputed', 'Other']
     input_id = ctx.triggered[0]["prop_id"].split(".")[0]
     if input_id == "armed-checklist":
         all_selected = ["All"] if set(armed_selected) == set(armed_options) else []
