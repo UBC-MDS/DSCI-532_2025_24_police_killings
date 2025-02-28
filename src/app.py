@@ -11,7 +11,7 @@ app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], title='Police 
 # Add this line for deployment compatibility
 server = app.server
 
-data = pd.read_csv('data/proc/clean_data.csv')
+data = pd.read_csv('data/processed/clean_data.csv')
 
 # Components
 title = html.H1(
