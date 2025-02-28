@@ -42,24 +42,39 @@ Data Processing and Engineering:
 By leveraging this dataset, we aim to identify demographic trends, highlight regions most affected by police violence, and uncover patterns in the circumstances of fatal encounters.
 
 ## Research Questions
-1. Geographical Concentration of Incidents:
+
+1. what is our target audience persona
+Our primary audiences are anti-gun violence social groups, politicians, and research institutions Each group has distinct needs but shares a goal of understanding gun violence correlations with factors like socio-economic conditions, demographics, and policies.  
+
+a. **Anti-Gun Violence Social Groups:**  
+   - Need emotionally resonant, shareable data to support advocacy and awareness campaigns.  
+
+b. **Politicians and Policymakers:**  
+   - Require concise, actionable insights to inform policy decisions and public safety initiatives.  
+
+c. **Research Institutions:**  
+   - Seek comprehensive datasets and advanced visualizations for in-depth analysis and academic research.  
+
+By tailoring data and visualizations to these audiences, we can drive informed action and impact.
+
+2. Geographical Concentration of Incidents:
 Original Question: Which state and city have the most police killings?
 Expanded Version: Among all documented cases of police killings, which state has the highest frequency of such incidents, and within that state (or nationwide), which city reports the most cases? Furthermore, what local factors or conditions might explain this geographic concentration? Consider elements such as local law enforcement policies, demographic patterns, socio-economic challenges, and the nature of community-police interactions.
 
-2. Temporal Patterns in Police Killings:
+3. Temporal Patterns in Police Killings:
 Original Question: What month and week have the most police killings? What is the reason behind it?
 Expanded Version: Analyzing the data over time, during which month of the year and which specific week (or day of the week) do police killings reach their peak? What potential factors could explain these temporal trends? Investigate possibilities such as seasonal influences, local events or protests, shifts in law enforcement strategies during certain periods, or other social and political dynamics that might contribute to the rise in incidents during these times.
 
-3. Racial Disparities in Police Killings:
+4. Racial Disparities in Police Killings:
 Original Question: What race has been killed the most? What is the reason behind it?
 Expanded Version: When examining the data by race, which racial group is most frequently affected by police killings? What historical, socio-political, and systemic factors might be driving this disparity? Explore potential causes such as institutional bias, economic inequality, historical discrimination, neighborhood demographics, and broader systemic injustices that could contribute to the overrepresentation of this group in police violence statistics.
 Each expanded question not only seeks to identify specific data points (e.g., which state, city, month, week, or race) but also encourages a deeper investigation into the contextual factors and underlying causes that may explain these patterns. This approach fosters a more comprehensive analysis and understanding of the complex nature of police killings."
 
-4. Community-Police Relations
+5. Community-Police Relations
 Original Question: How do community-police relations impact police killings?
 Expanded Version: What is the relationship between community trust in law enforcement and the frequency of police killings? How do historical tensions, cultural differences, and systemic biases affect interactions between police and the communities they serve? Investigate the effectiveness of community policing initiatives, cultural competency training, and efforts to build trust and collaboration between law enforcement and local residents. Additionally, explore how community-led solutions and restorative justice practices could reduce police violence.
 
-5. Weapon Use and Lethal Force
+6. Weapon Use and Lethal Force
 Original Question: What types of weapons are most commonly used in police killings?
 Expanded Version: In incidents of police killings, what types of weapons are most frequently involved, and how does this vary by region or demographic group? Are there patterns in the use of lethal force, such as the prevalence of firearms versus less-lethal alternatives? Examine the role of police training, departmental policies, and situational factors (e.g., perceived threat levels) in determining the use of specific weapons. Furthermore, consider how public perception and legal frameworks around the use of force influence these outcomes.
 
