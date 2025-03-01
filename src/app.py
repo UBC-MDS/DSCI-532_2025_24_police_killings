@@ -22,7 +22,6 @@ title = html.H1(
         'font-size': '48px',
     }
 )
-
 sidebar = dbc.Col([
     html.H3('Global Controls'),
     html.H5('Year'),
@@ -51,7 +50,7 @@ sidebar = dbc.Col([
         ),
 
     html.Br(),
-    html.H5('Is the victim armed?'),
+    html.H5('Was the victim armed?'),
     dcc.Checklist(["All"], ["All"], id="all-checklist-3", inline=True),
     dcc.Checklist(
         id='armed-checklist', 
@@ -68,6 +67,44 @@ sidebar = dbc.Col([
         'flex-direction': 'column',  # Allow for children to be aligned to bottom
         }
     )
+tab = dbc.Tabs([
+    dbc.Tab([
+        dvc.Vega(id='map', spec={}),
+    ], label='US Map Distribution'),
+    dbc.Tab([
+        dvc.Vega(id='race_bar', spec={}),
+    ], label='Race/Ethnicity Summary Distribution'),
+])
+input_state = html.Div([
+        html.H5('Enter the number of top states below:'),
+        dcc.Input(id='top_state', placeholder='Integer between 0 and 51', debounce=False, min=0, max=51),
+        html.P(id='err', style={'color': 'red'}),
+        html.P(id='output_area')
+    ], style={
+        'background-color': '#E4AA90',
+        'padding': 9,
+        }
+    )
+two_charts = dvc.Vega(id='top10_time', spec={})
+footer = html.Div([
+    html.P(
+        "The Data-Driven Dashboard of Police Killings project visualizes police killings data across the United States, "
+        "providing insights into trends by race, age, location, and armed status."
+    ),
+    html.P(
+        "Contributors include Adrian Leung, Rong Wan, Tingting Chen, and Shawn Xiao Hu, "
+        "as part of the UBC DSCI 532 Capstone project."
+    ),
+    html.P([
+        "GitHub Repository: ",
+        html.A(
+            "Police Killings Dashboard Repo",
+            href="https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings",
+            target="_blank"
+        )
+    ]),
+    html.P(f"Last updated: {pd.Timestamp.today().strftime('%B %d, %Y')}"),
+    ], style={'textAlign': 'center', 'fontSize': '14px', 'marginTop': '20px'})
 
 # Layout
 app.layout = dbc.Container([
@@ -86,63 +123,23 @@ app.layout = dbc.Container([
     dbc.Row([
         sidebar,
         dbc.Col([
-            dbc.Tabs([
-                dbc.Tab([
-                    dvc.Vega(id='map', spec={}),
-                ], label='US Map Distribution'),
-                dbc.Tab([
-                    dvc.Vega(id='race_bar', spec={}),
-                ], label='Race/Ethnicity Summary Distribution'),
-            ]),
+            tab,
             html.Br(),
             html.Br(),
             dbc.Row([
                 dbc.Col([
                     dbc.Row(
-                        dbc.Col([
-                            html.Div([
-                                html.H5('Enter the number of top states below:'),
-                                dcc.Input(id='top_state', placeholder='Integer between 0 and 51', debounce=False, min=0, max=51),
-                                html.P(id='err', style={'color': 'red'}),
-                                html.P(id='output_area')
-                            ], style={
-                                'background-color': '#E4AA90',
-                                'padding': 9,
-                                }
-                            )
-                        ], md=10)
+                        dbc.Col([input_state], md=10)
                     ), 
                     html.Br(),
-                    dvc.Vega(id='top10_time', spec={})
+                    two_charts
                 ]),
             ]),
         ], md=10),
     ]),
 
     html.Hr(),  # Horizontal line before the footer
-    dbc.Row(
-        dbc.Col(
-            html.Div([
-                html.P(
-                    "The Data-Driven Dashboard of Police Killings project visualizes police killings data across the United States, "
-                    "providing insights into trends by race, age, location, and armed status."
-                ),
-                html.P(
-                    "Contributors include Adrian Leung, Rong Wan, Tingting Chen, and Shawn Xiao Hu, "
-                    "as part of the UBC DSCI 532 Capstone project."
-                ),
-                html.P([
-                    "GitHub Repository: ",
-                    html.A(
-                        "Police Killings Dashboard Repo",
-                        href="https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings",
-                        target="_blank"
-                    )
-                ]),
-                html.P(f"Last updated: {pd.Timestamp.today().strftime('%B %d, %Y')}"),
-            ], style={'textAlign': 'center', 'fontSize': '14px', 'marginTop': '20px'})
-        )
-    )
+    dbc.Row(dbc.Col(footer))
 ], fluid=True)
 
 # Server side callbacks/reactivity
