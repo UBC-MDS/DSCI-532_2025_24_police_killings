@@ -18,23 +18,23 @@ Deviation from Proposal: The heatmap was replaced because scatter plots on maps 
 
 3. Enhanced Filtering Options:  
 
-Implementation: We added filters for year, age and armed status (e.g. vehicle, firearm, knife). Additionally, we introduced a filter for the time series plot to allow users to focus on specific year and month.  
+Implementation: We added filters for year, age and armed status (e.g. vehicle, firearm, knife).  
 
 Deviation from Proposal: These filters were not initially planned but were added to improve interactivity and user control over the data, making the dashboard more dynamic and user-friendly.  
 
 4. Top n States by Police Killings Plot:  
 
-Implementation: We included a filter to compare police killings across different states, enabling users to select specific states for comparison. Additionally, the number of top states can be determined by the user by entering an integer.  
+Implementation: The plot in the sketch is fixed at top 10 states while the one in the app is top n states, where n is a flexible user input. And we introduced an interaction between the top n states plot and time-series plot, enabling users to select specific states for its corresponding time series plot.  
 
-Deviation from Proposal: This feature was enhanced to provide more flexibility in analyzing state-level data, allowing users to explore trends and patterns across regions.  
+Deviation from Proposal: These features were enhanced to provide more flexibility in analyzing state-level data, allowing users to explore trends and patterns across regions.  
 
 5. Time Series Plot:  
 
-Implementation: The time series plot now compares police killings across states instead of genders, as originally proposed. And we relocated the time series chart to the right side of the interface.   
+Implementation: The time series plot now compares police killings across states instead of genders, as originally proposed. And we relocated the time series chart to the right side of the interface. Additionally, we introduce a top n states filter on the time-series (the user input on top n states control both the top n state bar plot and the time series plot).  
 
 Deviation from Proposal: This change was made because state-level comparisons were deemed more relevant for understanding trends over time, given the limited variability in gender data. And Layout adjustment will improve the overall layout balance and ensure a more intuitive flow of information for users.  
 
-6. Additional enhancement:  
+6. Additional enhancements:  
 
   - Implemented a tab-based interface to allow users to seamlessly switch between two visualizations:
     - A geographical map displaying the distribution of police killings.  
