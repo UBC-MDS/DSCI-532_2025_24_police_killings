@@ -61,7 +61,7 @@ def create_bar(data):
     """Create the race/ethnicity barplot."""
     bar = alt.Chart(data).mark_bar().encode(
             x = 'count()',
-            y = alt.Y('raceethnicity', title='Race/Ethnicity').sort('-x'),
+            y = alt.Y('raceethnicity',  title='Race/Ethnicity').sort('-x'),
             color = 'gender',
             tooltip = 'count()'
         ).properties(
@@ -69,9 +69,7 @@ def create_bar(data):
             width=450
         ).configure_axis(
             labelFontSize=14,  
-            titleFontSize=16   
-        ).configure_axisY(
-            labelExpr="datum.value % 1 === 0 ? datum.value : ''"
+            titleFontSize=16
         ).configure_legend(
             labelFontSize=14, 
             titleFontSize=16
@@ -81,8 +79,8 @@ def create_bar(data):
 def create_number(data):
     """Create total number of police killings"""
     return [
-        dbc.CardHeader(f'Number of Police Killings', style={"fontSize": "22px", 'background-color': '#E4AA90'}),
-        dbc.CardBody(f'{len(data)}', style={"fontSize": "25px"})
+        dbc.CardHeader(f'Number of Police Killings', className='custom-card-header'),
+        dbc.CardBody(f'{len(data)}', className='custom-card-body')
     ]
 
 def filter_states(data, top_state):

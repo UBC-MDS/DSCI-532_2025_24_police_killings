@@ -19,4 +19,4 @@ footer = html.Div([
         )
     ]),
     html.P(f"Last updated: {pd.Timestamp.today().strftime('%B %d, %Y')}"),
-    ], style={'textAlign': 'center', 'fontSize': '14px', 'marginTop': '20px'})
+    ], className="custom-footer")

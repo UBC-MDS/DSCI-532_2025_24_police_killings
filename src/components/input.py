@@ -5,8 +5,4 @@ input_state = html.Div([
         dcc.Input(id='top_state', placeholder='Integer between 0 and 51', debounce=False, min=0, max=51),
         html.P(id='err', style={'color': 'red'}),
         html.P(id='output_area')
-    ], style={
-        'background-color': '#E4AA90',
-        'padding': 9,
-        }
-    )
+    ], className="custom-input-container")

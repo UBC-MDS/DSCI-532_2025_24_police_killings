@@ -36,13 +36,4 @@ sidebar = dbc.Col([
         options=['Unarmed', 'Firearm', 'Non-lethal firearm', 'Knife', 'Vehicle', 'Disputed', 'Other']
         ),
     ],
-    md=2,
-    style={
-        'background-color': '#D5A9AF',
-        'padding': 15,  # Padding top,left,right,botoom
-        'padding-bottom': 0,  # Remove bottom padding for footer,
-        'height': '105vh',  # vh = "viewport height" = 105% of the window height
-        'display': 'flex',  # Allow children to be aligned to bottom
-        'flex-direction': 'column',  # Allow for children to be aligned to bottom
-        }
-    )
+    md=2, className="custom-sidebar")

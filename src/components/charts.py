@@ -9,7 +9,7 @@ us_map = dbc.Col([
 
 race_chart = dbc.Col([
     html.Br(),
-    html.H4('Race/Ethnicity Distribution of Police Killings Victims', style={"text-align": "center"}),
+    html.H4('Race/Ethnicity Distribution of Police Killings Victims', className='custom-bar-title'),
     dvc.Vega(id='race_bar', spec={})
 ])
 
