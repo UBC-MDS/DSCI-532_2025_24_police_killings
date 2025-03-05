@@ -38,6 +38,6 @@ app.layout = dbc.Container([
     dbc.Row(dbc.Col(footer))
 ], fluid=True)
 
-# Run the app/dashboard
+# Run the app/dashboards
 if __name__ == '__main__':
     app.run(debug=False)
