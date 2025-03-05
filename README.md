@@ -41,7 +41,7 @@ By providing a structured data-driven approach, this platform helps policymakers
 
 ## Who are we?
 
-The Data-Driven Dashboard of Police Killings project is developed by a team of researchers and data scientists dedicated to using data for social justice. Contributors include Tingting Chen, Shawn Xiao Hu, Adrian Leung, and Rong Wan, as part of the UBC DSCI 532 Capstone project. This work is supported by advocates, policymakers, and data ethics researchers.
+The Data-Driven Dashboard of Police Killings project is developed by a team of researchers and data scientists dedicated to using data for social justice. Contributors include Tingting Chen, Shawn Xiao Hu, Adrian Leung, and Rong Wan, as part of the UBC DSCI 532 project. This work is supported by advocates, policymakers, and data ethics researchers.
 
 ## What do we need?
 
