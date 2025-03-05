@@ -1,0 +1,53 @@
+.custom-header {
+    background-color: #D15B51;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    min-height: 10vh;
+}
+
+.custom-title {
+    color: white;
+    text-align: left;
+    font-size: 48px;
+}
+
+.custom-input-container {
+    background-color: #E4AA90;
+    padding: 9px;
+}
+
+.custom-sidebar {
+    background-color: #D5A9AF;
+    padding: 15px; 
+    padding-bottom: 0;
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-label {
+    margin-left: 10px;
+}
+
+.custom-bar-title {
+    text-align: center;
+}
+
+.custom-card {
+    text-align: center;
+}
+
+.custom-card-header {
+    font-size: 22px;
+    background-color: #E4AA90;
+}
+
+.custom-card-body {
+    font-size: 25px;
+}
+
+.custom-footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
