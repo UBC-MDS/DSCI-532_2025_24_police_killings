@@ -1,43 +1,23 @@
-from dash import Dash, html
+import dash
 import dash_bootstrap_components as dbc
-from components.title import title
-from components.sidebar import sidebar
-from components.footer import footer
-from components.charts import two_charts
-from components.tab import tab
-from components.input import input_state
-import callbacks
+from pages.home import layout
+from utils.settings import DEBUG_MODE
 
-# Initiatlize the app
-app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], title='Police Killings')
+# Import Callbacks (Necessary for Dash to recognize them)
+from callbacks import charts, output, all_check  # ✅ Updated callback imports
 
-# Add this line for deployment compatibility
-server = app.server
+# Initialize the app
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], title='Police Killings')
 
-# Layout
-app.layout = dbc.Container([
-    dbc.Row([title], className='custom-header'),
-    dbc.Row([
-        sidebar,
-        dbc.Col([
-            tab,
-            html.Br(),
-            html.Br(),
-            dbc.Row([
-                dbc.Col([
-                    dbc.Row(
-                        dbc.Col([input_state], md=10)
-                    ), 
-                    html.Br(),
-                    two_charts
-                ]),
-            ]),
-        ], md=10),
-    ]),
-    html.Hr(),
-    dbc.Row(dbc.Col(footer))
-], fluid=True)
+# ✅ Suppress missing component errors (for dynamic loading)
+app.config.suppress_callback_exceptions = True  
 
-# Run the app/dashboard
+# Deployment server setup
+server = app.server  
+
+# Set the app layout from home.py
+app.layout = layout
+
+# Run the app
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run_server(debug=DEBUG_MODE)
