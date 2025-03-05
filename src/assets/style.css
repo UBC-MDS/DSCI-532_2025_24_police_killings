@@ -25,6 +25,10 @@
     flex-direction: column;
 }
 
+.checkbox-label {
+    margin-left: 10px;
+}
+
 .custom-bar-title {
     text-align: center;
 }
