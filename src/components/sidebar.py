@@ -11,13 +11,15 @@ def year_card():
             className='custom-filter-title'
             ),
         dbc.CardBody(
-            dcc.Checklist(
-                id='year',
-                options=[{
-                    'label': html.Span(year, style={'margin-left': '5px', 'margin-right': '10px'}), 
-                    'value': year
-                    } for year in year_options], 
-                inline=True
+            dbc.Col(
+                dcc.Checklist(
+                    id='year',
+                    options=[{
+                        'label': html.Span(year, style={'margin-left': '5px', 'margin-right': '10px'}), 
+                        'value': year
+                        } for year in year_options], 
+                    inline=True
+                ), className="text-center"
             )
         )
     ])
