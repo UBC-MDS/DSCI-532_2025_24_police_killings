@@ -8,9 +8,7 @@ from components.charts import two_charts
 
 layout = dbc.Container([
     # Title Row
-    dbc.Row([
-        title
-    ], className='custom-header'),
+    title,
     
     # Sidebar + Main Content
     dbc.Row([

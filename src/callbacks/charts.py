@@ -8,23 +8,23 @@ data = police_data
 def filter_data(data, year, race, age, armed):
     """Filter the data based on global selections."""
     df = data.copy()
-    if year is not None:
+    if year:
         df = df[df['year'].isin(year)]
-    if race is not None:
+    if race:
         df = df[df['raceethnicity'].isin(race)]
         df['raceethnicity'] = pd.Categorical(
             df['raceethnicity'],
             categories=race,
             ordered=True
             )
-    if age is not None:
+    if age:
         df = df[df['age_group'].isin(age)]
         df['age_group'] = pd.Categorical(
             df['age_group'],
             categories=age,
             ordered=True
             )
-    if armed is not None:
+    if armed:
         df = df[df['armed'].isin(armed)]
         df['armed'] = pd.Categorical(
             df['armed'],
