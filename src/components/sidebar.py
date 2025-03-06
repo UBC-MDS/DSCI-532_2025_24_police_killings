@@ -112,7 +112,7 @@ def armed_dropdown():
     return drop_menu
 
 sidebar = dbc.Col([
-    html.H3('Global Controls'),
+    html.H3('Global Controls', className="text-center"),
     year_card(),
     html.Br(),
     race_dropdown(),
