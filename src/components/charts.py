@@ -20,14 +20,11 @@ two_charts = dbc.Col([
                 dcc.Slider(
                     id='top_state',
                     min=1, max=25, step=1,
-                    value=10,
-                    # This will update the chart as the slider is dragged instead of only when it is released
-                    # Be careful with this for functions with heavy computations as it can slow down the app
-                    # updatemode='drag'
+                    value=10
                 ),
                 html.P(id='output_area')
             ]), className='custom-slider-box'
         ),
         dbc.CardBody(dvc.Vega(id='top10_time', spec={}, opt={'actions': False}))
         ])
-    ], md=10)
+    ], width=10)

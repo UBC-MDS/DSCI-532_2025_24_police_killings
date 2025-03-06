@@ -1,3 +1,4 @@
 from dash import html
+import dash_bootstrap_components as dbc
 
-title = html.H1('Police Killings DashBoard', className="custom-title")
+title = dbc.Col(html.H1('Police Killings DashBoard', className="custom-title"))

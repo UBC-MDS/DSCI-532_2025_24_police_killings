@@ -1,4 +1,4 @@
-from dash import Input, Output, callback, no_update
+from dash import Input, Output, callback
 
 @callback(
     Output('output_area', 'children'),

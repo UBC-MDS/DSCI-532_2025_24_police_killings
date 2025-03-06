@@ -2,7 +2,7 @@
     background-color: #D15B51;
     padding-top: 2vh;
     padding-bottom: 2vh;
-    min-height: 10vh;
+    min-height: 8vh;
 }
 
 .custom-title {
@@ -11,16 +11,26 @@
     font-size: 48px;
 }
 
-.custom-input-container {
-    background-color: #E4AA90;
-    padding: 9px;
+.custom-filter-title {
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.custom-filter-armed {
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 6px;
 }
 
 .custom-sidebar {
-    background-color: #D5A9AF;
+    /* background-color: #fbf4f4; */
     padding: 20px; 
     padding-bottom: 0;
-    height: 150vh;
+    border-radius: 3;
+    height: 160vh;
     display: flex;
     flex-direction: column;
 }
@@ -43,10 +53,6 @@
 
 .custom-slider-box {
     background-color: #E4AA90;
-}
-
-.custom-card {
-    text-align: center;
 }
 
 .custom-footer {

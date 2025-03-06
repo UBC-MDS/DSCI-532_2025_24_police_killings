@@ -1,51 +1,42 @@
-from dash import Input, Output, callback_context, callback
+from dash import Input, Output, State, callback_context, callback, no_update
 
 @callback(
-    Output("race-checklist", "value"),
-    Output("all-checklist-1", "value"),
-    Input("race-checklist", "value"),
-    Input("all-checklist-1", "value")
+    Output("race-dropdown", "value"),
+    Input("select-all-race", "n_clicks"),
+    State("race-dropdown", "value"),
+    prevent_initial_call=True
 )
-def sync_race_checklists(race_selected, all_selected):
-    ctx = callback_context
+def select_all_race(n_clicks, selected_values):
     race_options = ['White', 'Black', 'Hispanic/Latino',
-               'Asian/Pacific Islander', 'Native American', 
-               'Arab-American', 'Other']
-    input_id = ctx.triggered[0]["prop_id"].split(".")[0]
-    if input_id == "race-checklist":
-        all_selected = ["All"] if set(race_selected) == set(race_options) else []
-    else:
-        race_selected = race_options if all_selected else []
-    return race_selected, all_selected
+                    'Asian/Pacific Islander', 'Native American', 
+                    'Arab-American', 'Other']
+    ctx = callback_context
+    if ctx.triggered_id == "select-all-race":
+        return [opt for opt in race_options]
+    return no_update
 
 @callback(
-    Output("age-checklist", "value"),
-    Output("all-checklist-2", "value"),
-    Input("age-checklist", "value"),
-    Input("all-checklist-2", "value")
+    Output("age-dropdown", "value"),
+    Input("select-all-age", "n_clicks"),
+    State("age-dropdown", "value"),
+    prevent_initial_call=True
 )
-def sync_age_checklists(age_selected, all_selected):
+def select_all_age(n_clicks, selected_values):
+    age_options = ['Under 19', '20-39', '40-59', 'Above 60', 'Unknown']
     ctx = callback_context
-    age_options = ['20-39', '40-59', 'Under 19', 'Above 60', 'Unknown']
-    input_id = ctx.triggered[0]["prop_id"].split(".")[0]
-    if input_id == "age-checklist":
-        all_selected = ["All"] if set(age_selected) == set(age_options) else []
-    else:
-        age_selected = age_options if all_selected else []
-    return age_selected, all_selected
+    if ctx.triggered_id == "select-all-age":
+        return [opt for opt in age_options]
+    return no_update
 
 @callback(
-    Output("armed-checklist", "value"),
-    Output("all-checklist-3", "value"),
-    Input("armed-checklist", "value"),
-    Input("all-checklist-3", "value")
+    Output("armed-dropdown", "value"),
+    Input("select-all-armed", "n_clicks"),
+    State("armed-dropdown", "value"),
+    prevent_initial_call=True
 )
-def sync_armed_checklists(armed_selected, all_selected):
-    ctx = callback_context
+def select_all_armed(n_clicks, selected_values):
     armed_options = ['Unarmed', 'Firearm', 'Non-lethal firearm', 'Knife', 'Vehicle', 'Disputed', 'Other']
-    input_id = ctx.triggered[0]["prop_id"].split(".")[0]
-    if input_id == "armed-checklist":
-        all_selected = ["All"] if set(armed_selected) == set(armed_options) else []
-    else:
-        armed_selected = armed_options if all_selected else []
-    return armed_selected, all_selected
+    ctx = callback_context
+    if ctx.triggered_id == "select-all-armed":
+        return [opt for opt in armed_options]
+    return no_update

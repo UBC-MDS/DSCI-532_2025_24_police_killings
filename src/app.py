@@ -7,7 +7,7 @@ from utils.settings import DEBUG_MODE
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], title='Police Killings')
 
 # Deployment server setup
-server = app.server  
+# server = app.server  
 
 # Set the app layout from home.py
 app.layout = layout

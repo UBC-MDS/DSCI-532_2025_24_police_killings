@@ -8,8 +8,8 @@ data = police_data
 def filter_data(data, year, race, age, armed):
     """Filter the data based on global selections."""
     df = data.copy()
-    if year != '2015 & 2016':
-        df = df[df['year'] == year]
+    if year is not None:
+        df = df[df['year'].isin(year)]
     if race is not None:
         df = df[df['raceethnicity'].isin(race)]
         df['raceethnicity'] = pd.Categorical(
@@ -41,8 +41,8 @@ def create_map(data):
     ).project(
         type='albersUsa'
     ).properties(
-        width=950,
-        height=500
+        width=800,
+        height=400
     )
     heatmap = alt.Chart(data).mark_circle(opacity=0.5, size=45).encode(
         longitude='longitude:Q',
@@ -94,8 +94,8 @@ def create_state_time(data, top_state):
             select_state
         ).properties(
             title=f'Top {top_state} States by Police Killings',
-            height=500,
-            width=400
+            height=400,
+            width=230
         )
 
     time = alt.Chart(data).mark_line().encode(
@@ -108,8 +108,8 @@ def create_state_time(data, top_state):
             )
         ).properties(
             title = 'Police Killings Victims by Months', 
-            height=500, 
-            width=500
+            height=400, 
+            width=400
         )
     top10_time = (top10 | time).configure_axis(
             labelFontSize=14,  
@@ -128,9 +128,9 @@ def create_state_time(data, top_state):
     Output('race_bar', 'spec'),
     Output('top10_time', 'spec'),
     Input('year', 'value'),
-    Input('race-checklist', 'value'),
-    Input('age-checklist', 'value'), 
-    Input('armed-checklist', 'value'), 
+    Input('race-dropdown', 'value'),
+    Input('age-dropdown', 'value'), 
+    Input('armed-dropdown', 'value'), 
     Input('top_state', 'value'), 
 )
 def create_chart(year, race, age, armed, top_state):
