@@ -13,7 +13,7 @@ sidebar = dbc.Col([
     html.H5('Year'),
     dcc.RadioItems(
         id='year',
-        options=[2015, 2016, '2015 & 2016'], 
+        options=[{'label': html.Span(year, style={'margin-left': '10px'}), 'value': year} for year in year_options], 
         value='2015 & 2016'
         ),
     html.Br(),

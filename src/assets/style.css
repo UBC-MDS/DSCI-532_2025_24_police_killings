@@ -18,9 +18,9 @@
 
 .custom-sidebar {
     background-color: #D5A9AF;
-    padding: 15px; 
+    padding: 20px; 
     padding-bottom: 0;
-    height: 105vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
 }
@@ -29,21 +29,15 @@
     margin-left: 10px;
 }
 
-.custom-bar-title {
+.custom-card-title {
     text-align: center;
+    background-color: #E4AA90;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .custom-card {
     text-align: center;
-}
-
-.custom-card-header {
-    font-size: 22px;
-    background-color: #E4AA90;
-}
-
-.custom-card-body {
-    font-size: 25px;
 }
 
 .custom-footer {

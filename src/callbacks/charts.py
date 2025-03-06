@@ -1,10 +1,9 @@
-from dash import Input, Output, callback, no_update
-import dash_bootstrap_components as dbc
+from dash import Input, Output, callback
 import altair as alt
 import pandas as pd
-from data.police_data import police_data
+# from data.police_data import police_data
 
-data = police_data
+data = pd.read_csv('data/processed/clean_data.csv')
 
 def filter_data(data, year, race, age, armed):
     """Filter the data based on global selections."""
@@ -62,7 +61,7 @@ def create_bar(data):
     bar = alt.Chart(data).mark_bar().encode(
             x = 'count()',
             y = alt.Y('raceethnicity',  title='Race/Ethnicity').sort('-x'),
-            color = 'gender',
+            color = alt.Color('gender', title='Gender'),
             tooltip = 'count()'
         ).properties(
             height=350, 
@@ -76,16 +75,9 @@ def create_bar(data):
         ).to_dict()
     return bar
 
-def create_number(data):
-    """Create total number of police killings"""
-    return [
-        dbc.CardHeader(f'Number of Police Killings', className='custom-card-header'),
-        dbc.CardBody(f'{len(data)}', className='custom-card-body')
-    ]
-
 def filter_states(data, top_state):
     """Filter the data based on the number of top states input."""
-    states = data['state'].value_counts()[:int(top_state)].index.to_list()
+    states = data['state'].value_counts()[:top_state].index.to_list()
     df = data[data['state'].isin(states)]
     return df
 
@@ -133,7 +125,6 @@ def create_state_time(data, top_state):
 @callback(
     Output('map', 'spec'),
     Output('race_bar', 'spec'),
-    Output('number', 'children'),
     Output('top10_time', 'spec'),
     Input('year', 'value'),
     Input('race-checklist', 'value'),
@@ -146,14 +137,8 @@ def create_chart(year, race, age, armed, top_state):
     
     map = create_map(data_filtered)
     bar = create_bar(data_filtered)
-    number = create_number(data_filtered)
-
-    if top_state is None:
-        top_state = '0'
-    elif (not top_state.isdigit()) or (int(top_state) > 51):
-        return map, bar, number, no_update
 
     data_filtered = filter_states(data_filtered, top_state)
     top10_time = create_state_time(data_filtered, top_state)
 
-    return map, bar, number, top10_time
+    return map, bar, top10_time
