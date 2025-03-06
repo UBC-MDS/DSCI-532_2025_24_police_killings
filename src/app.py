@@ -10,7 +10,7 @@ from pages.home import layout
 from utils.settings import DEBUG_MODE
 import os
 # Import Callbacks (Necessary for Dash to recognize them)
-from callbacks import charts, filters  
+from callbacks import charts, all_check, output  
 
 # Initialize the app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], title='Police Killings')
