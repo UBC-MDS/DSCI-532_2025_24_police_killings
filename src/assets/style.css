@@ -30,10 +30,19 @@
 }
 
 .custom-card-title {
-    text-align: center;
+    text-align: left;
     background-color: #E4AA90;
     font-size: 22px;
     font-weight: bold;
+}
+
+.custom-slider-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.custom-slider-box {
+    background-color: #E4AA90;
 }
 
 .custom-card {

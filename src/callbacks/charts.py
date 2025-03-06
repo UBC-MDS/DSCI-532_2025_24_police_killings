@@ -1,9 +1,9 @@
 from dash import Input, Output, callback
 import altair as alt
 import pandas as pd
-# from data.police_data import police_data
+from data.police_data import police_data
 
-data = pd.read_csv('data/processed/clean_data.csv')
+data = police_data
 
 def filter_data(data, year, race, age, armed):
     """Filter the data based on global selections."""
@@ -94,7 +94,8 @@ def create_state_time(data, top_state):
             select_state
         ).properties(
             title=f'Top {top_state} States by Police Killings',
-            width=300
+            height=500,
+            width=400
         )
 
     time = alt.Chart(data).mark_line().encode(

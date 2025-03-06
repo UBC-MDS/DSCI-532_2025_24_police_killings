@@ -16,7 +16,7 @@ two_charts = dbc.Col([
     dbc.Card([
         dbc.CardHeader(
             dbc.Row([
-                html.H5('Select the number of top states below:'),
+                html.H5('Select the number of top states below:', className='custom-slider-title'),
                 dcc.Slider(
                     id='top_state',
                     min=1, max=25, step=1,
@@ -26,7 +26,7 @@ two_charts = dbc.Col([
                     # updatemode='drag'
                 ),
                 html.P(id='output_area')
-            ])
+            ]), className='custom-slider-box'
         ),
         dbc.CardBody(dvc.Vega(id='top10_time', spec={}, opt={'actions': False}))
         ])
