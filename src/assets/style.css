@@ -1,14 +1,14 @@
 .custom-header {
     background-color: #D15B51;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    min-height: 8vh;
+    padding-top: 1vh;
+    padding-bottom: 0vh;
+    min-height: 4vh;
 }
 
 .custom-title {
     color: white;
     text-align: left;
-    font-size: 48px;
+    font-size: 35px;
 }
 
 .custom-filter-title {
@@ -26,7 +26,7 @@
 }
 
 .custom-sidebar {
-    /* background-color: #fbf4f4; */
+    background-color: #f4f1f1;
     padding: 20px; 
     padding-bottom: 0;
     border-radius: 3;

@@ -8,8 +8,29 @@ us_map = dbc.Card([
 ])
 
 race_chart = dbc.Card([
-    dbc.CardHeader('Race/Ethnicity Distribution of Police Killings Victims', className='custom-card-title'),
-    dbc.CardBody(dvc.Vega(id='race_bar', spec={}, opt={'actions': False}))
+    dbc.CardHeader(
+        dbc.Row([
+            dbc.Col(
+                dcc.Dropdown(
+                    id='var_dropdown', 
+                    options=[
+                        {'label': 'Race/Ethnicity', 'value': 'raceethnicity'},
+                        {'label': 'Age Group', 'value': 'age_group'},
+                        {'label': 'Armed Status', 'value': 'armed'}
+                    ],
+                    value='raceethnicity',
+                    clearable=False
+                    ), width=3
+                ),
+            dbc.Col(
+                html.Label('Distribution of Police Killings Victims')
+            )
+        ]), className='custom-card-title'
+    ),
+    dbc.CardBody(
+        dvc.Vega(id='race_bar', spec={}, opt={'actions': False}),
+        className="d-flex justify-content-center align-items-center"
+    )
 ])
 
 two_charts = dbc.Col([

@@ -8,7 +8,7 @@ tab = dbc.Tabs([
     ], label='Map'),
     dbc.Tab([
         dbc.Row([
-            dbc.Col(race_chart, width=8),
+            dbc.Col(race_chart, width=10),
         ])
     ], label='Police Killings Distribution'),
 ])

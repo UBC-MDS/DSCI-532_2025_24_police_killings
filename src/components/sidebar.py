@@ -38,6 +38,7 @@ def race_dropdown():
     all = dbc.Button(
         "Select All", 
         id="select-all-race", 
+        outline=True,
         color="primary", 
         n_clicks=0, 
         size="sm",
@@ -68,6 +69,7 @@ def age_dropdown():
         "Select All", 
         id="select-all-age", 
         color="primary", 
+        outline=True,
         n_clicks=0, 
         size="sm",
         className="mb-3"
@@ -96,7 +98,8 @@ def armed_dropdown():
     all = dbc.Button(
         "Select All", 
         id="select-all-armed", 
-        color="primary", 
+        color="primary",
+        outline=True, 
         n_clicks=0, 
         size="sm",
         className="mb-3"

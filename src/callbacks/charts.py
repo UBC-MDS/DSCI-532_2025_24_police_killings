@@ -8,6 +8,12 @@ data = police_data
 def filter_data(data, year, race, age, armed):
     """Filter the data based on global selections."""
     df = data.copy()
+    # Make sure age_group is ordered ordinally
+    df['age_group'] = pd.Categorical(
+            df['age_group'],
+            categories=['Under 19', '20-39', '40-59', 'Above 60', 'Unknown'],
+            ordered=True
+            )
     if year:
         df = df[df['year'].isin(year)]
     if race:
@@ -19,18 +25,8 @@ def filter_data(data, year, race, age, armed):
             )
     if age:
         df = df[df['age_group'].isin(age)]
-        df['age_group'] = pd.Categorical(
-            df['age_group'],
-            categories=age,
-            ordered=True
-            )
     if armed:
         df = df[df['armed'].isin(armed)]
-        df['armed'] = pd.Categorical(
-            df['armed'],
-            categories=armed,
-            ordered=True
-            )
     return df
 
 def create_map(data):
@@ -56,11 +52,33 @@ def create_map(data):
     ).to_dict()
 
 
-def create_bar(data):
+def create_bar(data, var):
     """Create the race/ethnicity barplot."""
+    if var == 'raceethnicity':
+        label = 'Race/Ethnicity'
+    elif var == 'armed':
+        label = 'Armed Status'
+    else:
+        label = 'Age Group'
+        return alt.Chart(data).mark_bar().encode(
+                x = 'count()',
+                y = alt.Y(var,  title=label),
+                color = alt.Color('gender', title='Gender'),
+                tooltip = 'count()'
+            ).properties(
+                height=350, 
+                width=450
+            ).configure_axis(
+                labelFontSize=14,  
+                titleFontSize=16
+            ).configure_legend(
+                labelFontSize=14, 
+                titleFontSize=16
+            ).to_dict()
+
     bar = alt.Chart(data).mark_bar().encode(
             x = 'count()',
-            y = alt.Y('raceethnicity',  title='Race/Ethnicity').sort('-x'),
+            y = alt.Y(var,  title=label).sort('-x'),
             color = alt.Color('gender', title='Gender'),
             tooltip = 'count()'
         ).properties(
@@ -98,10 +116,22 @@ def create_state_time(data, top_state):
             width=230
         )
 
+    color_list = [
+        "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf",
+        "#aec7e8", "#ffbb78", "#98df8a", "#ff9896", "#c5b0d5", "#c49c94", "#f7b6d2", "#c7c7c7", "#dbdb8d", "#9edae5",
+        "#393b79", "#637939", "#8c6d31", "#843c39", "#7b4173"
+    ]
     time = alt.Chart(data).mark_line().encode(
             x=alt.X('yearmonth(date):O', title='Month of Year'),
             y=alt.Y('count()', title='Number of Killings'),
-            color=alt.Color('state', title='State'),
+            color=alt.Color(
+                'state', 
+                title='State', 
+                scale=alt.Scale(
+                    domain=data['state'].unique(),
+                    range=color_list[:len(data['state'].unique())]
+                )
+            ),
             tooltip=['yearmonth(date):O', 'count()', 'state'],
             opacity=alt.condition(
                 select_state, alt.value(0.8), alt.value(0.1)
@@ -131,13 +161,14 @@ def create_state_time(data, top_state):
     Input('race-dropdown', 'value'),
     Input('age-dropdown', 'value'), 
     Input('armed-dropdown', 'value'), 
+    Input('var_dropdown', 'value'), 
     Input('top_state', 'value'), 
 )
-def create_chart(year, race, age, armed, top_state):
+def create_chart(year, race, age, armed, var_dropdown, top_state):
     data_filtered = filter_data(data, year, race, age, armed)
     
     map = create_map(data_filtered)
-    bar = create_bar(data_filtered)
+    bar = create_bar(data_filtered, var_dropdown)
 
     data_filtered = filter_states(data_filtered, top_state)
     top10_time = create_state_time(data_filtered, top_state)
