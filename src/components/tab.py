@@ -4,11 +4,11 @@ from components.charts import us_map, race_chart
 
 tab = dbc.Tabs([
     dbc.Tab([
-        dbc.Col(us_map, width=10),
+        dbc.Col(us_map, md=11),
     ], label='Map'),
     dbc.Tab([
         dbc.Row([
-            dbc.Col(race_chart, width=10),
+            dbc.Col(race_chart, md=11),
         ])
-    ], label='Police Killings Distribution'),
+    ], label='Distribution'),
 ])

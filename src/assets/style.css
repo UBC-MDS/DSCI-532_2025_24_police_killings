@@ -30,13 +30,20 @@
     padding: 20px; 
     padding-bottom: 0;
     border-radius: 3;
-    height: 160vh;
+    height: 100%;
+    min-height: 142vh;
     display: flex;
     flex-direction: column;
 }
 
-.custom-card-title {
+.custom-card-header {
     text-align: left;
+    background-color: #E4AA90;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.custom-dropdown {
     background-color: #E4AA90;
     font-size: 22px;
     font-weight: bold;
