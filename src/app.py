@@ -1,6 +1,6 @@
 import dash
 import dash_bootstrap_components as dbc
-from src.pages.home import layout
+from pages.home import layout
 from utils.settings import DEBUG_MODE 
 
 # Initialize the app
