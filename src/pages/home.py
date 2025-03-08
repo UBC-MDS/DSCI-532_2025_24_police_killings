@@ -3,18 +3,24 @@ import dash_bootstrap_components as dbc
 from components.title import title
 from components.sidebar import sidebar
 from components.footer import footer
-from components.tab import tab
-from components.charts import two_charts
+from components.charts import us_map, race_chart, two_charts
 
 layout = dbc.Container([
     # Title Row
     title,
-    
+    html.Br(),
     # Sidebar + Main Content
     dbc.Row([
         sidebar,
         dbc.Col([
-            tab,
+            dbc.Row([
+                dbc.Col(
+                    us_map, md=7
+                ),
+                dbc.Col(
+                    race_chart, md=5
+                )
+            ], className="d-flex"),
             html.Br(),
             dbc.Row(two_charts),
         ]),

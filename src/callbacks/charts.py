@@ -1,6 +1,8 @@
 from dash import Input, Output, callback
 import altair as alt
 import pandas as pd
+import plotly.express as px
+import time
 from data.police_data import police_data
 
 data = police_data
@@ -35,36 +37,44 @@ def filter_data(data, year, race, age, armed):
 
 def create_map(data, var):
     """Create the US Map with scatter points."""
-    if var == 'raceethnicity':
-        label = 'Race/Ethnicity'
-    elif var == 'armed':
-        label = 'Armed Status'
-    else:
-        label = 'Age Group'
-
-    us_map_url = "https://vega.github.io/vega-datasets/data/us-10m.json"
-    us_map = alt.Chart(alt.topo_feature(us_map_url, 'states')).mark_geoshape(
-        fill='lightgray', stroke='white'
-    ).project(
-        type='albersUsa'
-    ).properties(
-        width=850,
-        height=400
+    label = {
+        'raceethnicity': 'Race/Ethnicity',
+        'age_group': 'Age Group',
+        'armed': 'Armed Status'
+    }
+    map = px.scatter_map(
+        data, 
+        lat="latitude", 
+        lon="longitude", 
+        color=var,
+        color_continuous_scale=px.colors.cyclical.IceFire, 
+        labels=label,
+        custom_data=['name', 'city', 'state', 'raceethnicity', 'age', 'armed'],
+        zoom=3, 
+        height=450,
+        width=700
+        )
+    map.update_traces(
+        hovertemplate = 
+                "<b>%{customdata[0]}</b><br><br>" +
+                "City: %{customdata[1]}, %{customdata[2]}<br>" +
+                "Race/Ethnicity: %{customdata[3]}<br>" +
+                "Age: %{customdata[4]}<br>" +
+                "Armed Status: %{customdata[5]}" +
+                "<extra></extra>",
+        mode='markers',
+        marker={'sizemode':'area', 'sizeref':10},
     )
-    heatmap = alt.Chart(data).mark_circle(opacity=0.5, size=45).encode(
-        longitude='longitude:Q',
-        latitude='latitude:Q',
-        color=alt.Color(var, title=label, scale=alt.Scale(scheme='category10')),
-        tooltip=['name', 'state', 'raceethnicity', 'age', 'armed']
-    )
-    return (us_map + heatmap).configure_legend(
-        labelFontSize=15,
-        titleFontSize=17
-    ).to_dict()
+    return map.to_dict()
 
 
 def create_bar(data, var):
     """Create the race/ethnicity barplot."""
+    data['gender'] = pd.Categorical(
+            data['gender'],
+            categories=['Male', 'Female', 'Non-conforming'],
+            ordered=True
+        )
     if var == 'raceethnicity':
         label = 'Race/Ethnicity'
     elif var == 'armed':
@@ -77,13 +87,17 @@ def create_bar(data, var):
             ordered=True
         )
         bar = alt.Chart(data).mark_bar().encode(
-                x = 'count()',
-                y = alt.Y(var,  title=label),
-                color = alt.Color('gender', title='Gender'),
+                x = alt.X(var, axis=alt.Axis(labelAngle=0), title=label),
+                y = 'count()',
+                color = alt.Color(
+                    'gender', title='Gender',
+                    scale=alt.Scale(scheme="viridis"),
+                    legend=alt.Legend(orient="top")
+                    ),
                 tooltip = 'count()'
             ).properties(
-                height=350, 
-                width=450
+                height=305, 
+                width=320
             ).configure_axis(
                 labelFontSize=14,  
                 titleFontSize=16
@@ -96,11 +110,15 @@ def create_bar(data, var):
     bar = alt.Chart(data).mark_bar().encode(
             x = 'count()',
             y = alt.Y(var,  title=label).sort('-x'),
-            color = alt.Color('gender', title='Gender'),
+            color = alt.Color(
+                'gender', title='Gender',
+                scale=alt.Scale(scheme="viridis"),
+                legend=alt.Legend(orient="top")
+                ),
             tooltip = 'count()'
         ).properties(
             height=350, 
-            width=450
+            width=200
         ).configure_axis(
             labelFontSize=14,  
             titleFontSize=16
@@ -119,8 +137,9 @@ def filter_states(data, top_state):
 def create_state_time(data, top_state):
     """Create the combined plots of top states barplot and time-series line plot"""
     select_state = alt.selection_point(
-        fields=['state'])
-    top10 = alt.Chart(data).mark_bar().encode(
+        fields=['state']
+        )
+    top10 = alt.Chart(data).mark_bar(color='teal').encode(
             x=alt.X('count()', title='Police Killing Count'),
             y=alt.Y('state', sort='-x', title='States'),
             tooltip = 'count()',
@@ -156,7 +175,7 @@ def create_state_time(data, top_state):
         ).properties(
             title = 'Police Killings Victims by Months', 
             height=400, 
-            width=500
+            width=560
         )
     top10_time = (top10 | time).configure_axis(
             labelFontSize=14,  
@@ -171,7 +190,7 @@ def create_state_time(data, top_state):
 
 # Server side callbacks/reactivity
 @callback(
-    Output('map', 'spec'),
+    Output('map', 'figure'),
     Output('race_bar', 'spec'),
     Output('top10_time', 'spec'),
     Input('year', 'value'),
@@ -185,6 +204,7 @@ def create_state_time(data, top_state):
 def create_chart(year, race, age, armed, map_dropdown, bar_dropdown, top_state):
     data_filtered = filter_data(data, year, race, age, armed)
     
+    time.sleep(1)
     map = create_map(data_filtered, map_dropdown)
     bar = create_bar(data_filtered, bar_dropdown)
 

@@ -1,5 +1,5 @@
 .custom-header {
-    background-color: #D15B51;
+    background-color: #008080;
     padding-top: 1vh;
     padding-bottom: 0vh;
     min-height: 4vh;
@@ -29,7 +29,7 @@
     background-color: #f4f1f1;
     padding: 20px; 
     padding-bottom: 0;
-    border-radius: 3;
+    border-radius: 1;
     height: 100%;
     min-height: 142vh;
     display: flex;
@@ -38,15 +38,19 @@
 
 .custom-card-header {
     text-align: left;
-    background-color: #E4AA90;
+    color: white;
+    background-color: #008080;
     font-size: 22px;
     font-weight: bold;
 }
 
 .custom-dropdown {
-    background-color: #E4AA90;
+    background-color: #008080;
     font-size: 22px;
     font-weight: bold;
+    color: black !important;
+    width: 200px;
+    max-width: 100%;
 }
 
 .custom-slider-title {
@@ -55,7 +59,8 @@
 }
 
 .custom-slider-box {
-    background-color: #E4AA90;
+    background-color: #008080;
+    color: white;
 }
 
 .custom-footer {
