@@ -1,49 +1,61 @@
 .custom-header {
     background-color: #D15B51;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    min-height: 10vh;
+    padding-top: 1vh;
+    padding-bottom: 0vh;
+    min-height: 4vh;
 }
 
 .custom-title {
     color: white;
     text-align: left;
-    font-size: 48px;
+    font-size: 35px;
 }
 
-.custom-input-container {
-    background-color: #E4AA90;
-    padding: 9px;
+.custom-filter-title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    height: 40px;
+}
+
+.custom-filter-armed {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    height: 60px;
 }
 
 .custom-sidebar {
-    background-color: #D5A9AF;
-    padding: 15px; 
+    background-color: #f4f1f1;
+    padding: 20px; 
     padding-bottom: 0;
-    height: 105vh;
+    border-radius: 3;
+    height: 100%;
+    min-height: 142vh;
     display: flex;
     flex-direction: column;
 }
 
-.checkbox-label {
-    margin-left: 10px;
-}
-
-.custom-bar-title {
-    text-align: center;
-}
-
-.custom-card {
-    text-align: center;
-}
-
 .custom-card-header {
-    font-size: 22px;
+    text-align: left;
     background-color: #E4AA90;
+    font-size: 22px;
+    font-weight: bold;
 }
 
-.custom-card-body {
-    font-size: 25px;
+.custom-dropdown {
+    background-color: #E4AA90;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.custom-slider-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.custom-slider-box {
+    background-color: #E4AA90;
 }
 
 .custom-footer {
