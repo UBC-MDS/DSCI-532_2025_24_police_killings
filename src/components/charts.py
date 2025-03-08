@@ -4,12 +4,12 @@ from dash import html, dcc
 
 us_map = dbc.Card([
      dbc.CardHeader(
-        dbc.Row([
-            dbc.Col(
+        dbc.Col([
+            dbc.Row(
                 html.Label('Police Killings Across the United States by'),
-                width='auto'
+                align="center"
             ),
-            dbc.Col(
+            dbc.Row(
                 dcc.Dropdown(
                     id='map_dropdown', 
                     options=[
@@ -19,24 +19,26 @@ us_map = dbc.Card([
                     ],
                     value='raceethnicity',
                     clearable=False,
-                ), md=3
+                    className='custom-dropdown'
+                ), align="center"
             )
-        ], align="center"), className='custom-card-header'
+        ]), className='custom-card-header'
     ),
     dbc.CardBody(
-        dvc.Vega(id='map', spec={}, opt={'actions': False}),
+        # dvc.Vega(id='map', spec={}, opt={'actions': False}),
+        dcc.Graph(id='map'),
         className="d-flex justify-content-center align-items-center"
     )
-])
+], style={"height": "100%"})
 
 race_chart = dbc.Card([
     dbc.CardHeader(
-        dbc.Row([
-            dbc.Col(
-                html.Label('Distribution of Police Killings Victims by'),
-                width='auto'
+        dbc.Col([
+            dbc.Row(
+                html.Label('Distribution of Police Killings by'),
+                align="center"
             ),
-            dbc.Col(
+            dbc.Row(
                 dcc.Dropdown(
                     id='bar_dropdown', 
                     options=[
@@ -45,16 +47,17 @@ race_chart = dbc.Card([
                         {'label': 'Armed Status', 'value': 'armed'}
                     ],
                     value='raceethnicity',
-                    clearable=False
-                ), md=3
+                    clearable=False,
+                    className='custom-dropdown'
+                ), align="center"
             )
-        ], align="center"), className='custom-card-header'
+        ]), className='custom-card-header'
     ),
     dbc.CardBody(
         dvc.Vega(id='race_bar', spec={}, opt={'actions': False}),
         className="d-flex justify-content-center align-items-center"
     )
-])
+], style={"height": "100%"})
 
 two_charts = dbc.Col([
     dbc.Card([
@@ -64,11 +67,15 @@ two_charts = dbc.Col([
                 dcc.Slider(
                     id='top_state',
                     min=1, max=25, step=1,
-                    value=10
+                    value=10,
+                    marks={i: {'label': str(i), 'style': {'color': 'white'}} for i in range(1, 26)},
                 ),
                 html.P(id='output_area')
             ], align="center"), className='custom-slider-box'
         ),
-        dbc.CardBody(dvc.Vega(id='top10_time', spec={}, opt={'actions': False}))
+        dbc.CardBody(
+            dvc.Vega(id='top10_time', spec={}, opt={'actions': False}),
+            className="d-flex justify-content-center align-items-center"
+        )
         ])
-    ], md=11)
+    ], md=12)
