@@ -25,8 +25,12 @@ us_map = dbc.Card([
         ]), className='custom-card-header'
     ),
     dbc.CardBody(
-        # dvc.Vega(id='map', spec={}, opt={'actions': False}),
-        dcc.Graph(id='map'),
+        dcc.Loading(
+            id='loading-1',
+            type='circle',
+            color='teal',
+            children=[dcc.Graph(id='map')]
+        ),
         className="d-flex justify-content-center align-items-center"
     )
 ], style={"height": "100%"})
@@ -54,7 +58,12 @@ race_chart = dbc.Card([
         ]), className='custom-card-header'
     ),
     dbc.CardBody(
-        dvc.Vega(id='race_bar', spec={}, opt={'actions': False}),
+        dcc.Loading(
+            id='loading-2',
+            type='circle',
+            color='teal',
+            children=[dvc.Vega(id='race_bar', spec={}, opt={'actions': False})]
+        ),
         className="d-flex justify-content-center align-items-center"
     )
 ], style={"height": "100%"})
@@ -74,8 +83,14 @@ two_charts = dbc.Col([
             ], align="center"), className='custom-slider-box'
         ),
         dbc.CardBody(
-            dvc.Vega(id='top10_time', spec={}, opt={'actions': False}),
+            dcc.Loading(
+                id='loading-3',
+                type='circle',
+                color='teal',
+                children=[dvc.Vega(id='top10_time', spec={}, opt={'actions': False})]
+            ),
             className="d-flex justify-content-center align-items-center"
         )
         ])
     ], md=12)
+

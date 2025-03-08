@@ -2,6 +2,7 @@ from dash import Input, Output, callback
 import altair as alt
 import pandas as pd
 import plotly.express as px
+import time
 from data.police_data import police_data
 
 data = police_data
@@ -136,7 +137,8 @@ def filter_states(data, top_state):
 def create_state_time(data, top_state):
     """Create the combined plots of top states barplot and time-series line plot"""
     select_state = alt.selection_point(
-        fields=['state'])
+        fields=['state']
+        )
     top10 = alt.Chart(data).mark_bar(color='teal').encode(
             x=alt.X('count()', title='Police Killing Count'),
             y=alt.Y('state', sort='-x', title='States'),
@@ -189,7 +191,6 @@ def create_state_time(data, top_state):
 # Server side callbacks/reactivity
 @callback(
     Output('map', 'figure'),
-    # Output('map', 'spec'),
     Output('race_bar', 'spec'),
     Output('top10_time', 'spec'),
     Input('year', 'value'),
@@ -203,6 +204,7 @@ def create_state_time(data, top_state):
 def create_chart(year, race, age, armed, map_dropdown, bar_dropdown, top_state):
     data_filtered = filter_data(data, year, race, age, armed)
     
+    time.sleep(1)
     map = create_map(data_filtered, map_dropdown)
     bar = create_bar(data_filtered, bar_dropdown)
 
