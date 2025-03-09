@@ -17,28 +17,43 @@
 
 ---
 
-### Things to Improve
+### Our Additional Improvements
 
-- **Consistent Chart Sizing:**  
-  - Ensure that both charts displaying the top states with police killings by month maintain identical dimensions. This consistency facilitates direct visual comparison and reduces any perceptual bias if one chart appears larger or more prominent than the other.
+- **Added variable selection** (race/ethnicity, age, armed) for both the map and distribution plots, allowing users to customize the displayed data for better insights.
 
-- **Cap on Top States:**  
-  - Limit the analysis to the top 25 states based on police killings. This cap minimizes clutter and focuses user attention on the most significant data points, enhancing overall clarity and impact.
+- **Converted all filters to dropdowns** with a **"Select All"** button, making filtering more intuitive and efficient.
 
-- **Extended Filter Sidebar:**  
-  - Modify the layout so that the filter sidebar stretches continuously to the end of the dashboard. This adjustment provides a seamless interface, ensuring that all filtering options are fully accessible and visually integrated with the rest of the design.
+- **Replaced the input for top N state plots with a slider (max 25).** This cap minimizes clutter and focuses user attention on the most significant data points, enhancing overall clarity and impact.
 
-- **Aligned Chart Edges and Data Presentation:**  
-  - Remove extraneous details, such as the exact number of police killings on the right side of the top left chart. Instead, focus on aligning the edges of the top and bottom charts for a balanced and professional look.
+- **Removed the total killings card**, decluttering the interface for a cleaner and more focused user experience.
 
-- **Tab Naming and Consistency:**  
-  - Rename the second tab to “Race Distribution” for clarity. Additionally, ensure that titles on the map and race charts share the same font size and styling to reinforce uniformity.
+- **Removed tabs** so that everything is now viewable on a single page, improving accessibility and navigation.
 
-- **Unified Colors and Fonts:**  
-  - Harmonize the color schemes and font styles throughout the dashboard. A consistent visual theme enhances readability and overall user engagement.
+- **Enhanced the map with interactive zoom and rotation**, allowing users to explore details at the state or city level. *(Inspired by [Group 26](https://github.com/UBC-MDS/DSCI-532_2025_26_SMBFinder))*.
 
-- **Interactive Map Enhancements:**  
-  - Introduce subtle interactivity to the map chart without major overhauls. Consider adding features that allow users to break down the data by different variables, thereby enriching the analytical experience while keeping the design clean and accessible.
+- **Changed the dashboard’s color theme to teal** for a more modern and visually appealing interface.
 
-- **Card Layout for Consistent Sizing:**  
-  - Incorporate a card layout to encapsulate both the filter sidebar and the charts. This approach standardizes dimensions and spacing, ensuring that all components maintain a consistent size. A uniform card design not only improves visual appeal but also creates a more organized and predictable user experience.
+- **Added a loading spinner for plots** to indicate updates after filter changes, improving user experience by providing real-time feedback. *(Inspired by [Group 30](https://github.com/UBC-MDS/DSCI-532_2025_30_road-accident-dashboard))*.
+
+---
+
+### Limitations
+
+- **Lack of Comparative Analysis:**
+  - The dashboard focuses on individual variables but does not allow side-by-side comparisons (e.g., comparing police killings across different years or regions).
+  - Multi-selection options for filtering and visualizing trends over time would add more analytical power.
+
+### Potential Future Improvements
+
+- **Enhanced Data Interpretation:**
+  - Add tooltips and contextual insights (e.g., "This spike in 2020 correlates with increased protests and policy changes").
+  - Display percentage changes and summary statistics for better interpretation.
+
+- **Comparative Analysis Feature:**
+  - Allow users to compare multiple years, regions, or demographic groups on the same plot.
+  - Introduce a dual-axis feature to overlay trends across different variables.
+
+
+
+
+
