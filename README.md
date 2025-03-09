@@ -58,7 +58,7 @@ If you have experience in any of these areas (or others we haven't considered ye
 Step 1: Clone the repository
 
 ``` bash
-git clone https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings.git`
+git clone https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings.git
 cd DSCI-532_2025_24_police_killings
 ```
 
