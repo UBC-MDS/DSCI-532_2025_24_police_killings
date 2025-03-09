@@ -52,7 +52,7 @@ If you have experience in any of these areas (or others we haven't considered ye
 
 ### Demo GIF
 
-![Demo of Dashboard](img/demo.gif) Use this dashboard to explore police killings data, analyze trends, and support informed decision-making. For Developers & Contributors, read our [Contributing](CONTRIBUTING.md) Guide to get started!
+![Demo of Dashboard](img/demo.gif) Use this dashboard to explore police killings data, analyze trends, and support informed decision-making. For Developers & Contributors, read our [Contributing Guide](CONTRIBUTING.md) to get started!
 
 ### Instructions to Run and Contribute to App Locally
 Step 1: Clone the repository
