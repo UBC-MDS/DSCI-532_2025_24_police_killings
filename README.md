@@ -40,7 +40,11 @@ The Data-Driven Dashboard of Police Killings project is developed by a team of r
 
 ## What do we need?
 
-We welcome contributions in various areas, including: - Data Science & Engineering: Improving the quality of data aggregation and analysis. - Web Development: Enhancing dashboard usability and scalability. - Policy Research: Providing context for better interpretation of results. - Community Outreach: Engaging with organizations and stakeholders.
+We welcome contributions in various areas, including: 
+-   Data Science & Engineering: Improving the quality of data aggregation and analysis. 
+-   Web Development: Enhancing dashboard usability and scalability. 
+-   Policy Research: Providing context for better interpretation of results. 
+-   Community Outreach: Engaging with organizations and stakeholders.
 
 If you have experience in any of these areas (or others we haven't considered yet!), we'd love your input!
 
