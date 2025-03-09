@@ -49,7 +49,7 @@ def create_map(data, var):
         color=var,
         color_continuous_scale=px.colors.cyclical.IceFire, 
         labels=label,
-        custom_data=['name', 'city', 'state', 'raceethnicity', 'age', 'armed'],
+        custom_data=['name', 'city', 'state', 'date', 'raceethnicity', 'age', 'armed'],
         zoom=3, 
         height=450,
         width=700
@@ -58,9 +58,10 @@ def create_map(data, var):
         hovertemplate = 
                 "<b>%{customdata[0]}</b><br><br>" +
                 "City: %{customdata[1]}, %{customdata[2]}<br>" +
-                "Race/Ethnicity: %{customdata[3]}<br>" +
-                "Age: %{customdata[4]}<br>" +
-                "Armed Status: %{customdata[5]}" +
+                "Date of Death: %{customdata[3]}<br>" +
+                "Race/Ethnicity: %{customdata[4]}<br>" +
+                "Age: %{customdata[5]}<br>" +
+                "Armed Status: %{customdata[6]}" +
                 "<extra></extra>",
         mode='markers',
         marker={'sizemode':'area', 'sizeref':10},
