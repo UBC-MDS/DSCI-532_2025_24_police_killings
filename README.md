@@ -11,15 +11,10 @@ The goal is to raise awareness, inform policy changes, and support social justic
 This document serves as a hub to introduce the project, its purpose, and how you can get involved—whether as a user, contributor, or developer. Jump to one of the sections below and read on to learn more:
 
 -   [What are we doing? (And why?)](#what-are-we-doing)
-
 -   [Who are we?](#who-are-we)
-
 -   [What do we need?](#what-do-we-need)
-
 -   [How can you get involved?](#get-involved)
-
 -   [Get in touch](#contact-us)
-
 -   [Find out more](#find-out-more)
 
 ## What are we doing?
@@ -45,35 +40,40 @@ The Data-Driven Dashboard of Police Killings project is developed by a team of r
 
 ## What do we need?
 
-We welcome contributions in various areas, including: 
--   Data Science & Engineering: Improving the quality of data aggregation and analysis. 
--   Web Development: Enhancing dashboard usability and scalability. 
--   Policy Research: Providing context for better interpretation of results. 
--   Community Outreach: Engaging with organizations and stakeholders. 
+We welcome contributions in various areas, including: - Data Science & Engineering: Improving the quality of data aggregation and analysis. - Web Development: Enhancing dashboard usability and scalability. - Policy Research: Providing context for better interpretation of results. - Community Outreach: Engaging with organizations and stakeholders.
 
 If you have experience in any of these areas (or others we haven't considered yet!), we'd love your input!
 
 ## Get involved
 
-Target Audience: Government Officials, Policymakers & the Public.
+### Live Dashboard:
 
-Live Demo: <https://dsci-532-2025-24-police-killings-pr-34.onrender.com/>
+<https://dsci-532-2025-24-police-killings.onrender.com/>
 
-Demo GIF: ![Demo of Dashboard](img/demo.gif) Use this dashboard to explore police killings data, analyze trends, and support informed decision-making. For Developers & Contributors Read our Contributing Guide to get started!
+### Demo GIF
 
+![Demo of Dashboard](img/demo.gif) Use this dashboard to explore police killings data, analyze trends, and support informed decision-making. For Developers & Contributors, read our [Contributing](CONTRIBUTING.md) Guide to get started!
+
+### Instructions to Run and Contribute to App Locally
 Step 1: Clone the repository
 
-`git clone https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings.git`
+``` bash
+git clone https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings.git`
+cd DSCI-532_2025_24_police_killings
+```
 
-`cd your-repo-folder`
+Step 2: Install dependencies and activate environment:
 
-Step 2: Install dependencies:
-
-`pip install -r requirements.txt`
+``` bash
+conda env create -f environment.yaml
+conda activate gp24
+```
 
 Step 3: Run the app locally in the repository's root directory
 
-`python src/app.py`
+``` bash
+python src/app.py
+```
 
 Step 4: Start contributing!
 
