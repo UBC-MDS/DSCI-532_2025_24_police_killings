@@ -139,7 +139,7 @@ Janisha Fonville,20.0,20-39,Female,Black,February,19,2015,2015-02-19,Charlotte,N
 Chance Thompson,35.0,20-39,Male,White,February,15,2015,2015-02-15,Marysville,California,39.1457247,-121.5913516,Taser,Unarmed
 Rubén García Villalpando,31.0,20-39,Male,Hispanic/Latino,February,20,2015,2015-02-20,Euless,Texas,32.8370727,-97.0819541,Gunshot,Unarmed
 Stanley Grant,38.0,20-39,Male,Black,February,20,2015,2015-02-20,Birmingham,Alabama,33.48270022106063,-86.8235275293178,Gunshot,Firearm
-Alejandro Salazar,,Unknown,Male,Hispanic/Latino,February,20,2015,2015-02-20,Houston,Texas,29.982016622647635,-95.4213294834332,Gunshot,Firearm
+Alejandro Salazar,Unknown,Unknown,Male,Hispanic/Latino,February,20,2015,2015-02-20,Houston,Texas,29.982016622647635,-95.4213294834332,Gunshot,Firearm
 Jason Carter,41.0,40-59,Male,White,February,21,2015,2015-02-21,Ruidoso,New Mexico,33.326159,-105.633838,Gunshot,Firearm
 Terry Price,41.0,40-59,Male,Black,February,21,2015,2015-02-21,Tulsa,Oklahoma,36.20592686351483,-95.99849165018081,Taser,Unarmed
 Kent Norman,51.0,40-59,Male,White,February,21,2015,2015-02-21,Indianapolis,Indiana,39.792688,-85.991992,Gunshot,Knife
@@ -1023,7 +1023,7 @@ Thomas Mceniry,32.0,20-39,Male,White,November,24,2015,2015-11-24,Las Vegas,Nevad
 Michael Kirvelay,45.0,40-59,Male,White,November,24,2015,2015-11-24,Columbia Heights,Minnesota,45.040890843137255,-93.25227664705882,Gunshot,Non-lethal firearm
 Barry Kirk,50.0,40-59,Male,White,November,23,2015,2015-11-23,Columbus,Ohio,39.95341904695079,-83.06650381895702,Gunshot,Firearm
 Freddy Baez,24.0,20-39,Male,Black,November,24,2015,2015-11-24,Camden,New Jersey,39.90321660454905,-75.09744139595504,Gunshot,Firearm
-Robert Edwards,,Unknown,Male,Other,January,30,2015,2015-01-30,Austin,Texas,30.189706912612863,-97.77039809034444,Death in custody,Unarmed
+Robert Edwards,Unknown,Unknown,Male,Other,January,30,2015,2015-01-30,Austin,Texas,30.189706912612863,-97.77039809034444,Death in custody,Unarmed
 Somer Speer,37.0,20-39,Female,White,November,25,2015,2015-11-25,Ozark,Missouri,37.02174828571428,-93.2045372244898,Gunshot,Firearm
 Douglas Slade,52.0,40-59,Male,White,November,25,2015,2015-11-25,Eagar,Arizona,34.116246000000004,-109.29285666666667,Gunshot,Other
 Rick Gullickson,58.0,40-59,Male,White,November,27,2015,2015-11-27,Lampe,Missouri,36.5636755,-93.437964,Gunshot,Firearm
@@ -1059,7 +1059,7 @@ Sammy Echols Jr,51.0,40-59,Male,White,December,9,2015,2015-12-09,Sportsmen Acres
 Charles Rosemond Sr,55.0,40-59,Male,Black,December,10,2015,2015-12-10,Taylors,South Carolina,34.916429,-82.284749,Gunshot,Firearm
 Christopher Higdon,66.0,Above 60,Male,White,December,9,2015,2015-12-09,Leitchfield,Kentucky,37.55116855,-86.19282401973356,Gunshot,Firearm
 Thomas Gendreau Jr,54.0,40-59,Male,White,December,10,2015,2015-12-10,Marina,California,36.672761,-121.792277,Gunshot,Knife
-Unknown,,Unknown,Male,Other,December,10,2015,2015-12-10,Hemet,California,33.72948241322297,-116.97045019558183,Gunshot,Firearm
+Unknown,Unknown,Unknown,Male,Other,December,10,2015,2015-12-10,Hemet,California,33.72948241322297,-116.97045019558183,Gunshot,Firearm
 Jason Bryant,34.0,20-39,Male,White,December,10,2015,2015-12-10,Indianapolis,Indiana,39.741416,-86.196802,Gunshot,Firearm
 Derek Stokes,33.0,20-39,Male,Black,December,8,2015,2015-12-08,Cleveland,Ohio,41.502806,-81.696588,Gunshot,Firearm
 Steven Wickert,36.0,20-39,Male,White,December,11,2015,2015-12-11,Tucson,Arizona,32.13748307236867,-110.91282595396851,Gunshot,Unarmed
@@ -1629,7 +1629,7 @@ James Nickol,38.0,20-39,Male,White,June,9,2016,2016-06-09,York,Pennsylvania,39.9
 Clifford Tucker,68.0,Above 60,Male,White,June,9,2016,2016-06-09,Ishpeming,Michigan,46.483647,-87.700585,Gunshot,Firearm
 William Hollis,34.0,20-39,Male,White,June,9,2016,2016-06-09,Birmingham,Alabama,33.5206824,-86.8024326,Gunshot,Firearm
 John Brisco,52.0,40-59,Male,Black,June,9,2016,2016-06-09,Port Arthur,Texas,29.8716577,-93.9332302,Gunshot,Other
-Unknown,,Unknown,Male,Hispanic/Latino,June,9,2016,2016-06-09,Somerton,Arizona,32.5964404,-114.709677,Gunshot,Other
+Unknown,Unknown,Unknown,Male,Hispanic/Latino,June,9,2016,2016-06-09,Somerton,Arizona,32.5964404,-114.709677,Gunshot,Other
 Bobby Sanchez,32.0,20-39,Male,Hispanic/Latino,June,10,2016,2016-06-10,Pueblo,Colorado,38.29519226548818,-104.62565425715316,Gunshot,Other
 Juan Briseno-Ortega,50.0,40-59,Male,Hispanic/Latino,June,10,2016,2016-06-10,Yakima,Washington,46.566761882714204,-120.59787494177583,Gunshot,Firearm
 Clayton Millsaps,29.0,20-39,Male,White,June,10,2016,2016-06-10,Statesville,North Carolina,35.7826363,-80.8872959,Gunshot,Other
@@ -1682,7 +1682,7 @@ Randy Blecher,50.0,40-59,Male,White,June,24,2016,2016-06-24,Farmington,Arkansas,
 Rodrigo Guardiola,36.0,20-39,Male,Hispanic/Latino,June,25,2016,2016-06-25,Gainesville,Georgia,34.2978794,-83.8240663,Gunshot,Unarmed
 Waldemar Bogusiewicz,59.0,40-59,Male,White,June,25,2016,2016-06-25,Pinellas Park,Florida,27.859572244897958,-82.71790228571429,Gunshot,Firearm
 Dylan Noble,19.0,Under 19,Male,White,June,25,2016,2016-06-25,Fresno,California,36.7394421,-119.78483,Gunshot,Unarmed
-William Ferguson,,Unknown,Male,Other,June,25,2016,2016-06-25,Buckeye,Arizona,33.3703197,-112.583776,Gunshot,Firearm
+William Ferguson,Unknown,Unknown,Male,Other,June,25,2016,2016-06-25,Buckeye,Arizona,33.3703197,-112.583776,Gunshot,Firearm
 Donte Johnson,30.0,20-39,Male,Black,June,26,2016,2016-06-26,Dolton,Illinois,41.622754459183675,-87.58347169387754,Gunshot,Firearm
 Germichael Kennedy,22.0,20-39,Male,Black,June,26,2016,2016-06-26,Lincoln,Nebraska,40.86186405005946,-96.7010302378969,Gunshot,Firearm
 Terry Maurer,51.0,40-59,Male,White,June,26,2016,2016-06-26,Clarklake,Michigan,42.1214293,-84.344951,Gunshot,Other
@@ -1711,7 +1711,7 @@ Michael Damore,28.0,20-39,Male,White,July,1,2016,2016-07-01,Portage,Indiana,41.5
 Jonathan Justice,50.0,40-59,Male,White,July,2,2016,2016-07-02,Bristol,Tennessee,36.55730577551021,-82.21078748979592,Gunshot,Firearm
 Jai Williams,35.0,20-39,Male,Black,July,2,2016,2016-07-02,Asheville,North Carolina,35.58093834490234,-82.61835272342775,Gunshot,Firearm
 Fermin Valenzuela,32.0,20-39,Male,Hispanic/Latino,July,2,2016,2016-07-02,Anaheim,California,33.828496,-117.976091,Death in custody,Unarmed
-Carlos Brown,,Unknown,Male,Black,July,2,2016,2016-07-02,Canton,Mississippi,32.60384,-90.0671286,Death in custody,Other
+Carlos Brown,Unknown,Unknown,Male,Black,July,2,2016,2016-07-02,Canton,Mississippi,32.60384,-90.0671286,Death in custody,Other
 Shannon Labit,40.0,40-59,Male,White,July,3,2016,2016-07-03,New Iberia,Louisiana,30.022925750081953,-91.81877088922415,Gunshot,Knife
 Raul Saavedra-Vargas,24.0,20-39,Male,Hispanic/Latino,July,3,2016,2016-07-03,Reno,Nevada,39.5261206,-119.8126581,Gunshot,Other
 Pedro Villanueva,19.0,Under 19,Male,Hispanic/Latino,July,3,2016,2016-07-03,Fullerton,California,33.870673,-117.97351,Gunshot,Unarmed
@@ -2084,7 +2084,7 @@ Joel Keenan,43.0,40-59,Male,White,November,6,2016,2016-11-06,Beech Island,South 
 David Contreras Jr,33.0,20-39,Male,Hispanic/Latino,November,6,2016,2016-11-06,Santa Ana,California,33.7494951,-117.873221,Gunshot,Other
 Joseph Newcomb,32.0,20-39,Male,White,November,6,2016,2016-11-06,Hensley,West Virginia,37.4740011,-81.6998327,Gunshot,Other
 Darryl Chisholm,31.0,20-39,Male,Black,November,7,2016,2016-11-07,Philadelphia,Pennsylvania,39.999040300000004,-75.14496156957561,Gunshot,Firearm
-Kenton Kobza,,Unknown,Male,White,November,8,2016,2016-11-08,Buckeye,Kansas,39.046664,-97.166963,Gunshot,Unarmed
+Kenton Kobza,Unknown,Unknown,Male,White,November,8,2016,2016-11-08,Buckeye,Kansas,39.046664,-97.166963,Gunshot,Unarmed
 Juan Ramos,23.0,20-39,Male,Other,November,8,2016,2016-11-08,Denver,Colorado,39.778858,-104.821755,Gunshot,Firearm
 Carlos Mendez,45.0,40-59,Male,Hispanic/Latino,November,8,2016,2016-11-08,Azusa,California,34.127907,-117.902334,Gunshot,Firearm
 Evan Cox,26.0,20-39,Male,White,November,8,2016,2016-11-08,Ashtabula,Ohio,41.8647873,-80.7841284,Gunshot,Unarmed
@@ -2093,7 +2093,7 @@ Daniel Erickson,36.0,20-39,Male,White,November,9,2016,2016-11-09,Lakeside,Arizon
 George Delacruz Jr,41.0,40-59,Male,Hispanic/Latino,November,10,2016,2016-11-10,San Angelo,Texas,31.462187,-100.442872,Gunshot,Firearm
 John Pacuicrk,53.0,40-59,Male,White,November,10,2016,2016-11-10,Lakeland,Florida,28.0394654,-81.9498042,Gunshot,Firearm
 Brian Gaither,24.0,20-39,Male,White,November,11,2016,2016-11-11,Grand Junction,Colorado,39.0672568,-108.56448,Gunshot,Other
-Andrew Depeiza,,Unknown,Male,Black,November,11,2016,2016-11-11,East Point,Georgia,33.64719208140976,-84.4882583025746,Gunshot,Other
+Andrew Depeiza,Unknown,Unknown,Male,Black,November,11,2016,2016-11-11,East Point,Georgia,33.64719208140976,-84.4882583025746,Gunshot,Other
 William Score Jr,47.0,40-59,Male,White,November,11,2016,2016-11-11,Montrose County,Colorado,38.4375391,-108.2403855,Gunshot,Other
 Rebecka Pearce,30.0,20-39,Female,White,November,11,2016,2016-11-11,Fuquay Varina,North Carolina,35.609242,-78.769837,Gunshot,Unarmed
 Marco Romero,33.0,20-39,Male,Hispanic/Latino,November,11,2016,2016-11-11,Boise,Idaho,43.6166163,-116.200886,Gunshot,Firearm
@@ -2172,7 +2172,7 @@ Wayne Dorsey,49.0,40-59,Male,White,December,6,2016,2016-12-06,Fruitland Park,Flo
 Eddie Collins,42.0,40-59,Male,White,October,7,2016,2016-10-07,Killen,Alabama,34.8628637,-87.5375253,Gunshot,Firearm
 Daniel Riedmann,36.0,20-39,Male,White,December,7,2016,2016-12-07,Sioux City,Iowa,42.4966815,-96.4058782,Gunshot,Other
 Steven Ward,20.0,20-39,Male,White,December,7,2016,2016-12-07,Avella,Pennsylvania,40.2750705,-80.4606226,Gunshot,Knife
-Unknown,,Unknown,Male,White,December,8,2016,2016-12-08,Allen,Texas,33.1015189,-96.62334975235191,Gunshot,Firearm
+Unknown,Unknown,Unknown,Male,White,December,8,2016,2016-12-08,Allen,Texas,33.1015189,-96.62334975235191,Gunshot,Firearm
 Scott MacIntosh,35.0,20-39,Male,White,December,9,2016,2016-12-09,Easton,Pennsylvania,40.6916081,-75.2099866,Gunshot,Firearm
 Brent Quinn,43.0,40-59,Male,White,December,9,2016,2016-12-09,Leland,North Carolina,34.261556218638844,-78.07553601765596,Gunshot,Firearm
 Stephen Whitney,30.0,20-39,Male,Asian/Pacific Islander,December,9,2016,2016-12-09,Keaau,Hawaii,19.622458350000002,-155.04382464394396,Gunshot,Vehicle
@@ -2199,7 +2199,7 @@ Ronald Massengale,72.0,Above 60,Male,White,December,18,2016,2016-12-18,Tulsa,Okl
 Paul Kolar,37.0,20-39,Male,White,December,18,2016,2016-12-18,Ridgefield,Washington,45.83017251794591,-122.71831217413188,Gunshot,Firearm
 Ryan Joseph,20.0,20-39,Male,Black,December,18,2016,2016-12-18,Los Angeles,California,34.0536909,-118.242766,Gunshot,Firearm
 Roy Minton,52.0,40-59,Male,White,December,19,2016,2016-12-19,Granite Falls,North Carolina,35.81163629042766,-81.4262637380675,Gunshot,Other
-Unknown,,Unknown,Male,Other,December,19,2016,2016-12-19,Brawley,California,32.983204,-115.534859,Gunshot,Knife
+Unknown,Unknown,Unknown,Male,Other,December,19,2016,2016-12-19,Brawley,California,32.983204,-115.534859,Gunshot,Knife
 Martin Gomez,46.0,40-59,Male,Other,December,20,2016,2016-12-20,Pharr,Texas,26.208652,-98.179223,Gunshot,Knife
 Nick Hamilton,31.0,20-39,Male,Other,December,20,2016,2016-12-20,Hemet,California,33.7475203,-116.9719684,Gunshot,Firearm
 Codey Hardman,26.0,20-39,Male,White,December,20,2016,2016-12-20,Stonewood,West Virginia,39.2509238,-80.3123114,Gunshot,Non-lethal firearm
@@ -2215,7 +2215,7 @@ Terrence Thomas Jr,19.0,Under 19,Male,Black,December,22,2016,2016-12-22,Capitol 
 Stanley Eversole,55.0,40-59,Male,Other,December,22,2016,2016-12-22,Palm Harbor,Florida,28.0648346896239,-82.76975688229102,Gunshot,Other
 Jose Sanchez,30.0,20-39,Male,Hispanic/Latino,December,23,2016,2016-12-23,El Monte,California,34.0751571,-118.036849,Gunshot,Unarmed
 Michael Jacques,31.0,20-39,Male,White,December,23,2016,2016-12-23,Bend,Oregon,44.0581728,-121.3153096,Gunshot,Other
-Unknown,,Unknown,Male,Other,December,24,2016,2016-12-24,Gadsden,Alabama,34.0217148948443,-86.0181055417789,Gunshot,Firearm
+Unknown,Unknown,Unknown,Male,Other,December,24,2016,2016-12-24,Gadsden,Alabama,34.0217148948443,-86.0181055417789,Gunshot,Firearm
 Miriam Savino,53.0,40-59,Female,White,December,24,2016,2016-12-24,Lake Wales,Florida,27.9014133,-81.5859099,Gunshot,Knife
 Zhonghua Li,48.0,40-59,Male,Asian/Pacific Islander,December,24,2016,2016-12-24,Pico Rivera,California,34.018235,-118.064191,Gunshot,Other
 Jesse DeBusk,38.0,20-39,Male,White,December,24,2016,2016-12-24,Weatherford,Texas,32.7606557,-97.7881494,Death in custody,Unarmed
