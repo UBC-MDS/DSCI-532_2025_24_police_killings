@@ -1,0 +1,70 @@
+.custom-header {
+    background-color: #008080;
+    padding-top: 1vh;
+    padding-bottom: 0vh;
+    min-height: 4vh;
+}
+
+.custom-title {
+    color: white;
+    text-align: left;
+    font-size: 35px;
+}
+
+.custom-filter-title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    height: 40px;
+}
+
+.custom-filter-armed {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    height: 60px;
+}
+
+.custom-sidebar {
+    background-color: #f4f1f1;
+    padding: 20px; 
+    padding-bottom: 0;
+    border-radius: 1;
+    height: 100%;
+    min-height: 142vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-card-header {
+    text-align: left;
+    color: white;
+    background-color: #008080;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.custom-dropdown {
+    background-color: #008080;
+    font-size: 22px;
+    font-weight: bold;
+    color: black !important;
+    width: 200px;
+    max-width: 100%;
+}
+
+.custom-slider-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.custom-slider-box {
+    background-color: #008080;
+    color: white;
+}
+
+.custom-footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
