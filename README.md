@@ -70,7 +70,7 @@ Step 2: Install dependencies and activate environment:
 
 ``` bash
 conda env create -f environment.yaml
-conda activate gp24
+conda activate police_killings
 ```
 
 Step 3: Run the app locally in the repository's root directory

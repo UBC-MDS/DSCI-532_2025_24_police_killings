@@ -1,4 +1,4 @@
-name: 'gp24'
+name: police_killings
 channels:
     - conda-forge
     - defaults
@@ -16,4 +16,4 @@ dependencies:
     - pip:
         - dash-vega-components==0.0.1
         - geopy==2.4.1
-        - flask-caching==1.7.0
+        - flask-caching==2.2.0

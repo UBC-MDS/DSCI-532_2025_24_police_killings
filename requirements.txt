@@ -21,7 +21,7 @@ blis==1.0.1
 thinc==8.3.2
 
 # Cache
-flask-caching==1.7.0
+flask-caching==2.2.0
 
 # Deployment & Server
 gunicorn==21.2  # Required for Render deployment
