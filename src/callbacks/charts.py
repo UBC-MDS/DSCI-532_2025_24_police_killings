@@ -21,7 +21,7 @@ def filter_data(data, year, race, age, armed):
         df = df[df['armed'].isin(armed)]
     return df
 
-@cache.memoize()
+
 def create_map(data, var):
     """Create the US Map with scatter points."""
     label = {
