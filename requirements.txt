@@ -1,5 +1,5 @@
 # Core dependencies
-numpy==2.0.0  
+numpy  # Remove explicit version to avoid conflicts
 pandas==2.2.3
 altair==5.3
 
@@ -10,18 +10,22 @@ dash-vega-components==0.0.1
 plotly==6.0
 
 # Data handling utilities
-tabulate==0.9  # Needed for df.to_markdown()
-lxml==5.3  # Needed for pd.read_html()
+tabulate==0.9
+lxml==5.3  
 
 # Geospatial processing
 geopy==2.4.1
 
 # Machine learning/statistics dependencies
-blis==1.0.1
-thinc==8.3.2
+blis
+thinc
 
 # Cache
 flask-caching==2.2.0
 
 # Deployment & Server
-gunicorn==21.2  # Required for Render deployment
+gunicorn==21.2  
+
+# Parquet Support
+pyarrow
+fastparquet
