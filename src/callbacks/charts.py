@@ -58,7 +58,7 @@ def create_map(data, var):
         hovertemplate = 
                 "<b>%{customdata[0]}</b><br><br>" +
                 "City: %{customdata[1]}, %{customdata[2]}<br>" +
-                "Date of Death: %{customdata[3]}<br>" +
+                "Date of Death: %{customdata[3]|%Y-%m-%d}<br>" +
                 "Race/Ethnicity: %{customdata[4]}<br>" +
                 "Age: %{customdata[5]}<br>" +
                 "Armed Status: %{customdata[6]}" +

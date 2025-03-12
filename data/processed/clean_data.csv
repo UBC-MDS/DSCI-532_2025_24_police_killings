@@ -2,9 +2,9 @@ name,age,age_group,gender,raceethnicity,month,day,year,date,city,state,latitude,
 Matthew Ajibade,22,20-39,Male,Black,January,1,2015,2015-01-01,Savannah,Georgia,32.0668281,-81.1662722,Unarmed
 Lewis Lembke,47,40-59,Male,White,January,2,2015,2015-01-02,Aloha,Oregon,45.4873412,-122.8920725226032,Firearm
 Michael Kocher Jr,19,Under 19,Male,White,January,3,2015,2015-01-03,Kaumakani,Hawaii,21.91828916034259,-159.62075018601917,Unarmed
-John Quintero,23,20-39,Male,Hispanic/Latino,January,3,2015,2015-01-03,Wichita,Kansas,37.74444062042111,-97.28071808753239,Unarmed
-Tim Elliott,53,40-59,Male,Asian/Pacific Islander,January,2,2015,2015-01-02,Shelton,Washington,47.245849974676474,-123.12008619001949,Firearm
-Matthew Hoffman,32,20-39,Male,White,January,4,2015,2015-01-04,San Francisco,California,37.762856400000004,-122.42197341055268,Non-lethal firearm
+John Quintero,23,20-39,Male,Hispanic/Latino,January,3,2015,2015-01-03,Wichita,Kansas,37.74444062042111,-97.2807180875324,Unarmed
+Tim Elliott,53,40-59,Male,Asian/Pacific Islander,January,2,2015,2015-01-02,Shelton,Washington,47.245849974676474,-123.12008619001948,Firearm
+Matthew Hoffman,32,20-39,Male,White,January,4,2015,2015-01-04,San Francisco,California,37.7628564,-122.42197341055268,Non-lethal firearm
 Kenneth Buck,22,20-39,Male,Hispanic/Latino,January,5,2015,2015-01-05,Chandler,Arizona,33.3062031,-111.841185,Firearm
 Michael Rodriguez,39,20-39,Male,Hispanic/Latino,January,5,2015,2015-01-05,Evans,Colorado,40.384511183673474,-104.6903637755102,Other
 Patrick Wetter,25,20-39,Male,White,January,6,2015,2015-01-06,Stockton,California,37.92970897979798,-121.29820872727272,Knife
@@ -16,9 +16,9 @@ Nicholas Brickman,30,20-39,Male,White,January,7,2015,2015-01-07,Des Moines,Iowa,
 Joseph Caffarello,31,20-39,Male,White,January,7,2015,2015-01-07,Rosemont,Illinois,41.97524485,-87.87580265,Vehicle
 Ronald Sneed,32,20-39,Male,Black,January,7,2015,2015-01-07,Freeport,Texas,28.95513618367347,-95.36858804081632,Firearm
 Omarr Jackson,37,20-39,Male,Black,January,8,2015,2015-01-08,New Orleans,Louisiana,29.9759983,-90.0782127,Firearm
-Andre Murphy Sr,42,40-59,Male,Black,January,7,2015,2015-01-07,Norfolk,Nebraska,42.016851700000004,-97.423691649907,Unarmed
+Andre Murphy Sr,42,40-59,Male,Black,January,7,2015,2015-01-07,Norfolk,Nebraska,42.0168517,-97.423691649907,Unarmed
 Loren Simpson,28,20-39,Male,White,January,8,2015,2015-01-08,Huntley,Montana,45.899401,-108.3015173,Unarmed
-Artago Howard,36,20-39,Male,Black,January,8,2015,2015-01-08,Strong,Arkansas,33.12564787403327,-92.26754048584411,Unarmed
+Artago Howard,36,20-39,Male,Black,January,8,2015,2015-01-08,Strong,Arkansas,33.12564787403327,-92.26754048584412,Unarmed
 James Barker,42,40-59,Male,White,January,8,2015,2015-01-08,Salt Lake City,Utah,40.77170597138531,-111.87456870783063,Other
 Thomas Hamby,49,40-59,Male,White,January,8,2015,2015-01-08,Syracuse,Utah,41.08311013953489,-112.08301009302326,Firearm
 Andy Martinez,33,20-39,Male,Hispanic/Latino,January,9,2015,2015-01-09,El Paso,Texas,31.857598,-106.439627,Firearm
@@ -28,7 +28,7 @@ Salvador Figueroa,29,20-39,Male,Hispanic/Latino,January,11,2015,2015-01-11,Las V
 Tommy Smith,39,20-39,Male,White,January,12,2015,2015-01-12,Arcola,Illinois,39.69194034682592,-88.30291924105946,Firearm
 John O'Keefe,34,20-39,Male,White,January,13,2015,2015-01-13,Albuquerque,New Mexico,35.0841034,-106.650985,Firearm
 Richard McClendon,43,40-59,Male,White,January,13,2015,2015-01-13,Jourdanton,Texas,28.911573838841807,-98.5429541262526,Knife
-Marcus Golden,24,20-39,Male,Black,January,14,2015,2015-01-14,St Paul,Minnesota,44.958721499999996,-93.18482159999999,Vehicle
+Marcus Golden,24,20-39,Male,Black,January,14,2015,2015-01-14,St Paul,Minnesota,44.9587215,-93.1848216,Vehicle
 Michael Goebel,29,20-39,Male,White,January,14,2015,2015-01-14,Robertsville,Missouri,38.4147749,-90.8140225,Vehicle
 Jeffrey Nielson,34,20-39,Male,White,January,14,2015,2015-01-14,Draper,Utah,40.539837346938775,-111.8871993877551,Knife
 Robert Edwards,68,Above 60,Male,White,January,14,2015,2015-01-14,Lake Jackson,Texas,29.034433,-95.428213,Firearm
@@ -39,13 +39,13 @@ Donte Sowell,27,20-39,Male,Black,January,15,2015,2015-01-15,Indianapolis,Indiana
 Nathan Massey,33,20-39,Male,White,January,15,2015,2015-01-15,Ville Platte,Louisiana,30.6901838,-92.2774771,Firearm
 Mario Jordan,34,20-39,Male,Black,January,14,2015,2015-01-14,Chesapeake,Virginia,36.78129555468425,-76.34784924639871,Firearm
 Jose Ceja,36,20-39,Male,Hispanic/Latino,January,15,2015,2015-01-15,Fairfield,California,38.26554528778699,-121.99742323169384,Knife
-Dewayne Carr,42,40-59,Male,Black,January,15,2015,2015-01-15,Scottsdale,Arizona,33.51071575,-111.91038372538841,Vehicle
+Dewayne Carr,42,40-59,Male,Black,January,15,2015,2015-01-15,Scottsdale,Arizona,33.51071575,-111.9103837253884,Vehicle
 Rodney Walker,23,20-39,Male,Black,January,16,2015,2015-01-16,Tulsa,Oklahoma,36.1458664307229,-95.99381510045124,Firearm
 Kavonda Payton,39,20-39,Male,Black,January,16,2015,2015-01-16,Aurora,Colorado,39.7281601,-104.844703,Firearm
 Zaki Shinwary,48,40-59,Male,Other,January,16,2015,2015-01-16,Fremont,California,37.5482697,-121.988571,Knife
-Sinthanouxay Khottavongsa,57,40-59,Male,Asian/Pacific Islander,January,16,2015,2015-01-16,Minneapolis,Minnesota,44.995257961277886,-93.31844569642625,Other
+Sinthanouxay Khottavongsa,57,40-59,Male,Asian/Pacific Islander,January,16,2015,2015-01-16,Minneapolis,Minnesota,44.995257961277886,-93.31844569642624,Other
 Howard Robbins,69,Above 60,Male,White,January,16,2015,2015-01-16,Stanford,Kentucky,37.544045989197095,-84.66146492386524,Unarmed
-Phillip Garcia,26,20-39,Male,Hispanic/Latino,January,16,2015,2015-01-16,Houston,Texas,29.615253780718582,-95.21444522329895,Firearm
+Phillip Garcia,26,20-39,Male,Hispanic/Latino,January,16,2015,2015-01-16,Houston,Texas,29.615253780718582,-95.21444522329897,Firearm
 Scott Hall,41,40-59,Male,White,January,16,2015,2015-01-16,Mabank,Texas,32.3665322,-96.1008056,Firearm
 Terence Walker,21,20-39,Male,Black,January,17,2015,2015-01-17,Muskogee,Oklahoma,35.6630196,-95.3927706,Firearm
 Pablo Meza,24,20-39,Male,Hispanic/Latino,January,17,2015,2015-01-17,Los Angeles,California,34.0536909,-118.242766,Firearm
@@ -59,32 +59,32 @@ Miguel Anguel de Santos-Rodriguez,36,20-39,Male,Hispanic/Latino,January,21,2015,
 John Gorman,45,40-59,Male,White,January,21,2015,2015-01-21,Robinsonville,Mississippi,34.8173207,-90.3162087,Knife
 Andrew Toto,54,40-59,Male,White,January,21,2015,2015-01-21,Derry,New Hampshire,42.8808677,-71.3264492,Firearm
 Kristiana Coignard,17,Under 19,Female,White,January,22,2015,2015-01-22,Longview,Texas,32.4952815,-94.74644684907962,Knife
-Tiano Meton,25,20-39,Male,Black,January,22,2015,2015-01-22,Sierra Blanca,Texas,31.1717644,-105.33813925761899,Non-lethal firearm
+Tiano Meton,25,20-39,Male,Black,January,22,2015,2015-01-22,Sierra Blanca,Texas,31.1717644,-105.338139257619,Non-lethal firearm
 Demaris Turner,29,20-39,Male,Black,January,23,2015,2015-01-23,Lauderhill,Florida,26.149989573740275,-80.20904227473369,Vehicle
 Jose Antonio Espinoza Ruiz,56,40-59,Male,Hispanic/Latino,January,23,2015,2015-01-23,Levelland,Texas,33.59136967345314,-102.369257,Knife
 Robert Mesch,61,Above 60,Male,White,January,23,2015,2015-01-23,Austin,Texas,30.1675464,-97.7888556,Firearm
 Darin Hutchins,26,20-39,Male,Black,January,24,2015,2015-01-24,Baltimore,Maryland,39.2843745,-76.64685897769942,Knife
-Daryl Myler,45,40-59,Male,White,January,24,2015,2015-01-24,Rexburg,Idaho,43.8255469,-111.77878243592187,Firearm
+Daryl Myler,45,40-59,Male,White,January,24,2015,2015-01-24,Rexburg,Idaho,43.8255469,-111.77878243592188,Firearm
 Orlando Lopez,26,20-39,Male,Hispanic/Latino,January,25,2015,2015-01-25,Pueblo,Colorado,38.263995,-104.6141867,Firearm
 William Campbell,59,40-59,Male,Other,January,25,2015,2015-01-25,Berlin,New Jersey,39.7912262,-74.9290536,Firearm
 Jesse Hernandez,17,Under 19,Non-conforming,Hispanic/Latino,January,26,2015,2015-01-26,Denver,Colorado,39.7392364,-104.984862,Unarmed
-David Garcia,33,20-39,Male,Hispanic/Latino,January,26,2015,2015-01-26,Wasco,California,35.58932406060606,-119.33503979797979,Knife
+David Garcia,33,20-39,Male,Hispanic/Latino,January,26,2015,2015-01-26,Wasco,California,35.58932406060606,-119.3350397979798,Knife
 Alvin Haynes,57,40-59,Male,Black,January,26,2015,2015-01-26,San Francisco,California,37.7792588,-122.4193286,Unarmed
 Raymond Kmetz,68,Above 60,Male,White,January,26,2015,2015-01-26,New Hope,Minnesota,45.03463615,-93.38618859654554,Firearm
-Nicolas Tewa,26,20-39,Male,Native American,January,27,2015,2015-01-27,Phoenix,Arizona,33.49566441666666,-112.11248061111111,Vehicle
+Nicolas Tewa,26,20-39,Male,Native American,January,27,2015,2015-01-27,Phoenix,Arizona,33.49566441666666,-112.11248061111112,Vehicle
 Chris Ingram,29,20-39,Male,White,January,27,2015,2015-01-27,Morenci,Arizona,33.06192918496752,-109.33333584040936,Firearm
 Jermonte Fletcher,33,20-39,Male,Black,January,27,2015,2015-01-27,Columbus,Ohio,39.879345773424355,-82.99636706482694,Firearm
 Cody Karasek,26,20-39,Male,White,January,28,2015,2015-01-28,Rosenberg,Texas,29.557859,-95.784633,Firearm
 Larry Kobuk,33,20-39,Male,Native American,January,28,2015,2015-01-28,Anchorage,Alaska,61.2183804,-149.85764895546652,Unarmed
-Matautu Nuu,35,20-39,Male,Asian/Pacific Islander,January,28,2015,2015-01-28,Stockton,California,38.02917045068818,-121.31566108364059,Other
+Matautu Nuu,35,20-39,Male,Asian/Pacific Islander,January,28,2015,2015-01-28,Stockton,California,38.02917045068818,-121.3156610836406,Other
 Alan Alverson,44,40-59,Male,White,January,28,2015,2015-01-28,Sunset,Texas,33.4543185,-97.7656782,Firearm
-Wendell King,40,40-59,Male,White,January,29,2015,2015-01-29,Forth Worth,Texas,32.7369895,-97.46298929973253,Firearm
+Wendell King,40,40-59,Male,White,January,29,2015,2015-01-29,Forth Worth,Texas,32.7369895,-97.46298929973251,Firearm
 Ralph Willis,42,40-59,Male,White,January,29,2015,2015-01-29,Stillwater,Oklahoma,36.12100582531513,-97.0500856143077,Unarmed
 Tiffany Terry,39,20-39,Female,White,January,30,2015,2015-01-30,Omaha,Nebraska,41.24289544829827,-95.9903230411065,Knife
 John Marshall,48,40-59,Male,White,January,30,2015,2015-01-30,Billings,Montana,45.78960595,-108.51365771273277,Firearm
-Victor Reyes,31,20-39,Male,Hispanic/Latino,January,31,2015,2015-01-31,Houston,Texas,29.865756150000003,-95.48989275000001,Firearm
+Victor Reyes,31,20-39,Male,Hispanic/Latino,January,31,2015,2015-01-31,Houston,Texas,29.865756150000003,-95.48989275,Firearm
 Edward Bright Sr,54,40-59,Male,Black,January,31,2015,2015-01-31,Randallstown,Maryland,39.379882,-76.820202,Knife
-Hung Trieu,35,20-39,Male,Asian/Pacific Islander,February,2,2015,2015-02-02,Houston,Texas,29.705072314002575,-95.51636066901783,Firearm
+Hung Trieu,35,20-39,Male,Asian/Pacific Islander,February,2,2015,2015-02-02,Houston,Texas,29.705072314002575,-95.51636066901784,Firearm
 Francis Rose III,42,40-59,Male,White,February,2,2015,2015-02-02,Apple Valley,California,34.46079207968558,-117.17717830809902,Firearm
 David Kassick,59,40-59,Male,White,February,2,2015,2015-02-02,Hanover,Pennsylvania,40.27340166114517,-76.71294079327724,Unarmed
 Kenneth Brown,18,Under 19,Male,White,January,4,2015,2015-01-04,Guthrie,Oklahoma,35.8789231,-97.4252772,Firearm
@@ -118,13 +118,13 @@ Kenneth Kreyssig,61,Above 60,Male,White,February,10,2015,2015-02-10,Smyrna,Maine
 Phillip Watkins,23,20-39,Male,Black,February,11,2015,2015-02-11,San Jose,California,37.316653,-121.875963,Knife
 Fletcher Stewart,46,40-59,Male,White,February,11,2015,2015-02-11,Dadeville,Alabama,32.831238,-85.7635692,Firearm
 Andres Lara-Rodriguez,21,20-39,Male,Hispanic/Latino,February,13,2015,2015-02-13,Kansas City,Kansas,39.1134562,-94.626497,Firearm
-Jonathan Harden,23,20-39,Male,White,February,13,2015,2015-02-13,San Bernadino,California,38.02854873142405,-121.96198508727097,Vehicle
+Jonathan Harden,23,20-39,Male,White,February,13,2015,2015-02-13,San Bernadino,California,38.02854873142405,-121.96198508727096,Vehicle
 Matthew Belk,27,20-39,Male,White,February,13,2015,2015-02-13,Huntingdon,Tennessee,36.0006178,-88.4281063,Firearm
 Richard Carlin,35,20-39,Male,White,February,13,2015,2015-02-13,Reading,Pennsylvania,40.32888871428572,-75.90792471428571,Other
 Roy Day,51,40-59,Male,White,February,14,2015,2015-02-14,Laredo,Texas,27.55374819374288,-99.47536330893084,Firearm
-Cody Evans,24,20-39,Male,White,February,15,2015,2015-02-15,Provo,Utah,40.240433391121236,-111.67880253108186,Non-lethal firearm
+Cody Evans,24,20-39,Male,White,February,15,2015,2015-02-15,Provo,Utah,40.24043339112123,-111.67880253108186,Non-lethal firearm
 Lavall Hall,25,20-39,Male,Black,February,15,2015,2015-02-15,Miami Gardens,Florida,25.950345,-80.20738885714286,Other
-Bruce Steward,34,20-39,Male,White,February,15,2015,2015-02-15,Colton,Oregon,45.17359597305076,-122.43745722219509,Knife
+Bruce Steward,34,20-39,Male,White,February,15,2015,2015-02-15,Colton,Oregon,45.17359597305076,-122.43745722219508,Knife
 Howard 'Brent' Means Jr,34,20-39,Male,White,February,15,2015,2015-02-15,Iuka,Mississippi,34.8043169,-88.20454352496849,Firearm
 Daniel Mejia,37,20-39,Male,Hispanic/Latino,February,15,2015,2015-02-15,San Manuel,Arizona,32.610117,-110.631698,Knife
 Jacob Haglund,17,Under 19,Male,White,February,2,2015,2015-02-02,Bay City,Michigan,43.599851,-83.873051,Firearm
@@ -141,19 +141,19 @@ Rubén García Villalpando,31,20-39,Male,Hispanic/Latino,February,20,2015,2015-0
 Stanley Grant,38,20-39,Male,Black,February,20,2015,2015-02-20,Birmingham,Alabama,33.48270022106063,-86.8235275293178,Firearm
 Alejandro Salazar,Unknown,Unknown,Male,Hispanic/Latino,February,20,2015,2015-02-20,Houston,Texas,29.982016622647635,-95.4213294834332,Firearm
 Jason Carter,41,40-59,Male,White,February,21,2015,2015-02-21,Ruidoso,New Mexico,33.326159,-105.633838,Firearm
-Terry Price,41,40-59,Male,Black,February,21,2015,2015-02-21,Tulsa,Oklahoma,36.20592686351483,-95.99849165018081,Unarmed
+Terry Price,41,40-59,Male,Black,February,21,2015,2015-02-21,Tulsa,Oklahoma,36.20592686351483,-95.9984916501808,Unarmed
 Kent Norman,51,40-59,Male,White,February,21,2015,2015-02-21,Indianapolis,Indiana,39.792688,-85.991992,Knife
 Anthony Giaquinta,41,40-59,Male,Hispanic/Latino,February,22,2015,2015-02-22,Clarkesville,Georgia,34.6125971,-83.5248933,Firearm
 Bradford Leonard,50,40-59,Male,White,February,22,2015,2015-02-22,Palm Bay,Florida,27.990719,-80.645607,Firearm
 A'donte Washington,16,Under 19,Male,Black,February,23,2015,2015-02-23,Millbrook,Alabama,32.53025431819469,-86.3623839900818,Firearm
 Michael Smashey,37,20-39,Male,White,February,23,2015,2015-02-23,Powder Springs,Georgia,33.8595492,-84.683824,Knife
 Jerome Nichols,42,40-59,Male,White,February,23,2015,2015-02-23,Allentown,Pennsylvania,40.630511,-75.433704,Knife
-Robert Kohl,47,40-59,Male,White,February,23,2015,2015-02-23,Denham Springs,Louisiana,30.4520453,-90.96189221972385,Firearm
+Robert Kohl,47,40-59,Male,White,February,23,2015,2015-02-23,Denham Springs,Louisiana,30.4520453,-90.96189221972384,Firearm
 Joseph Biegert,30,20-39,Male,White,February,24,2015,2015-02-24,Green Bay,Wisconsin,44.52652444444445,-88.058018,Knife
 Daniel Elrod,39,20-39,Male,White,February,24,2015,2015-02-24,Omaha,Nebraska,41.242773,-95.93313,Unarmed
 Alexander Long,31,20-39,Male,White,February,25,2015,2015-02-25,Terre Haute,Indiana,39.4667025,-87.4139119,Unarmed
 Glenn Lewis,37,20-39,Male,Black,February,25,2015,2015-02-25,Oklahoma City,Oklahoma,35.497485,-97.550076,Vehicle
-Francis Spivey,43,40-59,Male,White,February,25,2015,2015-02-25,Las Vegas,Nevada,36.24025035,-115.08953410000001,Firearm
+Francis Spivey,43,40-59,Male,White,February,25,2015,2015-02-25,Las Vegas,Nevada,36.24025035,-115.0895341,Firearm
 Amilcar Perez-Lopez,21,20-39,Male,Hispanic/Latino,February,26,2015,2015-02-26,San Francisco,California,37.752562,-122.414378,Knife
 Crystal Miley,34,20-39,Female,White,February,26,2015,2015-02-26,Moultrie,Georgia,31.179998,-83.7887928,Firearm
 David Cuevas,42,40-59,Male,Hispanic/Latino,February,26,2015,2015-02-26,Lakeland,Florida,28.103615150000003,-81.95063558670773,Firearm
@@ -167,14 +167,14 @@ Ian Sherrod,40,40-59,Male,Black,February,28,2015,2015-02-28,Tarboro,North Caroli
 Deven Guilford,17,Under 19,Male,White,February,28,2015,2015-02-28,Roxand Township,Michigan,42.75557750063941,-84.89706885615325,Unarmed
 Jessica Uribe,28,20-39,Female,Hispanic/Latino,February,28,2015,2015-02-28,Tuscon,Arizona,32.1975767247524,-111.0808305629571,Knife
 Thomas Allen Jr,34,20-39,Male,Black,March,1,2015,2015-03-01,St Louis,Missouri,38.6280278,-90.1910154,Unarmed
-Charly 'Africa' Keunang,43,40-59,Male,Black,March,1,2015,2015-03-01,Los Angeles,California,34.051147823832714,-118.24029050426739,Unarmed
+Charly 'Africa' Keunang,43,40-59,Male,Black,March,1,2015,2015-03-01,Los Angeles,California,34.051147823832714,-118.2402905042674,Unarmed
 Darrell 'Hubbard' Gatewood,47,40-59,Male,Black,March,1,2015,2015-03-01,Oklahoma City,Oklahoma,35.40614142468697,-97.5242498175115,Unarmed
 Donald Matkins,49,40-59,Male,White,March,1,2015,2015-03-01,Lucedale,Mississippi,30.9248878,-88.5879421,Firearm
 Jeffrey Surnow,63,Above 60,Male,White,March,1,2015,2015-03-01,Waikoloa Village,Hawaii,19.9469278,-155.787398,Unarmed
 Shaquille Barrow,20,20-39,Male,Black,March,2,2015,2015-03-02,Joliet,Illinois,41.5263603,-88.0840212,Firearm
 Fednel Rhinvil,25,20-39,Male,Black,March,3,2015,2015-03-03,Salisbury,Maryland,38.379826,-75.607273,Firearm
 Matthew Metz,25,20-39,Male,White,March,3,2015,2015-03-03,Tempe,Arizona,33.4255117,-111.940016,Knife
-Derek Cruice,26,20-39,Male,White,March,4,2015,2015-03-04,Deltona,Florida,28.886220299999998,-81.25358338411283,Unarmed
+Derek Cruice,26,20-39,Male,White,March,4,2015,2015-03-04,Deltona,Florida,28.8862203,-81.25358338411283,Unarmed
 Carl Lao,28,20-39,Male,Asian/Pacific Islander,March,4,2015,2015-03-04,Stockton,California,37.9577016,-121.290779,Firearm
 Tyson Hubbard,34,20-39,Male,White,March,5,2015,2015-03-05,Lincoln,Nebraska,40.877134,-96.68128057823618,Firearm
 Sergio Navas,34,20-39,Male,Hispanic/Latino,March,5,2015,2015-03-05,Burbank,California,34.1812089,-118.307201,Unarmed
@@ -199,7 +199,7 @@ Edixon Franco,37,20-39,Male,Hispanic/Latino,March,10,2015,2015-03-10,Ontario,Cal
 William 'Rusty' Smith,53,40-59,Male,White,March,10,2015,2015-03-10,Hoover,Alabama,33.41501,-86.851484,Firearm
 Theodore Johnson,64,Above 60,Male,Black,March,10,2015,2015-03-10,Cleveland,Ohio,41.450213987273855,-81.64120252098705,Firearm
 Aaron Valdez,25,20-39,Male,Hispanic/Latino,March,11,2015,2015-03-11,South Gate,California,33.9463456,-118.200981,Vehicle
-Ryan Burgess,31,20-39,Male,White,March,11,2015,2015-03-11,Kingman,Arizona,35.2039802244898,-114.02599789795919,Non-lethal firearm
+Ryan Burgess,31,20-39,Male,White,March,11,2015,2015-03-11,Kingman,Arizona,35.2039802244898,-114.0259978979592,Non-lethal firearm
 James Greenwell,31,20-39,Male,White,March,11,2015,2015-03-11,Memphis,Tennessee,35.157688860117226,-90.00017487815006,Firearm
 Terry Garnett Jr,37,20-39,Male,Black,March,11,2015,2015-03-11,Elkton,Maryland,39.6065073,-75.8330934,Vehicle
 Benito Osorio,39,20-39,Male,Hispanic/Latino,March,11,2015,2015-03-11,Santa Ana,California,33.7494951,-117.873221,Firearm
@@ -213,7 +213,7 @@ James Jimenez,41,40-59,Male,Hispanic/Latino,March,13,2015,2015-03-13,Napa,Califo
 Clifton Reintzel,53,40-59,Male,White,March,13,2015,2015-03-13,Follansbee,West Virginia,40.323339,-80.595086,Knife
 Fred Liggett Jr,59,40-59,Male,White,March,13,2015,2015-03-13,Kansas City,Missouri,38.947306,-94.486774,Other
 Aaron Siler,26,20-39,Male,White,March,14,2015,2015-03-14,Kenosha,Wisconsin,42.5846773,-87.8212263,Unarmed
-Richard Castilleja,29,20-39,Male,Hispanic/Latino,March,14,2015,2015-03-14,San Antonio,Texas,29.51311603949205,-98.53549723855829,Firearm
+Richard Castilleja,29,20-39,Male,Hispanic/Latino,March,14,2015,2015-03-14,San Antonio,Texas,29.51311603949205,-98.53549723855828,Firearm
 Troy Boyd,36,20-39,Male,White,March,15,2015,2015-03-15,Ruth,Mississippi,31.3815627,-90.316482,Other
 David Werblow,41,40-59,Male,White,March,15,2015,2015-03-15,Branford,Connecticut,41.269313,-72.8429821,Unarmed
 Justin Tolkinen,28,20-39,Male,White,March,16,2015,2015-03-16,St Paul,Minnesota,44.9539255862069,-93.02536363793104,Firearm
@@ -222,14 +222,14 @@ William Poole,52,40-59,Male,White,March,16,2015,2015-03-16,Gaston,North Carolina
 Eugene Smith II,20,20-39,Male,White,March,17,2015,2015-03-17,Onalaska,Texas,30.805746,-95.1163261,Firearm
 Roberto Leon,22,20-39,Male,Hispanic/Latino,March,17,2015,2015-03-17,Rio Linda,California,38.6873975,-121.45938031564836,Unarmed
 Declan Owen,24,20-39,Male,White,March,17,2015,2015-03-17,Dublin,North Carolina,34.6568361,-78.726407,Firearm
-Alice Brown,24,20-39,Female,White,March,17,2015,2015-03-17,San Francisco,California,37.78960465,-122.42259121884655,Vehicle
+Alice Brown,24,20-39,Female,White,March,17,2015,2015-03-17,San Francisco,California,37.78960465,-122.42259121884656,Vehicle
 Askari Roberts,35,20-39,Male,Black,March,17,2015,2015-03-17,Rome,Georgia,34.257038,-85.1646726,Unarmed
-Jeff Alexander,47,40-59,Male,White,March,17,2015,2015-03-17,Bakersfield,California,35.37623076431705,-119.02005666266199,Knife
+Jeff Alexander,47,40-59,Male,White,March,17,2015,2015-03-17,Bakersfield,California,35.37623076431705,-119.020056662662,Knife
 Andrew Shipley,49,40-59,Male,White,March,17,2015,2015-03-17,Medford,Oregon,42.3302898367347,-122.89894940816326,Firearm
 Brandon Rapp,31,20-39,Male,White,March,18,2015,2015-03-18,Middleton,Idaho,43.7068282,-116.620135,Firearm
-Kaylene Stone,49,40-59,Female,White,March,18,2015,2015-03-18,Peoria,Arizona,33.581599840735024,-112.20384235107707,Firearm
+Kaylene Stone,49,40-59,Female,White,March,18,2015,2015-03-18,Peoria,Arizona,33.581599840735024,-112.20384235107709,Firearm
 Garland Wingo,64,Above 60,Male,White,March,18,2015,2015-03-18,Tallahassee,Florida,30.460939,-84.2796845465017,Firearm
-Kendre Alston,16,Under 19,Male,Black,March,19,2015,2015-03-19,Jacksonville,Florida,30.375299849999998,-81.68532453307827,Firearm
+Kendre Alston,16,Under 19,Male,Black,March,19,2015,2015-03-19,Jacksonville,Florida,30.37529985,-81.68532453307827,Firearm
 Brandon Jones,18,Under 19,Male,Black,March,19,2015,2015-03-19,Cleveland,Ohio,41.528889,-81.609262,Unarmed
 Jamison Childress,20,20-39,Male,White,March,19,2015,2015-03-19,Sumas,Washington,49.000052532042154,-122.27776541895366,Other
 Justin Fowler,24,20-39,Male,Native American,March,19,2015,2015-03-19,Lukachukai,Arizona,36.4077545,-109.22696452080706,Firearm
@@ -238,21 +238,21 @@ Robert Burdge,36,20-39,Male,White,March,19,2015,2015-03-19,Bakersfield,Californi
 Shane Watkins,39,20-39,Male,White,March,19,2015,2015-03-19,Moulton,Alabama,34.4817816,-87.2919449,Knife
 Tyrel Vick,34,20-39,Male,White,March,20,2015,2015-03-20,Wapanucka,Oklahoma,34.3748787,-96.4243554,Firearm
 Jason Smith,42,40-59,Male,White,March,20,2015,2015-03-20,Columbus,Ohio,40.0589983,-82.99754162181065,Firearm
-Richard White,63,Above 60,Male,Black,March,20,2015,2015-03-20,Kenner,Louisiana,29.979782977037278,-90.24312495873545,Knife
+Richard White,63,Above 60,Male,Black,March,20,2015,2015-03-20,Kenner,Louisiana,29.97978297703728,-90.24312495873544,Knife
 Enoch Gaver,21,20-39,Male,White,March,21,2015,2015-03-21,Cottonwood,Arizona,34.739489,-112.009793,Firearm
-Phillip Conley,37,20-39,Male,White,March,21,2015,2015-03-21,Vallejo,California,38.13091259292391,-122.22466477698903,Knife
+Phillip Conley,37,20-39,Male,White,March,21,2015,2015-03-21,Vallejo,California,38.13091259292391,-122.22466477698904,Knife
 James Ellis,44,40-59,Male,White,March,21,2015,2015-03-21,Clarendon,New York,43.193393,-78.064739,Firearm
 Gary Page,60,Above 60,Male,White,March,21,2015,2015-03-21,Harmony,Indiana,39.53428464802676,-87.07231612408602,Firearm
 Denzel Brown,21,20-39,Male,Black,March,22,2015,2015-03-22,Bay Shore,New York,40.739472,-73.2382961,Unarmed
 Devin Gates,24,20-39,Male,Black,March,22,2015,2015-03-22,Santa Clara,California,37.36140175,-121.95907573642523,Firearm
 Christopher Healy,36,20-39,Male,White,March,22,2015,2015-03-22,Portland,Oregon,45.505744,-122.529834,Knife
 Jeffrey Jackson,47,40-59,Male,White,March,22,2015,2015-03-22,Williamsburg,Kentucky,36.7434169,-84.1596561,Unarmed
-Mychael Lynch,32,20-39,Male,White,March,23,2015,2015-03-23,Vancouver,Washington,45.630359150000004,-122.67864759644712,Unarmed
+Mychael Lynch,32,20-39,Male,White,March,23,2015,2015-03-23,Vancouver,Washington,45.63035915,-122.67864759644712,Unarmed
 Nicholas Thomas,23,20-39,Male,Black,March,24,2015,2015-03-24,Atlanta,Georgia,33.7489924,-84.3902644,Vehicle
 Walter Brown III,29,20-39,Male,Black,March,24,2015,2015-03-24,Portsmouth,Virginia,36.818637249999995,-76.37030597474188,Firearm
-Steven Snyder,37,20-39,Male,White,March,24,2015,2015-03-24,Fond du Lac,Wisconsin,43.784186285714284,-88.47477275510204,Firearm
+Steven Snyder,37,20-39,Male,White,March,24,2015,2015-03-24,Fond du Lac,Wisconsin,43.78418628571429,-88.47477275510204,Firearm
 Scott Dunham,57,40-59,Male,White,March,24,2015,2015-03-24,San Jose,California,37.3018684,-121.840286,Firearm
-Joseph Tassinari,63,Above 60,Male,White,March,24,2015,2015-03-24,Glendale,Arizona,33.583535499999996,-112.20071193052573,Firearm
+Joseph Tassinari,63,Above 60,Male,White,March,24,2015,2015-03-24,Glendale,Arizona,33.583535499999996,-112.20071193052571,Firearm
 Jeremy Kelly,27,20-39,Male,Black,March,25,2015,2015-03-25,Johnsonville,South Carolina,33.8179432,-79.4492228,Firearm
 Victor Terrazas,28,20-39,Male,Hispanic/Latino,March,25,2015,2015-03-25,Los Angeles,California,33.943627,-118.291529,Firearm
 Adrian Solis,35,20-39,Male,Hispanic/Latino,March,26,2015,2015-03-26,Wilmington,California,33.7800164,-118.262509,Knife
@@ -271,7 +271,7 @@ Mya Hall,27,20-39,Female,Black,March,30,2015,2015-03-30,Fort Meade,Maryland,39.1
 Jason Moland,29,20-39,Male,Black,March,30,2015,2015-03-30,Modesto,California,37.69202413978495,-120.97165255913978,Non-lethal firearm
 Dominick Wise,30,20-39,Male,Black,March,30,2015,2015-03-30,Culpeper,Virginia,38.48489625,-77.9787302679903,Unarmed
 Gregory Smith,39,20-39,Male,White,March,30,2015,2015-03-30,Crown Point,Indiana,41.4477388,-87.3699136,Unarmed
-John Allen,54,40-59,Male,White,March,30,2015,2015-03-30,Boulder City,Nevada,35.97324788523596,-114.84041932495569,Firearm
+John Allen,54,40-59,Male,White,March,30,2015,2015-03-30,Boulder City,Nevada,35.97324788523596,-114.84041932495568,Firearm
 Benjamin Quezada,21,20-39,Male,Hispanic/Latino,March,31,2015,2015-03-31,Baytown,Texas,29.7355047,-94.9774274,Non-lethal firearm
 Phillip White,32,20-39,Male,Black,March,31,2015,2015-03-31,Vineland,New Jersey,39.48464388340373,-75.03508966807462,Unarmed
 Brian Babb,49,40-59,Male,White,March,30,2015,2015-03-30,Eugene,Oregon,44.089412,-123.181258,Firearm
@@ -288,7 +288,7 @@ Ken Cockerel,51,40-59,Male,White,April,3,2015,2015-04-03,Phoenix,Arizona,33.4484
 Justus Howell,17,Under 19,Male,Black,April,4,2015,2015-04-04,Zion,Illinois,42.453972,-87.843654,Firearm
 William Dick III,28,20-39,Male,Native American,April,4,2015,2015-04-04,Tonasket,Washington,48.7052355,-119.4373513,Unarmed
 Paul Anderson,31,20-39,Male,Black,April,4,2015,2015-04-04,Anaheim,California,33.8368604215144,-117.91306124317542,Firearm
-Ethan Noll,34,20-39,Male,White,April,4,2015,2015-04-04,Edgewood,New Mexico,35.053963387081126,-106.19466394324337,Firearm
+Ethan Noll,34,20-39,Male,White,April,4,2015,2015-04-04,Edgewood,New Mexico,35.053963387081126,-106.19466394324336,Firearm
 Walter Scott,50,40-59,Male,Black,April,4,2015,2015-04-04,North Charleston,South Carolina,32.89962357142857,-80.01267602040815,Unarmed
 Alexander Myers,23,20-39,Male,White,April,6,2015,2015-04-06,Indianapolis,Indiana,39.681852,-86.27353,Firearm
 Desmond Willis,25,20-39,Male,Black,April,6,2015,2015-04-06,Harvey,Louisiana,29.877049,-90.0483192,Firearm
@@ -304,13 +304,13 @@ Douglas Faith,60,Above 60,Male,White,April,8,2015,2015-04-08,San Antonio,Texas,2
 Gordon Kimbrell Jr,22,20-39,Male,White,April,9,2015,2015-04-09,Navarre,Florida,30.4129905,-86.83496148334333,Other
 Phillip Burgess,28,20-39,Male,White,April,9,2015,2015-04-09,Boiling Springs,South Carolina,35.0227885,-82.00614911246993,Firearm
 Jess Leipold,31,20-39,Male,White,April,9,2015,2015-04-09,Gettysburg,Pennsylvania,39.8585382,-77.15797943089969,Firearm
-Angel Corona Jr,21,20-39,Male,Hispanic/Latino,April,10,2015,2015-04-10,Corning,California,39.934258869979935,-122.20236872755905,Knife
+Angel Corona Jr,21,20-39,Male,Hispanic/Latino,April,10,2015,2015-04-10,Corning,California,39.934258869979935,-122.20236872755903,Knife
 Richard Reed,38,20-39,Male,White,April,10,2015,2015-04-10,Topeka,Kansas,39.049011,-95.677556,Firearm
 Jason Evans,32,20-39,Male,White,April,12,2015,2015-04-12,Salemburg,North Carolina,35.0154469,-78.5030622,Firearm
 Mack Long,36,20-39,Male,Black,April,12,2015,2015-04-12,Indianapolis,Indiana,39.7683331,-86.1583502,Firearm
 Richard 'Buddy' Weaver,83,Above 60,Male,White,April,12,2015,2015-04-12,Newalla,Oklahoma,35.4046678,-97.1620178,Other
 Celin Nunez,24,20-39,Male,Hispanic/Latino,April,13,2015,2015-04-13,Houston,Texas,29.9495868,-95.41616310853658,Other
-Isaac Jimenez,27,20-39,Male,Hispanic/Latino,April,13,2015,2015-04-13,Alton,Illinois,38.91289889229709,-90.15871751007347,Firearm
+Isaac Jimenez,27,20-39,Male,Hispanic/Latino,April,13,2015,2015-04-13,Alton,Illinois,38.91289889229709,-90.15871751007349,Firearm
 Christopher Finley,31,20-39,Male,White,April,14,2015,2015-04-14,Jonesboro,Arkansas,35.834577,-90.717393,Other
 Karl Taylor,52,40-59,Male,Black,April,14,2015,2015-04-14,Fallsburg,New York,41.742141149999995,-74.59004960844305,Other
 Tevin Barkley,22,20-39,Male,Black,April,15,2015,2015-04-15,Miami,Florida,25.84321364705882,-80.21133370588235,Firearm
@@ -329,7 +329,7 @@ Erik Tellez,43,40-59,Male,White,April,18,2015,2015-04-18,Phoenix,Arizona,33.4484
 Grover Sapp Jr,45,40-59,Male,White,April,18,2015,2015-04-18,Panama City,Florida,30.170297,-85.701446,Firearm
 Norman Cooper,33,20-39,Male,Black,April,19,2015,2015-04-19,San Antonio,Texas,29.59254142042241,-98.40263096889852,Unarmed
 Michael Foster,40,40-59,Male,White,April,19,2015,2015-04-19,Wilmore,Kentucky,37.86691885548589,-84.66093216672166,Firearm
-Dana Hlavinka,44,40-59,Male,White,April,19,2015,2015-04-19,Sidney,Nebraska,41.12208704720175,-102.98209071439851,Knife
+Dana Hlavinka,44,40-59,Male,White,April,19,2015,2015-04-19,Sidney,Nebraska,41.12208704720175,-102.98209071439852,Knife
 Santos 'Cuate' Cortez Hernandez,24,20-39,Male,Hispanic/Latino,April,20,2015,2015-04-20,Mission,Texas,26.2159066,-98.3252932,Firearm
 Luis Molina Martinez,35,20-39,Male,Hispanic/Latino,April,21,2015,2015-04-21,Los Angeles,California,34.07192,-118.205021,Knife
 Daniel Wolfe,35,20-39,Male,Black,April,21,2015,2015-04-21,Union,New Jersey,40.7108235,-74.25313525,Vehicle
@@ -337,16 +337,16 @@ Daniel Covarrubias,37,20-39,Male,Native American,April,21,2015,2015-04-21,Lakewo
 Steven Davenport,43,40-59,Male,White,April,21,2015,2015-04-21,Meridian,Mississippi,32.3643098,-88.703656,Unarmed
 Kimber Key,59,40-59,Male,White,April,21,2015,2015-04-21,Columbia,South Carolina,34.000754,-81.0352313,Knife
 William Chapman II,18,Under 19,Male,Black,April,22,2015,2015-04-22,Portsmouth,Virginia,36.8293466,-76.3423530868196,Unarmed
-Jose Herrera,27,20-39,Male,Hispanic/Latino,April,22,2015,2015-04-22,Delano,California,35.77586907659902,-119.26296131707025,Unarmed
+Jose Herrera,27,20-39,Male,Hispanic/Latino,April,22,2015,2015-04-22,Delano,California,35.77586907659902,-119.26296131707024,Unarmed
 Jonathan Efraim,30,20-39,Male,White,April,22,2015,2015-04-22,New York,New York,40.704299451248225,-73.81483261370614,Firearm
-Lue Vang,39,20-39,Male,Asian/Pacific Islander,April,22,2015,2015-04-22,Boulder,Colorado,39.938179575486004,-105.25793675710682,Firearm
+Lue Vang,39,20-39,Male,Asian/Pacific Islander,April,22,2015,2015-04-22,Boulder,Colorado,39.938179575486,-105.25793675710682,Firearm
 Carlos Ramirez,51,40-59,Male,Hispanic/Latino,April,22,2015,2015-04-22,Bisbee,Arizona,31.40111086592744,-109.91921284844533,Knife
 Hector Morejon,19,Under 19,Male,Hispanic/Latino,April,23,2015,2015-04-23,Long Beach,California,33.780905,-118.173523,Unarmed
 Andrew Valadez,26,20-39,Male,White,April,23,2015,2015-04-23,Sylmar,California,34.3076252,-118.4492148,Firearm
 Karen Janks,46,40-59,Female,White,April,23,2015,2015-04-23,Sebastopol,California,38.4021038,-122.824222,Vehicle
 Joseph Potts,51,40-59,Male,White,April,23,2015,2015-04-23,Rufe,Oklahoma,34.1237158,-95.1441197,Firearm
 Todd Dye,20,20-39,Male,Black,April,24,2015,2015-04-24,Trinidad,Colorado,37.1761444,-104.49238089978704,Firearm
-Mark Hawkins,49,40-59,Male,White,April,24,2015,2015-04-24,Salem,Oregon,44.9140041,-122.99582434172581,Firearm
+Mark Hawkins,49,40-59,Male,White,April,24,2015,2015-04-24,Salem,Oregon,44.9140041,-122.9958243417258,Firearm
 David Felix,24,20-39,Male,Black,April,25,2015,2015-04-25,New York,New York,43.16869787148624,-77.58243381960648,Unarmed
 Brandon Lawrence,25,20-39,Male,White,April,25,2015,2015-04-25,Victoria,Texas,28.877663,-97.001485,Other
 Daniel Davis,58,40-59,Male,White,April,25,2015,2015-04-25,Clermont,Florida,28.567043,-81.812306,Knife
@@ -359,9 +359,9 @@ Jared Johnson,22,20-39,Male,Black,April,28,2015,2015-04-28,New Orleans,Louisiana
 Joshua Green,27,20-39,Male,White,April,28,2015,2015-04-28,Marion,Illinois,37.73086317847697,-88.94078416762484,Firearm
 David Parker,58,40-59,Male,White,April,28,2015,2015-04-28,Mansfield,Ohio,40.73851064438441,-82.51533934145426,Firearm
 Andrew Jackson,26,20-39,Male,White,April,29,2015,2015-04-29,Chickasha,Oklahoma,35.040144,-97.948043,Knife
-Luis Chavez-Diaz,27,20-39,Male,Hispanic/Latino,April,29,2015,2015-04-29,Elk Grove,California,38.371439502389556,-121.49476801275216,Firearm
+Luis Chavez-Diaz,27,20-39,Male,Hispanic/Latino,April,29,2015,2015-04-29,Elk Grove,California,38.37143950238955,-121.49476801275216,Firearm
 Joshua Deysie,33,20-39,Male,Native American,April,29,2015,2015-04-29,Mesa,Arizona,33.389653,-111.800632,Firearm
-Erick Sanchez,22,20-39,Male,Hispanic/Latino,April,30,2015,2015-04-30,El Paso,Texas,31.739869433494494,-106.31146930278894,Other
+Erick Sanchez,22,20-39,Male,Hispanic/Latino,April,30,2015,2015-04-30,El Paso,Texas,31.739869433494498,-106.31146930278894,Other
 Alexia Christian,25,20-39,Female,Black,April,30,2015,2015-04-30,Atlanta,Georgia,33.75270287719298,-84.39006650877194,Firearm
 Fridoon Rawshannehad,42,40-59,Male,White,April,30,2015,2015-04-30,San Diego,California,32.754399,-117.205165,Unarmed
 John Acree,53,40-59,Male,White,April,30,2015,2015-04-30,Nashville,Tennessee,36.052421588745275,-86.77655566998436,Firearm
@@ -373,7 +373,7 @@ Kevin Norton,36,20-39,Male,White,May,3,2015,2015-05-03,Roosevelt,Utah,40.3034846
 Billy Grimm,44,40-59,Male,White,May,3,2015,2015-05-03,Albuquerque,New Mexico,35.0841034,-106.650985,Firearm
 Roark Cook,36,20-39,Male,White,May,4,2015,2015-05-04,Kennewick,Washington,46.20146512106365,-119.24044823765732,Non-lethal firearm
 Michael Asher,53,40-59,Male,White,May,4,2015,2015-05-04,Chavies,Kentucky,37.3478703,-83.3562912,Firearm
-Thong Kien Ma,32,20-39,Male,Asian/Pacific Islander,May,5,2015,2015-05-05,South El Monte,California,34.05356997903441,-118.04409455429095,Knife
+Thong Kien Ma,32,20-39,Male,Asian/Pacific Islander,May,5,2015,2015-05-05,South El Monte,California,34.05356997903441,-118.04409455429096,Knife
 Robert Frost,46,40-59,Male,White,May,5,2015,2015-05-05,Pulaski,Virginia,37.058547880273565,-80.74501330338724,Firearm
 Brendon Glenn,29,20-39,Male,Black,May,6,2015,2015-05-06,Los Angeles,California,33.9872485,-118.4726526,Unarmed
 Nuwnah Laroche,34,20-39,Female,Black,May,6,2015,2015-05-06,Ridgefield Park,New Jersey,40.83945625,-74.01888885,Unarmed
@@ -390,11 +390,11 @@ David Schwalm,58,40-59,Male,White,May,8,2015,2015-05-08,Constantia,New York,43.2
 Lionel Young,34,20-39,Male,Black,May,10,2015,2015-05-10,Landover,Maryland,38.92531295,-76.88154330442846,Knife
 Michael Gallagher,55,40-59,Male,White,May,10,2015,2015-05-10,Enfield,North Carolina,36.180992,-77.666445,Unarmed
 Justin Way,28,20-39,Male,White,May,11,2015,2015-05-11,St Augustine,Florida,29.8946952,-81.3145395,Knife
-Kelvin Goldston,30,20-39,Male,Black,May,11,2015,2015-05-11,Fort Worth,Texas,32.6605286,-97.39550806905187,Vehicle
-Stephen Cunningham,47,40-59,Male,White,May,11,2015,2015-05-11,Tacoma,Washington,47.22896618367347,-122.48861857142857,Firearm
+Kelvin Goldston,30,20-39,Male,Black,May,11,2015,2015-05-11,Fort Worth,Texas,32.6605286,-97.39550806905189,Vehicle
+Stephen Cunningham,47,40-59,Male,White,May,11,2015,2015-05-11,Tacoma,Washington,47.22896618367347,-122.48861857142856,Firearm
 D'Angelo Stallworth,28,20-39,Male,Black,May,12,2015,2015-05-12,Jacksonville,Florida,30.21445894393415,-81.73722341136369,Firearm
 Alec Ouzounian,40,40-59,Male,White,May,12,2015,2015-05-12,Rancho Santa Margarita,California,33.653713499999995,-117.6125658517868,Knife
-Bruce Zalonka,46,40-59,Male,Asian/Pacific Islander,May,12,2015,2015-05-12,Honolulu,Hawaii,21.310641217615146,-157.86255530721596,Firearm
+Bruce Zalonka,46,40-59,Male,Asian/Pacific Islander,May,12,2015,2015-05-12,Honolulu,Hawaii,21.310641217615142,-157.86255530721596,Firearm
 Lorenzo Hayes,37,20-39,Male,Black,May,13,2015,2015-05-13,Spokane,Washington,47.6571934,-117.42351,Unarmed
 Sean Pelletier,38,20-39,Male,White,May,14,2015,2015-05-14,Portage,Michigan,42.22918941666667,-85.64108691666667,Firearm
 Denis Reyes,40,40-59,Male,Hispanic/Latino,May,15,2015,2015-05-15,New York,New York,40.8646626,-73.8923767,Unarmed
@@ -409,13 +409,13 @@ Jeremy Anderson,36,20-39,Male,White,March,31,2015,2015-03-31,Tampa Bay,Florida,2
 Anthony Hill,27,20-39,Male,Black,March,9,2015,2015-03-09,Chamblee,Georgia,33.915332173978484,-84.31497980537819,Unarmed
 Don Smith,29,20-39,Male,Black,April,9,2015,2015-04-09,Monon,Indiana,40.8678171,-86.8789044,Firearm
 Mark Adair,51,40-59,Male,White,April,15,2015,2015-04-15,Columbia,Missouri,38.951883,-92.3337366,Firearm
-Tyrell Larsen,31,20-39,Male,White,April,6,2015,2015-04-06,Rigby,Idaho,43.684073350000006,-111.90010717586941,Firearm
+Tyrell Larsen,31,20-39,Male,White,April,6,2015,2015-04-06,Rigby,Idaho,43.684073350000006,-111.9001071758694,Firearm
 Reginald McGregor,31,20-39,Male,Black,April,21,2015,2015-04-21,Fort Worth,Texas,32.767039,-97.303784,Firearm
 Freddie Gray,25,20-39,Male,Black,April,12,2015,2015-04-12,Baltimore,Maryland,39.2908816,-76.610759,Unarmed
 Hashim Abdul-Rasheed,41,40-59,Male,Black,January,7,2015,2015-01-07,Columbus,Ohio,40.003659,-82.9030888,Knife
 Joshua Garcia,24,20-39,Male,Hispanic/Latino,January,26,2015,2015-01-26,Tahoka,Texas,33.163304499999995,-101.79085340186738,Unarmed
 Cary Martin,53,40-59,Male,White,May,14,2015,2015-05-14,St Augustine,Florida,29.897255933207553,-81.32808436537665,Firearm
-Alfredo Rials-Torres,54,40-59,Male,Hispanic/Latino,May,19,2015,2015-05-19,Arlington,Virginia,38.872800850000004,-77.10580565,Knife
+Alfredo Rials-Torres,54,40-59,Male,Hispanic/Latino,May,19,2015,2015-05-19,Arlington,Virginia,38.87280085,-77.10580565,Knife
 Anthony Gomez Jr,29,20-39,Male,Black,May,19,2015,2015-05-19,Lancaster,Pennsylvania,40.04344714713628,-76.29996950929687,Firearm
 David Gaines,17,Under 19,Male,White,May,19,2015,2015-05-19,Grand Junction,Colorado,39.0672568,-108.56448,Firearm
 Jonathan McIntosh,35,20-39,Male,White,May,19,2015,2015-05-19,Cabot,Arkansas,34.967584,-92.008126,Firearm
@@ -431,11 +431,11 @@ David Gandara,22,20-39,Male,Hispanic/Latino,May,21,2015,2015-05-21,El Paso,Texas
 Michael Lowrey,40,40-59,Male,White,May,22,2015,2015-05-22,Somerset,Pennsylvania,40.0345922,-79.07368522571305,Non-lethal firearm
 James Horn Jr,47,40-59,Male,White,May,23,2015,2015-05-23,Green Ridge,Missouri,38.6202945,-93.4093755,Firearm
 Caso Jackson,25,20-39,Male,Black,May,23,2015,2015-05-23,Detroit,Michigan,42.384778865329515,-83.18744883954155,Firearm
-Eric Robinson,40,40-59,Male,White,May,23,2015,2015-05-23,Eagar,Arizona,34.112289323232325,-109.29146384848485,Firearm
+Eric Robinson,40,40-59,Male,White,May,23,2015,2015-05-23,Eagar,Arizona,34.112289323232325,-109.29146384848484,Firearm
 Cassandra Bolin,31,20-39,Female,White,May,25,2015,2015-05-25,Austin,Texas,30.3319695,-97.72081612356322,Firearm
 Dalton Branch,51,40-59,Male,Black,May,26,2015,2015-05-26,New York,New York,40.6570252,-73.8888393,Firearm
 Anthony Briggs,36,20-39,Male,Black,May,25,2015,2015-05-25,Huntsville,Alabama,34.61525483300176,-86.56399810157305,Knife
-Millard Tallant III,62,Above 60,Male,White,May,26,2015,2015-05-26,Snohomish,Washington,47.838045853945076,-122.01367234545062,Firearm
+Millard Tallant III,62,Above 60,Male,White,May,26,2015,2015-05-26,Snohomish,Washington,47.83804585394507,-122.01367234545062,Firearm
 Scott McAllister,39,20-39,Male,White,May,27,2015,2015-05-27,Middletown,New Jersey,40.44418968684987,-74.11312086680351,Knife
 Randall Torrence,34,20-39,Male,White,May,27,2015,2015-05-27,Kansas City,Kansas,39.136418,-94.642044,Unarmed
 Garrett Sandeno,24,20-39,Male,White,May,27,2015,2015-05-27,Edmond,Oklahoma,35.632939,-97.457665,Non-lethal firearm
@@ -469,14 +469,14 @@ Rudy Baca,36,20-39,Male,Hispanic/Latino,June,3,2015,2015-06-03,Los Lunas,New Mex
 Andrew Ellerbe,33,20-39,Male,Black,June,4,2015,2015-06-04,Philadelphia,Pennsylvania,40.05662705,-75.08840978712811,Firearm
 Jesus Gomez,50,40-59,Male,Hispanic/Latino,June,5,2015,2015-06-05,Santa Maria,California,34.97048694595788,-120.4326411722543,Firearm
 Donald Pinkerton-DeVito,23,20-39,Male,White,June,5,2015,2015-06-05,San Francisco,California,37.7792588,-122.4193286,Unarmed
-Damien Ramirez,27,20-39,Male,Hispanic/Latino,June,6,2015,2015-06-06,Strasburg,Colorado,39.73195045,-104.34917937334397,Firearm
+Damien Ramirez,27,20-39,Male,Hispanic/Latino,June,6,2015,2015-06-06,Strasburg,Colorado,39.73195045,-104.34917937334396,Firearm
 Demouria Hogg,30,20-39,Male,Black,June,6,2015,2015-06-06,Oakland,California,37.8044557,-122.271356,Firearm
 Alejandro Fernandez,45,40-59,Male,Hispanic/Latino,June,6,2015,2015-06-06,Pajaro,California,36.90020825,-121.73970054706795,Firearm
 Joe Nevels,42,40-59,Male,White,June,6,2015,2015-06-06,Midland,Texas,32.00915295,-102.13968567835222,Knife
 Christie Cathers,45,40-59,Female,White,June,5,2015,2015-06-05,Morgantown,West Virginia,39.6296809,-79.9559437,Vehicle
 James Smillie,53,40-59,Male,White,June,6,2015,2015-06-06,North Port,Florida,27.058942,-82.249512,Firearm
 Donald Allen,66,Above 60,Male,White,April,11,2015,2015-04-11,Sand Springs,Oklahoma,36.1394339,-96.1100025,Firearm
-Gene Marshall,58,40-59,Male,White,June,7,2015,2015-06-07,Woodland,Washington,45.90272569545328,-122.75016642582007,Firearm
+Gene Marshall,58,40-59,Male,White,June,7,2015,2015-06-07,Woodland,Washington,45.90272569545328,-122.75016642582008,Firearm
 Matthew McDaniel,35,20-39,Male,White,June,8,2015,2015-06-08,Melbourne,Florida,28.083957518153476,-80.60579258325866,Firearm
 James Johnson,54,40-59,Male,White,June,8,2015,2015-06-08,Beech Grove,Indiana,39.7221906,-86.0894158,Firearm
 Rene Garcia,30,20-39,Male,Hispanic/Latino,June,8,2015,2015-06-08,Anaheim,California,33.8347516,-117.911732,Knife
@@ -501,7 +501,7 @@ Deng Manyoun,35,20-39,Male,Black,June,13,2015,2015-06-13,Louisville,Kentucky,38.
 Anthony Hodge,46,40-59,Male,White,June,13,2015,2015-06-13,Fort Wayne,Indiana,41.097631,-85.156091,Firearm
 Candace Blakley,24,20-39,Female,White,June,13,2015,2015-06-13,North Augusta,South Carolina,33.530058,-81.975204,Other
 Kenneth Garcia,28,20-39,Male,Hispanic/Latino,June,14,2015,2015-06-14,Stockton,California,37.9577016,-121.290779,Vehicle
-Zane Terryn,15,Under 19,Male,White,June,14,2015,2015-06-14,Cocoa,Florida,28.355751863622526,-80.73774624168587,Firearm
+Zane Terryn,15,Under 19,Male,White,June,14,2015,2015-06-14,Cocoa,Florida,28.35575186362253,-80.73774624168587,Firearm
 Kris Jackson,22,20-39,Male,Black,June,15,2015,2015-06-15,South Lake Tahoe,California,38.950477,-119.953076,Unarmed
 Tamara Seidle,51,40-59,Female,White,June,16,2015,2015-06-16,Asbury Park,New Jersey,40.222213,-74.025125,Unarmed
 Christopher DeLeon,28,20-39,Male,White,June,16,2015,2015-06-16,Visalia,California,36.305661,-119.31365,Firearm
@@ -523,19 +523,19 @@ Eduardo Reyes,35,20-39,Male,Hispanic/Latino,June,22,2015,2015-06-22,Citrus Heigh
 Jonathan Wilson,22,20-39,Male,White,June,23,2015,2015-06-23,Hutchinson,Kansas,38.06189,-97.943664,Knife
 Joshua Dyer,34,20-39,Male,White,June,23,2015,2015-06-23,Indianapolis,Indiana,39.825746,-86.120445,Unarmed
 Randall Waddel,49,40-59,Male,White,June,23,2015,2015-06-23,Weatherford,Texas,32.73671227272727,-97.79616381818182,Knife
-Damien Harrell,26,20-39,Male,Black,June,24,2015,2015-06-24,Yorktown,Virginia,37.235665499999996,-76.51364950821196,Firearm
+Damien Harrell,26,20-39,Male,Black,June,24,2015,2015-06-24,Yorktown,Virginia,37.2356655,-76.51364950821196,Firearm
 Spencer McCain,41,40-59,Male,Black,June,25,2015,2015-06-25,Owings Mills,Maryland,39.4106133867842,-76.80627718289456,Unarmed
 Allen Hernandez,23,20-39,Male,Hispanic/Latino,June,21,2015,2015-06-21,Homedale,Idaho,43.6176584,-116.9337599,Unarmed
-Gilbert Vanderburgh,61,Above 60,Male,White,June,25,2015,2015-06-25,Friant,California,36.983858,-119.71346236018485,Firearm
+Gilbert Vanderburgh,61,Above 60,Male,White,June,25,2015,2015-06-25,Friant,California,36.983858,-119.71346236018483,Firearm
 Richard Matt,49,40-59,Male,White,June,26,2015,2015-06-26,Malone,New York,44.72672335,-74.28378203572512,Firearm
 Alfontish Cockerham,23,20-39,Male,Black,June,20,2015,2015-06-20,Chicago,Illinois,41.8755616,-87.6244212,Firearm
-Joe Cisneros,28,20-39,Male,Hispanic/Latino,June,26,2015,2015-06-26,San Antonio,Texas,29.4195889,-98.64018318485199,Firearm
+Joe Cisneros,28,20-39,Male,Hispanic/Latino,June,26,2015,2015-06-26,San Antonio,Texas,29.4195889,-98.640183184852,Firearm
 Joshua Crittenden,35,20-39,Male,White,June,27,2015,2015-06-27,Tahlequah,Oklahoma,35.909608,-94.979037,Firearm
 Alan Bellew,29,20-39,Male,White,June,28,2015,2015-06-28,Portland,Oregon,45.53644,-122.537514,Non-lethal firearm
 Richard LaPort,50,40-59,Male,White,June,29,2015,2015-06-29,Northville,New York,43.2078912,-74.0683094,Firearm
 Cesar Enriquez,28,20-39,Male,Hispanic/Latino,May,12,2015,2015-05-12,Mesa,Arizona,33.4151005,-111.831455,Firearm
 Clay Lickteig,52,40-59,Male,White,June,30,2015,2015-06-30,Franklin,North Carolina,35.194095723651465,-83.38817757701581,Firearm
-James Payne Jr,51,40-59,Male,White,June,13,2015,2015-06-13,Clayton,Ohio,39.850146850585716,-84.33125725475622,Unarmed
+James Payne Jr,51,40-59,Male,White,June,13,2015,2015-06-13,Clayton,Ohio,39.85014685058571,-84.33125725475622,Unarmed
 Kevin Judson,24,20-39,Male,Black,July,1,2015,2015-07-01,McMinnville,Oregon,45.22940882294054,-123.16964863611142,Unarmed
 Douglas Buckley,45,40-59,Male,White,July,2,2015,2015-07-02,Brockton,Massachusetts,42.09766005,-71.00641294925632,Non-lethal firearm
 Alan Dunnagan,68,Above 60,Male,White,May,13,2015,2015-05-13,Winston-Salem,North Carolina,36.136916,-80.293668,Unarmed
@@ -551,26 +551,26 @@ Arturo Lopez,46,40-59,Male,Hispanic/Latino,July,3,2015,2015-07-03,Lancaster,Cali
 Cesar Juarez,27,20-39,Male,Hispanic/Latino,July,3,2015,2015-07-03,West Covina,California,34.002622,-117.887608,Knife
 Christian Siqueiros,25,20-39,Male,Hispanic/Latino,July,3,2015,2015-07-03,Montclair,California,34.066704,-117.707122,Unarmed
 Robert Malone,42,40-59,Male,Black,July,4,2015,2015-07-04,Oklahoma City,Oklahoma,35.413793,-97.444555,Firearm
-Bryan Bauer,36,20-39,Male,White,July,4,2015,2015-07-04,Henderson,Nevada,36.0570253,-115.04341471838089,Firearm
+Bryan Bauer,36,20-39,Male,White,July,4,2015,2015-07-04,Henderson,Nevada,36.0570253,-115.04341471838087,Firearm
 Michael Gaby,37,20-39,Male,White,July,4,2015,2015-07-04,Morristown,Tennessee,36.19589116066225,-83.27945929849027,Firearm
 Michael Holt,35,20-39,Male,White,July,5,2015,2015-07-05,Austin,Texas,30.268572,-97.740198,Firearm
 Richard Munroe,25,20-39,Male,White,July,5,2015,2015-07-05,Austin,Texas,30.38021,-97.701783,Non-lethal firearm
 Neil Van De Putte,25,20-39,Male,White,July,5,2015,2015-07-05,Lacey Township,New Jersey,39.8726184,-74.2951444,Unarmed
-John Deming Jr,19,Under 19,Male,White,July,5,2015,2015-07-05,Pleasanton,California,37.66188765,-121.87154667252767,Unarmed
+John Deming Jr,19,Under 19,Male,White,July,5,2015,2015-07-05,Pleasanton,California,37.66188765,-121.87154667252769,Unarmed
 Johnny Ray Anderson,43,40-59,Male,Hispanic/Latino,July,5,2015,2015-07-05,Hawaiian Gardens,California,33.833202,-118.071362,Unarmed
 Tyler Rogers,20,20-39,Male,White,July,6,2015,2015-07-06,Oklahoma City,Oklahoma,35.418093,-97.574581,Firearm
 Adam Dujanovic,33,20-39,Male,White,July,6,2015,2015-07-06,Mesa,Arizona,33.405117,-111.821857,Other
 Marcellus Burley,18,Under 19,Male,Black,July,7,2015,2015-07-07,Missouri City,Texas,29.595368530702995,-95.51879893876308,Firearm
 Maximo Rabasa,52,40-59,Male,Black,July,4,2015,2015-07-04,Miami,Florida,25.7741728,-80.19362,Knife
-Jason Hendley,29,20-39,Male,Black,July,6,2015,2015-07-06,Los Angeles,California,34.32355022071053,-118.41141444488527,Knife
+Jason Hendley,29,20-39,Male,Black,July,6,2015,2015-07-06,Los Angeles,California,34.32355022071053,-118.41141444488528,Knife
 John Berry,31,20-39,Male,White,July,6,2015,2015-07-06,Lakewood,California,33.856388,-118.123907,Vehicle
 Joe Cody,59,40-59,Male,White,July,7,2015,2015-07-07,Dallas,Texas,32.756222,-96.82766,Firearm
 Hagen Esty-Lennon,42,40-59,Male,White,July,6,2015,2015-07-06,Bath,New Hampshire,44.1524938081924,-71.975949773721,Knife
-Daniel Hernandez Jr,47,40-59,Male,Hispanic/Latino,July,7,2015,2015-07-07,Bakersfield,California,35.314056434346064,-119.01189597776315,Firearm
+Daniel Hernandez Jr,47,40-59,Male,Hispanic/Latino,July,7,2015,2015-07-07,Bakersfield,California,35.314056434346064,-119.01189597776316,Firearm
 Joshua Blough,28,20-39,Male,White,July,7,2015,2015-07-07,Elizabethtown,Kentucky,37.693952,-85.8591285,Knife
 Tremaine Dantzler,37,20-39,Male,Black,July,7,2015,2015-07-07,Atlantic City,New Jersey,39.369260387755105,-74.42792110204081,Knife
 Jose Lopez,39,20-39,Male,Hispanic/Latino,July,7,2015,2015-07-07,Edinburg,Texas,26.3013982,-98.1624501,Firearm
-Michael Westrich,59,40-59,Male,White,July,8,2015,2015-07-08,Beaverton,Oregon,45.4732835,-122.78320939590897,Firearm
+Michael Westrich,59,40-59,Male,White,July,8,2015,2015-07-08,Beaverton,Oregon,45.4732835,-122.78320939590895,Firearm
 Nicholas Booth,35,20-39,Male,White,July,7,2015,2015-07-07,Sugar Creek,Missouri,39.13146419463087,-94.42481624832214,Firearm
 David Sarabia,27,20-39,Male,Hispanic/Latino,July,6,2015,2015-07-06,Atwater,California,37.3477174,-120.609084,Knife
 Dallas Shatley,62,Above 60,Male,White,July,8,2015,2015-07-08,Crumpler,North Carolina,36.47630825,-81.40307248052193,Vehicle
@@ -598,7 +598,7 @@ Shane Gormley,30,20-39,Male,White,July,6,2015,2015-07-06,Ogden,Utah,41.2230048,-
 Rafael Suazo,23,20-39,Male,Hispanic/Latino,July,13,2015,2015-07-13,Lynn,Massachusetts,42.47238645,-70.94384409999999,Vehicle
 Chacarion Avant,20,20-39,Male,Black,July,14,2015,2015-07-14,Mascotte,Florida,28.5783313,-81.8867452,Firearm
 Bruce Stafford,55,40-59,Male,White,July,13,2015,2015-07-13,Hendersonville,North Carolina,35.315802250000004,-82.45593783295023,Unarmed
-Charles Crandall,76,Above 60,Male,White,July,14,2015,2015-07-14,Southington,Ohio,41.315777751988804,-80.98347451909198,Firearm
+Charles Crandall,76,Above 60,Male,White,July,14,2015,2015-07-14,Southington,Ohio,41.3157777519888,-80.98347451909198,Firearm
 Eugene Kailing,43,40-59,Male,White,July,15,2015,2015-07-15,Marion,Michigan,44.1024819116522,-85.1324891445872,Other
 Anthonie Smith,25,20-39,Male,Black,July,16,2015,2015-07-16,Moreno Valley,California,33.939033,-117.226229,Knife
 Jason Davis,41,40-59,Male,White,July,13,2015,2015-07-13,Los Angeles,California,34.00016333333333,-118.47029433333334,Other
@@ -607,7 +607,7 @@ Saige Hack,23,20-39,Male,White,July,16,2015,2015-07-16,Cheyenne,Wyoming,41.11700
 Edward Foster,35,20-39,Male,Black,July,16,2015,2015-07-16,Homestead,Florida,25.4718946,-80.4759905,Firearm
 Antonio Gonzales,29,20-39,Male,Hispanic/Latino,July,16,2015,2015-07-16,Wauwatosa,Wisconsin,43.035885,-88.01874,Other
 Mohammad Abdulazeez,24,20-39,Male,Arab-American,July,16,2015,2015-07-16,Chattanooga,Tennessee,35.09006189979261,-85.25939299933324,Firearm
-Samuel Smith,27,20-39,Male,White,July,17,2015,2015-07-17,Seattle,Washington,47.675884060962446,-122.32335367126457,Knife
+Samuel Smith,27,20-39,Male,White,July,17,2015,2015-07-17,Seattle,Washington,47.675884060962446,-122.32335367126456,Knife
 Albert Davis,23,20-39,Male,Black,July,17,2015,2015-07-17,Orlando,Florida,28.52282709090909,-81.33510681818181,Unarmed
 David Wheat Jr,22,20-39,Male,White,July,18,2015,2015-07-18,Fort Collins,Colorado,40.56720497848836,-105.0990456768028,Knife
 Kevin Snyder,46,40-59,Male,White,July,18,2015,2015-07-18,Phoenix,Arizona,33.4484367,-112.074141,Firearm
@@ -621,7 +621,7 @@ Charles Dewey,65,Above 60,Male,White,July,18,2015,2015-07-18,Colby,Kansas,39.397
 Troy Goode,30,20-39,Male,White,July,18,2015,2015-07-18,Olive Branch,Mississippi,34.962307674297165,-89.92622038844416,Unarmed
 Troy Francis,54,40-59,Male,Asian/Pacific Islander,July,20,2015,2015-07-20,Fremont,California,37.556154,-122.026834,Knife
 Stephen Brown,54,40-59,Male,White,July,20,2015,2015-07-20,Choctaw,Oklahoma,35.44883141832586,-97.2648593312724,Firearm
-Joshua LeBoeuf,35,20-39,Male,White,July,20,2015,2015-07-20,Winnie,Texas,29.818024455952994,-94.35697331859191,Firearm
+Joshua LeBoeuf,35,20-39,Male,White,July,20,2015,2015-07-20,Winnie,Texas,29.81802445595299,-94.35697331859193,Firearm
 Devon Guisherd,26,20-39,Male,Black,July,22,2015,2015-07-22,Philadelphia,Pennsylvania,40.0961721238863,-74.98428983598984,Firearm
 Jerrod Tyre,35,20-39,Male,White,July,21,2015,2015-07-21,Jesup,Georgia,31.6074365,-81.8853924,Firearm
 William Jeffries,57,40-59,Male,White,July,1,2015,2015-07-01,Weston,West Virginia,39.040253827663214,-80.45714866280599,Unarmed
@@ -633,32 +633,32 @@ Samuel Primeno-Nunez,40,40-59,Male,Hispanic/Latino,July,22,2015,2015-07-22,Monro
 Dontae Martin,34,20-39,Male,Black,July,23,2015,2015-07-23,Dayton,Ohio,39.80418547280298,-84.21453563204157,Firearm
 Andre Williams,26,20-39,Male,Black,July,22,2015,2015-07-22,Oklahoma City,Oklahoma,35.494964,-97.48937,Knife
 Robbie Edison,47,40-59,Male,White,July,23,2015,2015-07-23,Douglas,Wyoming,42.7595708,-105.382624,Non-lethal firearm
-Derek Wolfsteller,31,20-39,Male,White,July,23,2015,2015-07-23,Plymouth,Minnesota,45.011832999999996,-93.46290250000001,Unarmed
+Derek Wolfsteller,31,20-39,Male,White,July,23,2015,2015-07-23,Plymouth,Minnesota,45.011833,-93.4629025,Unarmed
 Brian Stortzum,32,20-39,Male,White,July,23,2015,2015-07-23,Myrtle Beach,South Carolina,33.6956461,-78.8900409,Firearm
-Tamala Satre,44,40-59,Female,White,July,23,2015,2015-07-23,Meadow Vista,California,39.0016485,-121.03567537915235,Firearm
+Tamala Satre,44,40-59,Female,White,July,23,2015,2015-07-23,Meadow Vista,California,39.0016485,-121.03567537915237,Firearm
 Seth Raines,44,40-59,Male,White,July,24,2015,2015-07-24,Studio City,California,34.14340211950732,-118.39802558730273,Firearm
 Christopher Olmstead,60,Above 60,Male,White,July,25,2015,2015-07-25,New Orleans,Louisiana,29.9759983,-90.0782127,Other
 Lee Gerston,33,20-39,Male,White,July,24,2015,2015-07-24,Pinnacle,North Carolina,36.328809049291806,-80.43195591422689,Knife
 Roger Braswell,50,40-59,Male,White,July,25,2015,2015-07-25,Brinson,Georgia,30.91737034026851,-84.73398182747434,Firearm
-Bryan Day,36,20-39,Male,Black,July,25,2015,2015-07-25,Las Vegas,Nevada,36.15874513804354,-115.15187940005939,Non-lethal firearm
+Bryan Day,36,20-39,Male,Black,July,25,2015,2015-07-25,Las Vegas,Nevada,36.15874513804354,-115.1518794000594,Non-lethal firearm
 Khari Westly,33,20-39,Male,Black,July,26,2015,2015-07-26,Shreveport,Louisiana,32.481673,-93.788768,Firearm
 Zachary Hammond,19,Under 19,Male,White,July,26,2015,2015-07-26,Seneca,South Carolina,34.6865321,-82.9527288,Unarmed
 Jean Paul Falgout,45,40-59,Male,White,July,27,2015,2015-07-27,Houma,Louisiana,29.5957696,-90.7195348,Non-lethal firearm
 Earl Jackson,59,40-59,Male,Black,July,25,2015,2015-07-25,Micanopy,Florida,29.5045307,-82.27959,Firearm
 Timothy Milliken,56,40-59,Male,White,July,27,2015,2015-07-27,Columbia,South Carolina,34.000754,-81.0352313,Knife
 Allan White,23,20-39,Male,White,July,28,2015,2015-07-28,Cleveland,Tennessee,35.135456,-84.869852,Unarmed
-Samuel Forgy,22,20-39,Male,White,July,27,2015,2015-07-27,Boulder,Colorado,40.018189050000004,-105.27074409823555,Knife
-Timothy Johnson,41,40-59,Male,White,July,28,2015,2015-07-28,Manila,Arkansas,35.87281783211771,-90.17190560222897,Knife
+Samuel Forgy,22,20-39,Male,White,July,27,2015,2015-07-27,Boulder,Colorado,40.01818905,-105.27074409823555,Knife
+Timothy Johnson,41,40-59,Male,White,July,28,2015,2015-07-28,Manila,Arkansas,35.87281783211771,-90.17190560222896,Knife
 Michael Malone,34,20-39,Male,Hispanic/Latino,July,29,2015,2015-07-29,Las Cruces,New Mexico,32.311661900000004,-106.7969983188054,Firearm
 Oscar Romero,47,40-59,Male,Hispanic/Latino,July,29,2015,2015-07-29,Whittier,California,33.972204,-118.055183,Other
 Roger Barker,53,40-59,Male,White,July,28,2015,2015-07-28,Logan,Utah,41.74856983841181,-111.82934806917328,Firearm
 Filimoni Raiyawa,57,40-59,Male,Asian/Pacific Islander,July,30,2015,2015-07-30,San Francisco,California,37.7792588,-122.4193286,Unarmed
 Wilmer Delgado-Soba,38,20-39,Male,Hispanic/Latino,July,29,2015,2015-07-29,Worcester,Massachusetts,42.25470935,-71.81510210169156,Unarmed
 Ryan Vrenon,25,20-39,Male,White,July,30,2015,2015-07-30,Mt Shasta,California,41.4091977,-122.1948645,Firearm
-Mark Perkins,48,40-59,Male,White,July,30,2015,2015-07-30,Gardnerville,Nevada,38.906499837678645,-119.72803188648295,Firearm
+Mark Perkins,48,40-59,Male,White,July,30,2015,2015-07-30,Gardnerville,Nevada,38.906499837678645,-119.72803188648297,Firearm
 Philip Vallejo,30,20-39,Male,Hispanic/Latino,July,31,2015,2015-07-31,Fort Worth,Texas,32.753496,-97.331311,Firearm
 Rafael Molina,33,20-39,Male,Hispanic/Latino,July,31,2015,2015-07-31,Albuquerque,New Mexico,35.0841034,-106.650985,Firearm
-Jeremy Hatch,34,20-39,Male,White,July,31,2015,2015-07-31,Roswell,New Mexico,33.4331419,-104.52245044982581,Firearm
+Jeremy Hatch,34,20-39,Male,White,July,31,2015,2015-07-31,Roswell,New Mexico,33.4331419,-104.5224504498258,Firearm
 David Cook,52,40-59,Male,Other,August,1,2015,2015-08-01,Nitro,West Virginia,38.41442445785395,-81.84655538376681,Firearm
 Virgil Reynolds,63,Above 60,Male,White,August,1,2015,2015-08-01,Houston,Texas,29.690689,-95.542029,Vehicle
 Armando Serrano Jr,29,20-39,Male,Other,August,1,2015,2015-08-01,Tucson,Arizona,32.2228765,-110.974847,Firearm
@@ -678,14 +678,14 @@ Tyler Dattilo,18,Under 19,Male,White,August,5,2015,2015-08-05,Louisville,Kentuck
 Darius Graves,31,20-39,Male,Black,August,4,2015,2015-08-04,Rantoul,Illinois,40.30776965,-88.17510635,Other
 Troy Robinson,33,20-39,Male,Black,August,6,2015,2015-08-06,Decatur,Georgia,30.8736613,-84.5740953,Unarmed
 Gustavo Ponce-Galon,42,40-59,Male,Hispanic/Latino,August,6,2015,2015-08-06,Elsmere,Kentucky,38.99077754897028,-84.59367208806088,Knife
-Aaron Marchese,30,20-39,Male,White,August,7,2015,2015-08-07,Fresno,California,36.80818515097975,-119.86042542001823,Non-lethal firearm
+Aaron Marchese,30,20-39,Male,White,August,7,2015,2015-08-07,Fresno,California,36.80818515097975,-119.86042542001825,Non-lethal firearm
 Abel Correa,24,20-39,Male,Hispanic/Latino,August,7,2015,2015-08-07,Las Vegas,Nevada,36.1672559,-115.148516,Other
 Christian Taylor,19,Under 19,Male,Black,August,7,2015,2015-08-07,Arlington,Texas,32.66881074494396,-97.23115235999714,Unarmed
 Derrick Hunt,28,20-39,Male,Black,August,7,2015,2015-08-07,Long Beach,California,33.874623,-118.155492,Knife
 Shamir Palmer,24,20-39,Male,Black,August,8,2015,2015-08-08,Summerville,South Carolina,33.0186699,-80.1762704,Firearm
 Matthew Russo,26,20-39,Male,White,August,7,2015,2015-08-07,Hartford,Connecticut,41.7329602,-72.6983553,Unarmed
-Mark Keckhafer,53,40-59,Male,White,August,7,2015,2015-08-07,Superior,Montana,47.189624073659516,-114.88129719940625,Vehicle
-Roderick Burr,33,20-39,Male,Other,August,8,2015,2015-08-08,Brookshire,Texas,29.789136202836286,-95.95007203314198,Firearm
+Mark Keckhafer,53,40-59,Male,White,August,7,2015,2015-08-07,Superior,Montana,47.18962407365952,-114.88129719940623,Vehicle
+Roderick Burr,33,20-39,Male,Other,August,8,2015,2015-08-08,Brookshire,Texas,29.78913620283629,-95.95007203314198,Firearm
 Jeffrey Wilkes,58,40-59,Male,White,August,8,2015,2015-08-08,Gastonia,North Carolina,35.2622654,-81.1838186,Firearm
 Kevin McDaniel,46,40-59,Male,White,August,8,2015,2015-08-08,Spokane,Washington,47.6571934,-117.42351,Firearm
 Tsombe Clark,25,20-39,Male,Black,August,8,2015,2015-08-08,Greenville,North Carolina,35.58388625,-77.3695894739779,Firearm
@@ -694,7 +694,7 @@ Andre Green,15,Under 19,Male,Black,August,10,2015,2015-08-10,Indianapolis,Indian
 Edrian Rivera,22,20-39,Male,Hispanic/Latino,August,9,2015,2015-08-09,San Jose,California,37.3361663,-121.890591,Knife
 Robert Quinn,77,Above 60,Male,Other,August,9,2015,2015-08-09,Pittston,Pennsylvania,41.32510655,-75.78909812920654,Non-lethal firearm
 Richard Young,24,20-39,Male,White,August,10,2015,2015-08-10,Gilbert,Arizona,33.3527632,-111.789037,Vehicle
-Taylor Culbertson,32,20-39,Male,White,June,23,2015,2015-06-23,Omaha,Nebraska,41.277630705521474,-96.15721773619633,Firearm
+Taylor Culbertson,32,20-39,Male,White,June,23,2015,2015-06-23,Omaha,Nebraska,41.277630705521474,-96.15721773619632,Firearm
 Casey Alarcon,34,20-39,Male,White,August,11,2015,2015-08-11,Sandpoint,Idaho,48.282379,-116.561419,Firearm
 Randall Hughes,48,40-59,Male,White,August,11,2015,2015-08-11,Waco,Texas,31.5811554,-97.17182837574562,Knife
 Nathaniel Wilks,24,20-39,Male,Black,August,12,2015,2015-08-12,Oakland,California,37.8044557,-122.271356,Firearm
@@ -704,15 +704,15 @@ Roger Shull Jr,24,20-39,Male,White,August,11,2015,2015-08-11,Odessa,Texas,31.882
 William Smith,49,40-59,Male,White,August,12,2015,2015-08-12,Hobbs,New Mexico,32.77392958663189,-103.13162149780617,Other
 Reginald Marshall,27,20-39,Male,Black,August,12,2015,2015-08-12,Toledo,Ohio,41.632222945035274,-83.51342621071818,Firearm
 Garland Tyree,38,20-39,Male,Black,August,14,2015,2015-08-14,New York,New York,40.63051875,-74.16078357455608,Firearm
-Hector Gonzalez,26,20-39,Male,Hispanic/Latino,August,14,2015,2015-08-14,Boerne,Texas,29.78963312422405,-98.72201178886985,Firearm
+Hector Gonzalez,26,20-39,Male,Hispanic/Latino,August,14,2015,2015-08-14,Boerne,Texas,29.78963312422405,-98.72201178886984,Firearm
 Asshams Manley,30,20-39,Male,Black,August,14,2015,2015-08-14,District Heights,Maryland,38.8622077,-76.8815207,Unarmed
 John Unsworth,43,40-59,Male,White,August,15,2015,2015-08-15,Hanover,Indiana,38.7142263,-85.4735707,Unarmed
 Allen Baker III,23,20-39,Male,Black,August,13,2015,2015-08-13,Sunnyvale,California,37.39455692531568,-122.02732711893614,Firearm
 Benjamin Ashley,34,20-39,Male,White,August,15,2015,2015-08-15,Inyokern,California,35.70198407070707,-117.82875915151514,Firearm
-Jonathon Pope,30,20-39,Male,White,August,15,2015,2015-08-15,Carson City,Nevada,39.18440320136795,-119.72119793559675,Firearm
+Jonathon Pope,30,20-39,Male,White,August,15,2015,2015-08-15,Carson City,Nevada,39.18440320136795,-119.72119793559676,Firearm
 Oscar Ruiz,44,40-59,Male,Hispanic/Latino,August,15,2015,2015-08-15,Irwindale,California,34.1069927,-117.934214,Unarmed
-Matthew Castillo,29,20-39,Male,Hispanic/Latino,August,16,2015,2015-08-16,San Jose,California,37.294534156474484,-121.83427352332882,Firearm
-Steven Norton,47,40-59,Male,White,August,16,2015,2015-08-16,Kerrville,Texas,30.05139576662639,-99.12189043141193,Firearm
+Matthew Castillo,29,20-39,Male,Hispanic/Latino,August,16,2015,2015-08-16,San Jose,California,37.29453415647448,-121.83427352332882,Firearm
+Steven Norton,47,40-59,Male,White,August,16,2015,2015-08-16,Kerrville,Texas,30.05139576662639,-99.12189043141191,Firearm
 Christopher Anderson,53,40-59,Male,White,August,14,2015,2015-08-14,Bolton,Connecticut,41.7689878,-72.4334173,Knife
 Frederick Roy,35,20-39,Male,Black,August,17,2015,2015-08-17,Houston,Texas,29.798582,-95.312896,Firearm
 Richard Jacquez,40,40-59,Male,Hispanic/Latino,August,17,2015,2015-08-17,San Jose,California,37.3361663,-121.890591,Unarmed
@@ -730,13 +730,13 @@ Charles Hall,30,20-39,Male,White,August,21,2015,2015-08-21,North East,Maryland,3
 Adam Schneider,31,20-39,Male,White,August,22,2015,2015-08-22,Cohasset,Minnesota,47.262848,-93.626851,Firearm
 Marc Kaplan,57,40-59,Male,White,August,21,2015,2015-08-21,Scottsdale,Arizona,33.4942189,-111.926018,Unarmed
 Thaddeus Faison,39,20-39,Male,Black,August,22,2015,2015-08-22,Troy,New York,42.7284117,-73.6917878,Firearm
-Jason Alderman,29,20-39,Male,White,August,22,2015,2015-08-22,Bakersfield,California,35.419754538151416,-119.17009340437541,Other
+Jason Alderman,29,20-39,Male,White,August,22,2015,2015-08-22,Bakersfield,California,35.419754538151416,-119.1700934043754,Other
 Nicholas Garner,26,20-39,Male,White,August,22,2015,2015-08-22,Wichita,Kansas,37.67255620562939,-97.41323085869728,Vehicle
 Christopher Tompkins,36,20-39,Male,White,August,23,2015,2015-08-23,Arab,Alabama,34.3181497,-86.4958219,Other
 Julian Hoffman,21,20-39,Male,White,August,23,2015,2015-08-23,Brick,New Jersey,40.0992965,-74.13823547748895,Non-lethal firearm
 Bobby Norris,53,40-59,Male,White,August,23,2015,2015-08-23,Archdale,North Carolina,35.895793049999995,-79.9279246,Firearm
 Richard Compo,36,20-39,Male,White,August,23,2015,2015-08-23,Jacksonville,Florida,30.332212405793584,-81.81293138642651,Firearm
-William Snider,57,40-59,Male,White,August,23,2015,2015-08-23,Las Vegas,Nevada,36.16864875694415,-115.25496955050673,Firearm
+William Snider,57,40-59,Male,White,August,23,2015,2015-08-23,Las Vegas,Nevada,36.16864875694415,-115.25496955050671,Firearm
 Kenneth Morgan,64,Above 60,Male,White,August,22,2015,2015-08-22,King George,Virginia,38.265066991789816,-77.1703839201183,Knife
 Marvin Maestas,30,20-39,Male,Hispanic/Latino,August,25,2015,2015-08-25,Santa Fe,New Mexico,35.6532125720112,-105.99533094752694,Firearm
 Curtis Smith,34,20-39,Male,Black,August,25,2015,2015-08-25,West Chester,Pennsylvania,39.95849425,-75.6079804019279,Knife
@@ -752,21 +752,21 @@ Manuel Soriano,29,20-39,Male,Hispanic/Latino,August,27,2015,2015-08-27,Los Angel
 Robert Hober,54,40-59,Male,White,August,28,2015,2015-08-28,San Diego,California,32.77453735,-117.15705238743294,Knife
 Thomas Ramey,64,Above 60,Male,White,May,25,2015,2015-05-25,Luray,Virginia,38.6654653,-78.4600202,Unarmed
 Barbara Ramey,64,Above 60,Female,White,May,25,2015,2015-05-25,Luray,Virginia,38.6654653,-78.4600202,Unarmed
-William Evans,28,20-39,Male,White,August,28,2015,2015-08-28,Spanish Fork,Utah,40.109724489795916,-111.64923153061224,Firearm
+William Evans,28,20-39,Male,White,August,28,2015,2015-08-28,Spanish Fork,Utah,40.10972448979592,-111.64923153061224,Firearm
 Gilbert Flores,41,40-59,Male,Hispanic/Latino,August,28,2015,2015-08-28,San Antonio,Texas,29.4246002,-98.4951405,Disputed
 Felix Kumi,61,Above 60,Male,Black,August,28,2015,2015-08-28,Mount Vernon,New York,40.9125085,-73.8386504,Unarmed
 James Brown III,25,20-39,Male,Black,August,29,2015,2015-08-29,North Las Vegas,Nevada,36.2005843,-115.121584,Firearm
 Roger Albrecht,43,40-59,Male,Hispanic/Latino,August,29,2015,2015-08-29,San Antonio,Texas,29.553575,-98.61643,Knife
 Rafael Cruz Jr,29,20-39,Male,Hispanic/Latino,August,29,2015,2015-08-29,Chicago,Illinois,41.8755616,-87.6244212,Vehicle
-Shawn Hall,20,20-39,Male,White,August,30,2015,2015-08-30,Cushing,Oklahoma,35.976130636323795,-96.76780031801225,Firearm
+Shawn Hall,20,20-39,Male,White,August,30,2015,2015-08-30,Cushing,Oklahoma,35.976130636323795,-96.76780031801223,Firearm
 David Leon,40,40-59,Male,Hispanic/Latino,August,30,2015,2015-08-30,Tucson,Arizona,32.14676344601627,-110.9596851387511,Firearm
-William Rippley,46,40-59,Male,White,August,31,2015,2015-08-31,Loveland,Colorado,40.4073016899401,-105.05965105592901,Knife
+William Rippley,46,40-59,Male,White,August,31,2015,2015-08-31,Loveland,Colorado,40.4073016899401,-105.059651055929,Knife
 Devin Dial,23,20-39,Male,White,August,28,2015,2015-08-28,Longview,Texas,32.525501199999994,-94.78282557515422,Firearm
 James Carney III,48,40-59,Male,Black,August,31,2015,2015-08-31,Cincinnati,Ohio,39.112861375,-84.51474508333332,Unarmed
 Cedric Williams,33,20-39,Male,Black,September,1,2015,2015-09-01,Bluefield,West Virginia,37.26928387755102,-81.22231118367347,Firearm
 Tyree Crawford,18,Under 19,Male,Black,September,1,2015,2015-09-01,Newark,New Jersey,40.735657,-74.1723667,Other
 Nicholas Dyksma,18,Under 19,Male,White,August,31,2015,2015-08-31,Hamilton,Georgia,32.7579107,-84.8749311,Unarmed
-Michael Evans,47,40-59,Male,White,September,1,2015,2015-09-01,Artesia,New Mexico,32.82734096712182,-104.41928142906117,Firearm
+Michael Evans,47,40-59,Male,White,September,1,2015,2015-09-01,Artesia,New Mexico,32.82734096712182,-104.41928142906116,Firearm
 Charles Shaw,76,Above 60,Male,White,September,1,2015,2015-09-01,Twinsburg,Ohio,41.33830363866988,-81.4430905971226,Firearm
 Michael Tyree,31,20-39,Male,White,August,27,2015,2015-08-27,San Jose,California,37.351002300000005,-121.9057687049828,Unarmed
 Arthur Bates,45,40-59,Male,White,September,2,2015,2015-09-02,Prescott,Arizona,34.539984,-112.468812,Firearm
@@ -787,7 +787,7 @@ Ben CdeBaca,45,40-59,Male,Hispanic/Latino,September,6,2015,2015-09-06,Bernalillo
 Harrison Lambert,23,20-39,Male,White,September,3,2015,2015-09-03,Merrimack,New Hampshire,42.88003507501129,-71.51197350958725,Knife
 Wayne Wheeler,41,40-59,Male,Black,September,7,2015,2015-09-07,Detroit,Michigan,42.355934,-83.194618,Unarmed
 Casimero 'Shane' Casillas,45,40-59,Male,Hispanic/Latino,September,7,2015,2015-09-07,Fresno,California,36.7394421,-119.78483,Other
-William Verrett,42,40-59,Male,White,September,7,2015,2015-09-07,Hobbs,New Mexico,32.705935918367345,-103.12305612244897,Firearm
+William Verrett,42,40-59,Male,White,September,7,2015,2015-09-07,Hobbs,New Mexico,32.705935918367345,-103.12305612244896,Firearm
 Curtis Jordan,45,40-59,Male,Black,May,31,2015,2015-05-31,Huntsville,Alabama,34.767619,-86.674433,Unarmed
 Dustin Kuik,25,20-39,Male,White,September,9,2015,2015-09-09,Green Bay,Wisconsin,44.4976403,-88.05448935451797,Firearm
 Tyrone Holman,37,20-39,Male,Black,September,9,2015,2015-09-09,Kansas City,Missouri,39.100105,-94.5781416,Other
@@ -828,17 +828,17 @@ Jerrald Wright,56,40-59,Male,White,September,20,2015,2015-09-20,Shelbyville,Indi
 Michael Pierce,23,20-39,Male,White,September,20,2015,2015-09-20,Harrisonburg,Virginia,38.480108,-78.874773,Firearm
 Gerardo Ramirez,24,20-39,Male,Hispanic/Latino,September,21,2015,2015-09-21,Dallas,Texas,32.89501475,-96.77316411898128,Firearm
 Kimberly Bedford,48,40-59,Female,White,September,20,2015,2015-09-20,Benton Harbor,Michigan,42.1167065,-86.4541894,Unarmed
-Dante Osborne,32,20-39,Male,Black,September,22,2015,2015-09-22,San Leandro,California,37.7427456896962,-122.14602965364243,Firearm
+Dante Osborne,32,20-39,Male,Black,September,22,2015,2015-09-22,San Leandro,California,37.7427456896962,-122.14602965364244,Firearm
 Francisco Benitez-Santiago,25,20-39,Male,Hispanic/Latino,July,22,2015,2015-07-22,Monroe,Wisconsin,42.60028490032445,-89.6465976441553,Firearm
 William Spaits,27,20-39,Male,White,September,21,2015,2015-09-21,Sand City,California,36.6209786,-121.8436714,Firearm
 Tina Money,23,20-39,Female,White,September,21,2015,2015-09-21,Sand City,California,36.6209786,-121.8436714,Firearm
-Steven McKenney,21,20-39,Male,White,September,21,2015,2015-09-21,Paris,Texas,33.67370810925837,-95.52062527548553,Other
+Steven McKenney,21,20-39,Male,White,September,21,2015,2015-09-21,Paris,Texas,33.67370810925837,-95.52062527548551,Other
 Timothy Wagner,24,20-39,Male,White,September,21,2015,2015-09-21,Barberville,Florida,29.1872023,-81.420901,Firearm
 Dominic Fuller,24,20-39,Male,Hispanic/Latino,September,21,2015,2015-09-21,Auburndale,Florida,28.07365232629123,-81.82837036238115,Unarmed
 Donaven Anderson,26,20-39,Male,White,September,22,2015,2015-09-22,North Las Vegas,Nevada,36.230946,-115.139755,Firearm
 Tim Torngren,55,40-59,Male,White,September,22,2015,2015-09-22,Anderson,California,40.4479345,-122.2982544,Firearm
 Joel Smith,33,20-39,Male,White,September,22,2015,2015-09-22,Niceville,Florida,30.5233445,-86.49595741802415,Firearm
-Robert Berger,48,40-59,Male,Black,September,23,2015,2015-09-23,Salt Lake City,Utah,40.7508914,-111.88429719816327,Knife
+Robert Berger,48,40-59,Male,Black,September,23,2015,2015-09-23,Salt Lake City,Utah,40.7508914,-111.88429719816328,Knife
 Jeremy McDole,28,20-39,Male,Black,September,23,2015,2015-09-23,Wilmington,Delaware,39.7459468,-75.546589,Firearm
 Keith McLeod,19,Under 19,Male,Black,September,23,2015,2015-09-23,Reisterstown,Maryland,39.4686377,-76.8293333,Unarmed
 Joseph Khammash,35,20-39,Male,White,September,23,2015,2015-09-23,McKinney,Texas,33.174094,-96.636228,Firearm
@@ -850,15 +850,15 @@ William Lemmon,21,20-39,Male,White,September,25,2015,2015-09-25,Akron,Ohio,41.09
 James Anderson,34,20-39,Male,Black,September,25,2015,2015-09-25,Chicago,Illinois,41.89755075,-87.71665808069233,Knife
 Jeffrey Blood,45,40-59,Male,White,September,25,2015,2015-09-25,Wilhoit,Arizona,34.41566757142857,-112.58912592857143,Firearm
 Norma Guzman,37,20-39,Female,Hispanic/Latino,September,27,2015,2015-09-27,Los Angeles,California,34.025442,-118.258727,Knife
-Anthony McKinney,46,40-59,Male,Black,September,26,2015,2015-09-26,Baton Rouge,Louisiana,30.507121154913982,-91.13166478103378,Knife
-Alejandro Lerma,23,20-39,Male,Hispanic/Latino,September,26,2015,2015-09-26,Lovington,New Mexico,32.95121919769306,-103.36279620725149,Firearm
+Anthony McKinney,46,40-59,Male,Black,September,26,2015,2015-09-26,Baton Rouge,Louisiana,30.507121154913985,-91.13166478103378,Knife
+Alejandro Lerma,23,20-39,Male,Hispanic/Latino,September,26,2015,2015-09-26,Lovington,New Mexico,32.95121919769306,-103.36279620725148,Firearm
 Christopher Shell,43,40-59,Male,White,September,27,2015,2015-09-27,Rossville,Georgia,34.983376,-85.28603,Firearm
 Junior Prosper,31,20-39,Male,Black,September,28,2015,2015-09-28,North Miami,Florida,25.8900949,-80.1867138,Unarmed
 Alberto Hernandez,59,40-59,Male,Hispanic/Latino,September,28,2015,2015-09-28,San Diego,California,32.561948,-117.06569,Non-lethal firearm
 Victor Coronado-Martinez,40,40-59,Male,Hispanic/Latino,September,27,2015,2015-09-27,Ponder,Texas,33.171082837421146,-97.2778016438416,Firearm
 Ronny Bowling,53,40-59,Male,White,September,24,2015,2015-09-24,Indianapolis,Indiana,39.7683331,-86.1583502,Unarmed
 Brandon Johnson,28,20-39,Male,Black,September,29,2015,2015-09-29,Beckley,West Virginia,37.7585489,-81.21264500000001,Firearm
-Patrick Lundstrom,46,40-59,Male,Native American,September,29,2015,2015-09-29,Rapid City,South Dakota,44.072546550647516,-103.21845538388808,Other
+Patrick Lundstrom,46,40-59,Male,Native American,September,29,2015,2015-09-29,Rapid City,South Dakota,44.07254655064752,-103.21845538388808,Other
 Freddy Centeno,40,40-59,Male,Hispanic/Latino,September,3,2015,2015-09-03,Fresno,California,36.7394421,-119.78483,Non-lethal firearm
 Robert Christen,37,20-39,Male,White,September,30,2015,2015-09-30,Mora,Minnesota,45.872081,-93.29558,Unarmed
 Christian Pena,26,20-39,Male,Hispanic/Latino,October,2,2015,2015-10-02,Rialto,California,34.097004,-117.401024,Knife
@@ -878,15 +878,15 @@ Amado Lago,46,40-59,Male,Hispanic/Latino,October,7,2015,2015-10-07,West Palm Bea
 Gary Boitano,19,Under 19,Male,Hispanic/Latino,October,9,2015,2015-10-09,Columbia,Maryland,39.1938429,-76.86460919353361,Knife
 Richard Love,31,20-39,Male,White,October,10,2015,2015-10-10,Old Saybrook,Connecticut,41.2846221,-72.4186821,Firearm
 Travis Quay,40,40-59,Male,White,October,9,2015,2015-10-09,Lakeview,Michigan,43.442302,-85.27913,Other
-Kevin Lau,44,40-59,Male,Asian/Pacific Islander,October,11,2015,2015-10-11,Lake Charles,Louisiana,30.174204326530614,-93.22821453061223,Firearm
+Kevin Lau,44,40-59,Male,Asian/Pacific Islander,October,11,2015,2015-10-11,Lake Charles,Louisiana,30.174204326530617,-93.22821453061223,Firearm
 Bernard Powers,23,20-39,Male,Black,October,11,2015,2015-10-11,Taylors,South Carolina,34.91378685,-82.29272213730897,Firearm
 Christopher Whitmarsh,49,40-59,Male,White,October,10,2015,2015-10-10,Beverly,Massachusetts,42.56367187221741,-70.88899553258453,Vehicle
 Joe Ortiz,34,20-39,Male,Hispanic/Latino,October,11,2015,2015-10-11,San Bernardino,California,34.8253019,-116.0833144,Unarmed
 Anthony Aguilar,35,20-39,Male,Other,October,10,2015,2015-10-10,Lisle,Illinois,41.8049,-88.093605,Other
-William Combs,38,20-39,Male,White,October,10,2015,2015-10-10,Pinon Hills,California,34.40090853990823,-117.60348566202491,Other
+William Combs,38,20-39,Male,White,October,10,2015,2015-10-10,Pinon Hills,California,34.40090853990823,-117.60348566202492,Other
 Robert Medellin,43,40-59,Male,Hispanic/Latino,October,11,2015,2015-10-11,Odessa,Texas,31.867431,-102.441987,Knife
 Jason Day,40,40-59,Male,Black,October,12,2015,2015-10-12,Lawton,Oklahoma,34.6086854,-98.3903305,Other
-Rudolph Smith,31,20-39,Male,White,October,12,2015,2015-10-12,Brookhaven,Mississippi,31.591119852112538,-90.44991360344726,Firearm
+Rudolph Smith,31,20-39,Male,White,October,12,2015,2015-10-12,Brookhaven,Mississippi,31.591119852112534,-90.44991360344726,Firearm
 Brent Brannon,27,20-39,Male,White,October,14,2015,2015-10-14,Cartersville,Georgia,34.19528941038734,-84.76445763686598,Firearm
 Jorge Tapia,15,Under 19,Male,Hispanic/Latino,October,15,2015,2015-10-15,Homestead,Florida,25.4718946,-80.4759905,Firearm
 Linda Lush,50,40-59,Female,White,October,15,2015,2015-10-15,Las Vegas,Nevada,36.1672559,-115.148516,Firearm
@@ -899,10 +899,10 @@ Michael Brennan,31,20-39,Male,White,October,15,2015,2015-10-15,Cleveland,Ohio,41
 Martin Ryans,20,20-39,Male,Black,October,15,2015,2015-10-15,Houston,Texas,29.85249505,-95.50761973869687,Firearm
 Robert Burgess Jr,35,20-39,Male,White,October,15,2015,2015-10-15,Kirkland,Washington,47.70746388112783,-122.18904070839282,Firearm
 Johnny Rangel,25,20-39,Male,Hispanic/Latino,October,16,2015,2015-10-16,La Puente,California,34.0280619,-117.953097,Unarmed
-Jeffery Womack,27,20-39,Male,White,October,16,2015,2015-10-16,Houston,Texas,29.78564014285714,-95.36274822448979,Firearm
+Jeffery Womack,27,20-39,Male,White,October,16,2015,2015-10-16,Houston,Texas,29.78564014285714,-95.3627482244898,Firearm
 Margaret Wagner,62,Above 60,Female,White,October,9,2015,2015-10-09,Aguanga,California,33.4555951,-116.85944354462498,Firearm
 Ricky Ball,26,20-39,Male,Black,October,16,2015,2015-10-16,Columbus,Mississippi,33.4956744,-88.4272627,Disputed
-Gino Paredes,22,20-39,Male,Hispanic/Latino,October,17,2015,2015-10-17,Modesto,California,37.67006488333679,-120.99160529034941,Non-lethal firearm
+Gino Paredes,22,20-39,Male,Hispanic/Latino,October,17,2015,2015-10-17,Modesto,California,37.67006488333679,-120.9916052903494,Non-lethal firearm
 De'quan Williams,28,20-39,Male,Black,October,17,2015,2015-10-17,York,Pennsylvania,39.973352,-76.748903,Knife
 Paterson Brown Jr,18,Under 19,Male,Black,October,17,2015,2015-10-17,Midlothian,Virginia,37.49901725,-77.5366179012688,Unarmed
 Corey Jones,31,20-39,Male,Black,October,18,2015,2015-10-18,Palm Beach Gardens,Florida,26.8233946,-80.1386547,Firearm
@@ -914,7 +914,7 @@ Dion Ramirez,54,40-59,Male,Black,October,19,2015,2015-10-19,Los Angeles,Californ
 Roger Hall,30,20-39,Male,White,October,20,2015,2015-10-20,Louisville,Kentucky,38.16339308347138,-85.63705896528622,Non-lethal firearm
 Lamontez Jones,39,20-39,Male,Black,October,20,2015,2015-10-20,San Diego,California,32.7174202,-117.162772,Non-lethal firearm
 Darien Greenwood,30,20-39,Male,White,October,20,2015,2015-10-20,Mandeville,Louisiana,30.3582305,-90.0657477,Knife
-Jonathan Gossman,21,20-39,Male,White,October,20,2015,2015-10-20,Cedar Rapids,Iowa,41.96994384337349,-91.71400204819277,Firearm
+Jonathan Gossman,21,20-39,Male,White,October,20,2015,2015-10-20,Cedar Rapids,Iowa,41.96994384337349,-91.71400204819275,Firearm
 Miguel Galena,35,20-39,Male,Hispanic/Latino,October,21,2015,2015-10-21,Calexico,California,32.6668134,-115.4963754,Knife
 Joel Lopes,40,40-59,Male,White,October,20,2015,2015-10-20,Truth or Consequences,New Mexico,33.1283485,-107.2529059,Firearm
 Ryan Rodriguez,21,20-39,Male,Hispanic/Latino,October,21,2015,2015-10-21,Visalia,California,36.3302284,-119.292058,Unarmed
@@ -922,7 +922,7 @@ Timothy Arnold,47,40-59,Male,White,October,21,2015,2015-10-21,Kentwood,Michigan,
 Lawrence Green,38,20-39,Male,Black,October,22,2015,2015-10-22,Shreveport,Louisiana,32.51740985,-93.74438200103472,Knife
 Adriene Ludd,36,20-39,Male,Black,October,22,2015,2015-10-22,Carmichael,California,38.62709845,-121.32224222755409,Firearm
 Stephen Brock,53,40-59,Male,White,October,23,2015,2015-10-23,Pine Top,Kentucky,37.2726002,-82.8823826,Other
-Rolly Thomas,34,20-39,Male,Black,October,24,2015,2015-10-24,Cape Coral,Florida,26.738150269873834,-81.9437774775273,Firearm
+Rolly Thomas,34,20-39,Male,Black,October,24,2015,2015-10-24,Cape Coral,Florida,26.73815026987383,-81.9437774775273,Firearm
 Juan Ulloa,34,20-39,Male,Hispanic/Latino,October,24,2015,2015-10-24,Riverside,California,33.9824949,-117.374238,Firearm
 Darren Fude,47,40-59,Male,White,October,24,2015,2015-10-24,Salem,Wisconsin,42.54521836906085,-88.09654418830029,Firearm
 Jon Ployhar,49,40-59,Male,White,October,24,2015,2015-10-24,Sterling,Alaska,60.537427717509615,-150.76458303729711,Other
@@ -938,7 +938,7 @@ Anthony Ashford,29,20-39,Male,Black,October,27,2015,2015-10-27,San Diego,Califor
 Ricky Keeton,57,40-59,Male,White,October,28,2015,2015-10-28,Smithville,Mississippi,34.0701074,-88.391154,Firearm
 Charles Pettit Jr,18,Under 19,Male,Black,October,5,2015,2015-10-05,Midwest City,Oklahoma,35.44956502654369,-97.41349215277651,Firearm
 Kevin Bajoie,32,20-39,Male,Black,June,20,2015,2015-06-20,Baton Rouge,Louisiana,30.534745096376213,-91.19219441169906,Unarmed
-Mario Perdigone,36,20-39,Male,Hispanic/Latino,October,21,2015,2015-10-21,Corpus Christi,Texas,27.856308413598498,-97.60438011520499,Unarmed
+Mario Perdigone,36,20-39,Male,Hispanic/Latino,October,21,2015,2015-10-21,Corpus Christi,Texas,27.856308413598494,-97.604380115205,Unarmed
 Kenneth Schick,47,40-59,Male,White,October,20,2015,2015-10-20,Wakarusa,Kansas,38.8858364,-95.6958162,Unarmed
 Andrew Dehart,36,20-39,Male,White,October,28,2015,2015-10-28,Forest Grove,Oregon,45.5190404,-123.1110551,Firearm
 Jerry Graham Jr,34,20-39,Male,Black,October,28,2015,2015-10-28,Jacksonville,Florida,30.318235,-81.566105,Firearm
@@ -953,7 +953,7 @@ Noah Harpham,33,20-39,Male,White,October,31,2015,2015-10-31,Colorado Springs,Col
 Bennie Lee Tignor,56,40-59,Male,Black,October,31,2015,2015-10-31,Opelika,Alabama,32.612275,-85.362872,Firearm
 Luverne Christensen,49,40-59,Male,White,November,1,2015,2015-11-01,Hutchinson,Minnesota,44.891007,-94.375705,Other
 Killian O’Quinn,20,20-39,Male,White,November,1,2015,2015-11-01,Eureka,California,40.7906871,-124.1673746,Firearm
-Jack Yantis,62,Above 60,Male,White,November,1,2015,2015-11-01,Council,Idaho,44.72655933598346,-116.43923267148287,Firearm
+Jack Yantis,62,Above 60,Male,White,November,1,2015,2015-11-01,Council,Idaho,44.72655933598346,-116.43923267148288,Firearm
 James Covington Jr,62,Above 60,Male,Black,November,2,2015,2015-11-02,Washington,District of Columbia,38.855245,-76.968969,Firearm
 Joseph Tyndall,30,20-39,Male,White,November,4,2015,2015-11-04,Springfield,Missouri,37.239822,-93.25672,Firearm
 John Allen,57,40-59,Male,Black,November,4,2015,2015-11-04,Houston,Texas,29.7589382,-95.3676974,Firearm
@@ -964,11 +964,11 @@ Laura Lemieux,36,20-39,Female,White,November,5,2015,2015-11-05,Goose Creek,South
 David Romanoski,46,40-59,Male,White,November,5,2015,2015-11-05,Morgantown,West Virginia,39.63409775178118,-79.94067679581224,Firearm
 James Bigley,20,20-39,Male,White,November,5,2015,2015-11-05,Hominy,Oklahoma,36.4155436,-96.3946535,Firearm
 Jeremy Mardis,6,Under 19,Male,White,November,3,2015,2015-11-03,Marksville,Louisiana,31.126189056470835,-92.05573343052002,Unarmed
-Michael Johnson,51,40-59,Male,White,November,6,2015,2015-11-06,Portland,Oregon,45.5300829,-122.69556331389677,Firearm
+Michael Johnson,51,40-59,Male,White,November,6,2015,2015-11-06,Portland,Oregon,45.5300829,-122.69556331389676,Firearm
 James Smyth,55,40-59,Male,White,November,6,2015,2015-11-06,Las Vegas,Nevada,36.1672559,-115.148516,Vehicle
 Raymond Davis,68,Above 60,Male,White,November,6,2015,2015-11-06,Deltona,Florida,28.882078,-81.211643,Unarmed
 Alonzo Smith,27,20-39,Male,Black,November,1,2015,2015-11-01,Washington,District of Columbia,38.8950368,-77.0365427,Other
-Matthew Colligan,28,20-39,Male,White,November,2,2015,2015-11-02,Klamath Falls,Oregon,42.2371430205691,-121.80823871564769,Unarmed
+Matthew Colligan,28,20-39,Male,White,November,2,2015,2015-11-02,Klamath Falls,Oregon,42.2371430205691,-121.80823871564768,Unarmed
 Bendetta 'Lynn' Miller,57,40-59,Female,White,October,23,2015,2015-10-23,Uniontown,Pennsylvania,39.900937,-79.725931,Unarmed
 Cesar Cuellar Jr,25,20-39,Male,Hispanic/Latino,November,9,2015,2015-11-09,Laredo,Texas,27.5075005,-99.5069922,Firearm
 Delvin Simmons,20,20-39,Male,Black,November,9,2015,2015-11-09,Spartanburg,South Carolina,34.95569937180849,-81.96906728696807,Vehicle
@@ -1007,9 +1007,9 @@ Derry Touchstone,58,40-59,Male,White,November,17,2015,2015-11-17,Arlington,Georg
 Jeray Chatham,30,20-39,Male,Black,November,17,2015,2015-11-17,Houston,Texas,29.90449227110171,-95.4176749644922,Knife
 Marcus Meridy,44,40-59,Male,Black,November,18,2015,2015-11-18,Benton Harbor,Michigan,42.09564125,-86.3934830311901,Firearm
 Randy Smith,34,20-39,Male,Black,November,19,2015,2015-11-19,Bradenton,Florida,27.44731212684871,-82.51850195457621,Firearm
-Steve Dormil,27,20-39,Male,Black,November,19,2015,2015-11-19,Fort Pierce,Florida,27.437612555592814,-80.35257212647049,Knife
+Steve Dormil,27,20-39,Male,Black,November,19,2015,2015-11-19,Fort Pierce,Florida,27.437612555592818,-80.35257212647049,Knife
 Darick Napper,34,20-39,Male,Black,November,19,2015,2015-11-19,Washington,District of Columbia,38.895119,-76.924515,Knife
-Nathaniel Pickett,29,20-39,Male,Black,November,19,2015,2015-11-19,Barstow,California,34.89884976832268,-117.02696594417097,Unarmed
+Nathaniel Pickett,29,20-39,Male,Black,November,19,2015,2015-11-19,Barstow,California,34.89884976832268,-117.02696594417095,Unarmed
 Michael Marshall,50,40-59,Male,Black,November,11,2015,2015-11-11,Denver,Colorado,39.73919605,-104.99345198280147,Unarmed
 William Tarrant,39,20-39,Male,White,November,20,2015,2015-11-20,Dallas,Georgia,33.9237141,-84.8407732,Firearm
 Martin Rivera,56,40-59,Male,Hispanic/Latino,November,20,2015,2015-11-20,Fontana,California,34.0922947,-117.43433,Firearm
@@ -1017,15 +1017,15 @@ Christopher Nichols,24,20-39,Male,White,November,21,2015,2015-11-21,Colbert,Okla
 James Hall,46,40-59,Male,White,November,22,2015,2015-11-22,Fontana,California,34.062749784289046,-117.43570930682414,Disputed
 Chase Sherman,32,20-39,Male,White,November,20,2015,2015-11-20,Palmetto,Georgia,33.5178907,-84.6696549,Unarmed
 Miguel Martinez,28,20-39,Male,Hispanic/Latino,November,22,2015,2015-11-22,Denver,Colorado,39.7106237,-105.01719070106364,Firearm
-Henry Reyna,49,40-59,Male,Hispanic/Latino,November,23,2015,2015-11-23,Corpus Christi,Texas,27.72552247818089,-97.40193373790359,Knife
-Mathew Grows,45,40-59,Male,White,November,22,2015,2015-11-22,Reno,Nevada,39.5005975,-119.79542026418919,Firearm
+Henry Reyna,49,40-59,Male,Hispanic/Latino,November,23,2015,2015-11-23,Corpus Christi,Texas,27.72552247818089,-97.4019337379036,Knife
+Mathew Grows,45,40-59,Male,White,November,22,2015,2015-11-22,Reno,Nevada,39.5005975,-119.7954202641892,Firearm
 Thomas Mceniry,32,20-39,Male,White,November,24,2015,2015-11-24,Las Vegas,Nevada,36.1672559,-115.148516,Non-lethal firearm
 Michael Kirvelay,45,40-59,Male,White,November,24,2015,2015-11-24,Columbia Heights,Minnesota,45.040890843137255,-93.25227664705882,Non-lethal firearm
 Barry Kirk,50,40-59,Male,White,November,23,2015,2015-11-23,Columbus,Ohio,39.95341904695079,-83.06650381895702,Firearm
 Freddy Baez,24,20-39,Male,Black,November,24,2015,2015-11-24,Camden,New Jersey,39.90321660454905,-75.09744139595504,Firearm
 Robert Edwards,Unknown,Unknown,Male,Other,January,30,2015,2015-01-30,Austin,Texas,30.189706912612863,-97.77039809034444,Unarmed
 Somer Speer,37,20-39,Female,White,November,25,2015,2015-11-25,Ozark,Missouri,37.02174828571428,-93.2045372244898,Firearm
-Douglas Slade,52,40-59,Male,White,November,25,2015,2015-11-25,Eagar,Arizona,34.116246000000004,-109.29285666666667,Other
+Douglas Slade,52,40-59,Male,White,November,25,2015,2015-11-25,Eagar,Arizona,34.116246000000004,-109.29285666666668,Other
 Rick Gullickson,58,40-59,Male,White,November,27,2015,2015-11-27,Lampe,Missouri,36.5636755,-93.437964,Firearm
 Kevin Close,50,40-59,Male,White,November,28,2015,2015-11-28,Seagoville,Texas,32.64224219240925,-96.54582546525106,Other
 Hugo Celio,23,20-39,Male,Hispanic/Latino,November,29,2015,2015-11-29,Bakersfield,California,35.375378081632654,-119.02136165306122,Firearm
@@ -1039,17 +1039,17 @@ Joshua Jozefowicz,23,20-39,Male,White,December,1,2015,2015-12-01,Bangor,Maine,44
 John Gonzalez,18,Under 19,Male,Hispanic/Latino,December,1,2015,2015-12-01,Norwalk,California,33.9092802,-118.0849169,Firearm
 Syed Farook,28,20-39,Male,Asian/Pacific Islander,December,2,2015,2015-12-02,Redlands,California,34.077636,-117.24896,Firearm
 Tashfeen Malik,27,20-39,Female,Asian/Pacific Islander,December,2,2015,2015-12-02,Redlands,California,34.077636,-117.24896,Firearm
-Mario Woods,26,20-39,Male,Black,December,2,2015,2015-12-02,San Francisco,California,37.7284200280069,-122.39025832068705,Knife
+Mario Woods,26,20-39,Male,Black,December,2,2015,2015-12-02,San Francisco,California,37.7284200280069,-122.39025832068704,Knife
 Ivan Krstic,47,40-59,Male,White,December,3,2015,2015-12-03,Mesa,Arizona,33.4151005,-111.831455,Other
-Neil Stretesky,66,Above 60,Male,White,December,3,2015,2015-12-03,Big Springs,Nebraska,41.063642836734694,-102.07860528571429,Firearm
+Neil Stretesky,66,Above 60,Male,White,December,3,2015,2015-12-03,Big Springs,Nebraska,41.063642836734694,-102.07860528571427,Firearm
 Phillip Munoz,35,20-39,Male,Hispanic/Latino,December,2,2015,2015-12-02,Denver,Colorado,39.7392364,-104.984862,Firearm
 Allen Pacheco,32,20-39,Male,Hispanic/Latino,December,2,2015,2015-12-02,San Antonio,Texas,29.4246002,-98.4951405,Unarmed
 David Winesett,52,40-59,Male,White,December,5,2015,2015-12-05,Miami Beach,Florida,25.843382684788423,-80.12778835670069,Other
-Florencio Lucero,36,20-39,Male,Hispanic/Latino,December,2,2015,2015-12-02,Deming,New Mexico,32.26130669045036,-107.73437802461743,Firearm
+Florencio Lucero,36,20-39,Male,Hispanic/Latino,December,2,2015,2015-12-02,Deming,New Mexico,32.26130669045036,-107.73437802461744,Firearm
 Sheilah Huck,61,Above 60,Female,White,December,5,2015,2015-12-05,Florissant,Missouri,38.7919683,-90.3227803,Firearm
 Raymond Azevedo,35,20-39,Male,White,December,6,2015,2015-12-06,Seattle,Washington,47.6038321,-122.330062,Firearm
 Colten Marcellus,24,20-39,Male,White,December,5,2015,2015-12-05,Irving,Texas,32.807679,-96.954583,Firearm
-Michael Funk,60,Above 60,Male,White,December,5,2015,2015-12-05,Neenah,Wisconsin,44.187369795918364,-88.46582518367347,Firearm
+Michael Funk,60,Above 60,Male,White,December,5,2015,2015-12-05,Neenah,Wisconsin,44.18736979591837,-88.46582518367347,Firearm
 John Britton,48,40-59,Male,White,December,6,2015,2015-12-06,Laramie,Wyoming,41.165033699999995,-104.8410566330142,Knife
 Juan Perez,38,20-39,Male,Hispanic/Latino,December,5,2015,2015-12-05,Indio,California,33.696304149353104,-116.25140306790222,Firearm
 Dimitrie Penny,32,20-39,Male,Black,December,9,2015,2015-12-09,Tallahassee,Florida,30.4384908,-84.2644032,Firearm
@@ -1062,12 +1062,12 @@ Thomas Gendreau Jr,54,40-59,Male,White,December,10,2015,2015-12-10,Marina,Califo
 Unknown,Unknown,Unknown,Male,Other,December,10,2015,2015-12-10,Hemet,California,33.72948241322297,-116.97045019558183,Firearm
 Jason Bryant,34,20-39,Male,White,December,10,2015,2015-12-10,Indianapolis,Indiana,39.741416,-86.196802,Firearm
 Derek Stokes,33,20-39,Male,Black,December,8,2015,2015-12-08,Cleveland,Ohio,41.502806,-81.696588,Firearm
-Steven Wickert,36,20-39,Male,White,December,11,2015,2015-12-11,Tucson,Arizona,32.13748307236867,-110.91282595396851,Unarmed
+Steven Wickert,36,20-39,Male,White,December,11,2015,2015-12-11,Tucson,Arizona,32.13748307236867,-110.91282595396852,Unarmed
 Christopher Goodlow,25,20-39,Male,Black,December,12,2015,2015-12-12,Indianapolis,Indiana,39.827321335027136,-86.0291830869842,Knife
 Nicholas Robertson,28,20-39,Male,Black,December,12,2015,2015-12-12,Lynwood,California,33.9176753606924,-118.20939380224613,Firearm
-Andrew Todd,20,20-39,Male,White,December,12,2015,2015-12-12,East Stroudsburg,Pennsylvania,40.989915249999996,-75.18283438840244,Firearm
+Andrew Todd,20,20-39,Male,White,December,12,2015,2015-12-12,East Stroudsburg,Pennsylvania,40.98991525,-75.18283438840244,Firearm
 Ryan McMillan,21,20-39,Male,White,December,13,2015,2015-12-13,Denton,Texas,33.1838787,-97.1413417,Other
-Efrain Villanueva,51,40-59,Male,Other,December,12,2015,2015-12-12,Aurora,Colorado,39.728175199999995,-104.86116842514065,Knife
+Efrain Villanueva,51,40-59,Male,Other,December,12,2015,2015-12-12,Aurora,Colorado,39.728175199999995,-104.86116842514063,Knife
 Roy Carreon,49,40-59,Male,Hispanic/Latino,December,12,2015,2015-12-12,San Bernardino,California,34.10847,-117.322094,Knife
 Javario Eagle,24,20-39,Male,Black,December,12,2015,2015-12-12,Chattanooga,Tennessee,34.989210009492766,-85.3074192509349,Firearm
 Jonathan Wardlow,36,20-39,Male,White,December,12,2015,2015-12-12,Healdton,Oklahoma,34.2331475,-97.4878023,Other
@@ -1077,7 +1077,7 @@ Calvin McKinnis,33,20-39,Male,Black,December,14,2015,2015-12-14,New Orleans,Loui
 Michael Thomason,56,40-59,Male,White,December,14,2015,2015-12-14,Milan,Tennessee,35.9197886,-88.7589489,Firearm
 Jason Brady,40,40-59,Male,White,December,3,2015,2015-12-03,Waverly,Ohio,39.129174371237454,-82.96569110367892,Unarmed
 Jeffrey Evans,52,40-59,Male,White,December,14,2015,2015-12-14,Middle River,Maryland,39.34169609999999,-76.42718184426359,Knife
-Feagaiga Leiataua,30,20-39,Male,Asian/Pacific Islander,December,13,2015,2015-12-13,Olympia,Washington,47.001656,-122.76324125416667,Knife
+Feagaiga Leiataua,30,20-39,Male,Asian/Pacific Islander,December,13,2015,2015-12-13,Olympia,Washington,47.001656,-122.76324125416669,Knife
 Brenda Kimberling,48,40-59,Female,White,December,14,2015,2015-12-14,Las Vegas,Nevada,36.1672559,-115.148516,Firearm
 Roberto Sanchez,45,40-59,Male,Hispanic/Latino,December,14,2015,2015-12-14,Las Vegas,Nevada,36.1672559,-115.148516,Firearm
 Hector Alvarez,19,Under 19,Male,Hispanic/Latino,December,14,2015,2015-12-14,Gilroy,California,36.99432506129737,-121.57323789713176,Unarmed
@@ -1102,7 +1102,7 @@ Chan Lieth,25,20-39,Male,Black,December,21,2015,2015-12-21,Denver,Colorado,39.73
 Charles Reynolds,61,Above 60,Male,Other,December,22,2015,2015-12-22,Ludlow,Kentucky,39.09450542857143,-84.54567202040816,Firearm
 Derek DeGroat,21,20-39,Male,White,December,21,2015,2015-12-21,Waymart,Pennsylvania,41.5803625,-75.4082366,Firearm
 Michael Hilber,29,20-39,Male,White,December,22,2015,2015-12-22,Brooksville,Florida,28.5552719,-82.3878709,Firearm
-Jose Rodriguez,19,Under 19,Male,Hispanic/Latino,December,22,2015,2015-12-22,Albuquerque,New Mexico,35.0782758443176,-106.55906516127179,Firearm
+Jose Rodriguez,19,Under 19,Male,Hispanic/Latino,December,22,2015,2015-12-22,Albuquerque,New Mexico,35.0782758443176,-106.5590651612718,Firearm
 Kenneth Stephens,56,40-59,Male,White,December,22,2015,2015-12-22,Burlington,Vermont,44.4831104,-73.21431893663859,Firearm
 Rashad Bugg-Bey,25,20-39,Male,Black,November,14,2015,2015-11-14,Washington,District of Columbia,38.8983696,-77.0058628,Knife
 Kevin Matthews,35,20-39,Male,Black,December,23,2015,2015-12-23,Detroit,Michigan,42.351057,-83.194347,Unarmed
@@ -1115,7 +1115,7 @@ Terrozza Griffin,24,20-39,Male,Black,December,24,2015,2015-12-24,Lansing,Michiga
 William Raff,31,20-39,Male,White,December,25,2015,2015-12-25,Palo Alto,California,37.447995,-122.155312,Knife
 Bettie Jones,55,40-59,Female,Black,December,26,2015,2015-12-26,Chicago,Illinois,41.892387,-87.743599,Unarmed
 Quintonio LeGrier,19,Under 19,Male,Black,December,26,2015,2015-12-26,Chicago,Illinois,41.892387,-87.743599,Other
-Lonnie Niesen,41,40-59,Male,White,December,26,2015,2015-12-26,Phoenix,Arizona,33.59685985,-112.14323320701561,Other
+Lonnie Niesen,41,40-59,Male,White,December,26,2015,2015-12-26,Phoenix,Arizona,33.59685985,-112.1432332070156,Other
 Michael Parker,36,20-39,Male,White,December,27,2015,2015-12-27,Lucedale,Mississippi,30.9248878,-88.5879421,Other
 Sean Mould,34,20-39,Male,White,December,27,2015,2015-12-27,Tempe,Arizona,33.381675,-111.920644,Knife
 Corey Achstein,28,20-39,Male,White,December,28,2015,2015-12-28,Suffolk,Virginia,36.726862749999995,-76.59634978999179,Non-lethal firearm
@@ -1128,13 +1128,13 @@ Tien Hua,33,20-39,Male,Asian/Pacific Islander,December,29,2015,2015-12-29,Roseme
 Fred Perez,55,40-59,Male,Hispanic/Latino,December,30,2015,2015-12-30,Fresno,California,36.7394421,-119.78483,Knife
 Jose Mercado-Nova,74,Above 60,Male,Hispanic/Latino,November,17,2015,2015-11-17,Greeley,Colorado,40.4233142,-104.7091322,Unarmed
 Keith Childress Jr,23,20-39,Male,Black,December,31,2015,2015-12-31,Las Vegas,Nevada,36.1672559,-115.148516,Unarmed
-John Veach,39,20-39,Male,White,December,30,2015,2015-12-30,Rawlins,Wyoming,41.7985177,-107.21629811323047,Other
+John Veach,39,20-39,Male,White,December,30,2015,2015-12-30,Rawlins,Wyoming,41.7985177,-107.21629811323048,Other
 Eugene McSwain,25,20-39,Male,Black,July,10,2015,2015-07-10,Chicago,Illinois,41.701826,-87.607896,Firearm
-Gilbert Heredia,38,20-39,Male,Hispanic/Latino,December,26,2015,2015-12-26,Homedale,Idaho,43.61967016492964,-116.93164100071057,Firearm
+Gilbert Heredia,38,20-39,Male,Hispanic/Latino,December,26,2015,2015-12-26,Homedale,Idaho,43.61967016492964,-116.93164100071056,Firearm
 Raymone Davis,21,20-39,Male,Black,December,4,2015,2015-12-04,Pittsburgh,Pennsylvania,40.43101452188174,-80.00705525923385,Firearm
 Lionel Waters,35,20-39,Male,Black,December,20,2015,2015-12-20,Harrington,Delaware,38.922225,-75.452442,Firearm
 Larry Maharrey,59,40-59,Male,White,July,14,2015,2015-07-14,Bakersfield,California,35.3738712,-119.019463,Unarmed
-Dana Ott,63,Above 60,Male,White,November,10,2015,2015-11-10,Colorado Springs,Colorado,38.909032343696126,-104.87868475672981,Non-lethal firearm
+Dana Ott,63,Above 60,Male,White,November,10,2015,2015-11-10,Colorado Springs,Colorado,38.909032343696126,-104.8786847567298,Non-lethal firearm
 Cameron Long,28,20-39,Male,White,November,16,2015,2015-11-16,Centerville,Texas,31.2578221,-95.9785301,Vehicle
 Fernando Sauceda,31,20-39,Male,Hispanic/Latino,November,30,2015,2015-11-30,Wink,Texas,31.7534049,-103.15583,Other
 Carlumandarlo Zaramo,46,40-59,Male,Black,December,6,2015,2015-12-06,Richmond Heights,Ohio,41.552829,-81.510121,Firearm
@@ -1148,9 +1148,9 @@ Joseph Seguin,38,20-39,Male,White,November,30,2015,2015-11-30,Mahopac,New York,4
 Terry Frost,20,20-39,Male,Black,May,25,2016,2016-05-25,Cincinnati,Ohio,39.1476284,-84.4440458454514,Firearm
 Jeffry Graves,62,Above 60,Male,White,January,31,2016,2016-01-31,Newark,California,37.53121165305934,-122.05350749802444,Firearm
 Joshua Sisson,30,20-39,Male,White,January,1,2016,2016-01-01,San Diego,California,32.74364599264525,-117.15948116620685,Knife
-Sean O'Brien,37,20-39,Male,White,January,2,2016,2016-01-02,Livingston,Montana,45.6559192,-110.57328335669425,Knife
+Sean O'Brien,37,20-39,Male,White,January,2,2016,2016-01-02,Livingston,Montana,45.6559192,-110.57328335669423,Knife
 Lance Light,54,40-59,Male,White,January,2,2016,2016-01-02,Sweetwater,Texas,32.4709519,-100.405938,Firearm
-Lonnie Powers Jr,37,20-39,Male,White,January,2,2016,2016-01-02,Sioux Falls,South Dakota,43.546596959585465,-96.71012324973421,Firearm
+Lonnie Powers Jr,37,20-39,Male,White,January,2,2016,2016-01-02,Sioux Falls,South Dakota,43.546596959585465,-96.7101232497342,Firearm
 Germonta Wallace,30,20-39,Male,Black,January,3,2016,2016-01-03,Charlotte,North Carolina,35.218875,-80.884608,Firearm
 Rodney Turner,22,20-39,Male,Black,January,4,2016,2016-01-04,Oklahoma City,Oklahoma,35.514033,-97.581781,Firearm
 Eric Senegal,27,20-39,Male,Black,January,4,2016,2016-01-04,Ragley,Louisiana,30.512699,-93.2323813,Firearm
@@ -1171,9 +1171,9 @@ Robert Tenbrink,45,40-59,Male,White,January,11,2016,2016-01-11,Cincinnati,Ohio,3
 Ramone Lonergan,32,20-39,Male,White,January,11,2016,2016-01-11,Denver,Colorado,39.7392364,-104.984862,Firearm
 Alan Bartley,56,40-59,Male,White,January,11,2016,2016-01-11,San Fernando,California,34.28497,-118.437652,Unarmed
 Ciara Meyer,12,Under 19,Female,White,January,11,2016,2016-01-11,Duncannon,Pennsylvania,40.39942157736931,-77.02322045398252,Unarmed
-Keith Richardson,58,40-59,Male,White,January,11,2016,2016-01-11,Norfolk,Virginia,36.856510549999996,-76.18826998625516,Firearm
+Keith Richardson,58,40-59,Male,White,January,11,2016,2016-01-11,Norfolk,Virginia,36.85651055,-76.18826998625516,Firearm
 Herman Bean Jr,49,40-59,Male,Native American,January,12,2016,2016-01-12,Anchorage,Alaska,61.2163129,-149.894852,Knife
-Timothy Meehan,60,Above 60,Male,White,January,13,2016,2016-01-13,Cle Elum,Washington,47.19607403541485,-120.94823687874653,Firearm
+Timothy Meehan,60,Above 60,Male,White,January,13,2016,2016-01-13,Cle Elum,Washington,47.19607403541485,-120.94823687874651,Firearm
 Brandon Bearden,29,20-39,Male,White,January,13,2016,2016-01-13,Sevierville,Tennessee,35.83654375639851,-83.55894815906166,Firearm
 Willie Holderfield,41,40-59,Male,White,January,14,2016,2016-01-14,Hurst,Illinois,37.834644528939705,-89.14297064995165,Firearm
 Miguel Hernandez,39,20-39,Male,Hispanic/Latino,January,14,2016,2016-01-14,Santa Clarita,California,34.4127963,-118.5538088,Knife
@@ -1184,13 +1184,13 @@ Alfred Longoria,34,20-39,Male,Hispanic/Latino,January,16,2016,2016-01-16,Los Ang
 Henry Bennett,19,Under 19,Male,Black,January,16,2016,2016-01-16,Belle Glade,Florida,26.6845104,-80.6675577,Firearm
 Adam Karjalainen,44,40-59,Male,White,January,16,2016,2016-01-16,Beaverton,Oregon,45.447482,-122.82587,Non-lethal firearm
 Clarence Layfield Jr,55,40-59,Male,White,January,16,2016,2016-01-16,Petroleum,West Virginia,39.1909105,-81.2684485,Vehicle
-Efrain Herrera Jr,24,20-39,Male,Hispanic/Latino,January,17,2016,2016-01-17,Los Angeles,California,34.230447256428526,-118.46001221153571,Knife
+Efrain Herrera Jr,24,20-39,Male,Hispanic/Latino,January,17,2016,2016-01-17,Los Angeles,California,34.230447256428526,-118.46001221153573,Knife
 Joshua Fielding,38,20-39,Male,White,January,17,2016,2016-01-17,Rainbow City,Alabama,33.95089805983712,-86.0365347479548,Firearm
 Crayton West,52,40-59,Male,Black,January,17,2016,2016-01-17,St Louis,Missouri,38.59326145,-90.244110343625,Firearm
 Ashton Morris,27,20-39,Male,White,January,17,2016,2016-01-17,San Antonio,Texas,29.4246002,-98.4951405,Firearm
-Cory Henderson,31,20-39,Male,White,January,17,2016,2016-01-17,Holladay,Utah,40.67424614091326,-111.83564092616925,Firearm
+Cory Henderson,31,20-39,Male,White,January,17,2016,2016-01-17,Holladay,Utah,40.67424614091326,-111.83564092616923,Firearm
 Talmadge King,47,40-59,Male,White,January,17,2016,2016-01-17,Jacksonville,Florida,30.341424455636687,-81.65007658707498,Knife
-Timothy Caruthers,27,20-39,Male,White,January,18,2016,2016-01-18,Medford,Oregon,42.360395826652486,-122.85958842485105,Knife
+Timothy Caruthers,27,20-39,Male,White,January,18,2016,2016-01-18,Medford,Oregon,42.360395826652486,-122.85958842485104,Knife
 Jordan Szymanski,33,20-39,Male,White,January,18,2016,2016-01-18,Tucson,Arizona,32.2228765,-110.974847,Firearm
 Daniel Shaver,26,20-39,Male,White,January,18,2016,2016-01-18,Mesa,Arizona,33.385785049999996,-111.69258415553868,Unarmed
 Vasilios Katsouras,29,20-39,Male,White,January,18,2016,2016-01-18,Union City,California,37.592374,-122.079347,Other
@@ -1203,18 +1203,18 @@ Filberto Valencia,26,20-39,Male,Hispanic/Latino,January,19,2016,2016-01-19,Stock
 Randy Sanders Jr,33,20-39,Male,White,January,20,2016,2016-01-20,Meridianville,Alabama,34.87032225,-86.57136093910374,Firearm
 Timothy Albert,40,40-59,Male,Black,January,20,2016,2016-01-20,Port Barre,Louisiana,30.5601953,-91.9540055,Firearm
 Michael Lynch,37,20-39,Male,White,January,20,2016,2016-01-20,Harper,Texas,30.384681855435016,-99.2005488274361,Knife
-Cedric Norris,39,20-39,Male,Black,January,21,2016,2016-01-21,Eufaula,Oklahoma,35.26890347831895,-95.59149463108413,Firearm
+Cedric Norris,39,20-39,Male,Black,January,21,2016,2016-01-21,Eufaula,Oklahoma,35.26890347831895,-95.59149463108412,Firearm
 Joshua Lee,26,20-39,Male,White,January,22,2016,2016-01-22,Augusta,Georgia,33.2934,-81.923354,Firearm
 Sharon Mitterling,67,Above 60,Female,White,January,22,2016,2016-01-22,Warsaw,Indiana,41.24902584315038,-85.82244246724095,Unarmed
 Michael Robinson,43,40-59,Male,White,January,23,2016,2016-01-23,Clanton,Alabama,32.8392013,-86.6309229,Non-lethal firearm
-Sergio Alvarado-Morales,38,20-39,Male,Hispanic/Latino,January,25,2016,2016-01-25,Reno,Nevada,39.48646159758085,-119.85417221999329,Knife
+Sergio Alvarado-Morales,38,20-39,Male,Hispanic/Latino,January,25,2016,2016-01-25,Reno,Nevada,39.48646159758085,-119.85417221999327,Knife
 Scott Brunson,50,40-59,Male,White,January,25,2016,2016-01-25,Salina,Kansas,38.844378,-97.613723,Unarmed
 Stephen Schenck,47,40-59,Male,White,January,25,2016,2016-01-25,Hesperia,California,34.410648082087185,-117.3282637159199,Knife
-Robert 'LaVoy' Finicum,55,40-59,Male,White,January,26,2016,2016-01-26,Burns,Oregon,43.59807656690613,-119.04957682196249,Firearm
+Robert 'LaVoy' Finicum,55,40-59,Male,White,January,26,2016,2016-01-26,Burns,Oregon,43.59807656690613,-119.04957682196248,Firearm
 Janet Wilson,31,20-39,Female,Black,January,27,2016,2016-01-27,Dearborn,Michigan,42.3215618,-83.22768035,Vehicle
 Jonathan Bratcher,32,20-39,Male,Black,January,27,2016,2016-01-27,Memphis,Tennessee,35.108556,-90.035687,Firearm
 Israel Rodriguez,26,20-39,Male,Hispanic/Latino,January,27,2016,2016-01-27,Marietta,Georgia,33.9528472,-84.5496148,Firearm
-Nathan Bailey,30,20-39,Male,White,January,27,2016,2016-01-27,Alvarado,Texas,32.48872925,-97.17509803542279,Firearm
+Nathan Bailey,30,20-39,Male,White,January,27,2016,2016-01-27,Alvarado,Texas,32.48872925,-97.1750980354228,Firearm
 Scott Scanlon,52,40-59,Male,White,January,27,2016,2016-01-27,Jessieville,Arkansas,34.7012029,-93.0615688,Firearm
 John Smith,27,20-39,Male,White,January,27,2016,2016-01-27,Latta,South Carolina,34.337691,-79.4321949,Knife
 Herman Flores,31,20-39,Male,Hispanic/Latino,January,27,2016,2016-01-27,Santa Fe,New Mexico,35.655682999999996,-105.9933917166624,Firearm
@@ -1225,12 +1225,12 @@ Jacqueline Salyers,32,20-39,Female,Native American,January,29,2016,2016-01-29,Ta
 Randolph McClain,33,20-39,Male,Black,January,29,2016,2016-01-29,Lynn,Massachusetts,42.466763,-70.9494939,Firearm
 Christopher Dew,29,20-39,Male,Black,January,29,2016,2016-01-29,Irving,Texas,32.8295183,-96.9442177,Firearm
 Angela Hiatt,41,40-59,Female,White,January,29,2016,2016-01-29,Phenix City,Alabama,32.48404493845873,-85.07471396605924,Vehicle
-Philip Salazar,38,20-39,Male,Hispanic/Latino,January,30,2016,2016-01-30,Fort Collins,Colorado,40.588852643159605,-105.02961397203653,Other
+Philip Salazar,38,20-39,Male,Hispanic/Latino,January,30,2016,2016-01-30,Fort Collins,Colorado,40.588852643159605,-105.02961397203651,Other
 Jose Alegre,64,Above 60,Male,Hispanic/Latino,January,30,2016,2016-01-30,Rossville,Georgia,34.983376,-85.28603,Firearm
 Michael Brown,25,20-39,Male,White,January,30,2016,2016-01-30,Saginaw,Texas,32.8797238,-97.3908019,Unarmed
 Jeremy Sinclair,42,40-59,Male,White,January,30,2016,2016-01-30,Sugar Creek,Missouri,39.1097268,-94.4446742,Firearm
 Bruce Kelley Jr,37,20-39,Male,Black,January,31,2016,2016-01-31,Pittsburgh,Pennsylvania,40.4416941,-79.9900861,Knife
-Charles Smith,29,20-39,Male,Black,January,31,2016,2016-01-31,Chicago,Illinois,41.761120500000004,-87.66639713301495,Firearm
+Charles Smith,29,20-39,Male,Black,January,31,2016,2016-01-31,Chicago,Illinois,41.7611205,-87.66639713301495,Firearm
 Juan Ruiz,46,40-59,Male,Hispanic/Latino,January,31,2016,2016-01-31,Immokalee,Florida,26.4257905,-81.4256005,Knife
 Joshua Bispo,42,40-59,Male,White,January,31,2016,2016-01-31,Bakersfield,California,35.3738712,-119.019463,Firearm
 Peter John,36,20-39,Male,Black,February,1,2016,2016-02-01,Washington,District of Columbia,38.89357,-76.925066,Non-lethal firearm
@@ -1238,7 +1238,7 @@ Edgar Alvarado,21,20-39,Male,Hispanic/Latino,February,2,2016,2016-02-02,Albuquer
 Justin Prescott,30,20-39,Male,White,February,2,2016,2016-02-02,Rancho Cordova,California,38.5955284,-121.29334824876052,Knife
 Joseph Molinaro,34,20-39,Male,Native American,February,2,2016,2016-02-02,Carbondale,Pennsylvania,41.580333490547545,-75.49596186642562,Unarmed
 Lawrence Kindel,33,20-39,Male,White,February,2,2016,2016-02-02,Elmendorf,Texas,29.2560731,-98.3327903,Unarmed
-Raymond Gassman,22,20-39,Male,Native American,February,3,2016,2016-02-03,Rosebud,South Dakota,43.238645500000004,-100.82904209803831,Other
+Raymond Gassman,22,20-39,Male,Native American,February,3,2016,2016-02-03,Rosebud,South Dakota,43.2386455,-100.82904209803831,Other
 Cristiaan Dubrino,31,20-39,Male,White,February,3,2016,2016-02-03,Ocala,Florida,29.1871986,-82.1400923,Firearm
 Randy Nelson,49,40-59,Male,Black,February,3,2016,2016-02-03,Athens,Alabama,34.8041483,-86.97892732198645,Unarmed
 Antronie Scott,36,20-39,Male,Black,February,4,2016,2016-02-04,San Antonio,Texas,29.4246002,-98.4951405,Unarmed
@@ -1250,7 +1250,7 @@ Ronald Barawis Jr,38,20-39,Male,Asian/Pacific Islander,February,5,2016,2016-02-0
 Blake Fitzgerald,30,20-39,Male,White,February,5,2016,2016-02-05,Milton,Florida,30.6324149,-87.0396881,Firearm
 Phillip Ferry,55,40-59,Male,White,February,5,2016,2016-02-05,Seaside,Oregon,45.9934784,-123.9264256,Firearm
 Vinson Strickland,51,40-59,Male,White,February,5,2016,2016-02-05,Union Grove,North Carolina,35.6651645,-76.6091017,Firearm
-Emily Thibodeaux,23,20-39,Female,White,February,5,2016,2016-02-05,Addis,Louisiana,30.358377177344956,-91.25500969631355,Unarmed
+Emily Thibodeaux,23,20-39,Female,White,February,5,2016,2016-02-05,Addis,Louisiana,30.358377177344956,-91.25500969631356,Unarmed
 Wendell Celestine Jr,37,20-39,Male,Black,February,5,2016,2016-02-05,Antioch,California,38.0049214,-121.805789,Unarmed
 Michael Laniado,27,20-39,Male,White,February,6,2016,2016-02-06,Manchester Township,New Jersey,39.99464606974153,-74.27552213948304,Knife
 Jose Mendez,16,Under 19,Male,Hispanic/Latino,February,6,2016,2016-02-06,Los Angeles,California,34.03155432258065,-118.20063993548386,Firearm
@@ -1260,7 +1260,7 @@ Marese Collins,23,20-39,Male,Black,February,7,2016,2016-02-07,Columbus,Ohio,39.9
 Shalamar Longer,33,20-39,Male,Black,February,8,2016,2016-02-08,Chester,Pennsylvania,39.835838,-75.401996,Firearm
 David Joseph,17,Under 19,Male,Black,February,8,2016,2016-02-08,Austin,Texas,30.396744,-97.668074,Unarmed
 Eric Harris,22,20-39,Male,Black,February,8,2016,2016-02-08,New Orleans,Louisiana,29.9759983,-90.0782127,Vehicle
-Gustavo Najera,22,20-39,Male,Hispanic/Latino,February,9,2016,2016-02-09,Anaheim,California,33.842311952358585,-117.93389364539229,Unarmed
+Gustavo Najera,22,20-39,Male,Hispanic/Latino,February,9,2016,2016-02-09,Anaheim,California,33.842311952358585,-117.93389364539227,Unarmed
 Scottie Yanagawa,29,20-39,Male,Asian/Pacific Islander,February,9,2016,2016-02-09,Hilo,Hawaii,19.699357,-155.061566,Firearm
 Deborah Roman,44,40-59,Female,White,February,9,2016,2016-02-09,Latham,New York,42.74361345,-73.74584557262119,Unarmed
 Nathan Roman,10,Under 19,Male,White,February,9,2016,2016-02-09,Latham,New York,42.74361345,-73.74584557262119,Unarmed
@@ -1275,7 +1275,7 @@ Alijah Jackson,35,20-39,Male,White,February,11,2016,2016-02-11,Maiden,North Caro
 Jerand Ross,24,20-39,Male,Black,February,11,2016,2016-02-11,Riverdale,Georgia,33.57414169888084,-84.41495079293834,Firearm
 Peter Fanfan,29,20-39,Male,Black,February,12,2016,2016-02-12,Boston,Massachusetts,42.3554334,-71.060511,Firearm
 Sahlah Ridgeway,32,20-39,Female,Black,February,12,2016,2016-02-12,Syracuse,New York,43.0690129,-76.1435182,Firearm
-David Watson,53,40-59,Male,White,February,12,2016,2016-02-12,Fort Worth,Texas,32.7219044,-97.44588104231781,Firearm
+David Watson,53,40-59,Male,White,February,12,2016,2016-02-12,Fort Worth,Texas,32.7219044,-97.4458810423178,Firearm
 Jonathan Fowler,32,20-39,Male,White,February,12,2016,2016-02-12,College Park,Georgia,33.64118120743242,-84.45610941509254,Unarmed
 Calin Roquemore,24,20-39,Male,Black,February,13,2016,2016-02-13,Beckville,Texas,32.2429366,-94.4554782,Unarmed
 Calvin Smith,22,20-39,Male,Black,February,13,2016,2016-02-13,Baton Rouge,Louisiana,30.467782369559885,-91.13882161250558,Firearm
@@ -1284,20 +1284,20 @@ Ali Yahia,29,20-39,Male,Black,February,13,2016,2016-02-13,Urbandale,Iowa,41.6489
 Rammy Jaradat,26,20-39,Male,Arab-American,February,14,2016,2016-02-14,Los Angeles,California,34.196313,-118.457356,Knife
 Eduardo Rodriguez,24,20-39,Male,Hispanic/Latino,February,14,2016,2016-02-14,East Los Angeles,California,34.0239015,-118.172015,Firearm
 Marc Stoddart,50,40-59,Male,White,February,14,2016,2016-02-14,Bradenton,Florida,27.4989278,-82.5748194,Knife
-Brandon Witt,39,20-39,Male,White,February,15,2016,2016-02-15,Yorba Linda,California,33.87261495,-117.73929989999999,Other
+Brandon Witt,39,20-39,Male,White,February,15,2016,2016-02-15,Yorba Linda,California,33.87261495,-117.7392999,Other
 Guadalupe Sauceda,52,40-59,Male,Hispanic/Latino,February,15,2016,2016-02-15,Jal,New Mexico,32.112125,-103.1934615,Firearm
 Inocencio Cardenas Jr,38,20-39,Male,Hispanic/Latino,February,15,2016,2016-02-15,Donna,Texas,26.169483,-98.056736,Unarmed
 Mary Lená Pettiet,33,20-39,Female,White,February,15,2016,2016-02-15,Canton,Texas,32.5386046,-95.86181199728397,Unarmed
 Christopher Andrews,51,40-59,Male,White,February,16,2016,2016-02-16,Fairfield,Connecticut,41.1792985,-73.2640502,Knife
 Destry Meikle,48,40-59,Male,White,February,16,2016,2016-02-16,Republic,Missouri,37.1193808,-93.4803765,Vehicle
-Shawn Dickens,30,20-39,Male,White,February,16,2016,2016-02-16,Mena,Arkansas,34.57991622769786,-94.24836422305283,Firearm
+Shawn Dickens,30,20-39,Male,White,February,16,2016,2016-02-16,Mena,Arkansas,34.57991622769786,-94.24836422305285,Firearm
 Paul Gaston,37,20-39,Male,Black,February,17,2016,2016-02-17,Cheviot,Ohio,39.155371,-84.605346,Non-lethal firearm
 Joseph Noel,25,20-39,Male,White,February,18,2016,2016-02-18,Commerce,Georgia,34.19885159739003,-83.44941314261409,Other
 Oscar Reyes,35,20-39,Male,Hispanic/Latino,February,18,2016,2016-02-18,Santa Ana,California,33.747958,-117.854093,Other
 Jose Quintanilla,30,20-39,Male,Hispanic/Latino,February,18,2016,2016-02-18,Santa Ana,California,33.747958,-117.854093,Other
 Ronnie Padron,32,20-39,Male,Hispanic/Latino,February,18,2016,2016-02-18,Reno,Texas,32.943988,-97.577788,Firearm
 Travis Wood,24,20-39,Male,White,February,18,2016,2016-02-18,Westminster,Colorado,39.8366528,-105.0372046,Unarmed
-Justin Moses,35,20-39,Male,White,February,19,2016,2016-02-19,Ogden,Utah,41.266546516904334,-111.96259384980559,Knife
+Justin Moses,35,20-39,Male,White,February,19,2016,2016-02-19,Ogden,Utah,41.266546516904334,-111.9625938498056,Knife
 Curtis Dugger,31,20-39,Male,White,February,19,2016,2016-02-19,Elizabethton,Tennessee,36.3264136905331,-82.24367001050595,Firearm
 Marcos Perea,41,40-59,Male,Hispanic/Latino,February,20,2016,2016-02-20,Lakewood,Washington,47.1717649,-122.518458,Firearm
 Charles Lambert,45,40-59,Male,White,February,20,2016,2016-02-20,Iuka,Mississippi,34.8117565,-88.1900415,Firearm
@@ -1307,33 +1307,33 @@ Kisha Michael,31,20-39,Female,Black,February,21,2016,2016-02-21,Inglewood,Califo
 Marquintan Sandlin,32,20-39,Male,Black,February,21,2016,2016-02-21,Inglewood,California,33.9562003,-118.353132,Other
 Che Taylor,47,40-59,Male,Black,February,21,2016,2016-02-21,Seattle,Washington,47.6906563,-122.30561294788404,Firearm
 Sherrisa Homer,36,20-39,Female,Native American,February,21,2016,2016-02-21,Phoenix,Arizona,33.4951684,-112.109005,Firearm
-Patricia Kruger,38,20-39,Female,Native American,February,22,2016,2016-02-22,Houston,Alaska,61.584898389018115,-149.75726691262417,Firearm
+Patricia Kruger,38,20-39,Female,Native American,February,22,2016,2016-02-22,Houston,Alaska,61.584898389018115,-149.75726691262415,Firearm
 Jamie Long,45,40-59,Male,White,February,22,2016,2016-02-22,Bakersfield,California,35.372195,-119.007864,Knife
-David Green,38,20-39,Male,White,February,22,2016,2016-02-22,Mission,Texas,26.23865063991664,-98.32205255238661,Vehicle
+David Green,38,20-39,Male,White,February,22,2016,2016-02-22,Mission,Texas,26.23865063991664,-98.3220525523866,Vehicle
 Gerardino Cayetano-Gonzalez,33,20-39,Male,Hispanic/Latino,February,22,2016,2016-02-22,Denver,Colorado,39.7392364,-104.984862,Firearm
 Rouven Loch,22,20-39,Male,White,February,22,2016,2016-02-22,Fairborn,Ohio,39.83838180916877,-84.01052177990665,Non-lethal firearm
 Baltazar Ramos,39,20-39,Male,Hispanic/Latino,February,23,2016,2016-02-23,Houston,Texas,29.713565,-95.317222,Other
 Alex Buckner,26,20-39,Male,Asian/Pacific Islander,February,23,2016,2016-02-23,Glendale,Arizona,33.5386858,-112.185994,Firearm
 Angel Gleason,36,20-39,Male,White,February,23,2016,2016-02-23,Ripon,California,37.731654553314065,-121.14203055389967,Firearm
-Travis Stevenson,48,40-59,Male,Black,February,23,2016,2016-02-23,Baton Rouge,Louisiana,30.43677609179439,-91.16470673351343,Vehicle
+Travis Stevenson,48,40-59,Male,Black,February,23,2016,2016-02-23,Baton Rouge,Louisiana,30.43677609179439,-91.16470673351344,Vehicle
 Robert Keil,16,Under 19,Male,White,February,24,2016,2016-02-24,Blue Springs,Missouri,39.017316,-94.282265,Knife
 Martin Wirth,58,40-59,Male,White,February,24,2016,2016-02-24,Bailey,Colorado,39.4064662,-105.4717013,Firearm
 Victor Rivera,27,20-39,Male,Hispanic/Latino,February,24,2016,2016-02-24,Phoenix,Arizona,33.4484367,-112.074141,Vehicle
 Francisco Garcia,26,20-39,Male,Hispanic/Latino,February,24,2016,2016-02-24,Norwalk,California,33.9092802,-118.0849169,Vehicle
 Christopher Davis,21,20-39,Male,Black,February,24,2016,2016-02-24,East Troy,Wisconsin,42.7851871,-88.4054374,Unarmed
 Alex Zoucha,31,20-39,Male,White,February,24,2016,2016-02-24,Bellevue,Nebraska,41.137642,-95.9005,Unarmed
-Luke Miller,37,20-39,Male,White,February,25,2016,2016-02-25,Evans,Colorado,40.376359670805805,-104.69417456487281,Firearm
+Luke Miller,37,20-39,Male,White,February,25,2016,2016-02-25,Evans,Colorado,40.376359670805805,-104.6941745648728,Firearm
 Greg Gunn,56,40-59,Male,Black,February,25,2016,2016-02-25,Montgomery,Alabama,32.37742,-86.3091683,Disputed
 Tristan Conti,19,Under 19,Male,White,February,25,2016,2016-02-25,Silver Springs,Nevada,39.4156828,-119.223988,Firearm
 Cedric Ford,38,20-39,Male,Black,February,25,2016,2016-02-25,Hesston,Kansas,38.1385315,-97.4314857,Firearm
 Abraham Fryer,35,20-39,Male,White,February,26,2016,2016-02-26,Rapid City,South Dakota,44.0806041,-103.228023,Unarmed
 Kionte Spencer,18,Under 19,Male,Black,February,26,2016,2016-02-26,Roanoke,Virginia,37.231547724137926,-80.00818409195402,Non-lethal firearm
-Fernando Hernandez,23,20-39,Male,Hispanic/Latino,February,27,2016,2016-02-27,San Antonio,Texas,29.345258989199362,-98.45732545998045,Firearm
+Fernando Hernandez,23,20-39,Male,Hispanic/Latino,February,27,2016,2016-02-27,San Antonio,Texas,29.34525898919936,-98.45732545998044,Firearm
 Nathan Grissom,41,40-59,Male,White,February,28,2016,2016-02-28,Ashville,Alabama,33.83740362871528,-86.25123291823958,Firearm
 Earl Hicks II,43,40-59,Male,White,February,28,2016,2016-02-28,Rapid City,South Dakota,44.0798166,-103.21700790335038,Firearm
 Akiel Denkins,24,20-39,Male,Black,February,29,2016,2016-02-29,Raleigh,North Carolina,35.76576942639988,-78.63357946971544,Firearm
 Dimitri Corcino,39,20-39,Male,Hispanic/Latino,March,1,2016,2016-03-01,Palm Bay,Florida,28.02838877995686,-80.64068002802905,Firearm
-Jorge Gonzalez,22,20-39,Male,Hispanic/Latino,March,1,2016,2016-03-01,Euless,Texas,32.83093174289854,-97.09115526625409,Firearm
+Jorge Gonzalez,22,20-39,Male,Hispanic/Latino,March,1,2016,2016-03-01,Euless,Texas,32.83093174289854,-97.09115526625408,Firearm
 Mickey Sweatt,37,20-39,Male,White,March,1,2016,2016-03-01,Gautier,Mississippi,30.44692366846305,-88.6458092387215,Firearm
 John Neuman,53,40-59,Male,White,February,3,2016,2016-02-03,Okmulgee County,Oklahoma,35.6677078,-95.9690122,Firearm
 Travis Bradley,35,20-39,Male,White,March,2,2016,2016-03-02,Bel Air,Maryland,39.5355063,-76.3490396,Unarmed
@@ -1342,7 +1342,7 @@ Sergio Ochoa,27,20-39,Male,Hispanic/Latino,March,3,2016,2016-03-03,Gilbert,Arizo
 Alex Thompson,37,20-39,Male,White,March,3,2016,2016-03-03,Selma,North Carolina,35.5365485,-78.2844435,Unarmed
 Brandon Stanley,30,20-39,Male,White,March,4,2016,2016-03-04,East Bernstadt,Kentucky,37.187774647731175,-84.12675117877225,Unarmed
 Darrell Bosell,34,20-39,Male,White,March,5,2016,2016-03-05,Cheektowaga,New York,42.93575585,-78.7165339588901,Firearm
-Herbert Ballance,22,20-39,Male,White,March,5,2016,2016-03-05,Beaumont,Texas,30.070118104545454,-94.14319118181818,Firearm
+Herbert Ballance,22,20-39,Male,White,March,5,2016,2016-03-05,Beaumont,Texas,30.070118104545458,-94.14319118181818,Firearm
 John Chamberlain,66,Above 60,Male,White,March,4,2016,2016-03-04,Mt Ida,Arkansas,34.5544099,-93.6327926,Other
 Osvaldo Torres,41,40-59,Male,Hispanic/Latino,March,6,2016,2016-03-06,South Gate,California,33.9463456,-118.200981,Firearm
 James 'Tony' Scott,42,40-59,Male,White,March,6,2016,2016-03-06,Bismarck,North Dakota,46.808327,-100.783739,Unarmed
@@ -1355,13 +1355,13 @@ Daniel Chavez,41,40-59,Male,Hispanic/Latino,March,7,2016,2016-03-07,Carlsbad,New
 Abelino Cordova-Cuevas,28,20-39,Male,Hispanic/Latino,March,7,2016,2016-03-07,Stockton,California,37.9577016,-121.290779,Unarmed
 Jeffrey Casale,27,20-39,Male,White,March,8,2016,2016-03-08,Tampa,Florida,27.9477595,-82.458444,Non-lethal firearm
 Jason Meador,50,40-59,Male,White,March,10,2016,2016-03-10,Odessa,Texas,31.888183,-102.374146,Firearm
-Arteair Porter Jr,22,20-39,Male,Black,March,10,2016,2016-03-10,Reno,Nevada,39.606107140089364,-119.85410640458693,Non-lethal firearm
+Arteair Porter Jr,22,20-39,Male,Black,March,10,2016,2016-03-10,Reno,Nevada,39.60610714008936,-119.85410640458691,Non-lethal firearm
 Wesley Sheppard,37,20-39,Male,White,March,10,2016,2016-03-10,Biloxi,Mississippi,30.42042807112667,-88.9746630078777,Non-lethal firearm
 Martin Hurtado,21,20-39,Male,Hispanic/Latino,March,10,2016,2016-03-10,Long Beach,California,33.7690164,-118.191604,Firearm
-German Gonzalez,23,20-39,Male,Hispanic/Latino,March,10,2016,2016-03-10,Pueblo,Colorado,37.969658383838386,-104.78672550505051,Other
+German Gonzalez,23,20-39,Male,Hispanic/Latino,March,10,2016,2016-03-10,Pueblo,Colorado,37.969658383838386,-104.78672550505053,Other
 Tyre Privott,25,20-39,Male,Black,March,11,2016,2016-03-11,Norfolk,Virginia,36.8493695,-76.2899539,Firearm
 Manford 'Butch' Moore Jr,51,40-59,Male,White,March,11,2016,2016-03-11,Rosalia,Kansas,37.8152985,-96.6197416,Firearm
-Teodoro Valencia,23,20-39,Male,Hispanic/Latino,March,11,2016,2016-03-11,Newark,California,37.5399937,-122.02768574999999,Firearm
+Teodoro Valencia,23,20-39,Male,Hispanic/Latino,March,11,2016,2016-03-11,Newark,California,37.5399937,-122.02768575,Firearm
 Jack Goodman,46,40-59,Male,White,March,11,2016,2016-03-11,Clinton,Illinois,40.145387,-88.954672,Knife
 Christopher Tokazowski,43,40-59,Male,White,March,11,2016,2016-03-11,Greensboro,North Carolina,36.10750086982997,-79.80864638496271,Firearm
 Peter Gaines,35,20-39,Male,Black,March,12,2016,2016-03-12,Houston,Texas,29.7589382,-95.3676974,Unarmed
@@ -1373,7 +1373,7 @@ Joshua Grubb,30,20-39,Male,White,March,13,2016,2016-03-13,Lenoir City,Tennessee,
 Wesley 'Chad' Deerman,26,20-39,Male,White,March,13,2016,2016-03-13,Piedmont,Alabama,33.93591527411061,-85.60907397442222,Firearm
 Gevork Alachadzhyan,45,40-59,Male,White,March,13,2016,2016-03-13,Glendale,California,34.146202,-118.247109,Other
 Amy McCoy,38,20-39,Female,White,March,13,2016,2016-03-13,Vancouver,Washington,45.6813371,-122.57457251990115,Knife
-Jose Cruz,16,Under 19,Male,Hispanic/Latino,March,13,2016,2016-03-13,Addison,Texas,32.96011925,-96.83000292849707,Unarmed
+Jose Cruz,16,Under 19,Male,Hispanic/Latino,March,13,2016,2016-03-13,Addison,Texas,32.96011925,-96.83000292849708,Unarmed
 Jacai Colson,28,20-39,Male,Black,March,13,2016,2016-03-13,Landover,Maryland,38.918145499999994,-76.87437447729616,Firearm
 Lamar Harris,29,20-39,Male,Black,March,14,2016,2016-03-14,Chicago,Illinois,41.87109205,-87.71819410352818,Firearm
 Joseph Harris,34,20-39,Male,White,March,15,2016,2016-03-15,Russellville,Kentucky,36.8453199,-86.887219,Firearm
@@ -1387,13 +1387,13 @@ Dallis Hernandez,22,20-39,Male,White,March,16,2016,2016-03-16,Davie,Florida,26.0
 Richard Gonzalez,55,40-59,Male,Hispanic/Latino,March,16,2016,2016-03-16,New York,New York,40.8079655,-73.9225639,Unarmed
 Map Kong,38,20-39,Male,Asian/Pacific Islander,March,17,2016,2016-03-17,Burnsville,Minnesota,44.774695300000005,-93.3170847254818,Knife
 Sunny Chin,53,40-59,Male,Asian/Pacific Islander,March,17,2016,2016-03-17,Tampa,Florida,27.9477595,-82.458444,Firearm
-Scott Bennett,29,20-39,Male,Black,March,17,2016,2016-03-17,Houston,Texas,29.921499381088825,-95.41186389684813,Other
-Christopher Nelms,30,20-39,Male,Black,March,17,2016,2016-03-17,Houston,Texas,29.921499381088825,-95.41186389684813,Other
-Michael Mallett,49,40-59,Male,White,March,18,2016,2016-03-18,Byron,California,37.87953433280853,-121.64578246264877,Firearm
+Scott Bennett,29,20-39,Male,Black,March,17,2016,2016-03-17,Houston,Texas,29.921499381088825,-95.41186389684812,Other
+Christopher Nelms,30,20-39,Male,Black,March,17,2016,2016-03-17,Houston,Texas,29.921499381088825,-95.41186389684812,Other
+Michael Mallett,49,40-59,Male,White,March,18,2016,2016-03-18,Byron,California,37.87953433280853,-121.64578246264875,Firearm
 India Beaty,25,20-39,Female,Black,March,19,2016,2016-03-19,Norfolk,Virginia,36.92669,-76.191089,Non-lethal firearm
 Thurman Reynolds,21,20-39,Male,Black,March,19,2016,2016-03-19,Park Forest,Illinois,41.476458,-87.686337,Firearm
 Dylan Whitaker,23,20-39,Male,White,March,19,2016,2016-03-19,Nortonville,Kentucky,37.1908777,-87.4527768,Firearm
-Joshua Douglas,24,20-39,Male,White,March,19,2016,2016-03-19,Covington,Louisiana,30.45704411896615,-90.10823065424817,Unarmed
+Joshua Douglas,24,20-39,Male,White,March,19,2016,2016-03-19,Covington,Louisiana,30.45704411896615,-90.10823065424816,Unarmed
 Torrey Robinson,35,20-39,Male,Black,March,19,2016,2016-03-19,Port Richey,Florida,28.2716755,-82.7195451,Unarmed
 Boyd Ballard,61,Above 60,Male,White,March,20,2016,2016-03-20,Hopewell,Virginia,37.293335,-77.288088,Knife
 Abraham Martinez,62,Above 60,Male,Hispanic/Latino,March,20,2016,2016-03-20,Fort Wayne,Indiana,41.04962365,-85.13330928441984,Firearm
@@ -1403,10 +1403,10 @@ Ralph 'Phil' Grenon,76,Above 60,Male,White,March,21,2016,2016-03-21,Burlington,V
 Edward Gorinski,28,20-39,Male,White,March,21,2016,2016-03-21,Greensburg,Pennsylvania,40.2792589,-79.5471366,Firearm
 Dylan Pape,25,20-39,Male,White,March,21,2016,2016-03-21,Stamford,Connecticut,41.1132354,-73.5277364,Non-lethal firearm
 Travis Blair,33,20-39,Male,White,March,22,2016,2016-03-22,Fredericksburg,Virginia,38.3031837,-77.4605399,Unarmed
-Ethan Rincon,25,20-39,Male,Hispanic/Latino,March,22,2016,2016-03-22,Palmetto Bay,Florida,25.599496000000002,-80.33382047617303,Other
+Ethan Rincon,25,20-39,Male,Hispanic/Latino,March,22,2016,2016-03-22,Palmetto Bay,Florida,25.599496,-80.33382047617303,Other
 Daven Hannu,51,40-59,Male,White,March,23,2016,2016-03-23,Thornton,Colorado,39.94096314512347,-104.98596762433276,Firearm
 Alexio Allen,30,20-39,Male,Black,March,23,2016,2016-03-23,Memphis,Tennessee,35.21151058606406,-89.94960954086817,Firearm
-Raymond Gonzalez,34,20-39,Male,Hispanic/Latino,March,23,2016,2016-03-23,Fresno,California,36.7709174192314,-119.79047829501815,Firearm
+Raymond Gonzalez,34,20-39,Male,Hispanic/Latino,March,23,2016,2016-03-23,Fresno,California,36.7709174192314,-119.79047829501816,Firearm
 Dustin Jones,32,20-39,Male,White,March,23,2016,2016-03-23,Okaloosa Island,Florida,30.39209596108929,-86.59307520773113,Unarmed
 Robert Dussourd,44,40-59,Male,White,March,24,2016,2016-03-24,Braintree,Massachusetts,42.16841740235913,-71.0048391724708,Knife
 Joel Gonzales,48,40-59,Male,Hispanic/Latino,March,24,2016,2016-03-24,Pueblo,Colorado,38.275481,-104.564235,Firearm
@@ -1420,7 +1420,7 @@ Donald White,55,40-59,Male,White,March,26,2016,2016-03-26,Myrtle Beach,South Car
 Jose Perez,39,20-39,Male,Hispanic/Latino,March,26,2016,2016-03-26,Lowell,Massachusetts,42.63167935,-71.3169509658888,Knife
 Robert Guerin,33,20-39,Male,White,March,26,2016,2016-03-26,Roswell,New Mexico,33.384925,-104.554542,Firearm
 Deriante Miller,18,Under 19,Male,Black,March,27,2016,2016-03-27,Kinston,North Carolina,35.2626635,-77.5816353,Firearm
-Loreal Tsingine,27,20-39,Female,Native American,March,27,2016,2016-03-27,Winslow,Arizona,35.02402077551021,-110.69645430612245,Other
+Loreal Tsingine,27,20-39,Female,Native American,March,27,2016,2016-03-27,Winslow,Arizona,35.02402077551021,-110.69645430612243,Other
 Jeffrey Lanahan,34,20-39,Male,White,March,27,2016,2016-03-27,Lee's Summit,Missouri,38.9107156,-94.3821295,Knife
 Earl Ashby,33,20-39,Male,White,March,27,2016,2016-03-27,Splendora,Texas,30.2329914,-95.1610438,Firearm
 Alice Goudie,64,Above 60,Female,White,March,28,2016,2016-03-28,Plymouth,California,38.4811843,-120.847692,Unarmed
@@ -1437,50 +1437,50 @@ Jesse Juarez,65,Above 60,Male,Hispanic/Latino,April,1,2016,2016-04-01,Lockhart,T
 Joel Fabela,38,20-39,Male,Hispanic/Latino,April,1,2016,2016-04-01,Odessa,Texas,31.8457149,-102.367687,Firearm
 Cameron Glover,30,20-39,Male,Black,April,2,2016,2016-04-02,Indianapolis,Indiana,39.82414018456376,-86.23748786577181,Firearm
 David Mack,69,Above 60,Male,White,April,3,2016,2016-04-03,Eau Claire,Wisconsin,44.82378079934617,-91.5458341391289,Other
-Darrin Martin,25,20-39,Male,White,April,3,2016,2016-04-03,Austin,Texas,30.2700955,-97.75113395312499,Firearm
+Darrin Martin,25,20-39,Male,White,April,3,2016,2016-04-03,Austin,Texas,30.2700955,-97.751133953125,Firearm
 Melissa Boarts,36,20-39,Female,White,April,3,2016,2016-04-03,Notasulga,Alabama,32.5606908,-85.6724538,Knife
 Preston Perez,48,40-59,Male,White,April,3,2016,2016-04-03,Raceland,Louisiana,29.7274331,-90.598976,Other
 Raul Marquez-Heraldes,50,40-59,Male,Hispanic/Latino,April,4,2016,2016-04-04,Minneapolis,Minnesota,44.962145,-93.244132,Knife
 Darius Robinson,41,40-59,Male,Black,April,4,2016,2016-04-04,Anadarko,Oklahoma,35.073817,-98.245494,Unarmed
 Kevin Hicks,44,40-59,Male,Black,April,5,2016,2016-04-05,Indianapolis,Indiana,39.7815997,-86.1162338,Unarmed
-Peter Doherty,52,40-59,Male,White,April,5,2016,2016-04-05,West Springfield,Massachusetts,42.133136199999996,-72.62695185209647,Knife
+Peter Doherty,52,40-59,Male,White,April,5,2016,2016-04-05,West Springfield,Massachusetts,42.1331362,-72.62695185209647,Knife
 Cesar Frias,20,20-39,Male,Hispanic/Latino,April,6,2016,2016-04-06,Los Angeles,California,34.307464,-118.452981,Knife
 Marvin Cremeans,60,Above 60,Male,White,April,6,2016,2016-04-06,Oak Hill,Ohio,38.8939646,-82.573495,Other
-Christopher Erdman,39,20-39,Male,White,April,6,2016,2016-04-06,Bradenton,Florida,27.475654900000002,-82.53959969579046,Unarmed
+Christopher Erdman,39,20-39,Male,White,April,6,2016,2016-04-06,Bradenton,Florida,27.4756549,-82.53959969579046,Unarmed
 Laronda Sweatt,40,40-59,Female,Black,April,6,2016,2016-04-06,Gallatin,Tennessee,36.37011658363426,-86.43598308688422,Other
-Luis Góngora,45,40-59,Male,Hispanic/Latino,April,7,2016,2016-04-07,San Francisco,California,37.747768783593784,-122.41489663653273,Knife
+Luis Góngora,45,40-59,Male,Hispanic/Latino,April,7,2016,2016-04-07,San Francisco,California,37.747768783593784,-122.41489663653272,Knife
 Lance McIntire,44,40-59,Male,Native American,April,7,2016,2016-04-07,Omaha,Nebraska,41.2587459,-95.9383758,Other
 Christopher Wilson,41,40-59,Male,White,April,7,2016,2016-04-07,Gould,Arkansas,33.985221,-91.5612058,Unarmed
 Dazion 'Jerome' Flenaugh,40,40-59,Male,Black,April,8,2016,2016-04-08,Sacramento,California,38.481441,-121.440347,Knife
 Lamont Gulley,43,40-59,Male,Black,April,8,2016,2016-04-08,Kentwood,Michigan,42.8694731,-85.6447492,Knife
-Melissa Abbott,25,20-39,Female,White,April,8,2016,2016-04-08,Lake Hallie,Wisconsin,44.88330295,-91.42192499620833,Other
+Melissa Abbott,25,20-39,Female,White,April,8,2016,2016-04-08,Lake Hallie,Wisconsin,44.88330295,-91.42192499620832,Other
 Diahlo Grant,27,20-39,Male,Black,April,9,2016,2016-04-09,New Brunswick,New Jersey,40.498244558886135,-74.44507675587204,Firearm
 Quron Williams,19,Under 19,Male,Black,April,9,2016,2016-04-09,Philadelphia,Pennsylvania,40.039826,-75.143473,Firearm
 Lonnie Ball,39,20-39,Male,White,April,10,2016,2016-04-10,Modesto,California,37.64858631210311,-120.9600577322543,Firearm
-Arturo Yobani-Torrez Valdez,27,20-39,Male,Hispanic/Latino,April,10,2016,2016-04-10,Los Angeles,California,34.05021825,-118.22488540307843,Knife
+Arturo Yobani-Torrez Valdez,27,20-39,Male,Hispanic/Latino,April,10,2016,2016-04-10,Los Angeles,California,34.05021825,-118.22488540307845,Knife
 William Clark III,30,20-39,Male,White,April,10,2016,2016-04-10,Rotterdam,New York,42.7755982,-73.9364482,Knife
 Luis Soto,29,20-39,Male,Hispanic/Latino,April,10,2016,2016-04-10,Memphis,Tennessee,35.085012,-89.931116,Firearm
 Pierre Loury,16,Under 19,Male,Black,April,11,2016,2016-04-11,Chicago,Illinois,41.867377,-87.711349,Firearm
-Efren Trujillo-Soriano,22,20-39,Male,Hispanic/Latino,April,11,2016,2016-04-11,Las Vegas,Nevada,36.14642510426841,-115.15336277308779,Firearm
-Mary Truxillo,72,Above 60,Female,Black,April,11,2016,2016-04-11,Marrero,Louisiana,29.89389280183732,-90.09995012741265,Unarmed
+Efren Trujillo-Soriano,22,20-39,Male,Hispanic/Latino,April,11,2016,2016-04-11,Las Vegas,Nevada,36.14642510426841,-115.1533627730878,Firearm
+Mary Truxillo,72,Above 60,Female,Black,April,11,2016,2016-04-11,Marrero,Louisiana,29.89389280183732,-90.09995012741264,Unarmed
 Dion Damon,40,40-59,Male,White,April,12,2016,2016-04-12,Denver,Colorado,39.7392364,-104.984862,Unarmed
 Travis Wood,20,20-39,Male,White,April,12,2016,2016-04-12,Noma,Florida,30.99139550570978,-85.61561509333701,Vehicle
 Joshua Moreno,38,20-39,Male,Hispanic/Latino,April,12,2016,2016-04-12,Benton,Illinois,39.96112758766521,-89.5580240239223,Firearm
-Rodney Watts,35,20-39,Male,Black,April,13,2016,2016-04-13,Stockton,California,38.02225856731185,-121.29108534382587,Other
+Rodney Watts,35,20-39,Male,Black,April,13,2016,2016-04-13,Stockton,California,38.02225856731185,-121.29108534382588,Other
 Jeffrey Wise,52,40-59,Male,White,April,13,2016,2016-04-13,Llano,Texas,30.6663312,-98.6970374,Firearm
 Koltlee Whitson,26,20-39,Male,White,April,13,2016,2016-04-13,Sparta,Tennessee,35.9258921,-85.4641342,Firearm
 Jeff Robertson,54,40-59,Male,White,April,14,2016,2016-04-14,McPherson,Kansas,38.3659015,-97.6575171,Unarmed
 Allen 'Storm' Smith,26,20-39,Male,White,April,15,2016,2016-04-15,Muncie,Indiana,40.19301923580255,-85.3390682765218,Other
 David Swatsky,52,40-59,Male,White,April,15,2016,2016-04-15,Cache,Oklahoma,34.6295165,-98.6286741,Firearm
 Clemente Najera,38,20-39,Male,Hispanic/Latino,April,15,2016,2016-04-15,Lake Elsinore,California,33.670554,-117.32982,Other
-Robert Howard,44,40-59,Male,Black,April,15,2016,2016-04-15,Baltimore,Maryland,39.288673599999996,-76.63973805675685,Non-lethal firearm
+Robert Howard,44,40-59,Male,Black,April,15,2016,2016-04-15,Baltimore,Maryland,39.2886736,-76.63973805675685,Non-lethal firearm
 Gerald Boyes,52,40-59,Male,White,April,16,2016,2016-04-16,Antioch,Illinois,42.4767131,-88.0950691,Firearm
 Wade Kloesel,27,20-39,Male,White,April,16,2016,2016-04-16,Victoria,Texas,28.892385,-96.997036,Unarmed
 Kisha Arrone,35,20-39,Female,Black,April,17,2016,2016-04-17,Dayton,Ohio,39.742198,-84.242737,Firearm
 George Tillman,32,20-39,Male,Black,April,17,2016,2016-04-17,South Ozone Park,New York,40.6701035,-73.8190231,Firearm
 Richard Bard Jr,31,20-39,Male,Black,April,17,2016,2016-04-17,Vineland,New Jersey,39.4862777,-75.0254256,Firearm
 Edson Thevenin,38,20-39,Male,Black,April,17,2016,2016-04-17,Troy,New York,42.72842893570928,-73.68705959378653,Vehicle
-Eric Wilson,22,20-39,Male,White,April,17,2016,2016-04-17,El Paso,Texas,31.87180613342882,-106.55651156714225,Unarmed
+Eric Wilson,22,20-39,Male,White,April,17,2016,2016-04-17,El Paso,Texas,31.87180613342882,-106.55651156714224,Unarmed
 Rico Johnson,28,20-39,Male,Black,April,18,2016,2016-04-18,Greenbelt,Maryland,39.003756,-76.900569,Firearm
 Demetrius Dorsey,18,Under 19,Male,Black,April,18,2016,2016-04-18,Mableton,Georgia,33.8188333,-84.5822632,Firearm
 Jorevis Scruggs,15,Under 19,Male,Black,April,19,2016,2016-04-19,St Louis,Missouri,38.6540201,-90.21944732012246,Firearm
@@ -1499,19 +1499,19 @@ Demarcus Semer,21,20-39,Male,Black,April,23,2016,2016-04-23,Fort Pierce,Florida,
 Eric Wakup,30,20-39,Male,White,April,23,2016,2016-04-23,Norfolk,Virginia,36.8595569,-76.2776154,Firearm
 Willie Tillman,33,20-39,Male,Black,April,23,2016,2016-04-23,Fayetteville,Arkansas,36.09845675205157,-94.15207585338004,Unarmed
 Bradford Macomber,53,40-59,Male,White,April,24,2016,2016-04-24,Gulfport,Mississippi,30.38022788109524,-89.03537865721276,Unarmed
-Terrill Thomas,38,20-39,Male,Black,April,24,2016,2016-04-24,Milwaukee,Wisconsin,43.042652849999996,-87.92385060926549,Unarmed
+Terrill Thomas,38,20-39,Male,Black,April,24,2016,2016-04-24,Milwaukee,Wisconsin,43.04265285,-87.92385060926549,Unarmed
 Kay Campbell,60,Above 60,Female,White,April,25,2016,2016-04-25,East Flat Rock,North Carolina,35.28373658459914,-82.418842329022,Firearm
-Jonathan Watson,46,40-59,Male,White,April,25,2016,2016-04-25,Ocean View,Hawaii,19.084504799999998,-155.77352180511596,Unarmed
+Jonathan Watson,46,40-59,Male,White,April,25,2016,2016-04-25,Ocean View,Hawaii,19.0845048,-155.77352180511596,Unarmed
 Jacquelyn Burke,24,20-39,Female,White,April,26,2016,2016-04-26,Albuquerque,New Mexico,35.145761,-106.529214,Firearm
 Joshua Brooks,26,20-39,Male,Black,April,26,2016,2016-04-26,Chesapeake,Virginia,36.81679285,-76.23338516232016,Firearm
-Robin Barber,28,20-39,Male,White,April,26,2016,2016-04-26,Lakewood,Colorado,39.72330060714286,-105.08140107142857,Firearm
-Darrel Machemehl,44,40-59,Male,White,April,26,2016,2016-04-26,Kingsbury,Texas,29.661520799999998,-97.81543529471699,Firearm
+Robin Barber,28,20-39,Male,White,April,26,2016,2016-04-26,Lakewood,Colorado,39.72330060714286,-105.08140107142856,Firearm
+Darrel Machemehl,44,40-59,Male,White,April,26,2016,2016-04-26,Kingsbury,Texas,29.6615208,-97.815435294717,Firearm
 Antonio Gonzalez,34,20-39,Male,Hispanic/Latino,April,26,2016,2016-04-26,Lawrence,Massachusetts,42.7000472,-71.17261655646354,Firearm
 Damon Blair,21,20-39,Male,White,April,27,2016,2016-04-27,Westminster,Colorado,39.828995,-105.044193,Firearm
 Cin Mung,34,20-39,Male,Asian/Pacific Islander,April,27,2016,2016-04-27,Atlanta,Georgia,33.7489924,-84.3902644,Other
 David Anderson,36,20-39,Male,White,April,27,2016,2016-04-27,Murray,Utah,40.6667841,-111.888417,Firearm
 Kendar del Rosario,37,20-39,Male,Hispanic/Latino,April,28,2016,2016-04-28,Miami,Florida,25.7741728,-80.19362,Knife
-Ashtian Barnes,25,20-39,Male,Black,April,28,2016,2016-04-28,Houston,Texas,29.755195778594963,-95.55777250554995,Unarmed
+Ashtian Barnes,25,20-39,Male,Black,April,28,2016,2016-04-28,Houston,Texas,29.755195778594963,-95.55777250554996,Unarmed
 Michael Kurtz,45,40-59,Male,White,April,28,2016,2016-04-28,Spokane,Washington,47.656269,-117.412163,Knife
 Lee Easter,54,40-59,Male,White,April,28,2016,2016-04-28,Boise,Idaho,43.6166163,-116.200886,Firearm
 Jeffrey Hobbs,48,40-59,Male,White,April,29,2016,2016-04-29,Jackson,Missouri,39.0355211,-94.35835090354078,Unarmed
@@ -1543,7 +1543,7 @@ Jamie Stotts,29,20-39,Male,White,May,9,2016,2016-05-09,Nacogdoches,Texas,31.5970
 Arthur DaRosa,28,20-39,Male,Black,May,10,2016,2016-05-10,Taunton,Massachusetts,41.867434,-71.051116,Knife
 Stephen Schuster,35,20-39,Male,White,May,11,2016,2016-05-11,Aurora,Colorado,39.575556,-104.735367,Firearm
 Sean Mondragon,24,20-39,Male,Black,May,11,2016,2016-05-11,Evans,Colorado,40.3772168,-104.6977634,Firearm
-Thongsoune Vilaysane,30,20-39,Male,Asian/Pacific Islander,May,11,2016,2016-05-11,San Diego,California,32.70463716674476,-117.05586553230931,Vehicle
+Thongsoune Vilaysane,30,20-39,Male,Asian/Pacific Islander,May,11,2016,2016-05-11,San Diego,California,32.70463716674476,-117.05586553230933,Vehicle
 Stephen Godfrey,69,Above 60,Male,White,May,11,2016,2016-05-11,Byng,Oklahoma,34.8611959,-96.6655688,Firearm
 Cody Franklin,20,20-39,Male,White,May,11,2016,2016-05-11,Ozark,Arkansas,35.48600031817136,-93.8254964544648,Unarmed
 Michael Gaffney,37,20-39,Male,White,May,13,2016,2016-05-13,Union,New Jersey,40.695418,-74.270784,Unarmed
@@ -1551,7 +1551,7 @@ Robert Diaz,28,20-39,Male,Hispanic/Latino,May,13,2016,2016-05-13,Los Angeles,Cal
 Mylynda Martinez,27,20-39,Female,Hispanic/Latino,May,13,2016,2016-05-13,Mascotte,Florida,28.5783313,-81.8867452,Unarmed
 Kimberly King,46,40-59,Female,White,May,13,2016,2016-05-13,Mascotte,Florida,28.5783313,-81.8867452,Unarmed
 Ryan Johnson,34,20-39,Male,White,May,14,2016,2016-05-14,Stockbridge,Georgia,33.5442781,-84.2338093,Other
-Francis Clark,43,40-59,Male,Native American,May,14,2016,2016-05-14,Phoenix,Arizona,33.46586894736842,-112.13945889473685,Firearm
+Francis Clark,43,40-59,Male,Native American,May,14,2016,2016-05-14,Phoenix,Arizona,33.46586894736842,-112.13945889473683,Firearm
 Jeffrey Sims,59,40-59,Male,White,May,14,2016,2016-05-14,Osteen,Florida,28.8461019,-81.1625612,Firearm
 Cody Marsh,19,Under 19,Male,White,May,14,2016,2016-05-14,Jacksonville,Florida,30.33940981495443,-81.67784782311858,Knife
 Scott Macomber,48,40-59,Male,White,May,16,2016,2016-05-16,Fall River,Massachusetts,41.687346713593506,-71.18341597570662,Unarmed
@@ -1562,9 +1562,9 @@ Luke Sanders,36,20-39,Male,White,May,17,2016,2016-05-17,Montague,California,41.7
 Garry Conrad,46,40-59,Male,White,May,18,2016,2016-05-18,New York,New York,40.7618341,-73.986178,Knife
 Joseph Weatherby,44,40-59,Male,White,May,18,2016,2016-05-18,West Sullivan,Missouri,38.192258499999994,-91.19257277374524,Firearm
 Israel Santos-Banos,19,Under 19,Male,Hispanic/Latino,May,18,2016,2016-05-18,Phoenix,Arizona,33.376029,-112.164152,Firearm
-Jeremias Cruz,30,20-39,Male,Hispanic/Latino,May,19,2016,2016-05-19,North Las Vegas,Nevada,36.19718765557489,-115.12726176925109,Unarmed
+Jeremias Cruz,30,20-39,Male,Hispanic/Latino,May,19,2016,2016-05-19,North Las Vegas,Nevada,36.19718765557489,-115.12726176925108,Unarmed
 Jessica Williams,29,20-39,Female,Black,May,19,2016,2016-05-19,San Francisco,California,37.7792588,-122.4193286,Unarmed
-Jaime Ide,35,20-39,Male,Hispanic/Latino,May,19,2016,2016-05-19,Citrus Heights,California,38.67981673809551,-121.27602316728897,Knife
+Jaime Ide,35,20-39,Male,Hispanic/Latino,May,19,2016,2016-05-19,Citrus Heights,California,38.67981673809551,-121.27602316728895,Knife
 Kentrill Carraway,22,20-39,Male,Black,May,19,2016,2016-05-19,Miami,Florida,25.7741728,-80.19362,Firearm
 Timothy Stacy,36,20-39,Male,White,May,19,2016,2016-05-19,Fisty,Kentucky,37.3339851,-83.1015577,Firearm
 Joshua Beebee,31,20-39,Male,Black,May,20,2016,2016-05-20,Omaha,Nebraska,41.2587459,-95.9383758,Knife
@@ -1579,17 +1579,17 @@ Bryson Fischer,28,20-39,Male,White,May,22,2016,2016-05-22,Boulder,Colorado,40.01
 Vernell Bing Jr,22,20-39,Male,Black,May,22,2016,2016-05-22,Jacksonville,Florida,30.346283436342045,-81.6345790054926,Unarmed
 Verl Bedonie,26,20-39,Male,Native American,May,23,2016,2016-05-23,Flagstaff,Arizona,35.1927569,-111.65855555,Firearm
 Bodhi Phelps,22,20-39,Male,White,May,24,2016,2016-05-24,Gresham,Oregon,45.4978623,-122.4329883,Knife
-Leslie Goletz,57,40-59,Male,White,May,24,2016,2016-05-24,Peculiar,Missouri,38.72946656383727,-94.46120756368401,Other
+Leslie Goletz,57,40-59,Male,White,May,24,2016,2016-05-24,Peculiar,Missouri,38.72946656383727,-94.461207563684,Other
 Mario Montoya,31,20-39,Male,Hispanic/Latino,May,24,2016,2016-05-24,Albuquerque,New Mexico,35.066851868499434,-106.50896261991694,Firearm
 Derek Prophet,43,40-59,Male,White,May,25,2016,2016-05-25,Oklahoma City,Oklahoma,35.4729886,-97.5170536,Knife
 Doll Pierre-Louis,24,20-39,Male,Black,May,25,2016,2016-05-25,Miami Gardens,Florida,25.9420377,-80.2456045,Unarmed
 Eugene Smith,29,20-39,Male,White,May,26,2016,2016-05-26,St Paul,Minnesota,44.962975666666665,-93.011753,Firearm
-Angel Navarro,25,20-39,Male,Hispanic/Latino,May,26,2016,2016-05-26,Socorro,New Mexico,34.05109485,-106.88731605000001,Other
+Angel Navarro,25,20-39,Male,Hispanic/Latino,May,26,2016,2016-05-26,Socorro,New Mexico,34.05109485,-106.88731605,Other
 Warren Christian,43,40-59,Male,White,May,26,2016,2016-05-26,Lansing,Illinois,41.5895048,-87.5581069,Firearm
 Devonte Gates,21,20-39,Male,Black,May,26,2016,2016-05-26,East St Louis,Illinois,38.6268666,-90.159707,Unarmed
-Fernando Castro,19,Under 19,Male,Hispanic/Latino,May,26,2016,2016-05-26,Solvang,California,34.58793144248789,-120.14770102166507,Firearm
+Fernando Castro,19,Under 19,Male,Hispanic/Latino,May,26,2016,2016-05-26,Solvang,California,34.58793144248789,-120.14770102166509,Firearm
 Donavam Garcia,45,40-59,Male,Hispanic/Latino,May,26,2016,2016-05-26,San Antonio,Texas,29.35583302162962,-98.63120324809454,Firearm
-Tonnia Jarvis,48,40-59,Female,White,May,26,2016,2016-05-26,Sneads,Florida,30.708479863860354,-84.91699752476322,Knife
+Tonnia Jarvis,48,40-59,Female,White,May,26,2016,2016-05-26,Sneads,Florida,30.70847986386035,-84.91699752476322,Knife
 Terry Edwards,59,40-59,Male,White,May,27,2016,2016-05-27,Indianapolis,Indiana,39.727387,-86.160196,Firearm
 Dennis Humphrey,58,40-59,Male,White,May,28,2016,2016-05-28,Albuquerque,New Mexico,35.12845161556964,-106.60100819629562,Firearm
 Dennis Hudson,50,40-59,Male,Black,May,28,2016,2016-05-28,Eastaboga,Alabama,33.6059367,-86.0213587,Other
@@ -1597,11 +1597,11 @@ Ernesto Carraman,41,40-59,Male,Hispanic/Latino,May,28,2016,2016-05-28,San Antoni
 Ollie Brooks,64,Above 60,Male,Black,May,28,2016,2016-05-28,Tulsa,Oklahoma,36.14824455102041,-95.8510883877551,Unarmed
 Todd Burroughs,38,20-39,Male,White,May,29,2016,2016-05-29,Stoneville,North Carolina,36.4665269,-79.9069847,Other
 John Coffey,53,40-59,Male,White,May,29,2016,2016-05-29,Clinton,North Carolina,35.0055181,-78.312502,Firearm
-Dionisio Garza III,25,20-39,Male,Hispanic/Latino,May,29,2016,2016-05-29,Houston,Texas,29.769649636156974,-95.45098968106036,Firearm
+Dionisio Garza III,25,20-39,Male,Hispanic/Latino,May,29,2016,2016-05-29,Houston,Texas,29.769649636156977,-95.45098968106036,Firearm
 Donald Brown III,32,20-39,Male,White,May,29,2016,2016-05-29,DeLand,Florida,28.98939095,-81.30112645,Knife
 Charles Todero,30,20-39,Male,White,May,29,2016,2016-05-29,Greenwood,Indiana,39.6136987,-86.1095429,Unarmed
 Osee Calix,33,20-39,Male,Black,May,30,2016,2016-05-30,Tucson,Arizona,32.2228765,-110.974847,Firearm
-Robert Wickizer,70,Above 60,Male,White,May,30,2016,2016-05-30,Tualatin,Oregon,45.393914750839116,-122.77914162370706,Firearm
+Robert Wickizer,70,Above 60,Male,White,May,30,2016,2016-05-30,Tualatin,Oregon,45.39391475083912,-122.77914162370706,Firearm
 Nicholas Berger,36,20-39,Male,White,May,31,2016,2016-05-31,Bend,Oregon,44.03015796837445,-121.31105161458828,Knife
 Kevin Marshall,30,20-39,Male,White,June,1,2016,2016-06-01,Phoenix,Arizona,33.4691788,-112.2229827450199,Firearm
 Daniel Pigg,51,40-59,Male,White,June,1,2016,2016-06-01,Berea,Kentucky,37.568694,-84.2963224,Firearm
@@ -1631,7 +1631,7 @@ William Hollis,34,20-39,Male,White,June,9,2016,2016-06-09,Birmingham,Alabama,33.
 John Brisco,52,40-59,Male,Black,June,9,2016,2016-06-09,Port Arthur,Texas,29.8716577,-93.9332302,Other
 Unknown,Unknown,Unknown,Male,Hispanic/Latino,June,9,2016,2016-06-09,Somerton,Arizona,32.5964404,-114.709677,Other
 Bobby Sanchez,32,20-39,Male,Hispanic/Latino,June,10,2016,2016-06-10,Pueblo,Colorado,38.29519226548818,-104.62565425715316,Other
-Juan Briseno-Ortega,50,40-59,Male,Hispanic/Latino,June,10,2016,2016-06-10,Yakima,Washington,46.566761882714204,-120.59787494177583,Firearm
+Juan Briseno-Ortega,50,40-59,Male,Hispanic/Latino,June,10,2016,2016-06-10,Yakima,Washington,46.56676188271421,-120.59787494177584,Firearm
 Clayton Millsaps,29,20-39,Male,White,June,10,2016,2016-06-10,Statesville,North Carolina,35.7826363,-80.8872959,Other
 Keith Bursey,31,20-39,Male,Black,June,10,2016,2016-06-10,Los Angeles,California,34.0536909,-118.242766,Firearm
 Jesus Duran,31,20-39,Male,Hispanic/Latino,June,11,2016,2016-06-11,Maywood,California,33.99456,-118.193302,Other
@@ -1648,7 +1648,7 @@ Kenneth Pointer,43,40-59,Male,White,June,14,2016,2016-06-14,Ridgefield,Washingto
 Nicholas Ferro,47,40-59,Male,White,June,14,2016,2016-06-14,Odessa,Missouri,39.009320364235634,-93.98226794671596,Firearm
 Fernando Geovanni LLanez,22,20-39,Male,Hispanic/Latino,June,14,2016,2016-06-14,Chula Vista,California,32.661935,-116.971273,Other
 Russell Rosser,43,40-59,Male,White,June,15,2016,2016-06-15,Tulsa,Oklahoma,36.1563122,-95.9927516,Vehicle
-Michael Rasmussen,38,20-39,Male,White,June,15,2016,2016-06-15,Pembine,Wisconsin,45.639974886514004,-87.97958530349115,Firearm
+Michael Rasmussen,38,20-39,Male,White,June,15,2016,2016-06-15,Pembine,Wisconsin,45.639974886514,-87.97958530349115,Firearm
 Ronald Delfino,21,20-39,Male,Hispanic/Latino,June,16,2016,2016-06-16,Albuquerque,New Mexico,35.0841034,-106.650985,Firearm
 Peter Grandpre,36,20-39,Male,White,June,16,2016,2016-06-16,Butte,Montana,46.00673732670477,-112.54598849481634,Firearm
 Nicholas Damon,30,20-39,Male,Hispanic/Latino,June,16,2016,2016-06-16,Arvada,Colorado,39.8005505,-105.0811573,Vehicle
@@ -1659,15 +1659,15 @@ Antwun Shumpert,37,20-39,Male,Black,June,18,2016,2016-06-18,Tupelo,Mississippi,3
 Rashaun Lloyd,25,20-39,Male,Black,June,19,2016,2016-06-19,Bronx,New York,40.825047181807506,-73.82409174114314,Firearm
 Anthony Ford,30,20-39,Male,White,June,19,2016,2016-06-19,Fort Walton Beach,Florida,30.4057552,-86.618842,Firearm
 Clarence Howard,25,20-39,Male,Black,June,19,2016,2016-06-19,Palm Bay,Florida,27.9946969,-80.6366144,Unarmed
-Gary Porter,41,40-59,Male,Black,June,19,2016,2016-06-19,Syracuse,New York,43.043453299999996,-76.15810935,Firearm
+Gary Porter,41,40-59,Male,Black,June,19,2016,2016-06-19,Syracuse,New York,43.0434533,-76.15810935,Firearm
 Raufeal Bostick,23,20-39,Male,Black,June,20,2016,2016-06-20,Hardeeville,South Carolina,32.2854603,-81.0826472,Firearm
-Devin Scott,20,20-39,Male,White,June,20,2016,2016-06-20,Lake Havasu City,Arizona,34.49406757758148,-114.32180614949739,Knife
+Devin Scott,20,20-39,Male,White,June,20,2016,2016-06-20,Lake Havasu City,Arizona,34.49406757758148,-114.3218061494974,Knife
 Lane Lesko,19,Under 19,Male,White,June,21,2016,2016-06-21,Peterborough,New Hampshire,42.907726294484334,-71.92812776779745,Non-lethal firearm
 Pedro Cruz-Amado,24,20-39,Male,Hispanic/Latino,June,21,2016,2016-06-21,Lawndale,North Carolina,35.41492025277817,-81.57024420410633,Unarmed
 Jeffrey Hyde,50,40-59,Male,White,June,21,2016,2016-06-21,Casper,Wyoming,42.8501191,-106.325138,Firearm
 Isaiah Core III,20,20-39,Male,Black,June,22,2016,2016-06-22,Birmingham,Alabama,33.5206824,-86.8024326,Vehicle
 Roger Ponce,37,20-39,Male,Hispanic/Latino,June,22,2016,2016-06-22,Wellington,Florida,26.662491,-80.26432,Knife
-Josiah Williams,25,20-39,Male,White,June,22,2016,2016-06-22,Colorado Springs,Colorado,38.793785643229924,-104.76871185050453,Firearm
+Josiah Williams,25,20-39,Male,White,June,22,2016,2016-06-22,Colorado Springs,Colorado,38.79378564322992,-104.76871185050452,Firearm
 Quencezola Splunge,44,40-59,Male,Black,June,22,2016,2016-06-22,Walls,Mississippi,34.9578728,-90.1517605,Firearm
 Antonio Richardson,46,40-59,Male,Black,June,22,2016,2016-06-22,Flint,Michigan,43.07311037373738,-83.71021648484849,Knife
 Shaun Walke,31,20-39,Male,White,June,22,2016,2016-06-22,Bellville,Texas,29.9502253,-96.2571858,Firearm
@@ -1678,9 +1678,9 @@ Ismael Miranda,36,20-39,Male,Black,June,24,2016,2016-06-24,Paterson,New Jersey,4
 Joshua Herrera,29,20-39,Male,Hispanic/Latino,June,24,2016,2016-06-24,Hanover,New Mexico,32.80996867945109,-108.09099909903247,Firearm
 Christy Sheats,42,40-59,Female,White,June,24,2016,2016-06-24,Katy,Texas,29.7857853,-95.8243956,Firearm
 Miguel Chavez-Angles,42,40-59,Male,Hispanic/Latino,June,24,2016,2016-06-24,Oklahoma City,Oklahoma,35.4729886,-97.5170536,Other
-Randy Blecher,50,40-59,Male,White,June,24,2016,2016-06-24,Farmington,Arkansas,36.04136415,-94.23455429892097,Firearm
+Randy Blecher,50,40-59,Male,White,June,24,2016,2016-06-24,Farmington,Arkansas,36.04136415,-94.23455429892095,Firearm
 Rodrigo Guardiola,36,20-39,Male,Hispanic/Latino,June,25,2016,2016-06-25,Gainesville,Georgia,34.2978794,-83.8240663,Unarmed
-Waldemar Bogusiewicz,59,40-59,Male,White,June,25,2016,2016-06-25,Pinellas Park,Florida,27.859572244897958,-82.71790228571429,Firearm
+Waldemar Bogusiewicz,59,40-59,Male,White,June,25,2016,2016-06-25,Pinellas Park,Florida,27.85957224489796,-82.71790228571429,Firearm
 Dylan Noble,19,Under 19,Male,White,June,25,2016,2016-06-25,Fresno,California,36.7394421,-119.78483,Unarmed
 William Ferguson,Unknown,Unknown,Male,Other,June,25,2016,2016-06-25,Buckeye,Arizona,33.3703197,-112.583776,Firearm
 Donte Johnson,30,20-39,Male,Black,June,26,2016,2016-06-26,Dolton,Illinois,41.622754459183675,-87.58347169387754,Firearm
@@ -1727,9 +1727,9 @@ Melissa Ventura,24,20-39,Female,Hispanic/Latino,July,5,2016,2016-07-05,Yuma,Ariz
 Philando Castile,32,20-39,Male,Black,July,6,2016,2016-07-06,Falcon Heights,Minnesota,44.9898128,-93.1762507,Disputed
 Thomas Vandemark,65,Above 60,Male,White,July,6,2016,2016-07-06,Rush Springs,Oklahoma,34.7825721,-97.9569845,Firearm
 Victor Sigala,19,Under 19,Male,Hispanic/Latino,July,6,2016,2016-07-06,Covina,California,34.089164,-117.907599,Firearm
-Vinson Ramos,37,20-39,Male,Hispanic/Latino,July,7,2016,2016-07-07,Bell,California,33.9711797328816,-118.18780447921901,Knife
+Vinson Ramos,37,20-39,Male,Hispanic/Latino,July,7,2016,2016-07-07,Bell,California,33.9711797328816,-118.187804479219,Knife
 Adam Smith,33,20-39,Male,White,July,7,2016,2016-07-07,Clovis,California,36.823619736109954,-119.72251111912595,Vehicle
-Micah Johnson,25,20-39,Male,Black,July,7,2016,2016-07-07,Dallas,Texas,32.78407490264456,-96.78279697438373,Firearm
+Micah Johnson,25,20-39,Male,Black,July,7,2016,2016-07-07,Dallas,Texas,32.78407490264456,-96.78279697438371,Firearm
 Earnest Fells,62,Above 60,Male,Black,July,7,2016,2016-07-07,Selma,Alabama,32.411021,-87.032774,Firearm
 Edmund Studdard,46,40-59,Male,White,July,7,2016,2016-07-07,Cordova,Tennessee,35.1556451,-89.7761955,Knife
 Abraham Smith,30,20-39,Male,White,July,8,2016,2016-07-08,Tucson,Arizona,32.2228765,-110.974847,Knife
@@ -1753,7 +1753,7 @@ Patrick Fennell,57,40-59,Male,White,July,16,2016,2016-07-16,Little Egg Harbor To
 Jermaine Johnson,42,40-59,Male,Black,July,17,2016,2016-07-17,Brooklyn,New York,40.72007207465764,-73.93954474137195,Firearm
 Kevin Higgins,37,20-39,Male,White,July,17,2016,2016-07-17,Sheboygan,Wisconsin,43.731979,-87.723653,Firearm
 Michael Ramsey Jr,43,40-59,Male,White,July,17,2016,2016-07-17,Tulsa,Oklahoma,36.175252,-95.95103,Knife
-Gavin Long,29,20-39,Male,Black,July,17,2016,2016-07-17,Baton Rouge,Louisiana,30.508301859247766,-91.13964843237983,Firearm
+Gavin Long,29,20-39,Male,Black,July,17,2016,2016-07-17,Baton Rouge,Louisiana,30.50830185924777,-91.13964843237984,Firearm
 Andrew Esquivel,21,20-39,Male,Hispanic/Latino,July,17,2016,2016-07-17,Brooklyn,New York,40.71847115,-73.95681225705547,Unarmed
 Patrick O'Rourke,50,40-59,Male,White,July,17,2016,2016-07-17,Port Vincent,Louisiana,30.3344544,-90.8447491,Other
 Jerry Brimer,56,40-59,Male,White,July,18,2016,2016-07-18,Tulsa,Oklahoma,36.099875,-96.018535,Other
@@ -1777,7 +1777,7 @@ Humberto Martinez,32,20-39,Male,Hispanic/Latino,July,26,2016,2016-07-26,Pittsbur
 John Heffran,58,40-59,Male,Other,July,26,2016,2016-07-26,Rockford,Illinois,42.2713945,-89.093966,Unarmed
 Devon Martes,17,Under 19,Male,Black,July,27,2016,2016-07-27,Metairie,Louisiana,30.00185465,-90.1767012249077,Firearm
 Dalvin Hollins,19,Under 19,Male,Black,July,27,2016,2016-07-27,Tempe,Arizona,33.4255117,-111.940016,Unarmed
-Ambrose Mecklenburg,20,20-39,Male,White,July,27,2016,2016-07-27,Malta,Montana,48.361494795818246,-107.87476048082671,Knife
+Ambrose Mecklenburg,20,20-39,Male,White,July,27,2016,2016-07-27,Malta,Montana,48.361494795818246,-107.87476048082672,Knife
 Michael Adams,33,20-39,Male,White,July,27,2016,2016-07-27,Estill Springs,Tennessee,35.268542,-86.128269,Knife
 Dylan Liberti,24,20-39,Male,White,July,27,2016,2016-07-27,Scottsdale,Arizona,33.5804608,-111.8803083,Knife
 Saddam Trejeda-Campos,24,20-39,Male,Hispanic/Latino,July,27,2016,2016-07-27,San Bernardino,California,34.13169740637959,-117.313933,Knife
@@ -1796,17 +1796,17 @@ Mario Torres,38,20-39,Male,Hispanic/Latino,July,31,2016,2016-07-31,Wapato,Washin
 Bryan Byrd,43,40-59,Male,White,August,1,2016,2016-08-01,Lexington,South Carolina,33.842752,-81.201219,Vehicle
 Kenneth Bonanno,67,Above 60,Male,White,August,1,2016,2016-08-01,Fredericksburg,Virginia,38.3031837,-77.4605399,Firearm
 Korryn Gaines,23,20-39,Female,Black,August,1,2016,2016-08-01,Randallstown,Maryland,39.369627360302395,-76.81363481581337,Firearm
-Manuel De La Cruz,26,20-39,Male,Hispanic/Latino,August,1,2016,2016-08-01,Port Arthur,Texas,29.9356256,-93.98894476836925,Unarmed
+Manuel De La Cruz,26,20-39,Male,Hispanic/Latino,August,1,2016,2016-08-01,Port Arthur,Texas,29.9356256,-93.98894476836924,Unarmed
 Richard Swihart,32,20-39,Male,White,August,1,2016,2016-08-01,Santa Ana,California,33.749966778135466,-117.872579,Unarmed
 Richard London,22,20-39,Male,White,August,2,2016,2016-08-02,Lake City,South Carolina,33.85449962026924,-79.76305141702434,Firearm
-Matthew Conrad,34,20-39,Male,White,August,2,2016,2016-08-02,Hammett,Idaho,43.02333386472716,-115.55796104251695,Firearm
+Matthew Conrad,34,20-39,Male,White,August,2,2016,2016-08-02,Hammett,Idaho,43.02333386472716,-115.55796104251696,Firearm
 Adam Klimek,31,20-39,Male,White,August,2,2016,2016-08-02,Alexandria,Minnesota,45.888176,-95.374382,Knife
 Demarco Newman,43,40-59,Male,Black,August,2,2016,2016-08-02,Palm Bay,Florida,27.989253071456968,-80.61910348020703,Firearm
 William Bowers,51,40-59,Male,White,August,2,2016,2016-08-02,Castaic,California,34.490807,-118.617537,Unarmed
 Benjamin Heaton,31,20-39,Male,White,August,3,2016,2016-08-03,Clearfield,Utah,41.12024155926092,-112.02289310936382,Firearm
 Bradley Carey,54,40-59,Male,White,August,3,2016,2016-08-03,Detroit,Michigan,42.432663378011384,-83.27816743157028,Knife
 E.J. Walters Jr,69,Above 60,Male,White,August,4,2016,2016-08-04,Gate City,Virginia,36.6378774,-82.5809876,Firearm
-Marcus Sexton,22,20-39,Male,White,August,4,2016,2016-08-04,Little Rock,Arkansas,34.6452925207612,-92.44313901975117,Unarmed
+Marcus Sexton,22,20-39,Male,White,August,4,2016,2016-08-04,Little Rock,Arkansas,34.6452925207612,-92.44313901975116,Unarmed
 Johannes Wood,58,40-59,Male,White,August,5,2016,2016-08-05,Aldie,Virginia,38.975841,-77.64604766772152,Knife
 Jamarion Robinson,26,20-39,Male,Black,August,5,2016,2016-08-05,East Point,Georgia,33.644496,-84.491046,Firearm
 James Quealy,53,40-59,Male,White,August,5,2016,2016-08-05,Beaver Dam,Wisconsin,43.482865,-88.820607,Firearm
@@ -1821,13 +1821,13 @@ James Jennings Jr,69,Above 60,Male,White,August,8,2016,2016-08-08,Little Mountai
 James Burgess,63,Above 60,Male,White,August,8,2016,2016-08-08,Wilkesboro,North Carolina,36.15538771073182,-81.20477274733075,Firearm
 Ronald Smith,45,40-59,Male,White,August,9,2016,2016-08-09,Mt Sterling,Ohio,39.7195055,-83.2651926,Firearm
 Mary Knowlton,73,Above 60,Female,White,August,9,2016,2016-08-09,Punta Gorda,Florida,26.925945173469387,-82.04748518367346,Unarmed
-Jesse Romero,14,Under 19,Male,Hispanic/Latino,August,9,2016,2016-08-09,Los Angeles,California,34.046459545301296,-118.20951436223783,Firearm
+Jesse Romero,14,Under 19,Male,Hispanic/Latino,August,9,2016,2016-08-09,Los Angeles,California,34.046459545301296,-118.20951436223784,Firearm
 Jeffrey 'Allen' Morris,44,40-59,Male,White,August,9,2016,2016-08-09,Piedmont,South Carolina,34.7105655,-82.45761193705917,Disputed
 Fred Barlow,61,Above 60,Male,Black,August,9,2016,2016-08-09,Fairfield,California,38.247105,-122.040424,Unarmed
 Jeff Martelli,59,40-59,Male,White,August,11,2016,2016-08-11,Tukwila,Washington,47.465886543913,-122.26139343354792,Firearm
 Mark Sawaf,39,20-39,Male,White,August,11,2016,2016-08-11,Harlan,Kentucky,36.8411336,-83.22678,Unarmed
-Sergio Weick,33,20-39,Male,Hispanic/Latino,August,11,2016,2016-08-11,Vista,California,33.19636858692196,-117.25832045857221,Other
-Tommy Seneca,54,40-59,Male,White,August,11,2016,2016-08-11,Plaquemine,Louisiana,30.263395202138714,-91.27270919462745,Firearm
+Sergio Weick,33,20-39,Male,Hispanic/Latino,August,11,2016,2016-08-11,Vista,California,33.19636858692196,-117.2583204585722,Other
+Tommy Seneca,54,40-59,Male,White,August,11,2016,2016-08-11,Plaquemine,Louisiana,30.26339520213871,-91.27270919462744,Firearm
 Jesus Carillo,22,20-39,Male,Hispanic/Latino,August,12,2016,2016-08-12,Mesa,Arizona,33.4151005,-111.831455,Other
 Dominic Rollice,49,40-59,Male,Native American,August,12,2016,2016-08-12,Tahlequah,Oklahoma,35.913374,-94.964446,Other
 Mistie Reynolds,33,20-39,Female,White,August,12,2016,2016-08-12,Kissimmee,Florida,28.2918995,-81.4075838,Unarmed
@@ -1840,7 +1840,7 @@ Jovany Martinez,29,20-39,Male,Hispanic/Latino,August,15,2016,2016-08-15,Annandal
 Danny Pirtle,42,40-59,Male,White,August,15,2016,2016-08-15,Counce,Tennessee,35.0423075,-88.2733741,Firearm
 Michael Martin,36,20-39,Male,White,August,16,2016,2016-08-16,Rome,Ohio,38.665002650000005,-83.37869754321507,Firearm
 Carl Nivins,32,20-39,Male,White,August,16,2016,2016-08-16,Lenoir,North Carolina,35.92854235,-81.53017379767847,Firearm
-Kenney Watkins,18,Under 19,Male,Black,August,16,2016,2016-08-16,Los Angeles,California,33.94552311564938,-118.30067139853439,Other
+Kenney Watkins,18,Under 19,Male,Black,August,16,2016,2016-08-16,Los Angeles,California,33.94552311564938,-118.3006713985344,Other
 Colby Friday,30,20-39,Male,Black,August,16,2016,2016-08-16,Stockton,California,37.9577016,-121.290779,Firearm
 Larry Kurtley Jr,53,40-59,Male,White,August,16,2016,2016-08-16,Apache Junction,Arizona,33.429636,-111.547787,Non-lethal firearm
 John O'Handley,55,40-59,Male,White,August,16,2016,2016-08-16,Augusta,West Virginia,39.29982045258838,-78.65278564088015,Unarmed
@@ -1861,16 +1861,16 @@ David Klassen,29,20-39,Male,White,August,19,2016,2016-08-19,Ruidoso,New Mexico,3
 Todd Browning,54,40-59,Male,White,August,19,2016,2016-08-19,Chattanooga,Tennessee,35.0457219,-85.3094883,Other
 Brandon Coles,25,20-39,Male,Black,August,21,2016,2016-08-21,Dinwiddie,Virginia,37.056398,-77.562971,Firearm
 Pedro Montanez,71,Above 60,Male,Hispanic/Latino,August,21,2016,2016-08-21,Indio,California,33.7192808,-116.2188054,Knife
-Juan Torres,36,20-39,Male,Hispanic/Latino,August,21,2016,2016-08-21,Las Cruces,New Mexico,32.31609555,-106.74306365000001,Knife
+Juan Torres,36,20-39,Male,Hispanic/Latino,August,21,2016,2016-08-21,Las Cruces,New Mexico,32.31609555,-106.74306365,Knife
 Kelley Forte,34,20-39,Male,Black,August,22,2016,2016-08-22,Hamilton,Ohio,39.39617470244089,-84.54953472027402,Knife
-Elias Portillo,36,20-39,Male,Hispanic/Latino,August,24,2016,2016-08-24,Dallas,Texas,32.749477040404045,-96.87925866666667,Firearm
+Elias Portillo,36,20-39,Male,Hispanic/Latino,August,24,2016,2016-08-24,Dallas,Texas,32.749477040404045,-96.87925866666669,Firearm
 William Charbonneau,43,40-59,Male,White,August,24,2016,2016-08-24,Orlando,Florida,28.5421109,-81.3790304,Firearm
 Jeffrey Hosea,53,40-59,Male,White,August,24,2016,2016-08-24,Shelbyville,Tennessee,35.48945990984928,-86.43154865770646,Firearm
 Bobby Buck,49,40-59,Male,White,August,24,2016,2016-08-24,Myra,Texas,33.62482690572658,-97.3182957040566,Other
-Jerry Jackson,63,Above 60,Male,White,August,25,2016,2016-08-25,Fort Collins,Colorado,40.59885045,-105.07605289234735,Knife
+Jerry Jackson,63,Above 60,Male,White,August,25,2016,2016-08-25,Fort Collins,Colorado,40.59885045,-105.07605289234736,Knife
 Donta Taylor,31,20-39,Male,Black,August,25,2016,2016-08-25,Compton,California,33.894927,-118.226624,Other
 David Coborubio,32,20-39,Male,Hispanic/Latino,August,25,2016,2016-08-25,Compton,California,33.89244432854427,-118.19536249869849,Other
-Michael Gaskill,63,Above 60,Male,White,August,25,2016,2016-08-25,Redmond,Oregon,44.2840364967031,-121.16925786858721,Firearm
+Michael Gaskill,63,Above 60,Male,White,August,25,2016,2016-08-25,Redmond,Oregon,44.2840364967031,-121.1692578685872,Firearm
 Matthew Gibbon,41,40-59,Male,White,August,26,2016,2016-08-26,Las Vegas,Nevada,36.14528579882302,-115.1007737741887,Firearm
 Angel Torres Jr,25,20-39,Male,Hispanic/Latino,August,27,2016,2016-08-27,Phoenix,Arizona,33.480647,-112.182605,Non-lethal firearm
 Terry Salazar,49,40-59,Male,Hispanic/Latino,August,27,2016,2016-08-27,Denver,Colorado,39.7392364,-104.984862,Knife
@@ -1882,7 +1882,7 @@ Michael Peacor,56,40-59,Male,White,August,29,2016,2016-08-29,San Bernardino,Cali
 Paula Phillips,35,20-39,Female,White,August,29,2016,2016-08-29,Kingman,Arizona,35.19450229931237,-114.03467975271764,Firearm
 Justin Baker,36,20-39,Male,White,August,30,2016,2016-08-30,Graham,Washington,47.038219,-122.27233101915816,Other
 Levonia Riggins,22,20-39,Male,Black,August,30,2016,2016-08-30,Tampa,Florida,27.9477595,-82.458444,Unarmed
-Lyle Blanchard,59,40-59,Male,White,August,30,2016,2016-08-30,Harker Heights,Texas,31.07085145,-97.66970549999999,Other
+Lyle Blanchard,59,40-59,Male,White,August,30,2016,2016-08-30,Harker Heights,Texas,31.07085145,-97.6697055,Other
 James Richards,28,20-39,Male,Native American,August,30,2016,2016-08-30,Fairbanks,Alaska,64.837845,-147.716675,Firearm
 Gregory Mathis,36,20-39,Male,White,August,30,2016,2016-08-30,Weatherford,Texas,32.7294039,-97.8216733,Knife
 Michael Ferguson,21,20-39,Male,White,August,31,2016,2016-08-31,Denver,Colorado,39.663646,-105.018135,Unarmed
@@ -1892,7 +1892,7 @@ Caleb Douglas,18,Under 19,Male,White,September,1,2016,2016-09-01,Wichita,Kansas,
 Joshua Quintero,23,20-39,Male,Hispanic/Latino,September,1,2016,2016-09-01,Los Angeles,California,33.9625,-118.242485,Firearm
 Vicente Gonzalez,40,40-59,Male,Hispanic/Latino,September,1,2016,2016-09-01,Huntington Park,California,33.991011,-118.230121,Other
 Joseph Moreno,38,20-39,Male,Hispanic/Latino,September,2,2016,2016-09-02,Alamogordo,New Mexico,32.884105,-105.952414,Firearm
-Randall Rodick,40,40-59,Male,White,September,2,2016,2016-09-02,Parker,Colorado,39.552555850000005,-104.77010624789871,Firearm
+Randall Rodick,40,40-59,Male,White,September,2,2016,2016-09-02,Parker,Colorado,39.552555850000005,-104.77010624789872,Firearm
 Michael Thompson Jr,38,20-39,Male,Black,September,2,2016,2016-09-02,St Louis,Missouri,38.722145627876245,-90.23201103264068,Firearm
 Michael Musson,22,20-39,Male,White,September,2,2016,2016-09-02,Round Lake,Illinois,42.34930215777721,-88.08837320395277,Other
 Donny Daugherty,36,20-39,Male,White,September,3,2016,2016-09-03,Massac County,Illinois,37.2177417,-88.7163312,Firearm
@@ -1901,13 +1901,13 @@ Jerome Damon,25,20-39,Male,Black,September,3,2016,2016-09-03,Atlantic City,New J
 Jeremiah Ramirez,27,20-39,Male,Hispanic/Latino,September,3,2016,2016-09-03,Temple,Texas,31.098207,-97.3427847,Firearm
 Simon Gomez,44,40-59,Male,Hispanic/Latino,September,4,2016,2016-09-04,Grand Junction,Colorado,39.0672568,-108.56448,Knife
 Jose Romero,39,20-39,Male,Hispanic/Latino,September,4,2016,2016-09-04,Long Beach,California,33.787113222222224,-118.15447651851852,Knife
-Cesar Garcia,35,20-39,Male,Hispanic/Latino,September,5,2016,2016-09-05,Austin,Texas,30.4004865,-97.66128666789025,Firearm
+Cesar Garcia,35,20-39,Male,Hispanic/Latino,September,5,2016,2016-09-05,Austin,Texas,30.4004865,-97.66128666789024,Firearm
 Moses Ruben,36,20-39,Male,Black,September,5,2016,2016-09-05,Ennis,Texas,32.3430665,-96.6320157,Vehicle
 Steven Del Rio,31,20-39,Male,Hispanic/Latino,September,6,2016,2016-09-06,Tempe,Arizona,33.4255117,-111.940016,Other
 David Anderson,25,20-39,Male,White,September,6,2016,2016-09-06,Omaha,Nebraska,41.2587459,-95.9383758,Other
 Bernard Cottrell,65,Above 60,Male,White,September,6,2016,2016-09-06,Spencer,West Virginia,38.8021446,-81.3509777,Firearm
 Larry Whitehead,70,Above 60,Male,White,September,6,2016,2016-09-06,Gray,Tennessee,36.4198258,-82.4765352,Firearm
-Dylan Papa,25,20-39,Male,White,September,6,2016,2016-09-06,Phoenix,Arizona,33.481441000000004,-112.04015033914989,Knife
+Dylan Papa,25,20-39,Male,White,September,6,2016,2016-09-06,Phoenix,Arizona,33.481441000000004,-112.04015033914987,Knife
 Jesse Joynt,35,20-39,Male,White,September,7,2016,2016-09-07,Titusville,Florida,28.6126236,-80.8079545,Firearm
 Robert Brown,55,40-59,Male,Black,September,7,2016,2016-09-07,Albany,Georgia,31.570605,-84.16178,Other
 Sadiq Idris,25,20-39,Male,Black,September,7,2016,2016-09-07,Wyoming,Michigan,42.9132581,-85.7057035,Firearm
@@ -1920,9 +1920,9 @@ Gregory Frazier,56,40-59,Male,Black,September,9,2016,2016-09-09,Pompano Beach,Fl
 Dennis Stanley,69,Above 60,Male,White,September,10,2016,2016-09-10,Montcalm,West Virginia,37.34627185644988,-81.25090448249281,Non-lethal firearm
 Adrian Shaffer,37,20-39,Male,White,September,10,2016,2016-09-10,Longmont,Colorado,40.1672117,-105.101928,Firearm
 Terrence Sterling,31,20-39,Male,Black,September,11,2016,2016-09-11,Washington,District of Columbia,38.8950368,-77.0365427,Unarmed
-Markell Bivins,25,20-39,Male,Black,September,12,2016,2016-09-12,Cedar Rapids,Iowa,41.99395692007442,-91.71304416583705,Knife
-Eugene Craig,86,Above 60,Male,White,September,12,2016,2016-09-12,Saratoga,California,37.288659362242754,-122.00989377433639,Firearm
-Christian Vargas,25,20-39,Male,Hispanic/Latino,September,12,2016,2016-09-12,Colton,California,34.0717028021324,-117.31244610850409,Other
+Markell Bivins,25,20-39,Male,Black,September,12,2016,2016-09-12,Cedar Rapids,Iowa,41.99395692007442,-91.71304416583703,Knife
+Eugene Craig,86,Above 60,Male,White,September,12,2016,2016-09-12,Saratoga,California,37.288659362242754,-122.0098937743364,Firearm
+Christian Vargas,25,20-39,Male,Hispanic/Latino,September,12,2016,2016-09-12,Colton,California,34.0717028021324,-117.31244610850408,Other
 Timothy McMillan,38,20-39,Male,White,September,13,2016,2016-09-13,San Gabriel,California,34.1236341,-118.072601,Unarmed
 Tyre King,13,Under 19,Male,Black,September,14,2016,2016-09-14,Columbus,Ohio,39.96446528571429,-82.97450895238096,Non-lethal firearm
 Morgan Crocker,34,20-39,Male,White,September,15,2016,2016-09-15,Austin,Texas,30.228055127731963,-97.83294767023705,Firearm
@@ -1953,16 +1953,16 @@ Jesse Attaway,41,40-59,Male,White,September,23,2016,2016-09-23,Fair Oaks,Califor
 Oddis Colvin Jr,33,20-39,Male,Black,September,23,2016,2016-09-23,Pikesville,Maryland,39.37916608833561,-76.7233630939035,Other
 Christopher Contreras,30,20-39,Male,Hispanic/Latino,September,23,2016,2016-09-23,San Antonio,Texas,29.4246002,-98.4951405,Firearm
 Cody Lafont,25,20-39,Male,White,September,25,2016,2016-09-25,Claremont,New Hampshire,43.38560629811702,-72.35609293639598,Firearm
-Leeland White,32,20-39,Male,White,September,26,2016,2016-09-26,Little Rock,Arkansas,34.71762909773406,-92.35398170949841,Firearm
+Leeland White,32,20-39,Male,White,September,26,2016,2016-09-26,Little Rock,Arkansas,34.71762909773406,-92.3539817094984,Firearm
 Anthony Bauer,52,40-59,Male,White,September,26,2016,2016-09-26,Garden City,Idaho,43.64434625,-116.26383737346455,Firearm
-Nathan DeSai,46,40-59,Male,White,September,26,2016,2016-09-26,Houston,Texas,29.724573640802856,-95.44430841764951,Firearm
+Nathan DeSai,46,40-59,Male,White,September,26,2016,2016-09-26,Houston,Texas,29.724573640802856,-95.44430841764952,Firearm
 Jamie Lewis,48,40-59,Male,White,September,26,2016,2016-09-26,Burnsville,Minnesota,44.79051160422377,-93.25279268642434,Firearm
 Alfred Olango,30,20-39,Male,Black,September,27,2016,2016-09-27,El Cajon,California,32.80777202766765,-116.95234957326018,Unarmed
 John Carpentier,26,20-39,Male,White,September,27,2016,2016-09-27,Phoenix,Arizona,33.6759925,-112.1005868,Firearm
 Christopher Sowell,32,20-39,Male,Black,September,28,2016,2016-09-28,Philadelphia,Pennsylvania,39.9527237,-75.1635262,Unarmed
 Johnathan Lozano-Murillo,28,20-39,Male,Hispanic/Latino,September,28,2016,2016-09-28,Valdosta,Georgia,30.870881,-83.265736,Knife
 Jeffrey Cave,53,40-59,Male,White,September,29,2016,2016-09-29,Kingman,Arizona,35.212432,-114.039941,Firearm
-Jacquarius Robinson,20,20-39,Male,Black,September,30,2016,2016-09-30,Columbus,Ohio,39.950408742945484,-82.84648569276172,Firearm
+Jacquarius Robinson,20,20-39,Male,Black,September,30,2016,2016-09-30,Columbus,Ohio,39.95040874294549,-82.84648569276172,Firearm
 Najier Salaam,18,Under 19,Male,Black,September,30,2016,2016-09-30,Newark,New Jersey,40.76702096428571,-74.18385007142858,Other
 George Richards-Meyers,18,Under 19,Male,Black,September,30,2016,2016-09-30,Newark,New Jersey,40.76702096428571,-74.18385007142858,Other
 Richard Parent,37,20-39,Male,White,September,30,2016,2016-09-30,Belleville,Michigan,42.2311035,-83.44637636448499,Firearm
@@ -1982,7 +1982,7 @@ Isaias Salgado,31,20-39,Male,Hispanic/Latino,October,4,2016,2016-10-04,Riverview
 Zachary Sutton,26,20-39,Male,White,October,4,2016,2016-10-04,Springdale,Arkansas,36.1867442,-94.1288142,Firearm
 Dean Bruning,51,40-59,Male,White,October,4,2016,2016-10-04,Hessel,Michigan,46.0041827,-84.425869,Firearm
 Thomas Binkley,66,Above 60,Male,White,October,4,2016,2016-10-04,Burbank,California,34.176591,-118.32267,Unarmed
-Nancy Friedrich,35,20-39,Female,White,May,10,2016,2016-05-10,Fort Worth,Texas,32.817957976013155,-97.07878840686023,Other
+Nancy Friedrich,35,20-39,Female,White,May,10,2016,2016-05-10,Fort Worth,Texas,32.817957976013155,-97.07878840686024,Other
 Brandon Simmons,28,20-39,Male,White,October,5,2016,2016-10-05,Boulder,Colorado,40.0101734,-105.2658914553889,Other
 Lucas Felkel,35,20-39,Male,White,October,5,2016,2016-10-05,Moncks Corner,South Carolina,33.1960027,-80.0131374,Firearm
 Ricky Hall,46,40-59,Male,White,October,6,2016,2016-10-06,Houston,Texas,29.7106109,-95.39342919183,Other
@@ -1990,7 +1990,7 @@ Joseph Schroeder,36,20-39,Male,White,October,7,2016,2016-10-07,Fort Wayne,Indian
 Larry Matthews,57,40-59,Male,Black,October,7,2016,2016-10-07,Macon,Georgia,32.812503,-83.642748,Other
 Christopher Shackleford,28,20-39,Male,Black,October,7,2016,2016-10-07,Alexandria,Louisiana,31.3119463,-92.4453558,Firearm
 Thomas Burns,49,40-59,Male,White,October,7,2016,2016-10-07,Benton,Arkansas,34.582351,-92.569571,Non-lethal firearm
-Redrick Batiste,37,20-39,Male,Black,December,7,2016,2016-12-07,Houston,Texas,29.935680814032466,-95.39847772908716,Firearm
+Redrick Batiste,37,20-39,Male,Black,December,7,2016,2016-12-07,Houston,Texas,29.935680814032462,-95.39847772908716,Firearm
 Keelan Murray,37,20-39,Male,White,December,7,2016,2016-12-07,Dallas,Texas,32.779942,-96.798401,Other
 Mark Hicks,31,20-39,Male,Black,December,7,2016,2016-12-07,Fayetteville,North Carolina,35.088638,-78.987135,Knife
 Jaquar Mathis,21,20-39,Male,Black,October,7,2016,2016-10-07,Sebring,Florida,27.487727,-81.43828,Other
@@ -2005,20 +2005,20 @@ Mauricio Barron,27,20-39,Male,Hispanic/Latino,October,10,2016,2016-10-10,Irvine,
 Dennis Hunt,56,40-59,Male,Native American,October,10,2016,2016-10-10,Lumberton,North Carolina,34.620161105989546,-79.00939799988213,Firearm
 Luis Hoff,40,40-59,Male,White,October,10,2016,2016-10-10,Phoenix,Arizona,33.4484367,-112.074141,Firearm
 Michael Taylor,44,40-59,Male,Asian/Pacific Islander,October,11,2016,2016-10-11,Seattle,Washington,47.6038321,-122.330062,Knife
-Dominick Musulman,30,20-39,Male,White,October,11,2016,2016-10-11,Concord,California,37.97241020765652,-122.02740013526375,Other
-Blaine Beason,31,20-39,Male,White,October,12,2016,2016-10-12,Denham Springs,Louisiana,30.454469824798846,-90.9734899257499,Other
+Dominick Musulman,30,20-39,Male,White,October,11,2016,2016-10-11,Concord,California,37.97241020765652,-122.02740013526376,Other
+Blaine Beason,31,20-39,Male,White,October,12,2016,2016-10-12,Denham Springs,Louisiana,30.45446982479885,-90.9734899257499,Other
 Kirk Figueroa,33,20-39,Male,Black,October,12,2016,2016-10-12,Boston,Massachusetts,42.38936185,-71.00648447965314,Firearm
 Matthew Brewer,22,20-39,Male,White,October,12,2016,2016-10-12,Morehead,Kentucky,38.1839705,-83.4326841,Firearm
 Rex Wilson,50,40-59,Male,White,October,12,2016,2016-10-12,Las Vegas,Nevada,36.24763150357456,-115.31788710694885,Firearm
 Patrick Reddeck,38,20-39,Male,White,October,12,2016,2016-10-12,Kent,Washington,47.384374,-122.225525,Firearm
-Shawn Pappe,46,40-59,Male,White,October,13,2016,2016-10-13,Grants Pass,Oregon,42.43043442734628,-123.31826794444355,Knife
+Shawn Pappe,46,40-59,Male,White,October,13,2016,2016-10-13,Grants Pass,Oregon,42.43043442734628,-123.31826794444356,Knife
 Chaz York,23,20-39,Male,White,October,14,2016,2016-10-14,Beaumont,Texas,30.11886705430321,-94.16747386557236,Other
-George Zapata,24,20-39,Male,Hispanic/Latino,October,14,2016,2016-10-14,Dallas,Texas,32.71136633509192,-96.81672461547605,Firearm
-Nicholas McWherter,26,20-39,Male,White,October,14,2016,2016-10-14,San Francisco,California,37.73480825,-122.47884788777597,Firearm
+George Zapata,24,20-39,Male,Hispanic/Latino,October,14,2016,2016-10-14,Dallas,Texas,32.71136633509192,-96.81672461547603,Firearm
+Nicholas McWherter,26,20-39,Male,White,October,14,2016,2016-10-14,San Francisco,California,37.73480825,-122.47884788777596,Firearm
 Daniel Murphy,38,20-39,Male,White,October,15,2016,2016-10-15,Phenix City,Alabama,32.48119370159523,-85.0795314778702,Firearm
 Kristofer Talancon,30,20-39,Male,Hispanic/Latino,October,15,2016,2016-10-15,Sparks,Nevada,39.54404,-119.724083,Other
 Sean Arlt,32,20-39,Male,White,October,16,2016,2016-10-16,Santa Cruz,California,36.954035,-122.046165,Other
-Micah Jester,26,20-39,Female,White,October,16,2016,2016-10-16,Austin,Texas,30.1983615,-97.78921861076799,Non-lethal firearm
+Micah Jester,26,20-39,Female,White,October,16,2016,2016-10-16,Austin,Texas,30.1983615,-97.789218610768,Non-lethal firearm
 Eric St Germain,39,20-39,Male,White,October,16,2016,2016-10-16,Holiday,Florida,28.20765809811214,-82.72721180000794,Knife
 Rolando Delgado,50,40-59,Male,Hispanic/Latino,October,17,2016,2016-10-17,Miami,Florida,25.7741728,-80.19362,Other
 Keagan Schweikle,17,Under 19,Male,White,October,17,2016,2016-10-17,Benton,Arkansas,34.555548962962966,-92.59700848148148,Firearm
@@ -2044,23 +2044,23 @@ Roy Richards,46,40-59,Male,Black,October,25,2016,2016-10-25,Little Rock,Arkansas
 Brandon Jones,25,20-39,Male,White,October,25,2016,2016-10-25,Elkton,Maryland,39.5989575,-75.82095566800189,Non-lethal firearm
 Chelsea Porter,25,20-39,Female,White,October,25,2016,2016-10-25,Elkton,Maryland,39.5989575,-75.82095566800189,Non-lethal firearm
 Brandon Millard,37,20-39,Male,White,October,25,2016,2016-10-25,Lincoln,California,38.8915741,-121.29318,Knife
-Malcolm Hickson,25,20-39,Male,Black,October,26,2016,2016-10-26,Carrollton,Texas,32.98271130201342,-96.91282418791947,Firearm
+Malcolm Hickson,25,20-39,Male,Black,October,26,2016,2016-10-26,Carrollton,Texas,32.98271130201342,-96.91282418791948,Firearm
 William Cole,36,20-39,Male,White,October,26,2016,2016-10-26,Bartlesville,Oklahoma,36.7508,-95.944266,Unarmed
 Kyle Killough,32,20-39,Male,White,October,27,2016,2016-10-27,Billings,Montana,45.75250385,-108.55187525006777,Firearm
 Thad Hale,33,20-39,Male,Black,October,27,2016,2016-10-27,San Antonio,Texas,29.492666,-98.43968,Firearm
 Edwin Maldonado,24,20-39,Male,Hispanic/Latino,October,27,2016,2016-10-27,Elberton,Georgia,34.13551338102139,-82.86045189031664,Unarmed
 Jason King,38,20-39,Male,Black,October,28,2016,2016-10-28,Sacramento,California,38.5810606,-121.493895,Firearm
 Jay Holmgren,37,20-39,Male,White,October,28,2016,2016-10-28,Isle,Minnesota,46.138011,-93.4707924,Firearm
-Jun Wang,45,40-59,Male,Asian/Pacific Islander,October,28,2016,2016-10-28,North Royalton,Ohio,41.326221335405684,-81.76192578483592,Knife
+Jun Wang,45,40-59,Male,Asian/Pacific Islander,October,28,2016,2016-10-28,North Royalton,Ohio,41.32622133540568,-81.76192578483592,Knife
 Kenneth Kennedy,34,20-39,Male,White,October,29,2016,2016-10-29,Kingman,Arizona,35.239291,-113.99181,Vehicle
 Terrence Coleman,31,20-39,Male,Black,October,30,2016,2016-10-30,Boston,Massachusetts,42.343654650000005,-71.06830945,Disputed
 Jordan Gonzales,23,20-39,Male,Hispanic/Latino,October,30,2016,2016-10-30,Corpus Christi,Texas,27.7939402,-97.39259780227798,Firearm
 Michael Vance Jr,38,20-39,Male,Native American,October,30,2016,2016-10-30,Hammon,Oklahoma,35.6323509,-99.3812342,Firearm
-Jose Cueva,55,40-59,Male,Hispanic/Latino,October,31,2016,2016-10-31,Chatsworth,California,34.24056502020202,-118.56968427272727,Knife
+Jose Cueva,55,40-59,Male,Hispanic/Latino,October,31,2016,2016-10-31,Chatsworth,California,34.24056502020202,-118.56968427272729,Knife
 Michelle Shirley,39,20-39,Female,Black,October,31,2016,2016-10-31,Torrance,California,33.8371392,-118.3413606,Vehicle
 Rod Lucas,46,40-59,Male,White,October,31,2016,2016-10-31,Fresno,California,36.76635833573799,-119.7269407585539,Other
 Ashley Sides,31,20-39,Female,White,October,31,2016,2016-10-31,Brookville,Ohio,39.84548065,-84.42540349775446,Other
-Henry Simpson,76,Above 60,Male,White,November,1,2016,2016-11-01,Carson City,Nevada,39.16063263507553,-119.76106384857803,Firearm
+Henry Simpson,76,Above 60,Male,White,November,1,2016,2016-11-01,Carson City,Nevada,39.16063263507553,-119.76106384857805,Firearm
 Keenan Bradley,21,20-39,Male,Black,November,1,2016,2016-11-01,Stockton,California,38.005352,-121.35906,Firearm
 Michael Shriver,39,20-39,Male,White,November,1,2016,2016-11-01,Enid,Oklahoma,36.397712,-97.896407,Unarmed
 Jesse Taylor,40,40-59,Male,White,November,2,2016,2016-11-02,West Jordan,Utah,40.5887367889602,-111.92209561972534,Firearm
@@ -2070,9 +2070,9 @@ Ferguson Laurent,23,20-39,Male,Black,November,3,2016,2016-11-03,Salisbury,North 
 Dennis Kirk,64,Above 60,Male,Other,November,3,2016,2016-11-03,Chambersburg,Pennsylvania,39.93435355,-77.64620332568752,Knife
 Rita King,56,40-59,Female,White,November,3,2016,2016-11-03,Loganville,Georgia,33.8389977,-83.9007382,Firearm
 Manuel Rosales,35,20-39,Male,Other,November,4,2016,2016-11-04,Bronx,New York,40.82776095312657,-73.86541051642143,Firearm
-Abraham Ortiz,26,20-39,Male,Hispanic/Latino,November,4,2016,2016-11-04,Palm Springs,California,33.8182263321468,-116.54668348163499,Unarmed
+Abraham Ortiz,26,20-39,Male,Hispanic/Latino,November,4,2016,2016-11-04,Palm Springs,California,33.8182263321468,-116.546683481635,Unarmed
 Edward Hills,59,40-59,Male,White,November,4,2016,2016-11-04,Beaver,Washington,48.05609288627668,-124.35105552824734,Firearm
-Patrick Wise,34,20-39,Male,White,November,5,2016,2016-11-05,Gladewater,Texas,32.542244,-94.95608809999999,Other
+Patrick Wise,34,20-39,Male,White,November,5,2016,2016-11-05,Gladewater,Texas,32.542244,-94.9560881,Other
 James Coale,36,20-39,Male,White,November,5,2016,2016-11-05,Okemah,Oklahoma,35.4325854,-96.3050064,Vehicle
 Joshua Beal,25,20-39,Male,Black,November,5,2016,2016-11-05,Chicago,Illinois,41.70076486286054,-87.69997586295662,Firearm
 John Zemola,49,40-59,Male,White,November,5,2016,2016-11-05,St Petersburg,Florida,27.79755093056798,-82.7238432115995,Knife
@@ -2083,7 +2083,7 @@ Jimmy Testa,31,20-39,Male,White,November,6,2016,2016-11-06,Leesburg,New Jersey,3
 Joel Keenan,43,40-59,Male,White,November,6,2016,2016-11-06,Beech Island,South Carolina,33.4273614,-81.8909473,Firearm
 David Contreras Jr,33,20-39,Male,Hispanic/Latino,November,6,2016,2016-11-06,Santa Ana,California,33.7494951,-117.873221,Other
 Joseph Newcomb,32,20-39,Male,White,November,6,2016,2016-11-06,Hensley,West Virginia,37.4740011,-81.6998327,Other
-Darryl Chisholm,31,20-39,Male,Black,November,7,2016,2016-11-07,Philadelphia,Pennsylvania,39.999040300000004,-75.14496156957561,Firearm
+Darryl Chisholm,31,20-39,Male,Black,November,7,2016,2016-11-07,Philadelphia,Pennsylvania,39.9990403,-75.14496156957561,Firearm
 Kenton Kobza,Unknown,Unknown,Male,White,November,8,2016,2016-11-08,Buckeye,Kansas,39.046664,-97.166963,Unarmed
 Juan Ramos,23,20-39,Male,Other,November,8,2016,2016-11-08,Denver,Colorado,39.778858,-104.821755,Firearm
 Carlos Mendez,45,40-59,Male,Hispanic/Latino,November,8,2016,2016-11-08,Azusa,California,34.127907,-117.902334,Firearm
@@ -2101,7 +2101,7 @@ James Ritchie,40,40-59,Male,White,November,12,2016,2016-11-12,Anchorage,Alaska,6
 Richard Herrera Jr,29,20-39,Male,Hispanic/Latino,November,12,2016,2016-11-12,Sahuarita,Arizona,31.924538,-110.992566,Firearm
 Jackie Weems Jr,44,40-59,Male,White,November,12,2016,2016-11-12,McDonough,Georgia,33.42848658183888,-84.17858605866142,Unarmed
 Daniel Laguna,21,20-39,Male,Hispanic/Latino,November,13,2016,2016-11-13,Oklahoma City,Oklahoma,35.374304,-97.524066,Firearm
-Juan Fernandez,22,20-39,Male,Hispanic/Latino,November,13,2016,2016-11-13,San Diego,California,32.74593710460173,-117.10575051833159,Firearm
+Juan Fernandez,22,20-39,Male,Hispanic/Latino,November,13,2016,2016-11-13,San Diego,California,32.74593710460173,-117.1057505183316,Firearm
 Michael Sawyer,31,20-39,Male,White,November,13,2016,2016-11-13,Ladson,South Carolina,32.98360227610508,-80.09097917650283,Other
 Jonathan Young,38,20-39,Male,White,November,13,2016,2016-11-13,Bloomsburg,Pennsylvania,41.0044958,-76.4537302,Other
 Norman Elling,86,Above 60,Male,White,November,14,2016,2016-11-14,Indianapolis,Indiana,39.7683331,-86.1583502,Unarmed
@@ -2110,7 +2110,7 @@ Michael Cookson,48,40-59,Male,Other,November,15,2016,2016-11-15,Temecula,Califor
 Rasheem Singletary,25,20-39,Male,Black,November,15,2016,2016-11-15,York,Pennsylvania,39.962493,-76.7276989,Vehicle
 Robert Daffern,37,20-39,Male,White,November,15,2016,2016-11-15,Webster,Texas,29.549499838740804,-95.12754062626856,Firearm
 Jose Franco,37,20-39,Male,Other,November,16,2016,2016-11-16,Whittier,California,33.975351,-118.032496,Other
-Edmund Leighty Sr,56,40-59,Male,White,November,16,2016,2016-11-16,Redding,California,40.5668215,-122.34473710639881,Firearm
+Edmund Leighty Sr,56,40-59,Male,White,November,16,2016,2016-11-16,Redding,California,40.5668215,-122.3447371063988,Firearm
 Bruce Johnson,39,20-39,Male,White,November,16,2016,2016-11-16,St Joseph,Missouri,39.7686055,-94.8466322,Unarmed
 Joseph Fletcher,35,20-39,Male,White,November,18,2016,2016-11-18,Fort Walton Beach,Florida,30.4057552,-86.618842,Other
 Dontrell Carter,25,20-39,Male,Black,November,18,2016,2016-11-18,Ludowici,Georgia,31.7097964,-81.7430846,Firearm
@@ -2138,8 +2138,8 @@ David Thelen,43,40-59,Male,White,November,23,2016,2016-11-23,Holland,Michigan,42
 Kajuan Raye,19,Under 19,Male,Black,November,23,2016,2016-11-23,Chicago,Illinois,41.775686449999995,-87.6657206343659,Unarmed
 Don White,45,40-59,Male,Other,November,24,2016,2016-11-24,Jackson,Tennessee,35.63679938511548,-88.83420667959804,Knife
 Cloetha Mitchell,37,20-39,Male,Black,November,25,2016,2016-11-25,Chicago,Illinois,41.8755616,-87.6244212,Firearm
-Carlos Valencia,26,20-39,Male,Hispanic/Latino,November,25,2016,2016-11-25,Tucson,Arizona,32.21386893842604,-110.97355263851121,Other
-Jerome Harmon,23,20-39,Male,Black,November,25,2016,2016-11-25,Hattiesburg,Mississippi,31.277411494967126,-89.28229436294686,Firearm
+Carlos Valencia,26,20-39,Male,Hispanic/Latino,November,25,2016,2016-11-25,Tucson,Arizona,32.21386893842604,-110.9735526385112,Other
+Jerome Harmon,23,20-39,Male,Black,November,25,2016,2016-11-25,Hattiesburg,Mississippi,31.27741149496713,-89.28229436294686,Firearm
 Derek Adame,20,20-39,Male,Hispanic/Latino,November,26,2016,2016-11-26,Surprise,Arizona,33.629247,-112.3681428,Other
 Norman Strobel,59,40-59,Male,White,November,27,2016,2016-11-27,Naples,Maine,43.94594133323912,-70.56803722910851,Firearm
 Terrell Walker,48,40-59,Male,Black,November,27,2016,2016-11-27,Baton Rouge,Louisiana,30.40599644824734,-91.09974612996244,Firearm
@@ -2151,16 +2151,16 @@ Irecas Valentine,41,40-59,Male,Black,November,28,2016,2016-11-28,Hickory,North C
 Jason Stringer,35,20-39,Male,Black,November,28,2016,2016-11-28,Cahokia,Illinois,38.5560561,-90.16633865034328,Vehicle
 Michael McInnis,41,40-59,Male,White,November,29,2016,2016-11-29,Lynn,Massachusetts,42.4567009,-70.95470713148745,Other
 Alexander Partain,31,20-39,Male,White,November,29,2016,2016-11-29,Iva,South Carolina,34.3064967,-82.663743,Other
-Bradley King,29,20-39,Male,White,November,29,2016,2016-11-29,Avon,Indiana,39.780177257606084,-86.39762660956855,Knife
-Toby Cummins,55,40-59,Male,White,November,29,2016,2016-11-29,Friendswood,Texas,29.52252489390413,-95.19287987795781,Other
+Bradley King,29,20-39,Male,White,November,29,2016,2016-11-29,Avon,Indiana,39.78017725760608,-86.39762660956855,Knife
+Toby Cummins,55,40-59,Male,White,November,29,2016,2016-11-29,Friendswood,Texas,29.52252489390413,-95.1928798779578,Other
 David Crosby-Dowdy,25,20-39,Male,Black,November,30,2016,2016-11-30,Kansas City,Missouri,39.100105,-94.5781416,Firearm
 Daniel Landeros,41,40-59,Male,Hispanic/Latino,November,30,2016,2016-11-30,Elk Grove,California,38.4087993,-121.3716178,Unarmed
 Bruce Johnson II,38,20-39,Male,Black,December,1,2016,2016-12-01,Tacoma,Washington,47.2455013,-122.438329,Other
-Jose Gomez,27,20-39,Male,Hispanic/Latino,December,1,2016,2016-12-01,Tucson,Arizona,32.165575455003946,-110.94347637513819,Firearm
+Jose Gomez,27,20-39,Male,Hispanic/Latino,December,1,2016,2016-12-01,Tucson,Arizona,32.165575455003946,-110.9434763751382,Firearm
 Quinton Phillips,83,Above 60,Male,White,December,1,2016,2016-12-01,Dover,Arkansas,35.364918684216775,-93.07801777950692,Firearm
 Dylan Dalzell,22,20-39,Male,White,December,2,2016,2016-12-02,Simpsonville,Kentucky,38.2221465486582,-85.35001975097643,Other
 Derek Scott,33,20-39,Male,White,December,2,2016,2016-12-02,Tuscumbia,Alabama,34.66288377287574,-87.69588196011202,Firearm
-Josh Dunne,36,20-39,Male,White,December,2,2016,2016-12-02,Las Cruces,New Mexico,32.28773665,-106.74067249738641,Other
+Josh Dunne,36,20-39,Male,White,December,2,2016,2016-12-02,Las Cruces,New Mexico,32.28773665,-106.7406724973864,Other
 Joseph Turner Jr,58,40-59,Male,White,December,2,2016,2016-12-02,Benton,Arkansas,34.576504150000005,-92.57655185618506,Firearm
 Isreal Flores,38,20-39,Male,Hispanic/Latino,December,3,2016,2016-12-03,Metairie,Louisiana,30.00185465,-90.1767012249077,Firearm
 Norman Gary,29,20-39,Male,Black,December,4,2016,2016-12-04,Elkhart,Indiana,41.668136,-85.959488,Other
@@ -2175,14 +2175,14 @@ Steven Ward,20,20-39,Male,White,December,7,2016,2016-12-07,Avella,Pennsylvania,4
 Unknown,Unknown,Unknown,Male,White,December,8,2016,2016-12-08,Allen,Texas,33.1015189,-96.62334975235191,Firearm
 Scott MacIntosh,35,20-39,Male,White,December,9,2016,2016-12-09,Easton,Pennsylvania,40.6916081,-75.2099866,Firearm
 Brent Quinn,43,40-59,Male,White,December,9,2016,2016-12-09,Leland,North Carolina,34.261556218638844,-78.07553601765596,Firearm
-Stephen Whitney,30,20-39,Male,Asian/Pacific Islander,December,9,2016,2016-12-09,Keaau,Hawaii,19.622458350000002,-155.04382464394396,Vehicle
+Stephen Whitney,30,20-39,Male,Asian/Pacific Islander,December,9,2016,2016-12-09,Keaau,Hawaii,19.62245835,-155.04382464394396,Vehicle
 David Winkler,44,40-59,Male,White,December,9,2016,2016-12-09,Madisonville,Tennessee,35.5197984,-84.3635338,Vehicle
 Samson Varner,36,20-39,Male,White,December,10,2016,2016-12-10,Greenwood,Indiana,39.599624539480736,-86.12758147988454,Knife
 Waltki Williams,35,20-39,Male,Black,December,10,2016,2016-12-10,Sumter,South Carolina,33.9204354,-80.3414693,Firearm
 Timothy Case,53,40-59,Male,White,December,11,2016,2016-12-11,York,Nebraska,40.88234975,-97.59223163245414,Knife
 Randy Cumberledge,39,20-39,Male,White,December,11,2016,2016-12-11,Fairmont,West Virginia,39.4850848,-80.1425781,Vehicle
 Gary Herd Jr,24,20-39,Male,White,December,11,2016,2016-12-11,Medicine Lodge,Kansas,37.292106,-98.57917,Firearm
-Amber Lewis,44,40-59,Female,White,December,11,2016,2016-12-11,Bullhead City,Arizona,35.10916353484919,-114.59276934246981,Non-lethal firearm
+Amber Lewis,44,40-59,Female,White,December,11,2016,2016-12-11,Bullhead City,Arizona,35.10916353484919,-114.5927693424698,Non-lethal firearm
 Jose Vallarta,30,20-39,Male,Hispanic/Latino,December,11,2016,2016-12-11,Laredo,Texas,27.470450515986435,-99.46788821212324,Knife
 Francisco Serna,73,Above 60,Male,Hispanic/Latino,December,12,2016,2016-12-12,Bakersfield,California,35.3013903,-119.09007868901998,Unarmed
 Rainer Smith,31,20-39,Male,White,December,12,2016,2016-12-12,Culloden,Georgia,32.8630915,-84.094059,Firearm
@@ -2191,7 +2191,7 @@ Earl Eubanks Jr,32,20-39,Male,Black,December,13,2016,2016-12-13,Hampton,Georgia,
 Lavar Douglas,18,Under 19,Male,Black,December,13,2016,2016-12-13,Baltimore,Maryland,39.3095958,-76.658768,Firearm
 Robert Hess,61,Above 60,Male,White,December,15,2016,2016-12-15,Hacienda Heights,California,33.978841,-117.975921,Firearm
 Marlon Lewis,39,20-39,Male,Black,December,15,2016,2016-12-15,Badin,North Carolina,35.4059744,-80.1167203,Unarmed
-Jeremiah Anderson,36,20-39,Male,White,December,16,2016,2016-12-16,Dallas,Oregon,44.9317221,-123.30678467038689,Firearm
+Jeremiah Anderson,36,20-39,Male,White,December,16,2016,2016-12-16,Dallas,Oregon,44.9317221,-123.30678467038688,Firearm
 Chassady LeClair,44,40-59,Male,Native American,December,17,2016,2016-12-17,Everett,Washington,47.965631,-122.213715,Other
 Jimmy Lawson,48,40-59,Male,White,December,17,2016,2016-12-17,Arlington,Tennessee,35.2964487,-89.6617313,Knife
 Fidel Barrios,33,20-39,Male,Hispanic/Latino,December,17,2016,2016-12-17,East Los Angeles,California,34.020863,-118.162703,Firearm
@@ -2237,4 +2237,4 @@ Jamal Rollins,21,20-39,Male,Black,December,30,2016,2016-12-30,Miami,Florida,25.6
 Ricky Whidden,46,40-59,Male,White,December,31,2016,2016-12-31,Loxahatchee Groves,Florida,26.708724156312627,-80.25155768537074,Knife
 Jason Robison,32,20-39,Male,White,December,31,2016,2016-12-31,Hesston,Pennsylvania,40.4209078,-78.1100066,Other
 Daniel Daily,34,20-39,Male,White,December,31,2016,2016-12-31,Pensacola,Florida,30.421309,-87.2169149,Firearm
-Chase Tuseth,33,20-39,Male,White,December,31,2016,2016-12-31,Mankato,Minnesota,44.176611449999996,-93.94744239353045,Unarmed
+Chase Tuseth,33,20-39,Male,White,December,31,2016,2016-12-31,Mankato,Minnesota,44.17661145,-93.94744239353044,Unarmed
