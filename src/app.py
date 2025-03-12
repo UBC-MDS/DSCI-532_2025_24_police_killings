@@ -7,7 +7,7 @@ from utils.settings import DEBUG_MODE
 # Initialize the app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], 
     assets_folder='assets',  
-    title='Police Killings Map')
+    title='Police Killings')
 
 cache.init_app(
     app.server,
