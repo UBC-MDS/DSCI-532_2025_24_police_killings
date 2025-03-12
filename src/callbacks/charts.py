@@ -3,9 +3,10 @@ import altair as alt
 import pandas as pd
 import plotly.express as px
 import time
-from data.police_data import police_data
+from utils.cache import cache
+from data.police_data import load_police_data
 
-data = police_data
+data = load_police_data()
 
 def filter_data(data, year, race, age, armed):
     """Filter the data based on global selections."""
@@ -14,26 +15,12 @@ def filter_data(data, year, race, age, armed):
         df = df[df['year'].isin(year)]
     if race:
         df = df[df['raceethnicity'].isin(race)]
-        df['raceethnicity'] = pd.Categorical(
-            df['raceethnicity'],
-            categories=race,
-            ordered=True
-            )
     if age:
         df = df[df['age_group'].isin(age)]
-        df['age_group'] = pd.Categorical(
-            df['age_group'],
-            categories=age,
-            ordered=True
-            )
     if armed:
         df = df[df['armed'].isin(armed)]
-        df['armed'] = pd.Categorical(
-            df['armed'],
-            categories=armed,
-            ordered=True
-            )
     return df
+
 
 def create_map(data, var):
     """Create the US Map with scatter points."""
@@ -42,13 +29,28 @@ def create_map(data, var):
         'age_group': 'Age Group',
         'armed': 'Armed Status'
     }
+    if var == 'raceethnicity':
+        color_map = {
+            'Black': '#1f77b4', 'White': '#ff7f0e', 'Hispanic/Latino': '#2ca02c', 'Asian/Pacific Islander': '#d62728',
+            'Native American': '#9467bd', 'Arab-American': '#8c564b', 'Other': '#e377c2'
+        }
+    elif var == 'age_group':
+        color_map = {
+            'Under 19': '#1f77b4', '20-39': '#ff7f0e', '40-59': '#2ca02c', 'Above 60': '#d62728', 'Unknown': '#9467bd'
+        }
+    else:
+        color_map = {
+            'Unarmed': '#1f77b4', 'White': '#ff7f0e', 'Firearm': '#2ca02c', 'Non-lethal firearm': '#d62728',
+            'Knife': '#9467bd', 'Vehicle': '#8c564b', 'Disputed': '#e377c2', 'Other': '#7f7f7f'
+        }
     map = px.scatter_map(
         data, 
         lat="latitude", 
         lon="longitude", 
         color=var,
-        color_continuous_scale=px.colors.cyclical.IceFire, 
+        color_discrete_map=color_map, 
         labels=label,
+        map_style='open-street-map', 
         custom_data=['name', 'city', 'state', 'date', 'raceethnicity', 'age', 'armed'],
         zoom=3, 
         height=450,
@@ -58,17 +60,17 @@ def create_map(data, var):
         hovertemplate = 
                 "<b>%{customdata[0]}</b><br><br>" +
                 "City: %{customdata[1]}, %{customdata[2]}<br>" +
-                "Date of Death: %{customdata[3]}<br>" +
+                "Date of Death: %{customdata[3]|%Y-%m-%d}<br>" +
                 "Race/Ethnicity: %{customdata[4]}<br>" +
                 "Age: %{customdata[5]}<br>" +
                 "Armed Status: %{customdata[6]}" +
                 "<extra></extra>",
-        mode='markers',
-        marker={'sizemode':'area', 'sizeref':10},
+        marker={'sizemode': 'area', 'size': 7},
+        mode='markers'
     )
     return map.to_dict()
 
-
+@cache.memoize()
 def create_bar(data, var):
     """Create the race/ethnicity barplot."""
     data['gender'] = pd.Categorical(
@@ -135,6 +137,7 @@ def filter_states(data, top_state):
     df = data[data['state'].isin(states)]
     return df
 
+@cache.memoize()
 def create_state_time(data, top_state):
     """Create the combined plots of top states barplot and time-series line plot"""
     select_state = alt.selection_point(
@@ -202,6 +205,7 @@ def create_state_time(data, top_state):
     Input('bar_dropdown', 'value'), 
     Input('top_state', 'value'), 
 )
+@cache.memoize()
 def create_chart(year, race, age, armed, map_dropdown, bar_dropdown, top_state):
     data_filtered = filter_data(data, year, race, age, armed)
     

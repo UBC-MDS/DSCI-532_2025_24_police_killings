@@ -126,4 +126,4 @@ sidebar = dbc.Col([
     html.Br(),
     armed_dropdown()
     ], 
-    width=2, className="custom-sidebar")
+    md=2, className="custom-sidebar")

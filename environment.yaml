@@ -1,4 +1,4 @@
-name: 'gp24'
+name: police_killings
 channels:
     - conda-forge
     - defaults
@@ -10,9 +10,10 @@ dependencies:
     - dash=2.18
     - dash-bootstrap-components=1.7
     - plotly=6.0
-    - tabulate=0.9  # df.to_markdown()
-    - lxml=5.3  # pd.read_html()
+    - tabulate=0.9
+    - lxml=5.3
     - pip=24.0
     - pip:
         - dash-vega-components==0.0.1
         - geopy==2.4.1
+        - flask-caching==2.2.0
