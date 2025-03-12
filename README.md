@@ -2,82 +2,94 @@
 
 ## Summary
 
-This project develops an interactive dashboard to visualize and analyze police killings in the U.S. from 2015-2016. Built with **Dash**, **Plotly**, and **Altair**, it provides accessible, data-driven insights into trends and patterns based on **demographic**, **geographic**, and **time-based factors**. The dashboard serves as a tool for **policymakers**, **researchers**, and the **public** to explore data, identify disparities, and advocate for accountability and reform.
+This project aims to develop an interactive data visualization dashboard that provides accessible, data-driven insights into police killings based on demographic, time, and geographic factors.
 
----
+By visualizing trends over time, identifying high-risk locations, and analyzing correlations between demographic characteristics and police use of force, the dashboard will serve as a valuable tool for government officials, policymakers, and the general public.
 
-## What Are We Doing?
+The goal is to raise awareness, inform policy changes, and support social justice organizations in advocating for better law enforcement training and accountability measures.
 
-### The Problem
+This document serves as a hub to introduce the project, its purpose, and how you can get involved—whether as a user, contributor, or developer. Jump to one of the sections below and read on to learn more:
 
-Police use of excessive and lethal force disproportionately impacts marginalized communities. A lack of accessible, data-driven insights hinders efforts to address these issues and inform policy changes.
+-   [What are we doing? (And why?)](#what-are-we-doing)
+-   [Who are we?](#who-are-we)
+-   [What do we need?](#what-do-we-need)
+-   [How can you get involved?](#get-involved)
+-   [Get in touch](#contact-us)
+-   [Find out more](#find-out-more)
 
-### The Solution
+## What are we doing?
 
-This dashboard offers an interactive platform to:
-- **Explore police killings data over time**.
-- **Identify high-risk locations** through heatmaps.
-- **Analyze trends across demographic groups** (e.g., race, age, armed status).
-- **Support evidence-based policy decisions** with real-time data visualization.
+### The problem
 
-By visualizing critical data, the dashboard aims to **raise awareness**, **inform advocacy**, and **drive systemic change**.
+Police use of excessive (and lethal) force is a major societal issue, disproportionately affecting underprivileged communities. One of the biggest challenges is the lack of accessible, data-driven insights that can help raise awareness and inform policy changes to mitigate instances of police brutality.
 
----
+### The solution
 
-## Who Are We?
+This project aims to develop an interactive data visualization dashboard that provides accessible insights into police killings based on demographic, geographic, and time-based factors. With this tool, users can:
 
-This project is developed by a team of researchers and data scientists committed to using data for social justice. Contributors include **Tingting Chen**, **Shawn Xiao Hu**, **Adrian Leung**, and **Rong Wan**, as part of the **UBC DSCI 532** project. We are supported by **advocates**, **policymakers**, and **data ethics researchers**.
+-   Explore police killings data over time.
+-   Identify high-risk locations through heatmaps.
+-   Analyze trends across different demographic groups.
+-   Support policy decisions with real-time data visualization.
 
----
+By providing a structured data-driven approach, this platform helps policymakers, government officials, and the public better understand disparities in law enforcement practices and advocate for change.
 
-## What Do We Need?
+## Who are we?
 
-We welcome contributions in:
-- **Data Science & Engineering**: Improve data aggregation, cleaning, and analysis.
-- **Web Development**: Enhance dashboard usability, performance, and scalability.
-- **Policy Research**: Provide context for interpreting results and connecting data to real-world implications.
-- **Community Outreach**: Engage with stakeholders, organizations, and affected communities.
+The Data-Driven Dashboard of Police Killings project is developed by a team of researchers and data scientists dedicated to using data for social justice. Contributors include Tingting Chen, Shawn Xiao Hu, Adrian Leung, and Rong Wan, as part of the UBC DSCI 532 project. This work is supported by advocates, policymakers, and data ethics researchers.
 
-If you have expertise in these areas—or others—we’d love your input!
+## What do we need?
 
----
+We welcome contributions in various areas, including: 
+-   Data Science & Engineering: Improving the quality of data aggregation and analysis. 
+-   Web Development: Enhancing dashboard usability and scalability. 
+-   Policy Research: Providing context for better interpretation of results. 
+-   Community Outreach: Engaging with organizations and stakeholders.
 
-## Get Involved
+If you have experience in any of these areas (or others we haven't considered yet!), we'd love your input!
 
-### Live Dashboard
+## Get involved
 
-Explore the dashboard here:  
+### Live Dashboard:
+
 <https://dsci-532-2025-24-police-killings.onrender.com/>
 
-### Demo
+### Demo GIF
 
-![Demo of Dashboard](img/demo.gif)  
-Use the dashboard to analyze trends and support informed decision-making. For developers and contributors, check out our [Contributing Guide](CONTRIBUTING.md).
+![Demo of Dashboard](img/demo.gif) Use this dashboard to explore police killings data, analyze trends, and support informed decision-making. For Developers & Contributors, read our [Contributing Guide](CONTRIBUTING.md) to get started!
 
-### Run the App Locally
+### Instructions to Run and Contribute to App Locally
+Step 1: Clone the repository
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings.git
-   cd DSCI-532_2025_24_police_killings
-Install dependencies and activate the environment:
+``` bash
+git clone https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings.git
+cd DSCI-532_2025_24_police_killings
+```
 
-bash
-Copy
+Step 2: Install dependencies and activate environment:
+
+``` bash
 conda env create -f environment.yaml
 conda activate police_killings
-Run the app:
+```
 
-bash
-Copy
+Step 3: Run the app locally in the repository's root directory
+
+``` bash
 python src/app.py
-Start contributing:
+```
 
-Report issues or suggest enhancements: GitHub Issues.
+Step 4: Start contributing!
 
-Share feedback on documentation and dataset usage: Contributing Guide.
+-   Report issues or suggest enhancements in GitHub Issues: <https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings/issues>
+-   Share feedback on documentation and dataset usage: [Contributing](CONTRIBUTING.md).
 
-Find Out More
-Dataset: Data sourced from The Guardian's database on police killings (2015-2016).
+## Find out more
 
-License: This project is licensed under the MIT License.
+Dataset Attribution: This project uses data from [Guardian's database on police killings from 2015-2016](http://www.theguardian.com/thecounted).
+
+License: It is licensed under the terms of the [MIT license](LICENSE.md).
+
+## Thank you
+
+Thank you for your interest and support! Let's use data to drive meaningful changes.
