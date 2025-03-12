@@ -3,9 +3,10 @@ import altair as alt
 import pandas as pd
 import plotly.express as px
 import time
-from data.police_data import police_data
+from utils.cache import cache
+from data.police_data import load_police_data
 
-data = police_data
+data = load_police_data()
 
 def filter_data(data, year, race, age, armed):
     """Filter the data based on global selections."""
@@ -202,6 +203,7 @@ def create_state_time(data, top_state):
     Input('bar_dropdown', 'value'), 
     Input('top_state', 'value'), 
 )
+@cache.memoize()
 def create_chart(year, race, age, armed, map_dropdown, bar_dropdown, top_state):
     data_filtered = filter_data(data, year, race, age, armed)
     

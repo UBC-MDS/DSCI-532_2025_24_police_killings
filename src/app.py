@@ -1,10 +1,19 @@
 import dash
 import dash_bootstrap_components as dbc
 from pages.home import layout
+from utils.cache import cache
 from utils.settings import DEBUG_MODE 
 
 # Initialize the app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], title='Police Killings')
+
+cache.init_app(
+    app.server,
+    config={
+        'CACHE_TYPE': 'filesystem',
+        'CACHE_DIR': 'tmp'
+    }
+)
 
 # Deployment server setup
 server = app.server  
