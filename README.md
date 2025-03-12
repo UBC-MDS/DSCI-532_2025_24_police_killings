@@ -2,12 +2,9 @@
 
 ## Summary
 
-This project aims to develop an interactive data visualization dashboard that provides accessible, data-driven insights into police killings based on demographic, time, and geographic factors.
+This project aims to develop an interactive data visualization dashboard that provides accessible, data-driven insights into police killings in the United States. By leveraging demographic, temporal, and geographic data, the dashboard will enable users to explore trends, identify high-risk areas, and analyze correlations between various factors and police use of force. By visualizing trends over time, identifying high-risk locations, and analyzing correlations between demographic characteristics and police use of force, the dashboard will serve as a valuable tool for government officials, policymakers, and the general public.
 
-By visualizing trends over time, identifying high-risk locations, and analyzing correlations between demographic characteristics and police use of force, the dashboard will serve as a valuable tool for government officials, policymakers, and the general public.
-
-The goal is to raise awareness, inform policy changes, and support social justice organizations in advocating for better law enforcement training and accountability measures.
-
+The ultimate goal is to foster a deeper understanding of the issue, inform policy changes, and support advocacy efforts for law enforcement accountability and reform.
 This document serves as a hub to introduce the project, its purpose, and how you can get involved—whether as a user, contributor, or developer. Jump to one of the sections below and read on to learn more:
 
 -   [What are we doing? (And why?)](#what-are-we-doing)
@@ -21,22 +18,30 @@ This document serves as a hub to introduce the project, its purpose, and how you
 
 ### The problem
 
-Police use of excessive (and lethal) force is a major societal issue, disproportionately affecting underprivileged communities. One of the biggest challenges is the lack of accessible, data-driven insights that can help raise awareness and inform policy changes to mitigate instances of police brutality.
+Police use of excessive and lethal force is a critical and deeply entrenched societal issue, with far-reaching consequences for communities across the United States. This problem is particularly acute in underprivileged and marginalized communities, where systemic inequalities and racial biases often exacerbate the frequency and severity of police violence. Despite growing public awareness and advocacy efforts, the lack of accessible, data-driven insights remains a significant barrier to understanding the full scope of the issue and implementing effective solutions.
 
-### The solution
 
-This project aims to develop an interactive data visualization dashboard that provides accessible insights into police killings based on demographic, geographic, and time-based factors. With this tool, users can:
+### The Solution
 
--   Explore police killings data over time.
--   Identify high-risk locations through heatmaps.
--   Analyze trends across different demographic groups.
--   Support policy decisions with real-time data visualization.
+This project develops an **interactive data visualization dashboard** that provides accessible insights into police killings based on **demographic**, **geographic**, and **time-based factors**. With this tool, users can:
 
-By providing a structured data-driven approach, this platform helps policymakers, government officials, and the public better understand disparities in law enforcement practices and advocate for change.
+- **Explore police killings data over time**: Visualize trends and patterns to understand how incidents have evolved.
+- **Identify high-risk locations**: Use heatmaps to pinpoint areas with higher concentrations of police killings.
+- **Analyze trends across demographic groups**: Examine disparities based on race, age, gender, and armed status.
+- **Support policy decisions**: Leverage real-time data visualization to inform evidence-based policy changes.
+
+By providing a **structured, data-driven approach**, this platform empowers **policymakers**, **government officials**, and the **public** to better understand disparities in law enforcement practices and advocate for meaningful change.
 
 ## Who are we?
 
-The Data-Driven Dashboard of Police Killings project is developed by a team of researchers and data scientists dedicated to using data for social justice. Contributors include Tingting Chen, Shawn Xiao Hu, Adrian Leung, and Rong Wan, as part of the UBC DSCI 532 project. This work is supported by advocates, policymakers, and data ethics researchers.
+The Data-Driven Dashboard of Police Killings project is developed by a team of researchers and data scientists dedicated to using data for social justice. Contributors include Tingting Chen, Shawn Xiao Hu, Adrian Leung, and Rong Wan, as part of the UBC DSCI 532 project. 
+
+## Collaboration and Support
+This work is supported by advocates, policymakers, and data ethics researchers.This project is part of the **UBC DSCI 532** course, where we apply data science principles to real-world challenges. Our work is supported by:
+- **Advocates**: Organizations and individuals working to promote police accountability and reform.
+- **Policymakers**: Government officials and decision-makers seeking data-driven insights to inform policy changes.
+- **Data Ethics Researchers**: Experts who guide us in ensuring ethical data collection, analysis, and visualization practices.
+Together, we aim to create a platform that not only informs but also inspires action toward a more just and equitable society.
 
 ## What do we need?
 
