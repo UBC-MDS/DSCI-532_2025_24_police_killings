@@ -15,25 +15,10 @@ def filter_data(data, year, race, age, armed):
         df = df[df['year'].isin(year)]
     if race:
         df = df[df['raceethnicity'].isin(race)]
-        df['raceethnicity'] = pd.Categorical(
-            df['raceethnicity'],
-            categories=race,
-            ordered=True
-            )
     if age:
         df = df[df['age_group'].isin(age)]
-        df['age_group'] = pd.Categorical(
-            df['age_group'],
-            categories=age,
-            ordered=True
-            )
     if armed:
         df = df[df['armed'].isin(armed)]
-        df['armed'] = pd.Categorical(
-            df['armed'],
-            categories=armed,
-            ordered=True
-            )
     return df
 
 def create_map(data, var):
@@ -43,12 +28,26 @@ def create_map(data, var):
         'age_group': 'Age Group',
         'armed': 'Armed Status'
     }
+    if var == 'raceethnicity':
+        color_map = {
+            'Black': '#1f77b4', 'White': '#ff7f0e', 'Hispanic/Latino': '#2ca02c', 'Asian/Pacific Islander': '#d62728',
+            'Native American': '#9467bd', 'Arab-American': '#8c564b', 'Other': '#e377c2'
+        }
+    elif var == 'age_group':
+        color_map = {
+            'Under 19': '#1f77b4', '20-39': '#ff7f0e', '40-59': '#2ca02c', 'Above 60': '#d62728', 'Unknown': '#9467bd'
+        }
+    else:
+        color_map = {
+            'Unarmed': '#1f77b4', 'White': '#ff7f0e', 'Firearm': '#2ca02c', 'Non-lethal firearm': '#d62728',
+            'Knife': '#9467bd', 'Vehicle': '#8c564b', 'Disputed': '#e377c2', 'Other': '#7f7f7f'
+        }
     map = px.scatter_map(
         data, 
         lat="latitude", 
         lon="longitude", 
         color=var,
-        color_continuous_scale=px.colors.cyclical.IceFire, 
+        color_discrete_map=color_map, 
         labels=label,
         custom_data=['name', 'city', 'state', 'date', 'raceethnicity', 'age', 'armed'],
         zoom=3, 
