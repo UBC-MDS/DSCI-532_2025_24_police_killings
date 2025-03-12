@@ -21,6 +21,7 @@ def filter_data(data, year, race, age, armed):
         df = df[df['armed'].isin(armed)]
     return df
 
+@cache.memoize()
 def create_map(data, var):
     """Create the US Map with scatter points."""
     label = {
@@ -49,6 +50,7 @@ def create_map(data, var):
         color=var,
         color_discrete_map=color_map, 
         labels=label,
+        map_style='open-street-map', 
         custom_data=['name', 'city', 'state', 'date', 'raceethnicity', 'age', 'armed'],
         zoom=3, 
         height=450,
@@ -63,12 +65,12 @@ def create_map(data, var):
                 "Age: %{customdata[5]}<br>" +
                 "Armed Status: %{customdata[6]}" +
                 "<extra></extra>",
-        mode='markers',
-        marker={'sizemode':'area', 'sizeref':10},
+        marker={'sizemode': 'area', 'size': 7},
+        mode='markers'
     )
     return map.to_dict()
 
-
+@cache.memoize()
 def create_bar(data, var):
     """Create the race/ethnicity barplot."""
     data['gender'] = pd.Categorical(
@@ -135,6 +137,7 @@ def filter_states(data, top_state):
     df = data[data['state'].isin(states)]
     return df
 
+@cache.memoize()
 def create_state_time(data, top_state):
     """Create the combined plots of top states barplot and time-series line plot"""
     select_state = alt.selection_point(
