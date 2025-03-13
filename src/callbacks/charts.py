@@ -4,9 +4,9 @@ import pandas as pd
 import plotly.express as px
 import time
 from utils.cache import cache
-from data.police_data import load_police_data
+from data.police_data import police_data
 
-data = load_police_data()
+data = police_data
 
 def filter_data(data, year, race, age, armed):
     """Filter the data based on global selections."""
