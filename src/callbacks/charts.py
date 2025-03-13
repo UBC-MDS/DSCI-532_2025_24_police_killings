@@ -203,6 +203,7 @@ def create_state_time(data, top_state):
     Input('bar_dropdown', 'value'), 
     Input('top_state', 'value'), 
 )
+@cache.memoize()
 def create_chart(year, race, age, armed, map_dropdown, bar_dropdown, top_state):
     data_filtered = filter_data(data, year, race, age, armed)
     
