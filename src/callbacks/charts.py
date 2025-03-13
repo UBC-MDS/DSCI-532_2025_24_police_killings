@@ -21,7 +21,7 @@ def filter_data(data, year, race, age, armed):
         df = df[df['armed'].isin(armed)]
     return df
 
-#@cache.memoize()
+@cache.memoize()
 def create_map(data, var):
     """Create the US Map with scatter points."""
     label = {
@@ -83,15 +83,10 @@ def create_map(data, var):
     )
     return map.to_dict()
 
-#@cache.memoize()
+@cache.memoize()
 def create_bar(data, var):
     """Create the race/ethnicity barplot."""
     if var == 'age_group':
-        data['age_group'] = pd.Categorical(
-            data['age_group'],
-            categories=['Under 19', '20-39', '40-59', 'Above 60', 'Unknown'],
-            ordered=True
-        )
         bar = alt.Chart(data).mark_bar().encode(
                 x = alt.X(var, axis=alt.Axis(labelAngle=0), title=' '),
                 y = 'count()',
@@ -140,14 +135,14 @@ def filter_states(data, top_state):
     df = data[data['state'].isin(states)]
     return df
 
-#@cache.memoize()
+@cache.memoize()
 def create_state_time(data, top_state):
     """Create the combined plots of top states barplot and time-series line plot"""
     select_state = alt.selection_point(
         fields=['state']
         )
     top10 = alt.Chart(data).mark_bar(color='teal').encode(
-            x=alt.X('count()', title='Police Killing Count'),
+            x=alt.X('count()', title='Number of Killings'),
             y=alt.Y('state', sort='-x', title=' '),
             tooltip = 'count()',
             opacity=alt.condition(select_state, alt.value(1), alt.value(0.2))
@@ -180,7 +175,7 @@ def create_state_time(data, top_state):
                 select_state, alt.value(0.8), alt.value(0.1)
             )
         ).properties(
-            title='Police Killings Victims by Months', 
+            title='Police Killing Deaths by Months', 
             height=400, 
             width=680
         )
