@@ -40,7 +40,7 @@ race_chart = dbc.Card([
     dbc.CardHeader(
         dbc.Row([
             dbc.Col(
-                html.Div('Distribution of Victims by'),
+                html.Div('Distribution of Deaths by'),
                 md=7
             ),
             dbc.Col(

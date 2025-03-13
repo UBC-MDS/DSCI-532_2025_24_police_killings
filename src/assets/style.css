@@ -17,7 +17,7 @@
 
 .custom-filter-title {
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     height: 40px;
 }
@@ -35,7 +35,7 @@
     padding-bottom: 0;
     border-radius: 1;
     height: 100%;
-    min-height: 142vh;
+    min-height: 140vh;
     display: flex;
     flex-direction: column;
 }
@@ -68,7 +68,7 @@
 }
 
 .custom-slider {
-    width: 75%;
+    width: 85%;
   }
 
 .custom-footer {

@@ -35,22 +35,12 @@ def race_dropdown():
         options=race_options,
         multi=True,
     )
-    all = dbc.Button(
-        "Select All", 
-        id="select-all-race", 
-        outline=True,
-        color="primary", 
-        n_clicks=0, 
-        size="sm",
-        className="mb-3"
-        )
     drop_menu = dbc.Card([
         dbc.CardHeader(
             html.H5('Race/Ethnicity'),
             className='custom-filter-title'
-            ),
+        ),
         dbc.CardBody([
-            all, 
             drop
         ])
     ])
@@ -65,22 +55,12 @@ def age_dropdown():
         options=age_options,
         multi=True,
     )
-    all = dbc.Button(
-        "Select All", 
-        id="select-all-age", 
-        color="primary", 
-        outline=True,
-        n_clicks=0, 
-        size="sm",
-        className="mb-3"
-        )
     drop_menu = dbc.Card([
         dbc.CardHeader(
             html.H5('Age Group'),
             className='custom-filter-title'
             ),
         dbc.CardBody([
-            all, 
             drop
         ])
     ])
@@ -95,22 +75,12 @@ def armed_dropdown():
         options=armed_options,
         multi=True,
     )
-    all = dbc.Button(
-        "Select All", 
-        id="select-all-armed", 
-        color="primary",
-        outline=True, 
-        n_clicks=0, 
-        size="sm",
-        className="mb-3"
-        )
     drop_menu = dbc.Card([
         dbc.CardHeader(
-            html.H5('Was the Victim Armed?'),
+            html.H5('Armed Status of Deceased'),
             className='custom-filter-armed'
             ),
         dbc.CardBody([
-            all, 
             drop
         ])
     ])
