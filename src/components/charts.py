@@ -4,12 +4,12 @@ from dash import html, dcc
 
 us_map = dbc.Card([
      dbc.CardHeader(
-        dbc.Col([
-            dbc.Row(
-                html.Label('Police Killings Across the United States by'),
-                align="center"
+        dbc.Row([
+            dbc.Col(
+                html.Div('Police Killings Across the United States by'),
+                md=8
             ),
-            dbc.Row(
+            dbc.Col(
                 dcc.Dropdown(
                     id='map_dropdown', 
                     options=[
@@ -20,16 +20,17 @@ us_map = dbc.Card([
                     value='raceethnicity',
                     clearable=False,
                     className='custom-dropdown'
-                ), align="center"
+                ), md=4
             )
-        ]), className='custom-card-header'
+        ], align="center", className='g-0'), 
+        className='custom-card-header'
     ),
     dbc.CardBody(
         dcc.Loading(
             id='loading-1',
             type='circle',
             color='teal',
-            children=[dcc.Graph(id='map')]
+            children=[dcc.Graph(id='map', config={'displayModeBar': False})]
         ),
         className="d-flex justify-content-center align-items-center"
     )
@@ -37,12 +38,12 @@ us_map = dbc.Card([
 
 race_chart = dbc.Card([
     dbc.CardHeader(
-        dbc.Col([
-            dbc.Row(
-                html.Label('Distribution of Police Killings by'),
-                align="center"
+        dbc.Row([
+            dbc.Col(
+                html.Div('Distribution of Victims by'),
+                md=7
             ),
-            dbc.Row(
+            dbc.Col(
                 dcc.Dropdown(
                     id='bar_dropdown', 
                     options=[
@@ -53,18 +54,20 @@ race_chart = dbc.Card([
                     value='raceethnicity',
                     clearable=False,
                     className='custom-dropdown'
-                ), align="center"
+                ), md=5
             )
-        ]), className='custom-card-header'
+        ], align='center', className='g-0'), 
+        className='custom-card-header'
     ),
     dbc.CardBody(
-        dcc.Loading(
-            id='loading-2',
-            type='circle',
-            color='teal',
-            children=[dvc.Vega(id='race_bar', spec={}, opt={'actions': False})]
-        ),
-        className="d-flex justify-content-center align-items-center"
+        dbc.Row(
+            dcc.Loading(
+                id='loading-2',
+                type='circle',
+                color='teal',
+                children=[dvc.Vega(id='race_bar', spec={}, opt={'actions': False})]
+            ), align='center'
+        )
     )
 ], style={"height": "100%"})
 
@@ -78,8 +81,9 @@ two_charts = dbc.Col([
                     min=1, max=25, step=1,
                     value=10,
                     marks={i: {'label': str(i), 'style': {'color': 'white'}} for i in range(1, 26)},
+                    className = 'custom-slider'
                 ),
-                html.P(id='output_area')
+                html.Div('Click on each bar in the barplot to view the police killings over time in the corresponding state.')
             ], align="center"), className='custom-slider-box'
         ),
         dbc.CardBody(

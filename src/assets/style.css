@@ -1,3 +1,7 @@
+.modebar{
+    display: none !important;
+}
+
 .custom-header {
     background-color: #008080;
     padding-top: 1vh;
@@ -62,6 +66,10 @@
     background-color: #008080;
     color: white;
 }
+
+.custom-slider {
+    width: 75%;
+  }
 
 .custom-footer {
     text-align: center;
