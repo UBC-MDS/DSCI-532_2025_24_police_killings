@@ -52,8 +52,8 @@ def create_map(data, var):
         labels=label,
         map_style='open-street-map', 
         custom_data=['name', 'city', 'state', 'date', 'raceethnicity', 'age', 'armed'],
-        zoom=3, 
-        height=370,
+        zoom=3,
+        height=400,
         width=680
         )
     map.update_traces(
@@ -77,7 +77,7 @@ def create_map(data, var):
             font=dict(weight=250, size=13, family='Arial'),
             title=dict(
                 side='top',
-                font=dict(color='black', size=15, weight=900, family='Arial')
+                font=dict(color='black', size=17, weight=900, family='Arial')
             )
         ),
     )

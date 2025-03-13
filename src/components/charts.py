@@ -26,13 +26,14 @@ us_map = dbc.Card([
         className='custom-card-header'
     ),
     dbc.CardBody(
-        dcc.Loading(
-            id='loading-1',
-            type='circle',
-            color='teal',
-            children=[dcc.Graph(id='map', config={'displayModeBar': False})]
-        ),
-        className="d-flex justify-content-center align-items-center"
+        dbc.Row(
+            dcc.Loading(
+                id='loading-1',
+                type='circle',
+                color='teal',
+                children=[dcc.Graph(id='map', config={'displayModeBar': False})]
+            ), align='center'
+        )
     )
 ], style={"height": "100%"})
 
