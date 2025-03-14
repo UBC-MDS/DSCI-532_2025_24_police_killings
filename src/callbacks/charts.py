@@ -4,9 +4,9 @@ import pandas as pd
 import plotly.express as px
 import time
 from utils.cache import cache
-from data.police_data import load_police_data
+from data.police_data import police_data
 
-data = load_police_data()
+data = police_data
 
 def filter_data(data, year, race, age, armed):
     """Filter the data based on global selections."""
@@ -21,7 +21,7 @@ def filter_data(data, year, race, age, armed):
         df = df[df['armed'].isin(armed)]
     return df
 
-
+@cache.memoize()
 def create_map(data, var):
     """Create the US Map with scatter points."""
     label = {
@@ -40,8 +40,8 @@ def create_map(data, var):
         }
     else:
         color_map = {
-            'Unarmed': '#1f77b4', 'White': '#ff7f0e', 'Firearm': '#2ca02c', 'Non-lethal firearm': '#d62728',
-            'Knife': '#9467bd', 'Vehicle': '#8c564b', 'Disputed': '#e377c2', 'Other': '#7f7f7f'
+            'Unarmed': '#1f77b4', 'Firearm': '#2ca02c', 'Non-lethal firearm': '#d62728',
+            'Knife': '#9467bd', 'Vehicle': '#8c564b', 'Disputed': '#e377c2', 'Other': '#ff7f0e'
         }
     map = px.scatter_map(
         data, 
@@ -52,9 +52,9 @@ def create_map(data, var):
         labels=label,
         map_style='open-street-map', 
         custom_data=['name', 'city', 'state', 'date', 'raceethnicity', 'age', 'armed'],
-        zoom=3, 
-        height=450,
-        width=700
+        zoom=3,
+        height=400,
+        width=680
         )
     map.update_traces(
         hovertemplate = 
@@ -65,32 +65,30 @@ def create_map(data, var):
                 "Age: %{customdata[5]}<br>" +
                 "Armed Status: %{customdata[6]}" +
                 "<extra></extra>",
-        marker={'sizemode': 'area', 'size': 7},
+        marker={'sizemode': 'area', 'size': 9},
         mode='markers'
+    )
+    map.update_layout(
+        margin=dict(t=0, l=0, b=0, r=0, pad=0),
+        legend=dict(
+            y=1, 
+            yanchor="bottom", 
+            orientation='h',
+            font=dict(weight=250, size=13, family='Arial'),
+            title=dict(
+                side='top',
+                font=dict(color='black', size=17, weight=900, family='Arial')
+            )
+        ),
     )
     return map.to_dict()
 
 @cache.memoize()
 def create_bar(data, var):
     """Create the race/ethnicity barplot."""
-    data['gender'] = pd.Categorical(
-            data['gender'],
-            categories=['Male', 'Female', 'Non-conforming'],
-            ordered=True
-        )
-    if var == 'raceethnicity':
-        label = 'Race/Ethnicity'
-    elif var == 'armed':
-        label = 'Armed Status'
-    else:
-        label = 'Age Group'
-        data['age_group'] = pd.Categorical(
-            data['age_group'],
-            categories=['Under 19', '20-39', '40-59', 'Above 60', 'Unknown'],
-            ordered=True
-        )
+    if var == 'age_group':
         bar = alt.Chart(data).mark_bar().encode(
-                x = alt.X(var, axis=alt.Axis(labelAngle=0), title=label),
+                x = alt.X(var, axis=alt.Axis(labelAngle=0), title=' '),
                 y = 'count()',
                 color = alt.Color(
                     'gender', title='Gender',
@@ -99,7 +97,7 @@ def create_bar(data, var):
                     ),
                 tooltip = 'count()'
             ).properties(
-                height=305, 
+                height=350, 
                 width=320
             ).configure_axis(
                 labelFontSize=14,  
@@ -109,27 +107,27 @@ def create_bar(data, var):
                 titleFontSize=16
             ).to_dict()
         return bar
-
-    bar = alt.Chart(data).mark_bar().encode(
-            x = 'count()',
-            y = alt.Y(var,  title=label).sort('-x'),
-            color = alt.Color(
-                'gender', title='Gender',
-                scale=alt.Scale(scheme="viridis"),
-                legend=alt.Legend(orient="top")
-                ),
-            tooltip = 'count()'
-        ).properties(
-            height=350, 
-            width=200
-        ).configure_axis(
-            labelFontSize=14,  
-            titleFontSize=16
-        ).configure_legend(
-            labelFontSize=14, 
-            titleFontSize=16
-        ).to_dict()
-    return bar
+    else: 
+        bar = alt.Chart(data).mark_bar().encode(
+                x = 'count()',
+                y = alt.Y(var,  title=' ').sort('-x'),
+                color = alt.Color(
+                    'gender', title='Gender',
+                    scale=alt.Scale(scheme="viridis"),
+                    legend=alt.Legend(orient="top")
+                    ),
+                tooltip = 'count()'
+            ).properties(
+                height=350, 
+                width=280
+            ).configure_axis(
+                labelFontSize=14,  
+                titleFontSize=16
+            ).configure_legend(
+                labelFontSize=14, 
+                titleFontSize=16
+            ).to_dict()
+        return bar
 
 def filter_states(data, top_state):
     """Filter the data based on the number of top states input."""
@@ -144,8 +142,8 @@ def create_state_time(data, top_state):
         fields=['state']
         )
     top10 = alt.Chart(data).mark_bar(color='teal').encode(
-            x=alt.X('count()', title='Police Killing Count'),
-            y=alt.Y('state', sort='-x', title='States'),
+            x=alt.X('count()', title='Number of Killings'),
+            y=alt.Y('state', sort='-x', title=' '),
             tooltip = 'count()',
             opacity=alt.condition(select_state, alt.value(1), alt.value(0.2))
         ).add_params(
@@ -153,7 +151,7 @@ def create_state_time(data, top_state):
         ).properties(
             title=f'Top {top_state} States by Police Killings',
             height=400,
-            width=230
+            width=250
         )
 
     color_list = [
@@ -165,21 +163,21 @@ def create_state_time(data, top_state):
             x=alt.X('yearmonth(date):O', title='Month of Year'),
             y=alt.Y('count()', title='Number of Killings'),
             color=alt.Color(
-                'state', 
-                title='State', 
+                'state',
                 scale=alt.Scale(
                     domain=data['state'].unique(),
                     range=color_list[:len(data['state'].unique())]
-                )
+                ),
+                legend=None
             ),
             tooltip=['yearmonth(date):O', 'count()', 'state'],
             opacity=alt.condition(
                 select_state, alt.value(0.8), alt.value(0.1)
             )
         ).properties(
-            title = 'Police Killings Victims by Months', 
+            title='Police Killing Deaths by Months', 
             height=400, 
-            width=560
+            width=680
         )
     top10_time = (top10 | time).configure_axis(
             labelFontSize=14,  

@@ -84,7 +84,9 @@ Step 3: Run the app locally in the repository's root directory
 python src/app.py
 ```
 
-Step 4: Start contributing!
+Step 4: Open browser and navigate to `http://localhost:8050/` to view the dashboard.
+
+Step 5: Start contributing!
 
 -   Report issues or suggest enhancements in GitHub Issues: <https://github.com/UBC-MDS/DSCI-532_2025_24_police_killings/issues>
 -   Share feedback on documentation and dataset usage: [Contributing](CONTRIBUTING.md).

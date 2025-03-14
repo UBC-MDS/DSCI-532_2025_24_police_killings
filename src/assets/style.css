@@ -1,3 +1,7 @@
+.modebar{
+    display: none !important;
+}
+
 .custom-header {
     background-color: #008080;
     padding-top: 1vh;
@@ -13,7 +17,7 @@
 
 .custom-filter-title {
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     height: 40px;
 }
@@ -31,7 +35,7 @@
     padding-bottom: 0;
     border-radius: 1;
     height: 100%;
-    min-height: 142vh;
+    min-height: 140vh;
     display: flex;
     flex-direction: column;
 }
@@ -62,6 +66,10 @@
     background-color: #008080;
     color: white;
 }
+
+.custom-slider {
+    width: 85%;
+  }
 
 .custom-footer {
     text-align: center;
