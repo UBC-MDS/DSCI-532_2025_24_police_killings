@@ -3,56 +3,52 @@
 ## Feedback Implementation
 
 ### Larger Feedback Items
-1. **Map Scaling and Clarity**:
-   - **Issue**: The map did not auto-fit to the right scale, and U.S. border lines were unclear, making it hard to identify regions without zooming out.
-   - **Action Taken**: We implemented auto-scaling for the map to ensure it fits the screen when the dashboard is first loaded. We also enhanced border visibility by adjusting the map's styling.
+1. **Map Scaling, Size and Clarity**:
+   - **Issue**: The map did not auto-fit to the right scale and it was a bit small with wide margins of white space. And U.S. border lines were unclear, making it hard to identify regions without zooming out.
+   - **Action Taken**: We implemented auto-scaling for the map to ensure it fits the screen when the dashboard is first loaded. And we moved the legend of the map to the top and removed the plotly toolbox to make room for bigger map. We also changed map into open-street map where state borders are more visible.
 
-2. **Summary Table for Key Insights**:
-   - **Issue**: A summary table was suggested to highlight key insights for policymakers.
-   - **Action Taken**: We added a summary table that aggregates critical data (e.g., total killings, demographic breakdowns) to provide a quick overview for users.
-
-3. **State-Level Data**:
-   - **Issue**: Incorporating state-level data was recommended for localized decision-making.
-   - **Action Taken**: We added a state-level breakdown in the "Police Killings by State" section, allowing users to compare trends across states.
-
-4. **Data Consistency (Year Selection)**:
+2. **Data Consistency (Year Selection)**:
    - **Issue**: The "Police Killing Victims by Month" plot included December 2015 data when only 2016 was selected.
    - **Action Taken**: We fixed the data filtering logic to ensure the plot only displays data for the selected year.
 
 ### Smaller Feedback Items
 1. **Dropdown Menu Aesthetics**:
    - **Issue**: The dropdown font size and color scheme were distracting.
-   - **Action Taken**: We reduced the font size and adjusted the color scheme to make the dropdown less visually dominant.
+   - **Action Taken**: We reduced the font size and adjusted the color scheme to make the dropdown less visually dominant. We also fixed the color of the scatter points to be consistent for each category on the map.
 
-2. **Bar Chart Consistency**:
-   - **Issue**: Bar chart orientations varied by variable (e.g., counts on x-axis for "Race" but y-axis for "Age Group").
-   - **Action Taken**: We standardized bar chart orientations to ensure consistency across all variables.
+2. **Y-axis Title in the Distribution Bar Chart**:
+   - **Issue**: The y-axis title in the bar chart is repeatedly displayed along with the filter options.
+   - **Action Taken**: We removed y-axis title in the distribution bar chart.
 
-3. **Pie Chart for State Distribution**:
-   - **Issue**: A pie chart was suggested as an alternative visualization for state-level data.
-   - **Action Taken**: We added a pie chart option alongside the bar chart for state distribution.
+3. **State Labels and Legend**:
+   - **Issue**: State labels in the top n states bar chart and the legend in the time-series chart are unnecessary and obvious.
+   - **Action Taken**: We removed them.
+
+4. **Slider Width**:
+   - **Issue**: The slider is too wide, making the mouse movement span too large.
+   - **Action Taken**: We shortened the slider width.
+
+5. **Dropdown Bars**:
+   - **Issue**: Card titles and dropdown bars occupy two rows of space.
+   - **Action Taken**: We moved both dropdown bars next to the card titles.
+
+6. **Age Group Categories**:
+    - **Issue**: Ordering of the age group categories is unnecessary.
+    - **Action Taken**: We removed unnecessary ordering of the age group categories and added it to the processed data file directly.
+
+7. Instead of adding "select all" button next to the filter title, we removed the buttons.
+
+8. Added favicon.ico.
 
 ---
 
 ## Reflection on Dashboard Development
 
 ### Insights and Feedback
-The feedback from Joel and peers was invaluable in refining our dashboard. Specifically, the suggestions to improve map scaling, add a summary table, and ensure data consistency significantly enhanced the usability and clarity of our app. The recommendation to incorporate state-level data was particularly insightful, as it aligns with the needs of policymakers and adds depth to our analysis.
+The feedback from Joel and peers was invaluable in refining our dashboard. Specifically, the suggestions to improve map scaling, add a summary table, and ensure data consistency significantly enhanced the usability and clarity of our app. 
 
 ### Support for Development
 While the feedback was highly useful, we would have appreciated more guidance on optimizing performance for large datasets, as this was a challenge we encountered during implementation. Additionally, examples of advanced interactivity (e.g., linked brushing) would have been helpful for creating more dynamic visualizations.
-
-### Implementation Since Milestone 3
-Since Milestone 3, we have implemented the following:
-- **Summary Table**: Added to provide a quick overview of key insights.
-- **State-Level Data**: Incorporated to allow localized analysis.
-- **Map Enhancements**: Improved scaling and border visibility.
-- **Data Consistency**: Fixed filtering logic for year selection.
-- **Aesthetic Improvements**: Adjusted dropdown styling and standardized bar chart orientations.
-
-### Deviations from Proposal/Sketch
-- **Pie Chart for State Distribution**: This was not part of our original proposal but was added based on feedback to provide an alternative visualization.
-- **Summary Table**: Added to address feedback, as it was not initially planned but proved valuable for policymakers.
 
 ### Known Issues
 - **Performance with Large Datasets**: The dashboard may experience slight delays when loading large datasets, especially on slower devices.
@@ -60,7 +56,7 @@ Since Milestone 3, we have implemented the following:
 ### Strengths and Limitations
 - **Strengths**:
   - Intuitive and user-friendly interface.
-  - Comprehensive visualizations (maps, bar charts, pie charts, summary tables).
+  - Comprehensive visualizations (maps, bar charts and line charts).
   - Effective use of interactivity to explore data.
 - **Limitations**:
   - Limited to data from 2015-2016.
